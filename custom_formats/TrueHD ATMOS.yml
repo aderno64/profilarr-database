@@ -1,0 +1,40 @@
+name: TrueHD ATMOS
+description: ''
+tags: []
+conditions:
+- name: TrueHD
+  type: release_title
+  required: true
+  negate: false
+  pattern: TrueHD
+- name: ATMOS
+  type: release_title
+  required: true
+  negate: false
+  pattern: ATMOS
+- name: Not Basic Dolby Digital
+  type: release_title
+  required: true
+  negate: true
+  pattern: Basic Dolby Digital
+- name: Not Dolby Digital PLus
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dolby Digital Plus
+- name: Not DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: DTS
+- name: Not DTS X
+  type: release_title
+  required: true
+  negate: true
+  pattern: DTS X
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: FLAC
+tests: []

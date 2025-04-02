@@ -1,0 +1,45 @@
+name: UHD Bluray Tier 01
+description: ''
+tags: []
+conditions:
+- name: Not REMUX
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
+- name: WEB-DL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: true
+  negate: true
+  source: webrip
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: CtrlHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: CtrlHD
+- name: MainFrame
+  type: release_group
+  required: false
+  negate: false
+  pattern: MainFrame
+- name: DON
+  type: release_group
+  required: false
+  negate: false
+  pattern: DON
+- name: W4NK3R
+  type: release_group
+  required: false
+  negate: false
+  pattern: W4NK3R
+tests: []

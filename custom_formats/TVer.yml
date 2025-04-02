@@ -1,0 +1,20 @@
+name: TVer
+description: ''
+tags: []
+conditions:
+- name: TVer
+  type: release_title
+  required: true
+  negate: false
+  pattern: TVer
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

@@ -1,0 +1,20 @@
+name: STAN
+description: ''
+tags: []
+conditions:
+- name: STAN
+  type: release_title
+  required: true
+  negate: false
+  pattern: Stan
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []
