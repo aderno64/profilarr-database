@@ -1,0 +1,10 @@
+name: BHDStudio
+description: ''
+tags: []
+conditions:
+- name: BHDStudio
+  type: release_group
+  required: true
+  negate: false
+  pattern: BHDStudio
+tests: []

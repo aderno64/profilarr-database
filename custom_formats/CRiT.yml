@@ -1,0 +1,25 @@
+name: CRiT
+description: ''
+tags: []
+conditions:
+- name: CRiT
+  type: release_title
+  required: true
+  negate: false
+  pattern: CRiT
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: Not Criterion RlsGrp
+  type: release_group
+  required: true
+  negate: true
+  pattern: Criterion RlsGrp
+tests: []
