@@ -1,0 +1,20 @@
+name: FOD
+description: ''
+tags: []
+conditions:
+- name: FOD
+  type: release_title
+  required: true
+  negate: false
+  pattern: FOD
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []
