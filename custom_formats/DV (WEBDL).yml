@@ -6,7 +6,7 @@ conditions:
   type: release_title
   required: true
   negate: false
-  pattern: Dolby Vision
+  pattern: DV
 - name: WEBDL
   type: source
   required: false

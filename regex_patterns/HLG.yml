@@ -1,0 +1,5 @@
+name: HLG
+pattern: \bHLG(\b|\d)
+description: ''
+tags: []
+tests: []

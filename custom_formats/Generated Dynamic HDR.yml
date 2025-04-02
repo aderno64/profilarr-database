@@ -36,5 +36,5 @@ conditions:
   type: release_title
   required: false
   negate: false
-  pattern: Dolby Vision
+  pattern: DV
 tests: []
