@@ -1,25 +1,35 @@
-name: DV
+name: HDR10
 description: ''
 tags: []
 conditions:
-- name: DV
+- name: HDR10
   type: release_title
   required: true
   negate: false
-  pattern: DV
+  pattern: HDR10
 - name: Not DV HDR10
   type: release_title
   required: true
   negate: true
   pattern: DV HDR10
-- name: Not DV HLG
+- name: Not PQ
   type: release_title
   required: true
   negate: true
-  pattern: DV HLG
-- name: Not DV SDR
+  pattern: PQ
+- name: Not HLG
   type: release_title
   required: true
   negate: true
-  pattern: DV SDR
+  pattern: HLG
+- name: Not SDR
+  type: release_title
+  required: true
+  negate: true
+  pattern: SDR
+- name: Not DV
+  type: release_title
+  required: true
+  negate: true
+  pattern: DV
 tests: []

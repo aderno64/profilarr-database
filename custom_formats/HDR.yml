@@ -1,0 +1,45 @@
+name: HDR
+description: ''
+tags: []
+conditions:
+- name: HDR
+  negate: false
+  pattern: HDR
+  required: true
+  type: release_title
+- name: Not DV
+  negate: true
+  pattern: DV
+  required: true
+  type: release_title
+- name: Not HDR10
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR10
+- name: Not HDR10+
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR10+
+- name: Not HLG
+  type: release_title
+  required: true
+  negate: true
+  pattern: HLG
+- name: Not PQ
+  type: release_title
+  required: true
+  negate: true
+  pattern: HLG
+- name: Not RlsGrp (Missing HDR)
+  type: release_title
+  required: true
+  negate: true
+  pattern: RlsGrp (Missing HDR)
+- name: Not SDR
+  type: release_title
+  required: true
+  negate: true
+  pattern: SDR
+tests: []
