@@ -1,6 +1,6 @@
-# Dictionary Database Repository
+# TRaSH Guides Profilarr Database
 
-This repository hosts Dictionary's database containing:
+This repository hosts a TRaSH Guides database containing:
 
 - Regex Patterns
 - Custom Formats
