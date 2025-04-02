@@ -1,0 +1,30 @@
+name: Upscaled
+description: ''
+tags: []
+conditions:
+- name: AI Upscales
+  type: release_title
+  required: false
+  negate: false
+  pattern: AI Upscales
+- name: AIUS
+  type: release_title
+  required: false
+  negate: false
+  pattern: AIUS
+- name: Regrade
+  type: release_title
+  required: false
+  negate: false
+  pattern: Regrade
+- name: TheUpscaler
+  type: release_title
+  required: false
+  negate: false
+  pattern: The Upscaler
+- name: Upscaled
+  type: release_title
+  required: false
+  negate: false
+  pattern: Upscaled
+tests: []

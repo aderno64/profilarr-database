@@ -1,0 +1,20 @@
+name: x265 no HDR DV
+description: ''
+tags: []
+conditions:
+- name: x265/HEVC
+  type: release_title
+  required: true
+  negate: false
+  pattern: x265 HEVC
+- name: Not HDR/DV
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR DV
+- name: Not 2160p
+  type: resolution
+  required: true
+  negate: true
+  resolution: 2160p
+tests: []

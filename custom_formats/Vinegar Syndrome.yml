@@ -1,0 +1,20 @@
+name: Vinegar Syndrome
+description: ''
+tags: []
+conditions:
+- name: Vinegar Syndrome
+  type: release_title
+  required: false
+  negate: false
+  pattern: Vinegar Syndrome
+- name: VS
+  type: release_title
+  required: false
+  negate: false
+  pattern: VS
+- name: VinSyn
+  type: release_title
+  required: false
+  negate: false
+  pattern: VinSyn
+tests: []
