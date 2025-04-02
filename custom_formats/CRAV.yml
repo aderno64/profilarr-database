@@ -1,0 +1,20 @@
+name: CRAV
+description: ''
+tags: []
+conditions:
+- name: Crave
+  type: release_title
+  required: true
+  negate: false
+  pattern: Crave
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

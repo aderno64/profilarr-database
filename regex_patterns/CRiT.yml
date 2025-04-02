@@ -1,0 +1,5 @@
+name: CRiT
+pattern: \b(CRiT)\b
+description: ''
+tags: []
+tests: []

@@ -1,0 +1,20 @@
+name: BCORE
+description: ''
+tags: []
+conditions:
+- name: Bravia Core
+  type: release_title
+  required: true
+  negate: false
+  pattern: Bravia Core
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []
