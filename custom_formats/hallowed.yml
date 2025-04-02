@@ -1,0 +1,10 @@
+name: hallowed
+description: ''
+tags: []
+conditions:
+- name: hallowed
+  type: release_group
+  required: true
+  negate: false
+  pattern: hallowed
+tests: []
