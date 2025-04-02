@@ -27,6 +27,8 @@ minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 10
 custom_formats:
+- name: WEB Tier 01
+  score: 1700
 - name: WEB Tier 02
   score: 1650
 - name: WEB Tier 03
@@ -69,8 +71,6 @@ custom_formats:
   score: 500
 - name: PQ
   score: 500
-- name: WEB Tier 01
-  score: 170
 - name: DD+ ATMOS
   score: 135
 - name: DD+
