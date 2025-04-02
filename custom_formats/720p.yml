@@ -1,0 +1,10 @@
+name: 720p
+description: ''
+tags: []
+conditions:
+- name: 720p
+  negate: false
+  required: true
+  resolution: 720p
+  type: resolution
+tests: []

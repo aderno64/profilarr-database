@@ -1,0 +1,20 @@
+name: 4K Remaster
+description: ''
+tags: []
+conditions:
+- name: Remaster
+  type: release_title
+  required: false
+  negate: false
+  pattern: Remaster
+- name: 4K
+  type: release_title
+  required: false
+  negate: false
+  pattern: 4K
+- name: Not 4K Resolution
+  type: resolution
+  required: true
+  negate: true
+  resolution: 2160p
+tests: []

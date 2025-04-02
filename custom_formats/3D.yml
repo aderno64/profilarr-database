@@ -1,0 +1,20 @@
+name: 3D
+description: ''
+tags: []
+conditions:
+- name: 3D
+  type: release_title
+  required: false
+  negate: false
+  pattern: 3D
+- name: BD3D
+  type: release_title
+  required: false
+  negate: false
+  pattern: BD3D
+- name: BluRay3D
+  type: release_title
+  required: false
+  negate: false
+  pattern: BluRay 3D
+tests: []
