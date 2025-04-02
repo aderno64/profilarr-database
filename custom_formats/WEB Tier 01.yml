@@ -1,0 +1,15 @@
+name: WEB Tier 01
+description: ''
+tags: []
+conditions:
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

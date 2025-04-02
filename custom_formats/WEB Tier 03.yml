@@ -1,0 +1,15 @@
+name: WEB Tier 03
+description: ''
+tags: []
+conditions:
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+tests: []
