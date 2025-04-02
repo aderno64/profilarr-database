@@ -1,0 +1,65 @@
+name: HD Bluray Tier 03
+description: ''
+tags: []
+conditions:
+- name: BLURAY
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not REMUX
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: ATELiER
+  type: release_group
+  required: false
+  negate: false
+  pattern: ATELiER
+- name: BHDStudio
+  type: release_group
+  required: false
+  negate: false
+  pattern: BHDStudio
+- name: hallowed
+  type: release_group
+  required: false
+  negate: false
+  pattern: hallowed
+- name: HiFi
+  type: release_group
+  required: false
+  negate: false
+  pattern: HiFi
+- name: HONE
+  type: release_group
+  required: false
+  negate: false
+  pattern: HONE
+- name: LoRD
+  type: release_group
+  required: false
+  negate: false
+  pattern: LoRD
+- name: playHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: playHD
+- name: SPHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: SPHD
+- name: W4NK3R
+  type: release_group
+  required: false
+  negate: false
+  pattern: W4NK3R
+tests: []
