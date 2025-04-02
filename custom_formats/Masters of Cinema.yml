@@ -1,0 +1,15 @@
+name: Masters of Cinema
+description: ''
+tags: []
+conditions:
+- name: Masters of Cinema
+  type: release_title
+  required: false
+  negate: false
+  pattern: Masters of Cinema
+- name: MoC
+  type: release_title
+  required: false
+  negate: false
+  pattern: MoC
+tests: []

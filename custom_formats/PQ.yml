@@ -1,0 +1,35 @@
+name: PQ
+description: ''
+tags: []
+conditions:
+- name: PQ
+  type: release_title
+  required: true
+  negate: false
+  pattern: PQ
+- name: Not DV
+  type: release_title
+  required: true
+  negate: true
+  pattern: DV
+- name: Not HDR10+
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR10+
+- name: Not HDR10
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR10
+- name: Not HLG
+  type: release_title
+  required: true
+  negate: true
+  pattern: HLG
+- name: Not SDR
+  type: release_title
+  required: true
+  negate: true
+  pattern: SDR
+tests: []

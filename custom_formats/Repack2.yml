@@ -1,0 +1,20 @@
+name: Repack2
+description: ''
+tags: []
+conditions:
+- name: Repack2
+  type: release_title
+  required: false
+  negate: false
+  pattern: Repack2
+- name: Proper2
+  type: release_title
+  required: false
+  negate: false
+  pattern: Proper2
+- name: RealProperRepack
+  type: release_title
+  required: false
+  negate: false
+  pattern: RealProperRepack
+tests: []
