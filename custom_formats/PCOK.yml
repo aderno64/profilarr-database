@@ -1,0 +1,20 @@
+name: PCOK
+description: ''
+tags: []
+conditions:
+- name: Peacock TV
+  type: release_title
+  required: true
+  negate: false
+  pattern: PCOK
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

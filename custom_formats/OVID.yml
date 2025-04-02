@@ -1,0 +1,20 @@
+name: OVID
+description: ''
+tags: []
+conditions:
+- name: OVID
+  type: release_title
+  required: true
+  negate: false
+  pattern: OVID
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

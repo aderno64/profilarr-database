@@ -1,0 +1,20 @@
+name: NF
+description: ''
+tags: []
+conditions:
+- name: Netflix
+  type: release_title
+  required: true
+  negate: false
+  pattern: Netflix
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []
