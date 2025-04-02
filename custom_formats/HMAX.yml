@@ -1,0 +1,20 @@
+name: HMAX
+description: ''
+tags: []
+conditions:
+- name: HBO Max
+  type: release_title
+  required: true
+  negate: false
+  pattern: HBO Max
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []
