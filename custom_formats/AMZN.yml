@@ -1,0 +1,20 @@
+name: AMZN
+description: ''
+tags: []
+conditions:
+- name: Amazon
+  type: release_title
+  required: true
+  negate: false
+  pattern: Amazon
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

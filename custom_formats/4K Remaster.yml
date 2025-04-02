@@ -3,18 +3,18 @@ description: ''
 tags: []
 conditions:
 - name: Remaster
-  type: release_title
-  required: false
   negate: false
   pattern: Remaster
-- name: 4K
-  type: release_title
   required: false
+  type: release_title
+- name: 4K
   negate: false
   pattern: 4K
+  required: false
+  type: release_title
 - name: Not 4K Resolution
-  type: resolution
-  required: true
   negate: true
+  required: true
   resolution: 2160p
+  type: resolution
 tests: []

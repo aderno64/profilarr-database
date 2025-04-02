@@ -1,0 +1,35 @@
+name: AAC
+description: ''
+tags: []
+conditions:
+- name: AAC
+  type: release_title
+  required: false
+  negate: false
+  pattern: AAC
+- name: Not DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: DTS
+- name: Not Dolby Digital Plus
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dolby Digital Plus
+- name: Not Basic Dolby Digital
+  type: release_title
+  required: true
+  negate: true
+  pattern: Basic Dolby Digital
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: PCM
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: FLAC
+tests: []
