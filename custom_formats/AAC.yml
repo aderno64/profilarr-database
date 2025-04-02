@@ -3,33 +3,38 @@ description: ''
 tags: []
 conditions:
 - name: AAC
-  type: release_title
-  required: false
   negate: false
   pattern: AAC
-- name: Not DTS
+  required: false
   type: release_title
-  required: true
+- name: Not DTS
   negate: true
   pattern: DTS
-- name: Not Dolby Digital Plus
-  type: release_title
   required: true
+  type: release_title
+- name: Not Dolby Digital Plus
   negate: true
   pattern: Dolby Digital Plus
-- name: Not Basic Dolby Digital
-  type: release_title
   required: true
+  type: release_title
+- name: Not Basic Dolby Digital
   negate: true
   pattern: Basic Dolby Digital
-- name: Not PCM
-  type: release_title
   required: true
+  type: release_title
+- name: Not PCM
   negate: true
   pattern: PCM
+  required: true
+  type: release_title
 - name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: true
+  type: release_title
+- name: Not TrueHD/Atmos
   type: release_title
   required: true
   negate: true
-  pattern: FLAC
+  pattern: TrueHD ATMOS
 tests: []
