@@ -1,0 +1,20 @@
+name: MAX
+description: ''
+tags: []
+conditions:
+- name: Max
+  type: release_title
+  required: true
+  negate: false
+  pattern: Max
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []
