@@ -1,0 +1,10 @@
+name: 1080p
+description: ''
+tags: []
+conditions:
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
+tests: []

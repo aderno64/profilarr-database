@@ -1,0 +1,7 @@
+name: TrueHD ATMOS
+pattern: True[ .-]?HD|W4NK3R|HQMUX
+description: Dolby Atmos is a surround sound technology developed by Dolby Laboratories.
+  It expands on existing surround sound systems by adding height channels, allowing
+  sounds to be interpreted as three-dimensional objects.
+tags: []
+tests: []
