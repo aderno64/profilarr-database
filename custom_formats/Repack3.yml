@@ -1,0 +1,20 @@
+name: Repack3
+description: ''
+tags: []
+conditions:
+- name: Repack3
+  negate: false
+  pattern: Repack3
+  required: false
+  type: release_title
+- name: Proper3
+  negate: false
+  pattern: Proper3
+  required: false
+  type: release_title
+- name: RealProperRepack
+  negate: false
+  pattern: RealProperRepack
+  required: false
+  type: release_title
+tests: []
