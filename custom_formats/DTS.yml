@@ -1,0 +1,55 @@
+name: DTS
+description: ''
+tags: []
+conditions:
+- name: Basic DTS
+  negate: false
+  pattern: DTS
+  required: true
+  type: release_title
+- name: Not DTS-HD
+  negate: true
+  pattern: DTS-HD
+  required: true
+  type: release_title
+- name: Not DTS-HD HRA ES
+  type: release_title
+  required: true
+  negate: true
+  pattern: DTS-HD HRA ES
+- name: Not Dolby Digital Plus
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dolby Digital Plus
+- name: Not TrueHD/ATMOS
+  type: release_title
+  required: true
+  negate: true
+  pattern: TrueHD ATMOS
+- name: Not Basic Dolby Digital
+  type: release_title
+  required: true
+  negate: true
+  pattern: Basic Dolby Digital
+- name: Not DTS X
+  type: release_title
+  required: true
+  negate: true
+  pattern: DTS X
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: FLAC
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: AAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: PCM
+tests: []

@@ -1,0 +1,60 @@
+name: DTS-HD HRA
+description: ''
+tags: []
+conditions:
+- name: DTS-HD HRA
+  negate: false
+  pattern: DTS-HD HRA
+  required: true
+  type: release_title
+- name: Not TrueHD/ATMOS
+  negate: true
+  pattern: TrueHD ATMOS
+  required: true
+  type: release_title
+- name: Not Dolby Digital Plus
+  negate: true
+  pattern: Dolby Digital Plus
+  required: true
+  type: release_title
+- name: Not Basic DTS
+  negate: true
+  pattern: Basic DTS
+  required: true
+  type: release_title
+- name: Not Basic Dolby Digital
+  type: release_title
+  required: true
+  negate: true
+  pattern: Basic Dolby Digital
+- name: Not DTS X
+  type: release_title
+  required: true
+  negate: true
+  pattern: DTS X
+- name: Not FLAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: FLAC
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: AAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: PCM
+- name: Not DTS-ES
+  type: release_title
+  required: true
+  negate: true
+  pattern: DTS-ES
+- name: Not 6.1 Surround
+  type: release_title
+  required: true
+  negate: true
+  pattern: 6.1 Surround
+tests: []
