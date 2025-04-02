@@ -1,0 +1,20 @@
+name: Hulu
+description: ''
+tags: []
+conditions:
+- name: Hulu
+  type: release_title
+  required: true
+  negate: false
+  pattern: Hulu
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

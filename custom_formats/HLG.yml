@@ -1,0 +1,30 @@
+name: HLG
+description: ''
+tags: []
+conditions:
+- name: HLG
+  type: release_title
+  required: true
+  negate: false
+  pattern: HLG
+- name: Not DV
+  type: release_title
+  required: true
+  negate: true
+  pattern: DV
+- name: Not HDR10+
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR10+
+- name: Not HDR10
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR10
+- name: Not PQ
+  type: release_title
+  required: true
+  negate: true
+  pattern: PQ
+tests: []
