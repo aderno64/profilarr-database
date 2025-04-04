@@ -1,6 +1,10 @@
 name: SQP-1 (2160p) Streaming Optimized
-description: 'Depending what''s released first and available the following Workflow
-  Logic will be used:
+description: '**This is only the base profile, it does not have the optional scores,
+  you''d need to duplicate and set the scores manually.**
+
+
+  Depending what''s released first and available the following Workflow Logic will
+  be used:
 
 
   - When a 1080p WEBDL is released it will be downloaded. (streaming services)
@@ -82,22 +86,10 @@ custom_formats:
   score: 135
 - name: DD+
   score: 125
-- name: Special Edition
-  score: 125
 - name: DD
   score: 115
 - name: 1080p
   score: 50
-- name: 4K Remaster
-  score: 25
-- name: Criterion Collection
-  score: 25
-- name: Masters of Cinema
-  score: 25
-- name: Remaster
-  score: 25
-- name: Vinegar Syndrome
-  score: 25
 - name: CRiT
   score: 20
 - name: MA
