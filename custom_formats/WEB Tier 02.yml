@@ -1,4 +1,4 @@
-name: WEB Tier 02
+name: WEB Tier 01
 description: ''
 tags: []
 conditions:
@@ -12,4 +12,59 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: dB
+  type: release_group
+  required: false
+  negate: false
+  pattern: dB
+- name: Flights
+  type: release_group
+  required: false
+  negate: false
+  pattern: Flights
+- name: MIUI
+  type: release_group
+  required: false
+  negate: false
+  pattern: MIUI
+- name: monkee
+  type: release_group
+  required: false
+  negate: false
+  pattern: monkee
+- name: MZABI
+  type: release_group
+  required: false
+  negate: false
+  pattern: MZABI
+- name: PHOENIX
+  type: release_group
+  required: false
+  negate: false
+  pattern: PHOENIX
+- name: playWEB
+  type: release_group
+  required: false
+  negate: false
+  pattern: playWEB
+- name: SbR
+  type: release_group
+  required: false
+  negate: false
+  pattern: SbR
+- name: SMURF
+  type: release_group
+  required: false
+  negate: false
+  pattern: SMURF
+- name: TOMMY
+  type: release_group
+  required: false
+  negate: false
+  pattern: TOMMY
+- name: XEBEC
+  type: release_group
+  required: false
+  negate: false
+  pattern: XEBEC
 tests: []
