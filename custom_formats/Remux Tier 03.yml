@@ -1,0 +1,65 @@
+name: Remux Tier 03
+description: ''
+tags: []
+conditions:
+- name: REMUX
+  type: quality_modifier
+  required: true
+  negate: false
+  qualityModifier: remux
+- name: ATELiER
+  type: release_group
+  required: false
+  negate: false
+  pattern: ATELiER
+- name: decibeL
+  type: release_group
+  required: false
+  negate: false
+  pattern: decibeL
+- name: EPSiLON
+  type: release_group
+  required: false
+  negate: false
+  pattern: EPSiLON
+- name: HiFi
+  type: release_group
+  required: false
+  negate: false
+  pattern: HiFi
+- name: iFT
+  type: release_group
+  required: false
+  negate: false
+  pattern: iFT
+- name: KRaLiMaRKo
+  type: release_group
+  required: false
+  negate: false
+  pattern: KRaLiMaRKo
+- name: NTb
+  type: release_group
+  required: false
+  negate: false
+  pattern: NTb
+- name: PTP
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTP
+- name: SumVision
+  type: release_group
+  required: false
+  negate: false
+  pattern: SumVision
+- name: TOA
+  type: release_group
+  required: false
+  negate: false
+  pattern: TOA
+- name: TRiToN
+  type: release_group
+  required: false
+  negate: false
+  pattern: TRiToN
+tests: []
