@@ -125,16 +125,6 @@ custom_formats:
 - name: x265 (HD)
   score: -10000
 qualities:
-- id: 4
-  name: Bluray-2160p
-- id: -2
-  name: WEB-2160p
-  description: ''
-  qualities:
-  - id: 5
-    name: WEBDL-2160p
-  - id: 6
-    name: WEBRip-2160p
 - id: -1
   name: Bluray|WEB-1080p
   description: ''
@@ -152,7 +142,7 @@ qualities:
 - id: 13
   name: Bluray-720p
 upgrade_until:
-  id: 4
-  name: Bluray-2160p
-  description: 4K Ultra HD Blu-ray video encoded with lossy compression
+  id: 13
+  name: Bluray-720p
+  description: 720p Blu-ray video encoded with lossy compression
 language: must_original
