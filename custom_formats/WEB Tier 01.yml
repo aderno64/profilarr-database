@@ -3,13 +3,18 @@ description: ''
 tags: []
 conditions:
 - name: WEB-DL
-  type: source
-  required: false
   negate: false
+  required: false
   source: web_dl
-- name: WEBRip
   type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: ABBIE
+  type: release_group
   required: false
   negate: false
-  source: webrip
+  pattern: ABBIE
 tests: []
