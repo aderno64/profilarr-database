@@ -1,0 +1,15 @@
+name: x264
+description: ''
+tags: []
+conditions:
+- name: x264
+  type: release_title
+  required: true
+  negate: false
+  pattern: x264
+- name: Remux
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
+tests: []

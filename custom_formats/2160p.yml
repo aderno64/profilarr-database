@@ -1,0 +1,10 @@
+name: 2160p
+description: ''
+tags: []
+conditions:
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+tests: []
