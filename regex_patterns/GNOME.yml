@@ -1,0 +1,5 @@
+﻿name: GNOME
+pattern: ^(GNOME)$
+description: ''
+tags: []
+tests: []
