@@ -132,6 +132,8 @@ custom_formats:
   score: -10000
 - name: Generated Dynamic HDR
   score: -10000
+- name: Sing Along Versions
+  score: -10000
 - name: TrueHD
   score: -10000
 - name: TrueHD ATMOS
