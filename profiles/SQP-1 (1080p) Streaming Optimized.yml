@@ -144,7 +144,6 @@ qualities:
 - id: 13
   name: Bluray-720p
 upgrade_until:
-  id: 13
-  name: Bluray-720p
-  description: 720p Blu-ray video encoded with lossy compression
+  id: -1
+  name: Bluray|WEB-1080p
 language: must_original
