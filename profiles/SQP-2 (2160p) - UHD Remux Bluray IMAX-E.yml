@@ -1,6 +1,10 @@
 name: SQP-2 (2160p) - UHD Remux Bluray IMAX-E
-description: 'Depending on what''s released first and available the following Workflow
-  Logic will be used:
+description: '**This is only the base profile, it does not have the optional scores,
+  you''d need to duplicate and set the scores manually.**
+
+
+  Depending on what''s released first and available the following Workflow Logic will
+  be used:
 
 
   - When the 4k WEB-DL is released it will download the 4k WEB-DL. (streaming services)
