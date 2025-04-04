@@ -1,0 +1,55 @@
+name: Remux Tier 01
+description: ''
+tags: []
+conditions:
+- name: REMUX
+  type: quality_modifier
+  required: true
+  negate: false
+  qualityModifier: remux
+- name: 3L
+  type: release_group
+  required: false
+  negate: false
+  pattern: 3L
+- name: BiZKiT
+  type: release_group
+  required: false
+  negate: false
+  pattern: BiZKiT
+- name: BLURANiUM
+  type: release_group
+  required: false
+  negate: false
+  pattern: BLURANiUM
+- name: BMF
+  type: release_group
+  required: false
+  negate: false
+  pattern: BMF
+- name: CiNEPHiLES
+  type: release_group
+  required: false
+  negate: false
+  pattern: CiNEPHiLES
+- name: FraMeSToR
+  type: release_group
+  required: false
+  negate: false
+  pattern: FraMeSToR
+- name: PMP
+  type: release_group
+  required: false
+  negate: false
+  pattern: PMP
+- name: WiLDCAT
+  type: release_group
+  required: false
+  negate: false
+  pattern: WiLDCAT
+- name: ZQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZQ
+tests: []
