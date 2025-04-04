@@ -12,4 +12,44 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: BYNDR
+  type: release_group
+  required: false
+  negate: false
+  pattern: BYNDR
+- name: GNOMISSION
+  type: release_group
+  required: false
+  negate: false
+  pattern: GNOMISSION
+- name: NINJACENTRAL
+  type: release_group
+  required: false
+  negate: false
+  pattern: NINJACENTRAL
+- name: NPMS
+  type: release_group
+  required: false
+  negate: false
+  pattern: NPMS
+- name: ROCCaT
+  type: release_group
+  required: false
+  negate: false
+  pattern: ROCCaT
+- name: SIGMA
+  type: release_group
+  required: false
+  negate: false
+  pattern: SIGMA
+- name: SLiGNOME
+  type: release_group
+  required: false
+  negate: false
+  pattern: SLiGNOME
+- name: SwAgLaNdEr
+  type: release_group
+  required: false
+  negate: false
+  pattern: SwAgLaNdEr
 tests: []
