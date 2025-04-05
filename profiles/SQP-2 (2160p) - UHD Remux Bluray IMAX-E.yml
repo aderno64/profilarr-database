@@ -28,6 +28,7 @@ description: '**This is only the base profile, it does not have the optional sco
 tags:
 - 2160p
 - SQP
+- Remux
 upgradesAllowed: true
 minCustomFormatScore: 550
 upgradeUntilScore: 10000
