@@ -21,7 +21,7 @@ description: '**This is only the base profile, it does not have the optional sco
   optimized) will be downloaded.
 
 
-  - placeholderWhen a 2160p WEBDL is released it will be downloaded. (streaming services)
+  - When a 2160p WEBDL is released it will be downloaded. (streaming services)
 
 
   - When a 2160p BHDStudio is released it will download the 2160p BHDStudio release.
@@ -32,7 +32,9 @@ description: '**This is only the base profile, it does not have the optional sco
 
 
   - 1080p releases will be upgraded to 2160p releases when available.'
-tags: []
+tags:
+- 2160p
+- SQP
 upgradesAllowed: true
 minCustomFormatScore: 10
 upgradeUntilScore: 10000
