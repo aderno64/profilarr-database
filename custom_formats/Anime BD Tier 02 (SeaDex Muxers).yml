@@ -2,6 +2,16 @@ name: Anime BD Tier 02 (SeaDex Muxers)
 description: ''
 tags: []
 conditions:
+- name: BLURAY
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: DVD
+  negate: false
+  required: false
+  source: dvd
+  type: source
 - name: 0x539
   type: release_group
   required: false
