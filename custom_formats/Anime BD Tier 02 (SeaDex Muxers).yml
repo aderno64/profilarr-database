@@ -232,3 +232,4 @@ conditions:
   required: false
   negate: false
   pattern: Yuki
+tests: []
