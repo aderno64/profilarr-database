@@ -16,7 +16,9 @@ description: '**This is only the base profile, it does not have the optional sco
 
   - If no 1080p hallowed encode can be found, 1080p a Bluray encode (less or not streaming
   optimized) will be downloaded.'
-tags: []
+tags:
+- 1080p
+- SQP
 upgradesAllowed: true
 minCustomFormatScore: 10
 upgradeUntilScore: 10000

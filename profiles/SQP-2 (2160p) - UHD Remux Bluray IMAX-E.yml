@@ -25,7 +25,9 @@ description: '**This is only the base profile, it does not have the optional sco
   - 1080p WEBDL with DV/HDR (optional also 1080p WEBDL without DV/HDR)
 
   - 1080p Remux'
-tags: []
+tags:
+- 2160p
+- SQP
 upgradesAllowed: true
 minCustomFormatScore: 550
 upgradeUntilScore: 10000
