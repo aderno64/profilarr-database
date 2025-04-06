@@ -1,0 +1,25 @@
+name: Anime BD Tier 01 (Top SeaDex Muxers)
+description: ''
+tags: []
+conditions:
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: Bluray Raw
+  negate: false
+  required: false
+  source: bluray_raw
+  type: source
+- name: DVD
+  negate: false
+  required: false
+  source: dvd
+  type: source
+- name: Aergia
+  type: release_title
+  required: false
+  negate: false
+  pattern: Aergia
+tests: []
