@@ -1,0 +1,10 @@
+name: Uncensored
+description: ''
+tags: []
+conditions:
+- name: Uncensored
+  type: release_title
+  required: true
+  negate: false
+  pattern: Uncensored
+tests: []
