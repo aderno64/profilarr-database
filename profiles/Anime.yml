@@ -12,6 +12,8 @@ minScoreIncrement: 1
 custom_formats:
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
   score: 1400
+- name: Anime BD Tier 02 (SeaDex Muxers)
+  score: 1300
 - name: WEB Tier 01
   score: 350
 - name: WEB Tier 02
