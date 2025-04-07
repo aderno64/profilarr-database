@@ -19,6 +19,7 @@ description: '**This is only the base profile, it does not have the optional sco
 tags:
 - 1080p
 - SQP
+- Radarr
 upgradesAllowed: true
 minCustomFormatScore: 10
 upgradeUntilScore: 10000
