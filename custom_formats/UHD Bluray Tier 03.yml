@@ -1,55 +1,57 @@
 name: UHD Bluray Tier 03
 description: ''
-tags: []
+tags:
+- 2160p
+- Group Tiers
 conditions:
 - name: Not REMUX
-  type: quality_modifier
-  required: true
   negate: true
   qualityModifier: remux
+  required: true
+  type: quality_modifier
 - name: Not WEBDL
-  type: source
-  required: true
   negate: true
+  required: true
   source: web_dl
-- name: Not WEBRip
   type: source
-  required: true
+- name: Not WEBRip
   negate: true
-  source: webrip
-- name: 2160p
-  type: resolution
   required: true
+  source: webrip
+  type: source
+- name: 2160p
   negate: false
+  required: true
   resolution: 2160p
+  type: resolution
 - name: BHDStudio
-  type: release_group
-  required: false
   negate: false
   pattern: BHDStudio
-- name: hallowed
-  type: release_group
   required: false
+  type: release_group
+- name: hallowed
   negate: false
   pattern: hallowed
-- name: HONE
-  type: release_group
   required: false
+  type: release_group
+- name: HONE
   negate: false
   pattern: HONE
-- name: PTer
-  type: release_group
   required: false
+  type: release_group
+- name: PTer
   negate: false
   pattern: PTer
-- name: SPHD
-  type: release_group
   required: false
+  type: release_group
+- name: SPHD
   negate: false
   pattern: SPHD
-- name: WEBDV
-  type: release_group
   required: false
+  type: release_group
+- name: WEBDV
   negate: false
   pattern: WEBDV
+  required: false
+  type: release_group
 tests: []

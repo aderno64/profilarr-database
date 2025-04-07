@@ -1,6 +1,7 @@
 name: Repack3
 description: ''
-tags: []
+tags:
+- Repack
 conditions:
 - name: Repack3
   negate: false

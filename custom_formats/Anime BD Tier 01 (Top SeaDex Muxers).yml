@@ -2,6 +2,7 @@ name: Anime BD Tier 01 (Top SeaDex Muxers)
 description: ''
 tags:
 - Anime
+- Group Tiers
 conditions:
 - name: Bluray
   negate: false

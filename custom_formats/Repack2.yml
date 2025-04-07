@@ -1,20 +1,21 @@
 name: Repack2
 description: ''
-tags: []
+tags:
+- Repack
 conditions:
 - name: Repack2
-  type: release_title
-  required: false
   negate: false
   pattern: Repack2
-- name: Proper2
-  type: release_title
   required: false
+  type: release_title
+- name: Proper2
   negate: false
   pattern: Proper2
-- name: RealProperRepack
-  type: release_title
   required: false
+  type: release_title
+- name: RealProperRepack
   negate: false
   pattern: RealProperRepack
+  required: false
+  type: release_title
 tests: []

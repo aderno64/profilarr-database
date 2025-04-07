@@ -1,6 +1,7 @@
 name: WEB Tier 03
 description: ''
-tags: []
+tags:
+- Group Tiers
 conditions:
 - name: WEB-DL
   negate: false
@@ -13,43 +14,43 @@ conditions:
   source: webrip
   type: source
 - name: BYNDR
-  type: release_group
-  required: false
   negate: false
   pattern: BYNDR
-- name: GNOMISSION
-  type: release_group
   required: false
+  type: release_group
+- name: GNOMISSION
   negate: false
   pattern: GNOMISSION
-- name: NINJACENTRAL
-  type: release_group
   required: false
+  type: release_group
+- name: NINJACENTRAL
   negate: false
   pattern: NINJACENTRAL
-- name: NPMS
-  type: release_group
   required: false
+  type: release_group
+- name: NPMS
   negate: false
   pattern: NPMS
-- name: ROCCaT
-  type: release_group
   required: false
+  type: release_group
+- name: ROCCaT
   negate: false
   pattern: ROCCaT
-- name: SIGMA
-  type: release_group
   required: false
+  type: release_group
+- name: SIGMA
   negate: false
   pattern: SIGMA
-- name: SLiGNOME
-  type: release_group
   required: false
+  type: release_group
+- name: SLiGNOME
   negate: false
   pattern: SLiGNOME
-- name: SwAgLaNdEr
-  type: release_group
   required: false
+  type: release_group
+- name: SwAgLaNdEr
   negate: false
   pattern: SwAgLaNdEr
+  required: false
+  type: release_group
 tests: []

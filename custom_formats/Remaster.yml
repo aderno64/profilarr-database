@@ -1,15 +1,16 @@
 name: Remaster
 description: ''
-tags: []
+tags:
+- Remaster
 conditions:
 - name: Remaster
-  type: release_title
-  required: true
   negate: false
   pattern: Remaster
-- name: Not 4K Remaster
-  type: release_title
   required: true
+  type: release_title
+- name: Not 4K Remaster
   negate: true
   pattern: 4K Remaster
+  required: true
+  type: release_title
 tests: []

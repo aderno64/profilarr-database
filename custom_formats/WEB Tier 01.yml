@@ -1,6 +1,7 @@
 name: WEB Tier 01
 description: ''
-tags: []
+tags:
+- Group Tiers
 conditions:
 - name: WEB-DL
   negate: false
@@ -13,88 +14,88 @@ conditions:
   source: webrip
   type: source
 - name: ABBIE
-  type: release_group
-  required: false
   negate: false
   pattern: ABBIE
-- name: AJP69
-  type: release_group
   required: false
+  type: release_group
+- name: AJP69
   negate: false
   pattern: AJP69
-- name: APEX
-  type: release_group
   required: false
+  type: release_group
+- name: APEX
   negate: false
   pattern: APEX
-- name: BLUTONIUM
-  type: release_group
   required: false
+  type: release_group
+- name: BLUTONIUM
   negate: false
   pattern: BLUTONIUM
-- name: CMRG
-  type: release_group
   required: false
+  type: release_group
+- name: CMRG
   negate: false
   pattern: CMRG
-- name: CRFW
-  type: release_group
   required: false
+  type: release_group
+- name: CRFW
   negate: false
   pattern: CRFW
-- name: CRUD
-  type: release_group
   required: false
+  type: release_group
+- name: CRUD
   negate: false
   pattern: CRUD
-- name: FLUX
-  type: release_group
   required: false
+  type: release_group
+- name: FLUX
   negate: false
   pattern: FLUX
-- name: GNOME
-  type: release_group
   required: false
+  type: release_group
+- name: GNOME
   negate: false
   pattern: GNOME
-- name: HONE
-  type: release_group
   required: false
+  type: release_group
+- name: HONE
   negate: false
   pattern: HONE
-- name: KINGS
-  type: release_group
   required: false
+  type: release_group
+- name: KINGS
   negate: false
   pattern: KINGS
-- name: Kitsune
-  type: release_group
   required: false
+  type: release_group
+- name: Kitsune
   negate: false
   pattern: Kitsune
-- name: NOSIVID
-  type: release_group
   required: false
+  type: release_group
+- name: NOSIVID
   negate: false
   pattern: NOSIVID
-- name: NTb
-  type: release_group
   required: false
+  type: release_group
+- name: NTb
   negate: false
   pattern: NTb
-- name: NTG
-  type: release_group
   required: false
+  type: release_group
+- name: NTG
   negate: false
   pattern: NTG
-- name: SiC
-  type: release_group
   required: false
+  type: release_group
+- name: SiC
   negate: false
   pattern: SiC
-- name: TEPES
-  type: release_group
   required: false
+  type: release_group
+- name: TEPES
   negate: false
   pattern: TEPES
+  required: false
+  type: release_group
 tests: []

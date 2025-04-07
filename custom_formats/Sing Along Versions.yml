@@ -1,10 +1,11 @@
 name: Sing Along Versions
 description: ''
-tags: []
+tags:
+- Versions
 conditions:
 - name: Sing Along
-  type: release_title
-  required: true
   negate: false
   pattern: Sing Along Versions
+  required: true
+  type: release_title
 tests: []

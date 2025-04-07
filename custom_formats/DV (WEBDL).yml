@@ -2,7 +2,6 @@ name: DV (WEBDL)
 description: ''
 tags:
 - Video
-- Codec
 - Dolby Vision
 conditions:
 - name: Dolby Vision

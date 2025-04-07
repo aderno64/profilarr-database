@@ -1,60 +1,61 @@
 name: HD Bluray Tier 02
 description: ''
-tags: []
+tags:
+- Group Tiers
 conditions:
 - name: BLURAY
-  type: source
-  required: true
   negate: false
-  source: bluray
-- name: Not REMUX
-  type: quality_modifier
   required: true
+  source: bluray
+  type: source
+- name: Not REMUX
   negate: true
   qualityModifier: remux
-- name: Not 2160p
-  type: resolution
   required: true
+  type: quality_modifier
+- name: Not 2160p
   negate: true
+  required: true
   resolution: 2160p
+  type: resolution
 - name: EA
-  type: release_group
-  required: false
   negate: false
   pattern: EA
-- name: HiDt
-  type: release_group
   required: false
+  type: release_group
+- name: HiDt
   negate: false
   pattern: HiDt
-- name: HiSD
-  type: release_group
   required: false
+  type: release_group
+- name: HiSD
   negate: false
   pattern: HiSD
-- name: iFT
-  type: release_group
   required: false
+  type: release_group
+- name: iFT
   negate: false
   pattern: iFT
-- name: NTb
-  type: release_group
   required: false
+  type: release_group
+- name: NTb
   negate: false
   pattern: NTb
-- name: QOQ
-  type: release_group
   required: false
+  type: release_group
+- name: QOQ
   negate: false
   pattern: QOQ
-- name: SA89
-  type: release_group
   required: false
+  type: release_group
+- name: SA89
   negate: false
   pattern: SA89
-- name: sbR
-  type: release_group
   required: false
+  type: release_group
+- name: sbR
   negate: false
   pattern: sbR
+  required: false
+  type: release_group
 tests: []
