@@ -2,6 +2,7 @@ name: Anime BD Tier 02 (SeaDex Muxers)
 description: ''
 tags:
 - Anime
+- Group Tiers
 conditions:
 - name: Bluray
   negate: false

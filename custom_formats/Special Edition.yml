@@ -1,30 +1,31 @@
 name: Special Edition
 description: ''
-tags: []
+tags:
+- Versions
 conditions:
 - name: Special Edition
-  type: release_title
-  required: true
   negate: false
   pattern: Special Edition
-- name: Not IMAX Edition
-  type: release_title
   required: true
+  type: release_title
+- name: Not IMAX Edition
   negate: true
   pattern: IMAX
-- name: Not Open Matte
-  type: release_title
   required: true
+  type: release_title
+- name: Not Open Matte
   negate: true
   pattern: Open Matte
-- name: Not Theatrical
-  type: release_title
   required: true
+  type: release_title
+- name: Not Theatrical
   negate: true
   pattern: Theatrical
-- name: Not Extended Clip
-  type: release_title
   required: true
+  type: release_title
+- name: Not Extended Clip
   negate: true
   pattern: Extended Clip
+  required: true
+  type: release_title
 tests: []

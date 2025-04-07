@@ -1,20 +1,24 @@
 name: x265 no HDR DV
 description: ''
-tags: []
+tags:
+- Video
+- Codec
+- Dolby Vision
+- HDR
 conditions:
 - name: x265/HEVC
-  type: release_title
-  required: true
   negate: false
   pattern: x265 HEVC
-- name: Not HDR/DV
-  type: release_title
   required: true
+  type: release_title
+- name: Not HDR/DV
   negate: true
   pattern: HDR DV
-- name: Not 2160p
-  type: resolution
   required: true
+  type: release_title
+- name: Not 2160p
   negate: true
+  required: true
   resolution: 2160p
+  type: resolution
 tests: []

@@ -1,6 +1,7 @@
 name: IMAX Enhanced
 description: ''
-tags: []
+tags:
+- IMAX
 conditions:
 - name: IMAX Enhanced
   negate: false

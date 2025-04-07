@@ -1,40 +1,42 @@
 name: Remux Tier 02
 description: ''
-tags: []
+tags:
+- Remux
+- Group Tiers
 conditions:
 - name: REMUX
-  type: quality_modifier
-  required: true
   negate: false
   qualityModifier: remux
+  required: true
+  type: quality_modifier
 - name: Flights
-  type: release_group
-  required: false
   negate: false
   pattern: Flights
-- name: NCmt
-  type: release_group
   required: false
+  type: release_group
+- name: NCmt
   negate: false
   pattern: NCmt
-- name: playBD
-  type: release_group
   required: false
+  type: release_group
+- name: playBD
   negate: false
   pattern: playBD
-- name: SiCFoI
-  type: release_group
   required: false
+  type: release_group
+- name: SiCFoI
   negate: false
   pattern: SiCFoI
-- name: SURFINBIRD
-  type: release_group
   required: false
+  type: release_group
+- name: SURFINBIRD
   negate: false
   pattern: SURFINBIRD
-- name: TEPES
-  type: release_group
   required: false
+  type: release_group
+- name: TEPES
   negate: false
   pattern: TEPES
+  required: false
+  type: release_group
 tests: []

@@ -2,7 +2,6 @@ name: DV SDR
 description: ''
 tags:
 - Video
-- Codec
 - Dolby Vision
 - SDR
 conditions:

@@ -1,10 +1,11 @@
 name: MA
 description: ''
-tags: []
+tags:
+- Streaming Service
 conditions:
 - name: Movies Anywhere
-  type: release_title
-  required: true
   negate: false
   pattern: Movies Anywhere
+  required: true
+  type: release_title
 tests: []

@@ -2,7 +2,6 @@ name: Generated Dynamic HDR
 description: ''
 tags:
 - Video
-- Codec
 - HDR
 conditions:
 - name: BiTOR

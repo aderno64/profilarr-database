@@ -1,6 +1,7 @@
 name: HD Bluray Tier 03
 description: ''
-tags: []
+tags:
+- Group Tiers
 conditions:
 - name: BLURAY
   negate: false
@@ -18,48 +19,48 @@ conditions:
   resolution: 2160p
   type: resolution
 - name: ATELiER
-  type: release_group
-  required: false
   negate: false
   pattern: ATELiER
-- name: BHDStudio
-  type: release_group
   required: false
+  type: release_group
+- name: BHDStudio
   negate: false
   pattern: BHDStudio
-- name: hallowed
-  type: release_group
   required: false
+  type: release_group
+- name: hallowed
   negate: false
   pattern: hallowed
-- name: HiFi
-  type: release_group
   required: false
+  type: release_group
+- name: HiFi
   negate: false
   pattern: HiFi
-- name: HONE
-  type: release_group
   required: false
+  type: release_group
+- name: HONE
   negate: false
   pattern: HONE
-- name: LoRD
-  type: release_group
   required: false
+  type: release_group
+- name: LoRD
   negate: false
   pattern: LoRD
-- name: playHD
-  type: release_group
   required: false
+  type: release_group
+- name: playHD
   negate: false
   pattern: playHD
-- name: SPHD
-  type: release_group
   required: false
+  type: release_group
+- name: SPHD
   negate: false
   pattern: SPHD
-- name: W4NK3R
-  type: release_group
   required: false
+  type: release_group
+- name: W4NK3R
   negate: false
   pattern: W4NK3R
+  required: false
+  type: release_group
 tests: []

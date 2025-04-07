@@ -2,7 +2,6 @@ name: DTS
 description: ''
 tags:
 - Audio
-- Codec
 conditions:
 - name: Basic DTS
   negate: false

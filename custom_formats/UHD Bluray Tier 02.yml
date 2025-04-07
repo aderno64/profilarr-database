@@ -1,30 +1,32 @@
 name: UHD Bluray Tier 02
 description: ''
-tags: []
+tags:
+- 2160p
+- Group Tiers
 conditions:
 - name: Not REMUX
-  type: quality_modifier
-  required: true
   negate: true
   qualityModifier: remux
+  required: true
+  type: quality_modifier
 - name: Not WEBDL
-  type: source
-  required: true
   negate: true
+  required: true
   source: web_dl
-- name: Not WEBRip
   type: source
-  required: true
+- name: Not WEBRip
   negate: true
-  source: webrip
-- name: 2160p
-  type: resolution
   required: true
+  source: webrip
+  type: source
+- name: 2160p
   negate: false
+  required: true
   resolution: 2160p
+  type: resolution
 - name: HQMUX
-  type: release_group
-  required: false
   negate: false
   pattern: HQMUX
+  required: false
+  type: release_group
 tests: []

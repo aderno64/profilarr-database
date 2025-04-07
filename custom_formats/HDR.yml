@@ -1,6 +1,8 @@
 name: HDR
 description: ''
-tags: []
+tags:
+- Video
+- HDR
 conditions:
 - name: HDR
   negate: false
@@ -13,33 +15,33 @@ conditions:
   required: true
   type: release_title
 - name: Not HDR10
-  type: release_title
-  required: true
   negate: true
   pattern: HDR10
-- name: Not HDR10+
-  type: release_title
   required: true
+  type: release_title
+- name: Not HDR10+
   negate: true
   pattern: HDR10+
+  required: true
+  type: release_title
 - name: Not HLG
-  type: release_title
-  required: true
   negate: true
   pattern: HLG
+  required: true
+  type: release_title
 - name: Not PQ
-  type: release_title
-  required: true
   negate: true
   pattern: HLG
-- name: Not RlsGrp (Missing HDR)
-  type: release_title
   required: true
+  type: release_title
+- name: Not RlsGrp (Missing HDR)
   negate: true
   pattern: RlsGrp (Missing HDR)
-- name: Not SDR
-  type: release_title
   required: true
+  type: release_title
+- name: Not SDR
   negate: true
   pattern: SDR
+  required: true
+  type: release_title
 tests: []
