@@ -1,0 +1,10 @@
+name: v4
+description: ''
+tags: []
+conditions:
+- name: v4
+  type: release_title
+  required: true
+  negate: false
+  pattern: v4
+tests: []

@@ -1,0 +1,10 @@
+name: v3
+description: ''
+tags: []
+conditions:
+- name: v3
+  type: release_title
+  required: true
+  negate: false
+  pattern: v3
+tests: []
