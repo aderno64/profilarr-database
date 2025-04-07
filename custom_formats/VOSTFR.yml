@@ -1,0 +1,15 @@
+name: VOSTFR
+description: ''
+tags: []
+conditions:
+- name: VOSTFR
+  type: release_title
+  required: false
+  negate: false
+  pattern: VOSTFR
+- name: SUBFRENCH
+  type: release_title
+  required: false
+  negate: false
+  pattern: SUBFRENCH
+tests: []
