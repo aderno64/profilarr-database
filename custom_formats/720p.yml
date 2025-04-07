@@ -1,6 +1,7 @@
 name: 720p
 description: ''
-tags: []
+tags:
+- Resolution
 conditions:
 - name: 720p
   negate: false

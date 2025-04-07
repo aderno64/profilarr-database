@@ -1,10 +1,11 @@
 name: 1080p
 description: ''
-tags: []
+tags:
+- Resolution
 conditions:
 - name: 1080p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 1080p
+  type: resolution
 tests: []

@@ -1,10 +1,11 @@
 name: BR-DISK
 description: ''
-tags: []
+tags:
+- Source
 conditions:
 - name: BR-DISK
-  type: release_title
-  required: true
   negate: false
   pattern: BR-DISK
+  required: true
+  type: release_title
 tests: []

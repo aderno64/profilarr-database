@@ -1,6 +1,8 @@
 name: DTS-HD MA
 description: ''
-tags: []
+tags:
+- Audio
+- Codec
 conditions:
 - name: DTS-HD MA
   negate: false

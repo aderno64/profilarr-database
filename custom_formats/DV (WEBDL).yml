@@ -1,35 +1,38 @@
 name: DV (WEBDL)
 description: ''
-tags: []
+tags:
+- Video
+- Codec
+- Dolby Vision
 conditions:
 - name: Dolby Vision
-  type: release_title
-  required: true
   negate: false
   pattern: DV
-- name: WEBDL
-  type: source
-  required: false
-  negate: false
-  source: web_dl
-- name: WEBRip
-  type: source
-  required: false
-  negate: false
-  source: webrip
-- name: Not RlsGrp
-  type: release_title
   required: true
+  type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: Not RlsGrp
   negate: true
   pattern: Flights
-- name: Not HDR
-  type: release_title
   required: true
+  type: release_title
+- name: Not HDR
   negate: true
   pattern: HDR
-- name: Not Hulu
-  type: release_title
   required: true
+  type: release_title
+- name: Not Hulu
   negate: true
   pattern: Hulu
+  required: true
+  type: release_title
 tests: []

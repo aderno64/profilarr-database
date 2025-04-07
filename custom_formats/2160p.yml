@@ -1,10 +1,11 @@
 name: 2160p
 description: ''
-tags: []
+tags:
+- Resolution
 conditions:
 - name: 2160p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 2160p
+  type: resolution
 tests: []

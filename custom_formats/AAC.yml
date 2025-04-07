@@ -1,6 +1,8 @@
 name: AAC
 description: ''
-tags: []
+tags:
+- Audio
+- Codec
 conditions:
 - name: AAC
   negate: false
@@ -33,8 +35,8 @@ conditions:
   required: true
   type: release_title
 - name: Not TrueHD/Atmos
-  type: release_title
-  required: true
   negate: true
   pattern: TrueHD ATMOS
+  required: true
+  type: release_title
 tests: []
