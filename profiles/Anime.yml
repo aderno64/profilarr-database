@@ -5,6 +5,7 @@ tags:
 - Anime
 - 1080p
 - Remux
+- Sonarr
 upgradesAllowed: true
 minCustomFormatScore: 100
 upgradeUntilScore: 10000
@@ -82,4 +83,4 @@ qualities:
 upgrade_until:
   id: -1
   name: Bluray-1080p
-language: must_english
+language: must_original

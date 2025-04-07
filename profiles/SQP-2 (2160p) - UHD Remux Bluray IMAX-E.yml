@@ -29,6 +29,7 @@ tags:
 - 2160p
 - SQP
 - Remux
+- Radarr
 upgradesAllowed: true
 minCustomFormatScore: 550
 upgradeUntilScore: 10000
