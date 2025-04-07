@@ -1,20 +1,21 @@
 name: ADN
 description: ''
-tags: []
+tags:
+- Release Group
 conditions:
 - name: WEBDL
-  type: source
-  required: false
   negate: false
+  required: false
   source: web_dl
-- name: WEBRip
   type: source
-  required: false
+- name: WEBRip
   negate: false
+  required: false
   source: webrip
+  type: source
 - name: ADN
-  type: release_title
-  required: true
   negate: false
   pattern: ADN
+  required: true
+  type: release_title
 tests: []

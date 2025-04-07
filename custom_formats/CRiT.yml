@@ -1,25 +1,26 @@
 name: CRiT
 description: ''
-tags: []
+tags:
+- Release Group
 conditions:
 - name: CRiT
-  type: release_title
-  required: true
   negate: false
   pattern: CRiT
-- name: WEB-DL
-  type: source
-  required: false
-  negate: false
-  source: web_dl
-- name: WEBRip
-  type: source
-  required: false
-  negate: false
-  source: webrip
-- name: Not Criterion RlsGrp
-  type: release_group
   required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: Not Criterion RlsGrp
   negate: true
   pattern: Criterion RlsGrp
+  required: true
+  type: release_group
 tests: []

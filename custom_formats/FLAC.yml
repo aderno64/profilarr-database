@@ -1,40 +1,42 @@
 name: FLAC
 description: ''
-tags: []
+tags:
+- Audio
+- Codec
 conditions:
 - name: FLAC
-  type: release_title
-  required: true
   negate: false
   pattern: FLAC
-- name: Not PCM
-  type: release_title
   required: true
+  type: release_title
+- name: Not PCM
   negate: true
   pattern: PCM
-- name: Not AAC
-  type: release_title
   required: true
+  type: release_title
+- name: Not AAC
   negate: true
   pattern: AAC
-- name: Not DTS
-  type: release_title
   required: true
+  type: release_title
+- name: Not DTS
   negate: true
   pattern: DTS
-- name: Not TrueHD/ATMOS
-  type: release_title
   required: true
+  type: release_title
+- name: Not TrueHD/ATMOS
   negate: true
   pattern: TrueHD ATMOS
-- name: Not Basic Dolby Digital
-  type: release_title
   required: true
+  type: release_title
+- name: Not Basic Dolby Digital
   negate: true
   pattern: Basic Dolby Digital
-- name: Not Dolby Digital Plus
-  type: release_title
   required: true
+  type: release_title
+- name: Not Dolby Digital Plus
   negate: true
   pattern: Dolby Digital Plus
+  required: true
+  type: release_title
 tests: []

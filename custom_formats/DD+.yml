@@ -1,35 +1,37 @@
 name: DD+
 description: ''
-tags: []
+tags:
+- Audio
+- Codec
 conditions:
 - name: Dolby Digital Plus
-  type: release_title
-  required: true
   negate: false
   pattern: Dolby Digital Plus
-- name: Not TrueHD/Atmos
-  type: release_title
   required: true
+  type: release_title
+- name: Not TrueHD/Atmos
   negate: true
   pattern: TrueHD ATMOS
-- name: Not DTS
-  type: release_title
   required: true
+  type: release_title
+- name: Not DTS
   negate: true
   pattern: DTS
-- name: Not FLAC
-  type: release_title
   required: true
+  type: release_title
+- name: Not FLAC
   negate: true
   pattern: FLAC
-- name: Not AAC
-  type: release_title
   required: true
+  type: release_title
+- name: Not AAC
   negate: true
   pattern: AAC
-- name: Not PCM
-  type: release_title
   required: true
+  type: release_title
+- name: Not PCM
   negate: true
   pattern: PCM
+  required: true
+  type: release_title
 tests: []

@@ -1,6 +1,7 @@
 name: Anime BD Tier 01 (Top SeaDex Muxers)
 description: ''
-tags: []
+tags:
+- Anime
 conditions:
 - name: Bluray
   negate: false
@@ -18,63 +19,63 @@ conditions:
   source: dvd
   type: source
 - name: Aergia
-  type: release_title
-  required: false
   negate: false
   pattern: Aergia
-- name: Arg0
-  type: release_title
   required: false
+  type: release_title
+- name: Arg0
   negate: false
   pattern: Arg0
-- name: Legion
-  type: release_title
   required: false
+  type: release_title
+- name: Legion
   negate: false
   pattern: Legion
-- name: LYS1TH3A
-  type: release_title
   required: false
+  type: release_title
+- name: LYS1TH3A
   negate: false
   pattern: LYS1TH3A
-- name: OZR
-  type: release_title
   required: false
+  type: release_title
+- name: OZR
   negate: false
   pattern: OZR
-- name: sam
-  type: release_title
   required: false
+  type: release_title
+- name: sam
   negate: false
   pattern: sam
-- name: SCY
-  type: release_title
   required: false
+  type: release_title
+- name: SCY
   negate: false
   pattern: SCY
-- name: smol
-  type: release_title
   required: false
+  type: release_title
+- name: smol
   negate: false
   pattern: smol
-- name: SoM
-  type: release_title
   required: false
+  type: release_title
+- name: SoM
   negate: false
   pattern: SoM
-- name: Vanilla
-  type: release_title
   required: false
+  type: release_title
+- name: Vanilla
   negate: false
   pattern: Vanilla
-- name: Vodes
-  type: release_title
   required: false
+  type: release_title
+- name: Vodes
   negate: false
   pattern: Vodes
-- name: ZeroBuild
-  type: release_title
   required: false
+  type: release_title
+- name: ZeroBuild
   negate: false
   pattern: ZeroBuild
+  required: false
+  type: release_title
 tests: []

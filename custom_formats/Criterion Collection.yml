@@ -1,30 +1,31 @@
 name: Criterion Collection
 description: ''
-tags: []
+tags:
+- Release Group
 conditions:
 - name: Bluray
-  type: source
-  required: false
   negate: false
+  required: false
   source: bluray
-- name: DVD
   type: source
-  required: false
+- name: DVD
   negate: false
-  source: dvd
-- name: Criterion
-  type: release_title
   required: false
+  source: dvd
+  type: source
+- name: Criterion
   negate: false
   pattern: Criterion
-- name: CC
-  type: release_title
   required: false
+  type: release_title
+- name: CC
   negate: false
   pattern: CC
-- name: Not Criterion RlsGrp
+  required: false
   type: release_title
-  required: true
+- name: Not Criterion RlsGrp
   negate: true
   pattern: Criterion RlsGrp
+  required: true
+  type: release_title
 tests: []

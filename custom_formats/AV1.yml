@@ -1,10 +1,12 @@
 name: AV1
 description: ''
-tags: []
+tags:
+- Codec
+- Video
 conditions:
 - name: AV1
-  type: release_title
-  required: true
   negate: false
   pattern: AV1
+  required: true
+  type: release_title
 tests: []

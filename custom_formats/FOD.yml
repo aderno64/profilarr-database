@@ -1,20 +1,21 @@
 name: FOD
 description: ''
-tags: []
+tags:
+- Release Group
 conditions:
 - name: FOD
-  type: release_title
-  required: true
   negate: false
   pattern: FOD
+  required: true
+  type: release_title
 - name: WEBDL
-  type: source
-  required: false
   negate: false
+  required: false
   source: web_dl
-- name: WEBRip
   type: source
-  required: false
+- name: WEBRip
   negate: false
+  required: false
   source: webrip
+  type: source
 tests: []

@@ -1,20 +1,21 @@
 name: FUNi
 description: ''
-tags: []
+tags:
+- Release Group
 conditions:
 - name: WEBDL
-  type: source
-  required: false
   negate: false
+  required: false
   source: web_dl
-- name: WEBRip
   type: source
-  required: false
+- name: WEBRip
   negate: false
-  source: webrip
-- name: Funimation
-  type: release_title
   required: false
+  source: webrip
+  type: source
+- name: Funimation
   negate: false
   pattern: FUNi
+  required: false
+  type: release_title
 tests: []

@@ -1,6 +1,7 @@
 name: 4K Remaster
 description: ''
-tags: []
+tags:
+- Remaster
 conditions:
 - name: Remaster
   negate: false

@@ -1,6 +1,8 @@
 name: DTS-ES
 description: ''
-tags: []
+tags:
+- Audio
+- Codec
 conditions:
 - name: DTS-ES
   negate: false
@@ -28,10 +30,10 @@ conditions:
   required: true
   type: release_title
 - name: Not DTS-X
-  type: release_title
-  required: true
   negate: true
   pattern: DTS X
+  required: true
+  type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
