@@ -37,7 +37,7 @@ tags:
 - SQP
 - Radarr
 upgradesAllowed: true
-minCustomFormatScore: 10
+minCustomFormatScore: 1000
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
