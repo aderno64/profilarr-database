@@ -1,4 +1,4 @@
-name: WEB-1080p
+name: WEB-1080p (IN DEVELOPMENT)
 description: This is a custom profile based on the TRaSH Guides WEB-1080p Sonarr profile.
   By default, they have zero fallback tiers which is a real bummer when you are trying
   to fully automate your media library. Over the years, I have found this particular
