@@ -1,9 +1,12 @@
 name: (1080p) Streaming Optimized
-description: 'This profile will ensure your media is a streaming optimized format
-  while retaining a good balance of quality and file size.
+description: '**This profile will ensure your media is a streaming optimized format
+  while retaining a good balance of quality and file size.**
 
 
-  You can expect a 1080p, 1.5 hour movie to be about 6.5GB.'
+  You can expect a 1080p, 1.5 hour movie to be about 6.5GB.
+
+
+  *(Ace Ventura: Pet Detective - Kitsune)*'
 tags:
 - 1080p
 - Radarr
