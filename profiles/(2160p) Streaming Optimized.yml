@@ -1,4 +1,4 @@
-name: SQP-1 (2160p) Streaming Optimized
+name: (2160p) Streaming Optimized
 description: '**This is only the base profile, it does not have the optional scores,
   you''d need to duplicate and set the scores manually.**
 
@@ -158,12 +158,16 @@ qualities:
     name: Bluray-1080p
   - id: 11
     name: WEBRip-1080p
+- id: -3
+  name: Bluray|WEB-720p
+  description: ''
+  qualities:
+  - id: 13
+    name: Bluray-720p
   - id: 14
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-- id: 13
-  name: Bluray-720p
 upgrade_until:
   id: 4
   name: Bluray-2160p
