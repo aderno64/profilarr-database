@@ -21,7 +21,7 @@ tags:
 - SQP
 - Radarr
 upgradesAllowed: true
-minCustomFormatScore: 500
+minCustomFormatScore: 10
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
@@ -77,10 +77,36 @@ custom_formats:
   score: 115
 - name: 1080p
   score: 50
+- name: MA
+  score: 30
+- name: ATVP
+  score: 20
 - name: CRiT
   score: 20
-- name: MA
+- name: DSNP
   score: 20
+- name: iT
+  score: 15
+- name: AMZN
+  score: 10
+- name: CR
+  score: 10
+- name: CRAV
+  score: 10
+- name: HBO
+  score: 10
+- name: HMAX
+  score: 10
+- name: Hulu
+  score: 10
+- name: MAX
+  score: 10
+- name: NF
+  score: 10
+- name: PCOK
+  score: 10
+- name: PMTP
+  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
@@ -132,16 +158,12 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: -2
-  name: Bluray|WEB-720p
-  description: ''
-  qualities:
-  - id: 13
-    name: Bluray-720p
   - id: 14
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
+- id: 13
+  name: Bluray-720p
 upgrade_until:
   id: 10
   name: Bluray-1080p
