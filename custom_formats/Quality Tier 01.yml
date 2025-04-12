@@ -1,4 +1,4 @@
-name: TV Tier 01
+name: Quality Tier 01
 description: ''
 tags:
 - Group Tiers
@@ -14,10 +14,10 @@ conditions:
   source: webrip
   type: source
 - name: DVD
-  type: source
-  required: false
   negate: false
+  required: false
   source: dvd
+  type: source
 - name: ABBIE
   negate: false
   pattern: ABBIE
