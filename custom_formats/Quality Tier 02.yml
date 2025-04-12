@@ -114,8 +114,8 @@ conditions:
   required: false
   type: release_group
 - name: NOMA
-  type: release_group
-  required: false
   negate: false
   pattern: NOMA
+  required: false
+  type: release_group
 tests: []
