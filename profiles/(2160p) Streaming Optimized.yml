@@ -67,6 +67,8 @@ custom_formats:
   score: 10
 - name: AMZN
   score: 10
+- name: Bluray
+  score: 10
 - name: CR
   score: 10
 - name: CRAV
@@ -94,6 +96,8 @@ custom_formats:
 - name: Golden Popcorn
   score: 5
 - name: Repack Proper
+  score: 5
+- name: WEBDL-Rip
   score: 5
 - name: 10bit
   score: -10000

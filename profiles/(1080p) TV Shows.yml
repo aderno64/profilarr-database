@@ -53,6 +53,8 @@ custom_formats:
   score: 15
 - name: 1080p
   score: 10
+- name: Bluray
+  score: 10
 - name: CR
   score: 10
 - name: CRAV
@@ -70,6 +72,8 @@ custom_formats:
 - name: 720p
   score: 5
 - name: Repack Proper
+  score: 5
+- name: WEBDL-Rip
   score: 5
 - name: 10bit
   score: -10000
