@@ -88,19 +88,14 @@ conditions:
   pattern: SURFINBIRD
   required: false
   type: release_group
-- name: TEPES
-  negate: false
-  pattern: TEPES
-  required: false
-  type: release_group
 - name: OLYMPUS
   negate: false
   pattern: OLYMPUS
   required: false
   type: release_group
 - name: DUSKLiGHT
-  type: release_group
-  required: false
   negate: false
   pattern: DUSKLiGHT
+  required: false
+  type: release_group
 tests: []

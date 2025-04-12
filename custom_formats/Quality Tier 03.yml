@@ -78,11 +78,6 @@ conditions:
   pattern: KRaLiMaRKo
   required: false
   type: release_group
-- name: NTb
-  negate: false
-  pattern: NTb
-  required: false
-  type: release_group
 - name: PTP
   negate: false
   pattern: PTP
