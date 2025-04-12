@@ -1,5 +1,5 @@
 name: Quality Tier 01
-description: ''
+description: Preferred, top-tier groups.
 tags:
 - Group Tiers
 conditions:
@@ -14,13 +14,13 @@ conditions:
   required: false
   type: release_group
 - name: HONE
-  type: release_group
-  required: false
   negate: false
   pattern: HONE
-- name: DON
-  type: release_group
   required: false
+  type: release_group
+- name: DON
   negate: false
   pattern: DON
+  required: false
+  type: release_group
 tests: []

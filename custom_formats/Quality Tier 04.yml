@@ -98,16 +98,6 @@ conditions:
   pattern: TRiToN
   required: false
   type: release_group
-- name: BHDStudio
-  negate: false
-  pattern: BHDStudio
-  required: false
-  type: release_group
-- name: hallowed
-  negate: false
-  pattern: hallowed
-  required: false
-  type: release_group
 - name: PTer
   negate: false
   pattern: PTer
