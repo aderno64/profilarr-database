@@ -1,4 +1,4 @@
-name: TV Tier 03
+name: Quality Tier 03
 description: ''
 tags:
 - Group Tiers
@@ -14,10 +14,10 @@ conditions:
   source: webrip
   type: source
 - name: DVD
-  type: source
-  required: false
   negate: false
+  required: false
   source: dvd
+  type: source
 - name: BYNDR
   negate: false
   pattern: BYNDR
