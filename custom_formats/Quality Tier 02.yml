@@ -94,8 +94,13 @@ conditions:
   required: false
   type: release_group
 - name: TSCC
+  negate: false
+  pattern: TSCC
+  required: false
+  type: release_group
+- name: LeagueWEB
   type: release_group
   required: false
   negate: false
-  pattern: TSCC
+  pattern: LeagueWEB
 tests: []
