@@ -18,9 +18,4 @@ conditions:
   pattern: HONE
   required: false
   type: release_group
-- name: DON
-  negate: false
-  pattern: DON
-  required: false
-  type: release_group
 tests: []

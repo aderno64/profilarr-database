@@ -8,6 +8,11 @@ conditions:
   pattern: CtrlHD
   required: false
   type: release_group
+- name: DON
+  negate: false
+  pattern: DON
+  required: false
+  type: release_group
 - name: MainFrame
   negate: false
   pattern: MainFrame
