@@ -62,16 +62,10 @@ custom_formats:
   score: 125
 - name: DD
   score: 115
-- name: 2160p
-  score: 75
-- name: 1080p
-  score: 50
 - name: Golden Popcorn
   score: 50
 - name: MA
   score: 30
-- name: 720p
-  score: 25
 - name: ATVP
   score: 20
 - name: CRiT
