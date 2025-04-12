@@ -19,11 +19,9 @@ custom_formats:
   score: 180
 - name: Quality Tier 02
   score: 170
-- name: Quality Tier 03
-  score: 165
 - name: DV HDR10+
   score: 160
-- name: Quality Tier 04
+- name: Quality Tier 03
   score: 160
 - name: DV
   score: 150
@@ -32,6 +30,8 @@ custom_formats:
 - name: DV HLG
   score: 150
 - name: DV SDR
+  score: 150
+- name: Quality Tier 04
   score: 150
 - name: DD+ ATMOS
   score: 135
