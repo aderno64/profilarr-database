@@ -150,7 +150,7 @@ conditions:
   type: release_group
 - name: ZQ
   negate: false
-  pattern: ZQ
+  pattern: QOQ
   required: false
-  type: release_group  
+  type: release_group
 tests: []

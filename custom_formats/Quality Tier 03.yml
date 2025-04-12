@@ -132,5 +132,10 @@ conditions:
   negate: false
   pattern: WEBDV
   required: false
-  type: release_group    
+  type: release_group
+- name: QOQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: QOQ
 tests: []

@@ -92,5 +92,10 @@ conditions:
   negate: false
   pattern: TEPES
   required: false
-  type: release_group  
+  type: release_group
+- name: OLYMPUS
+  type: release_group
+  required: false
+  negate: false
+  pattern: OLYMPUS
 tests: []
