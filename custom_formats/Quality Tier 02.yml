@@ -99,8 +99,13 @@ conditions:
   required: false
   type: release_group
 - name: LeagueWEB
+  negate: false
+  pattern: LeagueWEB
+  required: false
+  type: release_group
+- name: IHATEPEACHES
   type: release_group
   required: false
   negate: false
-  pattern: LeagueWEB
+  pattern: IHATEPEACHES
 tests: []
