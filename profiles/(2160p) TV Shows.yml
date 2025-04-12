@@ -3,8 +3,15 @@ description: '**This profile should be used only with Sonarr and will ensure you
   a decent media file up to 2160 in resolution.**
 
 
-  WEB-DL/Rip source is preferred, but will fallback to Bluray if no WEB-DL/Rip is
-  available, except for 2160p media because the Bluray versions tend to be massive.'
+  - WEB-DL/Rip source is preferred, but will fallback to Bluray if no WEB-DL/Rip is
+  available.
+
+  - 2160p Bluray media is ignored due to file sizes.
+
+  - his profile also acts like the Streaming Optimized profiles and ignores things
+  like TrueHD and files with Dolby Vision and no HDR Fallback.
+
+  - 2160p media without HDR will be ignored.'
 tags:
 - 1080p
 - Sonarr
@@ -104,6 +111,8 @@ custom_formats:
 - name: Extras
   score: -10000
 - name: Generated Dynamic HDR
+  score: -10000
+- name: No HDR (2160p)
   score: -10000
 - name: Sing Along Versions
   score: -10000
