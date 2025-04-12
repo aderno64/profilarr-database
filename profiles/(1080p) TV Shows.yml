@@ -7,7 +7,7 @@ description: 'This profile should be used only with Sonarr and will ensure you g
   available.'
 tags:
 - 1080p
-- Radarr
+- Sonarr
 upgradesAllowed: true
 minCustomFormatScore: 10
 upgradeUntilScore: 10000
