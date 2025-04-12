@@ -3,6 +3,7 @@ description: ''
 tags:
 - Video
 - Dolby Vision
+- HDR
 conditions:
 - name: DV
   negate: false
