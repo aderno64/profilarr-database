@@ -13,11 +13,6 @@ conditions:
   pattern: MainFrame
   required: false
   type: release_group
-- name: DON
-  negate: false
-  pattern: DON
-  required: false
-  type: release_group
 - name: W4NK3R
   negate: false
   pattern: W4NK3R
@@ -58,19 +53,9 @@ conditions:
   pattern: CRUD
   required: false
   type: release_group
-- name: FLUX
-  negate: false
-  pattern: FLUX
-  required: false
-  type: release_group
 - name: GNOME
   negate: false
   pattern: GNOME
-  required: false
-  type: release_group
-- name: HONE
-  negate: false
-  pattern: HONE
   required: false
   type: release_group
 - name: KINGS
@@ -86,11 +71,6 @@ conditions:
 - name: NOSIVID
   negate: false
   pattern: NOSIVID
-  required: false
-  type: release_group
-- name: NTb
-  negate: false
-  pattern: NTb
   required: false
   type: release_group
 - name: NTG
