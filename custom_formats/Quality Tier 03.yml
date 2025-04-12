@@ -3,129 +3,124 @@ description: ''
 tags:
 - Group Tiers
 conditions:
-- name: BYNDR
+- name: HQMUX
   negate: false
-  pattern: BYNDR
+  pattern: HQMUX
   required: false
   type: release_group
-- name: GNOMISSION
+- name: dB
   negate: false
-  pattern: GNOMISSION
+  pattern: dB
   required: false
   type: release_group
-- name: NINJACENTRAL
+- name: MIUI
   negate: false
-  pattern: NINJACENTRAL
+  pattern: MIUI
   required: false
   type: release_group
-- name: NPMS
+- name: monkee
   negate: false
-  pattern: NPMS
+  pattern: monkee
   required: false
   type: release_group
-- name: ROCCaT
+- name: MZABI
   negate: false
-  pattern: ROCCaT
+  pattern: MZABI
   required: false
   type: release_group
-- name: SIGMA
+- name: PHOENIX
   negate: false
-  pattern: SIGMA
+  pattern: PHOENIX
   required: false
   type: release_group
-- name: SLiGNOME
+- name: playWEB
   negate: false
-  pattern: SLiGNOME
+  pattern: playWEB
   required: false
   type: release_group
-- name: SwAgLaNdEr
+- name: SbR
   negate: false
-  pattern: SwAgLaNdEr
+  pattern: SbR
   required: false
   type: release_group
-- name: TrollHD
+- name: SMURF
   negate: false
-  pattern: TrollHD
+  pattern: SMURF
   required: false
   type: release_group
-- name: ATELiER
+- name: TOMMY
   negate: false
-  pattern: ATELiER
+  pattern: TOMMY
   required: false
   type: release_group
-- name: decibeL
+- name: XEBEC
   negate: false
-  pattern: decibeL
+  pattern: XEBEC
   required: false
   type: release_group
-- name: EPSiLON
+- name: Flights
   negate: false
-  pattern: EPSiLON
+  pattern: Flights
   required: false
   type: release_group
-- name: HiFi
+- name: NCmt
   negate: false
-  pattern: HiFi
+  pattern: NCmt
   required: false
   type: release_group
-- name: iFT
+- name: playBD
   negate: false
-  pattern: iFT
+  pattern: playBD
   required: false
   type: release_group
-- name: KRaLiMaRKo
+- name: SiCFoI
   negate: false
-  pattern: KRaLiMaRKo
+  pattern: SiCFoI
   required: false
   type: release_group
-- name: PTP
+- name: SURFINBIRD
   negate: false
-  pattern: PTP
+  pattern: SURFINBIRD
   required: false
   type: release_group
-- name: SumVision
+- name: OLYMPUS
   negate: false
-  pattern: SumVision
+  pattern: OLYMPUS
   required: false
   type: release_group
-- name: TOA
+- name: DUSKLiGHT
   negate: false
-  pattern: TOA
+  pattern: DUSKLiGHT
   required: false
   type: release_group
-- name: TRiToN
+- name: TSCC
   negate: false
-  pattern: TRiToN
+  pattern: TSCC
   required: false
   type: release_group
-- name: BHDStudio
+- name: LeagueWEB
   negate: false
-  pattern: BHDStudio
+  pattern: LeagueWEB
   required: false
   type: release_group
-- name: hallowed
+- name: IHATEPEACHES
   negate: false
-  pattern: hallowed
+  pattern: IHATEPEACHES
   required: false
   type: release_group
-- name: PTer
+- name: ZeroTwo
   negate: false
-  pattern: PTer
+  pattern: ZeroTwo
   required: false
   type: release_group
-- name: SPHD
+- name: NOMA
   negate: false
-  pattern: SPHD
+  pattern: NOMA
   required: false
   type: release_group
-- name: WEBDV
+- name: ViSUM
   negate: false
-  pattern: WEBDV
+  pattern: ViSUM
   required: false
   type: release_group
-- name: WADU
-  type: release_group
-  required: false
-  negate: false
-  pattern: WADU
 tests: []
