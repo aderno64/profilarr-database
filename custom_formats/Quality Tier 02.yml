@@ -94,8 +94,13 @@ conditions:
   required: false
   type: release_group
 - name: OLYMPUS
+  negate: false
+  pattern: OLYMPUS
+  required: false
+  type: release_group
+- name: DUSKLiGHT
   type: release_group
   required: false
   negate: false
-  pattern: OLYMPUS
+  pattern: DUSKLiGHT
 tests: []
