@@ -3,9 +3,9 @@ description: Preferred, top-tier groups.
 tags:
 - Group Tiers
 conditions:
-- name: NTb
+- name: BHDStudio
   negate: false
-  pattern: NTb
+  pattern: BHDStudio
   required: false
   type: release_group
 - name: FLUX
@@ -13,19 +13,19 @@ conditions:
   pattern: FLUX
   required: false
   type: release_group
+- name: hallowed
+  negate: false
+  pattern: hallowed
+  required: false
+  type: release_group
 - name: HONE
   negate: false
   pattern: HONE
   required: false
   type: release_group
-- name: BHDStudio
-  type: release_group
-  required: false
+- name: NTb
   negate: false
-  pattern: BHDStudio
-- name: hallowed
-  type: release_group
+  pattern: NTb
   required: false
-  negate: false
-  pattern: hallowed
+  type: release_group
 tests: []
