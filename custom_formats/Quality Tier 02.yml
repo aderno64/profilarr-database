@@ -3,24 +3,9 @@ description: ''
 tags:
 - Group Tiers
 conditions:
-- name: WEB-DL
+- name: HQMUX
   negate: false
-  required: false
-  source: web_dl
-  type: source
-- name: WEBRip
-  negate: false
-  required: false
-  source: webrip
-  type: source
-- name: DVD
-  negate: false
-  required: false
-  source: dvd
-  type: source
-- name: CtrlHD
-  negate: false
-  pattern: CtrlHD
+  pattern: HQMUX
   required: false
   type: release_group
 - name: dB
@@ -78,4 +63,34 @@ conditions:
   pattern: XEBEC
   required: false
   type: release_group
+- name: Flights
+  negate: false
+  pattern: Flights
+  required: false
+  type: release_group
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
+- name: playBD
+  negate: false
+  pattern: playBD
+  required: false
+  type: release_group
+- name: SiCFoI
+  negate: false
+  pattern: SiCFoI
+  required: false
+  type: release_group
+- name: SURFINBIRD
+  negate: false
+  pattern: SURFINBIRD
+  required: false
+  type: release_group
+- name: TEPES
+  negate: false
+  pattern: TEPES
+  required: false
+  type: release_group  
 tests: []

@@ -3,21 +3,26 @@ description: ''
 tags:
 - Group Tiers
 conditions:
-- name: WEB-DL
+- name: CtrlHD
   negate: false
+  pattern: CtrlHD
   required: false
-  source: web_dl
-  type: source
-- name: WEBRip
+  type: release_group
+- name: MainFrame
   negate: false
+  pattern: MainFrame
   required: false
-  source: webrip
-  type: source
-- name: DVD
+  type: release_group
+- name: DON
   negate: false
+  pattern: DON
   required: false
-  source: dvd
-  type: source
+  type: release_group
+- name: W4NK3R
+  negate: false
+  pattern: W4NK3R
+  required: false
+  type: release_group
 - name: ABBIE
   negate: false
   pattern: ABBIE
@@ -103,4 +108,49 @@ conditions:
   pattern: TEPES
   required: false
   type: release_group
+- name: 3L
+  negate: false
+  pattern: 3L
+  required: false
+  type: release_group
+- name: BiZKiT
+  negate: false
+  pattern: BiZKiT
+  required: false
+  type: release_group
+- name: BLURANiUM
+  negate: false
+  pattern: BLURANiUM
+  required: false
+  type: release_group
+- name: BMF
+  negate: false
+  pattern: BMF
+  required: false
+  type: release_group
+- name: CiNEPHiLES
+  negate: false
+  pattern: CiNEPHiLES
+  required: false
+  type: release_group
+- name: FraMeSToR
+  negate: false
+  pattern: FraMeSToR
+  required: false
+  type: release_group
+- name: PMP
+  negate: false
+  pattern: PMP
+  required: false
+  type: release_group
+- name: WiLDCAT
+  negate: false
+  pattern: WiLDCAT
+  required: false
+  type: release_group
+- name: ZQ
+  negate: false
+  pattern: ZQ
+  required: false
+  type: release_group  
 tests: []
