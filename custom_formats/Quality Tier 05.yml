@@ -1,0 +1,11 @@
+name: Quality Tier 05
+description: ''
+tags:
+- Group Tiers
+conditions:
+- name: SiGLA
+  negate: false
+  pattern: SiGLA
+  required: false
+  type: release_group
+tests: []
