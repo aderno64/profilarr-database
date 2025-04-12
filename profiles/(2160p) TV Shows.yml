@@ -138,8 +138,6 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 10
-  name: Bluray-1080p
 - id: -2
   name: WEB-720p
   description: ''
@@ -148,8 +146,6 @@ qualities:
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-- id: 13
-  name: Bluray-720p
 - id: -3
   name: WEB-480p
   description: ''
@@ -158,8 +154,6 @@ qualities:
     name: WEBDL-480p
   - id: 20
     name: WEBRip-480p
-- id: 18
-  name: Bluray-480p
 - id: 22
   name: DVD
 - id: 24

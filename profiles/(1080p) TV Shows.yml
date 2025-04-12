@@ -3,9 +3,6 @@ description: '**This profile should be used only with Sonarr and will ensure you
   a decent media file up to 1080p in resolution.**
 
 
-  - WEB-DL/Rip source is preferred, but will fallback to Bluray if no WEB-DL/Rip is
-  available.
-
   - Special Editions are by default, not preferred but you can increase this score
   by 5 or 10 to prefer those.'
 tags:
@@ -121,8 +118,6 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 10
-  name: Bluray-1080p
 - id: -2
   name: WEB-720p
   description: ''
@@ -131,8 +126,6 @@ qualities:
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-- id: 13
-  name: Bluray-720p
 - id: -3
   name: WEB-480p
   description: ''
@@ -141,8 +134,6 @@ qualities:
     name: WEBDL-480p
   - id: 20
     name: WEBRip-480p
-- id: 18
-  name: Bluray-480p
 - id: 22
   name: DVD
 - id: 24
