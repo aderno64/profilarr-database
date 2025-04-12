@@ -1,16 +1,11 @@
 name: TV Tier 03
-description:
+description: ''
 tags:
 - Group Tiers
 conditions:
 - name: BYNDR
   negate: false
   pattern: BYNDR
-  required: false
-  type: release_group
-- name: DRACULA
-  negate: false
-  pattern: DRACULA
   required: false
   type: release_group
 - name: NINJACENTRAL
@@ -26,16 +21,6 @@ conditions:
 - name: SwAgLaNdEr
   negate: false
   pattern: SwAgLaNdEr
-  required: false
-  type: release_group
-- name: T4H
-  negate: false
-  pattern: T4H
-  required: false
-  type: release_group
-- name: ViSiON
-  negate: false
-  pattern: ViSiON
   required: false
   type: release_group
 tests: []

@@ -1,11 +1,11 @@
 name: TV Tier 01
-description:
+description: ''
 tags:
 - Group Tiers
 conditions:
-- name: ABBiE
+- name: ABBIE
   negate: false
-  pattern: ABBiE
+  pattern: ABBIE
   required: false
   type: release_group
 - name: AJP69
@@ -16,11 +16,6 @@ conditions:
 - name: APEX
   negate: false
   pattern: APEX
-  required: false
-  type: release_group
-- name: CasStudio
-  negate: false
-  pattern: CasStudio
   required: false
   type: release_group
 - name: CRFW
@@ -86,11 +81,6 @@ conditions:
 - name: SiC
   negate: false
   pattern: SiC
-  required: false
-  type: release_group
-- name: T6D
-  negate: false
-  pattern: T6D
   required: false
   type: release_group
 - name: TOMMY
