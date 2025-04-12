@@ -113,11 +113,6 @@ conditions:
   pattern: hallowed
   required: false
   type: release_group
-- name: HONE
-  negate: false
-  pattern: HONE
-  required: false
-  type: release_group
 - name: PTer
   negate: false
   pattern: PTer
@@ -144,8 +139,8 @@ conditions:
   required: false
   type: release_group
 - name: RTN
-  type: release_group
-  required: false
   negate: false
   pattern: RTN
+  required: false
+  type: release_group
 tests: []
