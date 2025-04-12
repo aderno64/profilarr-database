@@ -1,0 +1,10 @@
+name: Golden Popcorn
+description: ''
+tags: []
+conditions:
+- name: Golden Popcorn
+  type: indexer_flag
+  required: true
+  negate: false
+  flag: ptp_golden
+tests: []
