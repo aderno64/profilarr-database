@@ -53,4 +53,9 @@ conditions:
   pattern: SwAgLaNdEr
   required: false
   type: release_group
+- name: TrollHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: TrollHD
 tests: []
