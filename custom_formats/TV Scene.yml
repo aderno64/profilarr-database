@@ -1,0 +1,16 @@
+name: TV Scene
+description:
+tags:
+- Group Tiers
+conditions:
+- name: DEFLATE
+  negate: false
+  pattern: DEFLATE
+  required: false
+  type: release_group
+- name: INFLATE
+  negate: false
+  pattern: INFLATE
+  required: false
+  type: release_group
+tests: []
