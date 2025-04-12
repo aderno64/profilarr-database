@@ -29,10 +29,6 @@ custom_formats:
   score: 125
 - name: DD
   score: 115
-- name: BHDStudio
-  score: 100
-- name: hallowed
-  score: 60
 - name: Golden Popcorn
   score: 50
 - name: MA
