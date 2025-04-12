@@ -1,4 +1,4 @@
-name: WEB Tier 03
+name: TV Tier 03
 description: ''
 tags:
 - Group Tiers
@@ -59,8 +59,8 @@ conditions:
   required: false
   type: release_group
 - name: CtrlHD
-  type: release_group
-  required: false
   negate: false
   pattern: CtrlHD
+  required: false
+  type: release_group
 tests: []
