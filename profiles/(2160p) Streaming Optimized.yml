@@ -16,7 +16,7 @@ upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
 - name: Quality Tier 01
-  score: 175
+  score: 180
 - name: Quality Tier 02
   score: 170
 - name: Quality Tier 03
