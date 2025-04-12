@@ -63,6 +63,8 @@ custom_formats:
   score: 30
 - name: HMAX
   score: 30
+- name: 2160p
+  score: 15
 - name: iT
   score: 15
 - name: NF
@@ -73,6 +75,8 @@ custom_formats:
   score: 15
 - name: STAN
   score: 15
+- name: 1080p
+  score: 10
 - name: CR
   score: 10
 - name: CRAV
@@ -87,6 +91,8 @@ custom_formats:
   score: 7
 - name: Repack2
   score: 6
+- name: 720p
+  score: 5
 - name: Repack Proper
   score: 5
 - name: 10bit

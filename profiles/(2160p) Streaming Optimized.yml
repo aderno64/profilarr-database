@@ -59,8 +59,12 @@ custom_formats:
   score: 20
 - name: DSNP
   score: 20
+- name: 2160p
+  score: 15
 - name: iT
   score: 15
+- name: 1080p
+  score: 10
 - name: AMZN
   score: 10
 - name: CR
@@ -85,6 +89,8 @@ custom_formats:
   score: 7
 - name: Repack2
   score: 6
+- name: 720p
+  score: 5
 - name: Golden Popcorn
   score: 5
 - name: Repack Proper
