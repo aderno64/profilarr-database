@@ -25,8 +25,6 @@ custom_formats:
   score: 160
 - name: Quality Tier 04
   score: 160
-- name: Quality Tier 05
-  score: 155
 - name: DV
   score: 150
 - name: DV HDR10

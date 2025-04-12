@@ -35,8 +35,6 @@ custom_formats:
   score: 160
 - name: WEB Scene
   score: 160
-- name: Quality Tier 05
-  score: 155
 - name: DV HDR10
   score: 150
 - name: DD+ ATMOS
