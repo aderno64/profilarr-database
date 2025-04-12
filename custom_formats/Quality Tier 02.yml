@@ -109,8 +109,13 @@ conditions:
   required: false
   type: release_group
 - name: ZeroTwo
+  negate: false
+  pattern: ZeroTwo
+  required: false
+  type: release_group
+- name: NOMA
   type: release_group
   required: false
   negate: false
-  pattern: ZeroTwo
+  pattern: NOMA
 tests: []
