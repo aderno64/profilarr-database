@@ -164,8 +164,13 @@ conditions:
   required: false
   type: release_group
 - name: STORiES
+  negate: false
+  pattern: STORiES
+  required: false
+  type: release_group
+- name: GLUE
   type: release_group
   required: false
   negate: false
-  pattern: STORiES
+  pattern: GLUE
 tests: []
