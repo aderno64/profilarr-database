@@ -4,6 +4,7 @@ tags:
 - Video
 - Dolby Vision
 - HLG
+- HDR
 conditions:
 - name: DV HLG
   negate: false
