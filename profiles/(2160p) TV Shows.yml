@@ -31,6 +31,8 @@ custom_formats:
   score: 1600
 - name: WEB Scene
   score: 1600
+- name: Quality Tier 04
+  score: 1550
 - name: DV HDR10
   score: 1500
 - name: DV HDR10+
