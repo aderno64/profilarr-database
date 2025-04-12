@@ -123,19 +123,9 @@ conditions:
   pattern: WEBDV
   required: false
   type: release_group
-- name: QOQ
-  negate: false
-  pattern: QOQ
-  required: false
-  type: release_group
 - name: ZeroTwo
   negate: false
   pattern: ZeroTwo
-  required: false
-  type: release_group
-- name: RTN
-  negate: false
-  pattern: RTN
   required: false
   type: release_group
 tests: []

@@ -153,4 +153,14 @@ conditions:
   pattern: QOQ
   required: false
   type: release_group
+- name: QOQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: QOQ
+- name: RTN
+  type: release_group
+  required: false
+  negate: false
+  pattern: RTN
 tests: []
