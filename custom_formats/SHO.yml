@@ -1,14 +1,19 @@
-name: STAN
+name: SHO
 description: ''
 tags:
 - Streaming Service
 conditions:
-- name: STAN
+- name: SHO
   negate: false
-  pattern: Stan
-  required: true
+  pattern: SHOWTIME
+  required: false
   type: release_title
-- name: WEB-DL
+- name: SHO Rename
+  negate: false
+  pattern: SHO Rename
+  required: false
+  type: release_title
+- name: WEBDL
   negate: false
   required: false
   source: web_dl

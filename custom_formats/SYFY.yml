@@ -1,13 +1,8 @@
-name: STAN
+name: SYFY
 description: ''
 tags:
 - Streaming Service
 conditions:
-- name: STAN
-  negate: false
-  pattern: Stan
-  required: true
-  type: release_title
 - name: WEB-DL
   negate: false
   required: false
@@ -18,4 +13,9 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: SYFY
+  negate: false
+  pattern: SYFY
+  required: true
+  type: release_title
 tests: []
