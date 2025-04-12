@@ -134,8 +134,13 @@ conditions:
   required: false
   type: release_group
 - name: QOQ
+  negate: false
+  pattern: QOQ
+  required: false
+  type: release_group
+- name: ZeroTwo
   type: release_group
   required: false
   negate: false
-  pattern: QOQ
+  pattern: ZeroTwo
 tests: []
