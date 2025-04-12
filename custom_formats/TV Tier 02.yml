@@ -13,6 +13,16 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
+- name: CtrlHD
+  negate: false
+  pattern: CtrlHD
+  required: false
+  type: release_group
 - name: dB
   negate: false
   pattern: dB
