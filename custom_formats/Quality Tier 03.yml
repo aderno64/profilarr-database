@@ -123,9 +123,4 @@ conditions:
   pattern: WEBDV
   required: false
   type: release_group
-- name: ZeroTwo
-  negate: false
-  pattern: ZeroTwo
-  required: false
-  type: release_group
 tests: []
