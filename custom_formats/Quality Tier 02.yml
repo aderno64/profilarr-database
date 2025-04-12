@@ -158,4 +158,9 @@ conditions:
   pattern: THX
   required: false
   type: release_group
+- name: HHWEB
+  type: release_group
+  required: false
+  negate: false
+  pattern: HHWEB
 tests: []
