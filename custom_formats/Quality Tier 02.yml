@@ -93,4 +93,9 @@ conditions:
   pattern: DUSKLiGHT
   required: false
   type: release_group
+- name: TSCC
+  type: release_group
+  required: false
+  negate: false
+  pattern: TSCC
 tests: []
