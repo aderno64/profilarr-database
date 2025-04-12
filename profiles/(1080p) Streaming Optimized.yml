@@ -23,8 +23,6 @@ custom_formats:
   score: 165
 - name: Quality Tier 04
   score: 160
-- name: Quality Tier 05
-  score: 155
 - name: DD+ ATMOS
   score: 135
 - name: DD+
