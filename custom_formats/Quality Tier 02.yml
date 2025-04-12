@@ -1,5 +1,5 @@
 name: Quality Tier 02
-description: ''
+description: High quality release groups, just not preferred.
 tags:
 - Group Tiers
 conditions:
@@ -159,8 +159,8 @@ conditions:
   required: false
   type: release_group
 - name: HHWEB
-  type: release_group
-  required: false
   negate: false
   pattern: HHWEB
+  required: false
+  type: release_group
 tests: []

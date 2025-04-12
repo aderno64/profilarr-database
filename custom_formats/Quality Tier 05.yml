@@ -1,5 +1,10 @@
 name: Quality Tier 05
-description: ''
+description: 'Generally low-quality groups, source not in the file name, stereo audio
+  when surround is available, lower than desired bitrates, etc.
+
+
+  Not included would be groups like MeGusta, where file size trumps quality in every
+  way.'
 tags:
 - Group Tiers
 conditions:
