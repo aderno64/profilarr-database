@@ -154,13 +154,18 @@ conditions:
   required: false
   type: release_group
 - name: QOQ
-  type: release_group
-  required: false
   negate: false
   pattern: QOQ
+  required: false
+  type: release_group
 - name: RTN
+  negate: false
+  pattern: RTN
+  required: false
+  type: release_group
+- name: STORiES
   type: release_group
   required: false
   negate: false
-  pattern: RTN
+  pattern: STORiES
 tests: []
