@@ -104,8 +104,13 @@ conditions:
   required: false
   type: release_group
 - name: IHATEPEACHES
+  negate: false
+  pattern: IHATEPEACHES
+  required: false
+  type: release_group
+- name: ZeroTwo
   type: release_group
   required: false
   negate: false
-  pattern: IHATEPEACHES
+  pattern: ZeroTwo
 tests: []
