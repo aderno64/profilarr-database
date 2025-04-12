@@ -140,7 +140,7 @@ conditions:
   type: release_group
 - name: PMP
   negate: false
-  pattern: PMP
+  pattern: PmP
   required: false
   type: release_group
 - name: WiLDCAT
@@ -150,7 +150,7 @@ conditions:
   type: release_group
 - name: ZQ
   negate: false
-  pattern: QOQ
+  pattern: ZQ
   required: false
   type: release_group
 - name: QOQ
@@ -169,8 +169,13 @@ conditions:
   required: false
   type: release_group
 - name: GLUE
+  negate: false
+  pattern: GLUE
+  required: false
+  type: release_group
+- name: THX
   type: release_group
   required: false
   negate: false
-  pattern: GLUE
+  pattern: THX
 tests: []

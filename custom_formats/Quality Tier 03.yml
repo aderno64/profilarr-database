@@ -123,4 +123,9 @@ conditions:
   pattern: WEBDV
   required: false
   type: release_group
+- name: WADU
+  type: release_group
+  required: false
+  negate: false
+  pattern: WADU
 tests: []
