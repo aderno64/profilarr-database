@@ -113,14 +113,4 @@ conditions:
   pattern: WEBDV
   required: false
   type: release_group
-- name: WADU
-  negate: false
-  pattern: WADU
-  required: false
-  type: release_group
-- name: ZEFY
-  negate: false
-  pattern: ZEFY
-  required: false
-  type: release_group
 tests: []
