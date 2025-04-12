@@ -62,8 +62,6 @@ custom_formats:
   score: 125
 - name: DD
   score: 115
-- name: 1080p
-  score: 50
 - name: Golden Popcorn
   score: 50
 - name: MA
@@ -100,8 +98,6 @@ custom_formats:
   score: 7
 - name: Repack2
   score: 6
-- name: 720p
-  score: 5
 - name: Repack Proper
   score: 5
 - name: 10bit
