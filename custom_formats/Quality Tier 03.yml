@@ -139,8 +139,13 @@ conditions:
   required: false
   type: release_group
 - name: ZeroTwo
+  negate: false
+  pattern: ZeroTwo
+  required: false
+  type: release_group
+- name: RTN
   type: release_group
   required: false
   negate: false
-  pattern: ZeroTwo
+  pattern: RTN
 tests: []
