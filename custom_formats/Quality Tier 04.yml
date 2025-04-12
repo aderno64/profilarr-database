@@ -3,54 +3,14 @@ description: ''
 tags:
 - Group Tiers
 conditions:
-- name: BYNDR
-  negate: false
-  pattern: BYNDR
-  required: false
-  type: release_group
-- name: GNOMISSION
-  negate: false
-  pattern: GNOMISSION
-  required: false
-  type: release_group
-- name: NINJACENTRAL
-  negate: false
-  pattern: NINJACENTRAL
-  required: false
-  type: release_group
-- name: NPMS
-  negate: false
-  pattern: NPMS
-  required: false
-  type: release_group
-- name: ROCCaT
-  negate: false
-  pattern: ROCCaT
-  required: false
-  type: release_group
-- name: SIGMA
-  negate: false
-  pattern: SIGMA
-  required: false
-  type: release_group
-- name: SLiGNOME
-  negate: false
-  pattern: SLiGNOME
-  required: false
-  type: release_group
-- name: SwAgLaNdEr
-  negate: false
-  pattern: SwAgLaNdEr
-  required: false
-  type: release_group
-- name: TrollHD
-  negate: false
-  pattern: TrollHD
-  required: false
-  type: release_group
 - name: ATELiER
   negate: false
   pattern: ATELiER
+  required: false
+  type: release_group
+- name: BYNDR
+  negate: false
+  pattern: BYNDR
   required: false
   type: release_group
 - name: decibeL
@@ -61,6 +21,11 @@ conditions:
 - name: EPSiLON
   negate: false
   pattern: EPSiLON
+  required: false
+  type: release_group
+- name: GNOMISSION
+  negate: false
+  pattern: GNOMISSION
   required: false
   type: release_group
 - name: HiFi
@@ -78,14 +43,54 @@ conditions:
   pattern: KRaLiMaRKo
   required: false
   type: release_group
+- name: NINJACENTRAL
+  negate: false
+  pattern: NINJACENTRAL
+  required: false
+  type: release_group
+- name: NPMS
+  negate: false
+  pattern: NPMS
+  required: false
+  type: release_group
+- name: PTer
+  negate: false
+  pattern: PTer
+  required: false
+  type: release_group
 - name: PTP
   negate: false
   pattern: PTP
   required: false
   type: release_group
+- name: ROCCaT
+  negate: false
+  pattern: ROCCaT
+  required: false
+  type: release_group
+- name: SIGMA
+  negate: false
+  pattern: SIGMA
+  required: false
+  type: release_group
+- name: SLiGNOME
+  negate: false
+  pattern: SLiGNOME
+  required: false
+  type: release_group
+- name: SPHD
+  negate: false
+  pattern: SPHD
+  required: false
+  type: release_group
 - name: SumVision
   negate: false
   pattern: SumVision
+  required: false
+  type: release_group
+- name: SwAgLaNdEr
+  negate: false
+  pattern: SwAgLaNdEr
   required: false
   type: release_group
 - name: TOA
@@ -98,14 +103,9 @@ conditions:
   pattern: TRiToN
   required: false
   type: release_group
-- name: PTer
+- name: TrollHD
   negate: false
-  pattern: PTer
-  required: false
-  type: release_group
-- name: SPHD
-  negate: false
-  pattern: SPHD
+  pattern: TrollHD
   required: false
   type: release_group
 - name: WEBDV

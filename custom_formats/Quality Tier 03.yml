@@ -3,14 +3,19 @@ description: ''
 tags:
 - Group Tiers
 conditions:
-- name: HQMUX
-  negate: false
-  pattern: HQMUX
-  required: false
-  type: release_group
 - name: dB
   negate: false
   pattern: dB
+  required: false
+  type: release_group
+- name: Flights
+  negate: false
+  pattern: Flights
+  required: false
+  type: release_group
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
   required: false
   type: release_group
 - name: MIUI
@@ -28,9 +33,19 @@ conditions:
   pattern: MZABI
   required: false
   type: release_group
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
 - name: PHOENIX
   negate: false
   pattern: PHOENIX
+  required: false
+  type: release_group
+- name: playBD
+  negate: false
+  pattern: playBD
   required: false
   type: release_group
 - name: playWEB
@@ -43,9 +58,19 @@ conditions:
   pattern: SbR
   required: false
   type: release_group
+- name: SiCFoI
+  negate: false
+  pattern: SiCFoI
+  required: false
+  type: release_group
 - name: SMURF
   negate: false
   pattern: SMURF
+  required: false
+  type: release_group
+- name: SURFINBIRD
+  negate: false
+  pattern: SURFINBIRD
   required: false
   type: release_group
 - name: TOMMY
@@ -56,31 +81,6 @@ conditions:
 - name: XEBEC
   negate: false
   pattern: XEBEC
-  required: false
-  type: release_group
-- name: Flights
-  negate: false
-  pattern: Flights
-  required: false
-  type: release_group
-- name: NCmt
-  negate: false
-  pattern: NCmt
-  required: false
-  type: release_group
-- name: playBD
-  negate: false
-  pattern: playBD
-  required: false
-  type: release_group
-- name: SiCFoI
-  negate: false
-  pattern: SiCFoI
-  required: false
-  type: release_group
-- name: SURFINBIRD
-  negate: false
-  pattern: SURFINBIRD
   required: false
   type: release_group
 tests: []
