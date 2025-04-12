@@ -138,34 +138,4 @@ conditions:
   pattern: ZQ
   required: false
   type: release_group
-- name: QOQ
-  negate: false
-  pattern: QOQ
-  required: false
-  type: release_group
-- name: RTN
-  negate: false
-  pattern: RTN
-  required: false
-  type: release_group
-- name: STORiES
-  negate: false
-  pattern: STORiES
-  required: false
-  type: release_group
-- name: GLUE
-  negate: false
-  pattern: GLUE
-  required: false
-  type: release_group
-- name: THX
-  negate: false
-  pattern: THX
-  required: false
-  type: release_group
-- name: HHWEB
-  negate: false
-  pattern: HHWEB
-  required: false
-  type: release_group
 tests: []

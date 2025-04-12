@@ -83,44 +83,4 @@ conditions:
   pattern: SURFINBIRD
   required: false
   type: release_group
-- name: OLYMPUS
-  negate: false
-  pattern: OLYMPUS
-  required: false
-  type: release_group
-- name: DUSKLiGHT
-  negate: false
-  pattern: DUSKLiGHT
-  required: false
-  type: release_group
-- name: TSCC
-  negate: false
-  pattern: TSCC
-  required: false
-  type: release_group
-- name: LeagueWEB
-  negate: false
-  pattern: LeagueWEB
-  required: false
-  type: release_group
-- name: IHATEPEACHES
-  negate: false
-  pattern: IHATEPEACHES
-  required: false
-  type: release_group
-- name: ZeroTwo
-  negate: false
-  pattern: ZeroTwo
-  required: false
-  type: release_group
-- name: NOMA
-  negate: false
-  pattern: NOMA
-  required: false
-  type: release_group
-- name: ViSUM
-  negate: false
-  pattern: ViSUM
-  required: false
-  type: release_group
 tests: []
