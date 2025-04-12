@@ -1,7 +1,3 @@
-# TRaSH Guides Profilarr Database
+# bedynamic Profilarr Database
 
-This repository hosts a TRaSH Guides database containing:
-
-- Regex Patterns
-- Custom Formats
-- Quality Profiles
+Originally, I planned on replicating the TRaSH Guides set up for Profilarr, but over the years, I have found that TRaSH can really affect automation. I base these profiles off of my own setups and all you need to do is decide on the desired final resolution.
