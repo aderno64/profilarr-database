@@ -138,4 +138,9 @@ conditions:
   pattern: ZQ
   required: false
   type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
+  required: false
+  type: release_group
 tests: []
