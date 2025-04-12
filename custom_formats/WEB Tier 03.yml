@@ -54,8 +54,13 @@ conditions:
   required: false
   type: release_group
 - name: TrollHD
+  negate: false
+  pattern: TrollHD
+  required: false
+  type: release_group
+- name: CtrlHD
   type: release_group
   required: false
   negate: false
-  pattern: TrollHD
+  pattern: CtrlHD
 tests: []
