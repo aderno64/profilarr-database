@@ -13,11 +13,6 @@ conditions:
   pattern: dB
   required: false
   type: release_group
-- name: Flights
-  negate: false
-  pattern: Flights
-  required: false
-  type: release_group
 - name: MIUI
   negate: false
   pattern: MIUI
