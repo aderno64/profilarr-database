@@ -18,4 +18,14 @@ conditions:
   pattern: HONE
   required: false
   type: release_group
+- name: BHDStudio
+  type: release_group
+  required: false
+  negate: false
+  pattern: BHDStudio
+- name: hallowed
+  type: release_group
+  required: false
+  negate: false
+  pattern: hallowed
 tests: []
