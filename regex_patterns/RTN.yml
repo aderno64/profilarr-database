@@ -1,5 +1,5 @@
-name: ZQ
-pattern: ^(ZQ)$
+name: RTN
+pattern: ^(RTN)$
 description: ''
 tags: []
 tests: []
