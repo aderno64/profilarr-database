@@ -1,9 +1,6 @@
 name: DV SDR
-description: ''
-tags:
-- Video
-- Dolby Vision
-- SDR
+description:
+tags: []
 conditions:
 - name: DV SDR
   negate: false
@@ -12,12 +9,12 @@ conditions:
   type: release_title
 - name: Not DV HDR10
   negate: true
-  pattern: DV HDR10
+  pattern: Not DV HDR10
   required: true
   type: release_title
 - name: Not DV HLG
   negate: true
-  pattern: DV HLG
+  pattern: Not DV HLG
   required: true
   type: release_title
 tests: []

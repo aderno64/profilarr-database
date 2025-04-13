@@ -1,5 +1,6 @@
 name: UDF
-pattern: \\b(UDF)\\b
+pattern: \b(UDF)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

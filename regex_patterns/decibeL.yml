@@ -1,5 +1,6 @@
 name: decibeL
-pattern: ^(decibeL)$
+pattern: (?<=^|[\s.-])decibeL\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

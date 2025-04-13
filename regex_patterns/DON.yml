@@ -1,5 +1,6 @@
 name: DON
-pattern: ^(DON)$
+pattern: (?<=^|[\s.-])DON\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

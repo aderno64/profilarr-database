@@ -1,5 +1,6 @@
 name: Arg0
-pattern: \\b(Arg0)\\b
+pattern: \b(Arg0)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

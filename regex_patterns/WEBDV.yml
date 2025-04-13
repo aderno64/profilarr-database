@@ -1,5 +1,6 @@
-name: WEBDV
-pattern: ^(WEBDV)$
+name: 'WEBDV'
+pattern: '^(WEBDV)$'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

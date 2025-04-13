@@ -1,5 +1,5 @@
 name: HLG
-pattern: \bHLG(\b|\d)
+pattern: \b(HLG)\b
 description: ''
 tags: []
 tests: []

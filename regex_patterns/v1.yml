@@ -1,5 +1,6 @@
-name: v1
-pattern: (\\b|\\d)(v1)\\b
+name: 'v1'
+pattern: '(\\b|\\d)(v1)\\b'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

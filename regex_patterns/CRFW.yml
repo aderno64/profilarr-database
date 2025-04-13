@@ -1,5 +1,6 @@
-﻿name: CRFW
-pattern: ^(CRFW)$
+name: CRFW
+pattern: (?<=^|[\s.-])CRFW\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

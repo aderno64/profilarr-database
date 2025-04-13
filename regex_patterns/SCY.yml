@@ -1,5 +1,6 @@
 name: SCY
-pattern: \\b(SCY)\\b
+pattern: \b(SCY)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

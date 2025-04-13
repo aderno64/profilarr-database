@@ -1,5 +1,6 @@
 name: NCmt
-pattern: ^(NCmt)$
+pattern: (?<=^|[\s.-])NCmt\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
 name: HiDt
-pattern: ^(HiDt)$
+pattern: (?<=^|[\s.-])HiDt\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

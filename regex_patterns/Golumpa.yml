@@ -1,5 +1,5 @@
 name: Golumpa
-pattern: \\b(Golumpa)\\b
+pattern: \b(Golumpa)\b
 description: ''
 tags: []
 tests: []

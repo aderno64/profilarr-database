@@ -1,5 +1,0 @@
-name: OVID
-pattern: \b(ovid)\b
-description: ''
-tags: []
-tests: []

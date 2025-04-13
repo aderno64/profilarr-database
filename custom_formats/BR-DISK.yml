@@ -1,7 +1,6 @@
 name: BR-DISK
-description: ''
-tags:
-- Source
+description:
+tags: []
 conditions:
 - name: BR-DISK
   negate: false

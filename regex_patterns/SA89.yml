@@ -1,5 +1,6 @@
 name: SA89
-pattern: ^(SA89)$
+pattern: (?<=^|[\s.-])SA89\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

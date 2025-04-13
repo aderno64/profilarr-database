@@ -1,5 +1,6 @@
 name: Brrrrrrr
-pattern: \\b(Brrrrrrr)\\b
+pattern: \b(Brrrrrrr)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

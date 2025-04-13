@@ -1,5 +1,6 @@
 name: HONE
-pattern: ^(HONE)$
+pattern: (?<=^|[\s.-])HONE\b
 description: ''
-tags: []
-tests: []
+tags:
+- Release Group
+tests: null

@@ -1,5 +1,6 @@
 name: OZR
-pattern: \\b(OZR)\\b
+pattern: \b(OZR)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
 name: RAI
-pattern: \\b(RAI)\\b
+pattern: \b(RAI)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

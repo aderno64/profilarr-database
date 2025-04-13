@@ -1,5 +1,6 @@
 name: SPHD
-pattern: ^(SPHD)$
+pattern: (?<=^|[\s.-])SPHD\b
 description: ''
-tags: []
-tests: []
+tags:
+- Release Group
+tests: null

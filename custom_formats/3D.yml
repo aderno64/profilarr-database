@@ -1,20 +1,22 @@
 name: 3D
-description: ''
-tags: []
+description: Matches the '3D' Regex Pattern
+tags:
+- Enhancement
+- Unwanted
 conditions:
 - name: 3D
-  type: release_title
-  required: false
   negate: false
   pattern: 3D
-- name: BD3D
+  required: true
   type: release_title
+- name: BluRay3D
+  negate: false
+  pattern: BluRay3D
   required: false
+  type: release_title
+- name: BD3D
   negate: false
   pattern: BD3D
-- name: BluRay3D
-  type: release_title
   required: false
-  negate: false
-  pattern: BluRay 3D
+  type: release_title
 tests: []

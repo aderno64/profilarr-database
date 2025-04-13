@@ -1,7 +1,6 @@
 name: x264
-description: ''
+description: Matches 'x264' regex pattern.
 tags:
-- Video
 - Codec
 conditions:
 - name: x264
@@ -9,9 +8,9 @@ conditions:
   pattern: x264
   required: true
   type: release_title
-- name: Remux
+- name: Not WEB-DL
+  type: source
+  required: false
   negate: true
-  qualityModifier: remux
-  required: true
-  type: quality_modifier
+  source: web_dl
 tests: []

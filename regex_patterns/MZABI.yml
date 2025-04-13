@@ -1,5 +1,6 @@
-﻿name: MZABI
-pattern: ^(MZABI)$
+name: MZABI
+pattern: (?<=^|[\s.-])MZABI\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
-﻿name: SumVision
-pattern: ^(SumVision)$
+name: SumVision
+pattern: (?<=^|[\s.-])SumVision\b
 description: ''
-tags: []
-tests: []
+tags:
+- Release Group
+tests: null

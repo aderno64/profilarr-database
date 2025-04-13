@@ -1,5 +1,6 @@
 name: BHDStudio
-pattern: ^(BHDStudio)$
+pattern: (?<=^|[\s.-])BHDStudio\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

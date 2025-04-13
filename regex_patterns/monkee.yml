@@ -1,5 +1,6 @@
-﻿name: monkee
+name: 'monkee'
 pattern: ^(monkee)$
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

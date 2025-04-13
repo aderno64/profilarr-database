@@ -1,7 +1,6 @@
 name: 10bit
-description: ''
-tags:
-- Bit Depth
+description:
+tags: []
 conditions:
 - name: 10bit
   negate: false
@@ -10,7 +9,7 @@ conditions:
   type: release_title
 - name: hi10p
   negate: false
-  pattern: hi10p
+  pattern: 10bit
   required: false
   type: release_title
 tests: []

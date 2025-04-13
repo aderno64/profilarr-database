@@ -1,5 +1,6 @@
-name: MTBB
-pattern: \\b(MTBB)\\b
+name: 'MTBB'
+pattern: \b(MTBB)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

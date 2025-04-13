@@ -1,5 +1,6 @@
-name: Dae
-pattern: \\b(Dae)\\b
+name: 'Dae'
+pattern: \[Dae\]|-Dae\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

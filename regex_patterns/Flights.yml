@@ -1,5 +1,6 @@
 name: Flights
-pattern: \b(Flights)\b
+pattern: ^(Flights)$
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

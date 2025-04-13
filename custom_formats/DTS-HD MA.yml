@@ -1,5 +1,6 @@
 name: DTS-HD MA
-description: ''
+description: Matches 'DTS-HD MA' Regex Pattern and negates any other audio types that
+  might conflict.
 tags:
 - Audio
 conditions:
@@ -8,44 +9,44 @@ conditions:
   pattern: DTS-HD MA
   required: true
   type: release_title
-- name: Not TrueHD/ATMOS
+- name: Not PCM
   negate: true
-  pattern: TrueHD ATMOS
-  required: true
-  type: release_title
-- name: Not Dolby Digital Plus
-  negate: true
-  pattern: Dolby Digital Plus
-  required: true
-  type: release_title
-- name: Not Basic Dolby Digital
-  negate: true
-  pattern: Basic Dolby Digital
-  required: true
-  type: release_title
-- name: Not DTS X
-  negate: true
-  pattern: DTS X
-  required: true
-  type: release_title
-- name: Not FLAC
-  negate: true
-  pattern: FLAC
-  required: true
+  pattern: PCM
+  required: false
   type: release_title
 - name: Not AAC
   negate: true
   pattern: AAC
-  required: true
-  type: release_title
-- name: Not PCM
-  negate: true
-  pattern: PCM
-  required: true
+  required: false
   type: release_title
 - name: Not DTS-HD HRA ES
   negate: true
   pattern: DTS-HD HRA ES
-  required: true
+  required: false
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: false
+  type: release_title
+- name: Not Dolby Digital +
+  negate: true
+  pattern: Dolby Digital +
+  required: false
+  type: release_title
+- name: Not TrueHD + Atmos
+  negate: true
+  pattern: TrueHD + Atmos
+  required: false
+  type: release_title
+- name: Not Dolby Digital
+  negate: true
+  pattern: Dolby Digital
+  required: false
+  type: release_title
+- name: Not DTS-X
+  negate: true
+  pattern: DTS-X
+  required: false
   type: release_title
 tests: []

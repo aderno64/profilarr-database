@@ -1,10 +1,6 @@
 name: DV HLG
-description: ''
-tags:
-- Video
-- Dolby Vision
-- HLG
-- HDR
+description:
+tags: []
 conditions:
 - name: DV HLG
   negate: false
@@ -13,12 +9,12 @@ conditions:
   type: release_title
 - name: Not DV HDR10
   negate: true
-  pattern: DV HDR10
+  pattern: Not DV HDR10
   required: true
   type: release_title
 - name: Not DV SDR
   negate: true
-  pattern: DV SDR
+  pattern: Not DV SDR
   required: true
   type: release_title
 tests: []

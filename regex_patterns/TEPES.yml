@@ -1,5 +1,6 @@
-﻿name: TEPES
-pattern: ^(TEPES)$
+name: TEPES
+pattern: (?<=^|[\s.-])TEPES\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

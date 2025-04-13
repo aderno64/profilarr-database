@@ -1,5 +1,6 @@
-name: DepraveD
-pattern: ^(DepraveD)$
+name: 'DepraveD'
+pattern: '^(DepraveD)$'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

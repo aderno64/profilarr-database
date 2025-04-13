@@ -1,5 +1,6 @@
 name: Smoke
-pattern: \\[Smoke\\]|-Smoke\\b
+pattern: \[Smoke\]|-Smoke\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

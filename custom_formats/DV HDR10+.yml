@@ -1,23 +1,20 @@
 name: DV HDR10+
-description: ''
-tags:
-- Video
-- Dolby Vision
-- HDR
+description:
+tags: []
 conditions:
 - name: DV HDR10+
   negate: false
-  pattern: DV HDR10Plus
+  pattern: DV HDR10+
   required: true
   type: release_title
 - name: Not DV HLG
   negate: true
-  pattern: DV HLG
+  pattern: Not DV HLG
   required: true
   type: release_title
 - name: Not DV SDR
   negate: true
-  pattern: DV SDR
+  pattern: Not DV SDR
   required: true
   type: release_title
 tests: []

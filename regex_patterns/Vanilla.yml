@@ -1,5 +1,6 @@
 name: Vanilla
-pattern: \\[Vanilla\\]|-Vanilla\\b
+pattern: \[Vanilla\]|-Vanilla\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

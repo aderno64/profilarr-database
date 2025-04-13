@@ -1,5 +1,6 @@
 name: Geek
-pattern: ^(Geek)$
+pattern: (?<=^|[\s.-])Geek\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

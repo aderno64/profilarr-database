@@ -1,5 +1,6 @@
-﻿name: TRiToN
+name: 'TRiToN'
 pattern: ^(TRiToN)$
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

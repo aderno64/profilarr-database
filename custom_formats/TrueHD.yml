@@ -1,22 +1,12 @@
 name: TrueHD
-description: ''
+description: Matches 'TrueHD' Regex Pattern and negates any other audio types that
+  might conflict.
 tags:
 - Audio
-- TrueHD
 conditions:
 - name: TrueHD
   negate: false
   pattern: TrueHD
-  required: true
-  type: release_title
-- name: ATMOS
-  negate: true
-  pattern: ATMOS
-  required: true
-  type: release_title
-- name: Not Dolby Digital Plus
-  negate: true
-  pattern: Dolby Digital Plus
   required: true
   type: release_title
 - name: Not DTS
@@ -24,19 +14,19 @@ conditions:
   pattern: DTS
   required: true
   type: release_title
+- name: Not Dolby Digital
+  negate: true
+  pattern: Dolby Digital
+  required: true
+  type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
   required: true
   type: release_title
-- name: Not Basic Dolby Digital
+- name: Not Dolby Digital +
   negate: true
-  pattern: Basic Dolby Digital
-  required: true
-  type: release_title
-- name: Not RlsGrp (TrueHD Only)
-  negate: true
-  pattern: RlsGrp (TrueHD only)
+  pattern: Dolby Digital +
   required: true
   type: release_title
 tests: []
