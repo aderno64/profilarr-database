@@ -1,5 +1,6 @@
 name: Alt
-pattern: \\[Alt\\]|-Alt\\b
+pattern: \[Alt\]|-Alt\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

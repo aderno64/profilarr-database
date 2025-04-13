@@ -1,5 +1,6 @@
 name: LolHD
-pattern: ^(LolHD)$
+pattern: (?<=^|[\s.-])LolHD\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

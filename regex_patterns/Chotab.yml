@@ -1,5 +1,6 @@
 name: Chotab
-pattern: ^(Chotab)$
+pattern: (?<=^|[\s.-])Chotab\b
 description: ''
-tags: [Release Group]
+tags:
+- Release Group
 tests: []

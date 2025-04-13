@@ -1,5 +1,6 @@
 name: ZQ
-pattern: ^(ZQ)$
+pattern: (?<=^|[\s.-])ZQ\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
-﻿name: SbR
-pattern: ^(SbR)$
+name: SbR
+pattern: (?<=^|[\s.-])SbR\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

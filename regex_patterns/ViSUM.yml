@@ -1,5 +1,6 @@
-name: ViSUM
+name: 'ViSUM'
 pattern: ^(ViSUM)$
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
 name: CtrlHD
-pattern: ^(CtrlHD)$
+pattern: (?<=^|[\s.-])CtrlHD\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

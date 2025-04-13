@@ -1,5 +1,6 @@
 name: LostYears
-pattern: \\b(LostYears)\\b
+pattern: \b(LostYears)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

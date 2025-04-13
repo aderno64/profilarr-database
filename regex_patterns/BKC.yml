@@ -1,5 +1,6 @@
 name: BKC
-pattern: \\b(BKC)\\b
+pattern: \b(BKC)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

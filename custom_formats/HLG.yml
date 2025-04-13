@@ -1,8 +1,6 @@
 name: HLG
-description: ''
-tags:
-- Video
-- HLG
+description:
+tags: []
 conditions:
 - name: HLG
   negate: false
@@ -11,22 +9,22 @@ conditions:
   type: release_title
 - name: Not DV
   negate: true
-  pattern: DV
+  pattern: Not DV
   required: true
   type: release_title
 - name: Not HDR10+
   negate: true
-  pattern: HDR10+
+  pattern: Not HDR10+
   required: true
   type: release_title
 - name: Not HDR10
   negate: true
-  pattern: HDR10
+  pattern: Not HDR10
   required: true
   type: release_title
 - name: Not PQ
   negate: true
-  pattern: PQ
+  pattern: Not PQ
   required: true
   type: release_title
 tests: []

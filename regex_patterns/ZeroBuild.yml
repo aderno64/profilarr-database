@@ -1,5 +1,6 @@
 name: ZeroBuild
-pattern: \\b(ZeroBuild)\\b
+pattern: \b(ZeroBuild)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

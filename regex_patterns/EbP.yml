@@ -1,5 +1,6 @@
 name: EbP
-pattern: ^(EbP)$
+pattern: (?<=^|[\s.-])EbP\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

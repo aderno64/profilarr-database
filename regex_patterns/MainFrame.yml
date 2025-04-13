@@ -1,5 +1,6 @@
 name: MainFrame
-pattern: ^(MainFrame)$
+pattern: (?<=^|[\s.-])MainFrame\b
 description: ''
-tags: []
-tests: []
+tags:
+- Release Group
+tests: null

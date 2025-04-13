@@ -1,5 +1,6 @@
-﻿name: FraMeSToR
-pattern: ^(FraMeSToR)$
+name: FraMeSToR
+pattern: (?<=^|[\s.-])FraMeSToR\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

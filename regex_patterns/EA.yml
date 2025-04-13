@@ -1,5 +1,6 @@
 name: EA
-pattern: ^(EA)$
+pattern: (?<=^|[\s.-])EA\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
 name: CRiSC
-pattern: ^(CRiSC)$
+pattern: (?<=^|[\s.-])CRiSC\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,47 +1,45 @@
 name: HDR (undefined)
-description: ''
-tags:
-- Video
-- HDR
+description:
+tags: []
 conditions:
 - name: RlsGrp (Missing HDR)
   negate: false
   pattern: RlsGrp (Missing HDR)
   required: true
   type: release_group
-- name: 2160p
+- name: Not 2160p
   negate: false
   required: true
   resolution: 2160p
   type: resolution
 - name: Not DV
   negate: true
-  pattern: DV
+  pattern: Not DV
   required: true
   type: release_title
 - name: Not HDR10
   negate: true
-  pattern: HDR10
+  pattern: Not HDR10
   required: true
   type: release_title
 - name: Not HDR10+
   negate: true
-  pattern: DV HDR10Plus
+  pattern: Not HDR10+
   required: true
   type: release_title
 - name: Not HLG
   negate: true
-  pattern: HLG
+  pattern: Not HLG
   required: true
   type: release_title
 - name: Not PQ
   negate: true
-  pattern: PQ
+  pattern: Not PQ
   required: true
   type: release_title
 - name: Not SDR
   negate: true
-  pattern: SDR
+  pattern: Not SDR
   required: true
   type: release_title
 tests: []

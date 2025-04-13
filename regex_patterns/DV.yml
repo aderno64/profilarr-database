@@ -1,5 +1,6 @@
-name: DV
-pattern: \b(dv|dovi|dolby[ .]?v(ision)?)\b
+name: 'DV'
+pattern: '\\b(dv|dovi|dolby[ .]?v(ision)?)\\b'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
 name: Lulu
-pattern: \\[Lulu\\]|-Lulu\\b
+pattern: \[Lulu\]|-Lulu\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

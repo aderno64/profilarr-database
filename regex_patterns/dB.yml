@@ -1,5 +1,6 @@
-﻿name: dB
+name: dB
 pattern: ^(dB)$
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
 name: TnP
-pattern: ^(TnP)$
+pattern: (?<=^|[\s.-])TnP\b
 description: ''
-tags: []
-tests: []
+tags:
+- Release Group
+tests: null

@@ -1,8 +1,8 @@
 name: AV1
-description: ''
+description: Matches the 'AV1' Regex Pattern
 tags:
 - Codec
-- Video
+- Bleeding Edge
 conditions:
 - name: AV1
   negate: false

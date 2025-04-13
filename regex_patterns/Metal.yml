@@ -1,5 +1,6 @@
 name: Metal
-pattern: \\[Metal\\]|-Metal\\b
+pattern: \[Metal\]|-Metal\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

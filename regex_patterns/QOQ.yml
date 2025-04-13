@@ -1,5 +1,6 @@
-name: QOQ
-pattern: ^(QOQ)$
+name: 'QOQ'
+pattern: '^(QOQ)$'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
 name: Crow
-pattern: \\[Crow\\]|-Crow\\b
+pattern: \[Crow\]|-Crow\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

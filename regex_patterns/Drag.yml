@@ -1,5 +1,6 @@
 name: Drag
-pattern: \\[Drag\\]|-Drag\\b
+pattern: \[Drag\]|-Drag\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

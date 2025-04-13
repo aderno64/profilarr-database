@@ -1,5 +1,6 @@
-﻿name: XEBEC
-pattern: ^(XEBEC)$
+name: XEBEC
+pattern: ^(XEBEC|4KBEC|CEBEX)$
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

@@ -1,5 +1,6 @@
-﻿name: SLiGNOME
-pattern: ^(SLiGNOME)$
+name: 'SLiGNOME'
+pattern: '^(SLiGNOME)$'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

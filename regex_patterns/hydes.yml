@@ -1,5 +1,6 @@
 name: hydes
-pattern: \\b(hydes)\\b
+pattern: \b(hydes)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

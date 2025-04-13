@@ -1,5 +1,6 @@
 name: playHD
-pattern: ^(playHD)$
+pattern: (?<=^|[\s.-])playHD\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

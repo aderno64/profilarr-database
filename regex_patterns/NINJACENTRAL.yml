@@ -1,5 +1,6 @@
-﻿name: NINJACENTRAL
-pattern: ^(NINJACENTRAL)$
+name: 'NINJACENTRAL'
+pattern: '^(NINJACENTRAL)$'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

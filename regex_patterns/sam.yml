@@ -1,5 +1,6 @@
 name: sam
-pattern: \\[sam\\]|-sam\\b
+pattern: \[sam\]|-sam\b
 description: ''
-tags: []
-tests: []
+tags:
+- Release Group
+tests: null

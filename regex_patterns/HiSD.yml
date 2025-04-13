@@ -1,5 +1,6 @@
-name: HiSD
-pattern: ^(HiSD)$
+name: 'HiSD'
+pattern: '^(HiSD)$'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

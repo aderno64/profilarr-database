@@ -1,10 +1,13 @@
 name: Extras
-description: ''
-tags: []
+description: Matches the 'Extras' Regex Pattern
+tags:
+- Unwanted
+- Extras
+- Enhancement
 conditions:
 - name: Extras
-  type: release_title
-  required: true
   negate: false
   pattern: Extras
+  required: true
+  type: release_title
 tests: []

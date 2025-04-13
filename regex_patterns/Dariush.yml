@@ -1,5 +1,6 @@
 name: Dariush
-pattern: ^(Dariush)$
+pattern: (?<=^|[\s.-])Dariush\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

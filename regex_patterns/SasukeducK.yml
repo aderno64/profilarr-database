@@ -1,5 +1,6 @@
-name: SasukeducK
-pattern: ^(SasukeducK)$
+name: 'SasukeducK'
+pattern: '^(SasukeducK)$'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

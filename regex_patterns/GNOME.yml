@@ -1,5 +1,7 @@
-﻿name: GNOME
-pattern: ^(GNOME)$
+name: 'GNOME'
+pattern: "^(GNOME)$"
 description: ''
-tags: []
+tags:
+- Release Group
+- TRaSH
 tests: []

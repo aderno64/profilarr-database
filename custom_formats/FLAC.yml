@@ -1,5 +1,6 @@
 name: FLAC
-description: ''
+description: Matches 'FLAC' Regex Pattern and negates any other audio types that might
+  conflict.
 tags:
 - Audio
 conditions:
@@ -11,31 +12,31 @@ conditions:
 - name: Not PCM
   negate: true
   pattern: PCM
-  required: true
+  required: false
   type: release_title
 - name: Not AAC
   negate: true
   pattern: AAC
-  required: true
+  required: false
   type: release_title
 - name: Not DTS
   negate: true
   pattern: DTS
-  required: true
+  required: false
   type: release_title
-- name: Not TrueHD/ATMOS
+- name: Not TrueHD + Atmos
   negate: true
-  pattern: TrueHD ATMOS
-  required: true
+  pattern: TrueHD + Atmos
+  required: false
   type: release_title
-- name: Not Basic Dolby Digital
+- name: Not Dolby Digital
   negate: true
-  pattern: Basic Dolby Digital
-  required: true
+  pattern: Dolby Digital
+  required: false
   type: release_title
-- name: Not Dolby Digital Plus
+- name: Not Dolby Digital +
   negate: true
-  pattern: Dolby Digital Plus
-  required: true
+  pattern: Dolby Digital +
+  required: false
   type: release_title
 tests: []

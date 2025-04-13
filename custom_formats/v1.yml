@@ -1,6 +1,8 @@
 name: v1
-description: ''
-tags: []
+description: Matches the 'v1' Regex Pattern
+tags:
+- TRaSH
+- Anime
 conditions:
 - name: v1
   negate: false

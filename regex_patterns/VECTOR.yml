@@ -1,5 +1,6 @@
-name: VECTOR
-pattern: ^(VECTOR)$
+name: 'VECTOR'
+pattern: '^(VECTOR)$'
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

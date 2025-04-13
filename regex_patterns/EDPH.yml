@@ -1,5 +1,6 @@
 name: EDPH
-pattern: ^(EDPH)$
+pattern: (?<=^|[\s.-])EDPH\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

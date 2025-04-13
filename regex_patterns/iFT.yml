@@ -1,5 +1,6 @@
 name: iFT
-pattern: ^(iFT)$
+pattern: (?<=^|[\s.-])iFT\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []

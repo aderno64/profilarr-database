@@ -1,5 +1,6 @@
-name: Reza
-pattern: \\b(Reza)\\b
+name: 'Reza'
+pattern: \b(Reza)\b
 description: ''
-tags: []
+tags:
+- Release Group
 tests: []
