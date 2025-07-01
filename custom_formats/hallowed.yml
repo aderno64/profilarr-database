@@ -1,0 +1,11 @@
+'conditions':
+- 'name': 'hallowed'
+  'negate': false
+  'pattern': 'hallowed'
+  'required': true
+  'type': 'release_group'
+'description': ''
+'name': 'hallowed'
+'tags':
+- 'Radarr'
+'tests': []

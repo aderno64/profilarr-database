@@ -1,0 +1,11 @@
+'conditions':
+- 'name': 'BHDStudio'
+  'negate': false
+  'pattern': 'BHDStudio'
+  'required': true
+  'type': 'release_group'
+'description': ''
+'name': 'BHDStudio'
+'tags':
+- 'Radarr'
+'tests': []

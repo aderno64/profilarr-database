@@ -1,0 +1,7 @@
+'description': ''
+'name': 'WiKi'
+'pattern': '(?<=^|[\s.-])WiKi\b'
+'tags':
+- 'Release Group'
+- 'Bluray'
+'tests': []
