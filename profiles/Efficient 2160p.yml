@@ -60,7 +60,7 @@ custom_formats:
 - name: 2160p Quality Tier 7
   score: 800
 - name: hallowed
-  score: 600
+  score: 700
 - name: HDR10+
   score: 600
 - name: HDR
@@ -96,6 +96,8 @@ custom_formats:
 - name: 3D
   score: -10000
 - name: AV1
+  score: -10000
+- name: B&W
   score: -10000
 - name: BCORE
   score: -10000
