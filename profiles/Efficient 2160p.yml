@@ -23,6 +23,8 @@ custom_formats:
   score: 1100
 - name: 1080p Quality Tier 1
   score: 1100
+- name: 2160p Balanced Tier 1
+  score: 1100
 - name: 2160p Quality Tier 1
   score: 1100
 - name: 720p Quality Tier 1
@@ -30,6 +32,8 @@ custom_formats:
 - name: 1080p Balanced Tier 2
   score: 1050
 - name: 1080p Quality Tier 2
+  score: 1050
+- name: 2160p Balanced Tier 2
   score: 1050
 - name: 2160p Quality Tier 2
   score: 1050
