@@ -1,7 +1,0 @@
-'description': ''
-'name': 'MTeam'
-'pattern': '(?<=^|[\s.-])MTeam\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

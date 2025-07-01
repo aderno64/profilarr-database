@@ -1,7 +1,0 @@
-name: "SQP - Not TrueHD"
-pattern: 'True[ .-]?HD'
-description: ''
-tags:
-- Audio
-- TRaSH
-tests: []

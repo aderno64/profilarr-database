@@ -1,6 +1,7 @@
-name: 'KH'
-pattern: \b(KH)\b
+name: KH
+pattern: (?<=^|[\s.-])KH\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

@@ -1,7 +1,0 @@
-'description': ''
-'name': 'SbR'
-'pattern': '(?<=^|[\s.-])SbR\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

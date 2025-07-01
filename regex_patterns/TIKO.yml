@@ -1,6 +1,0 @@
-name: TIKO
-pattern: ^(TIKO)$
-description: ''
-tags:
-- Release Group
-tests: null

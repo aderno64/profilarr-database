@@ -1,6 +1,7 @@
-name: ABBiE
+name: ABBIE
 pattern: (?<=^|[\s.-])ABBIE\b
 description: ''
 tags:
 - Release Group
+- WEB-DL
 tests: []

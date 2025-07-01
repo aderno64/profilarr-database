@@ -1,6 +1,7 @@
-name: 'WBDP'
-pattern: \b(WBDP)\b
+name: WBDP
+pattern: (?<=^|[\s.-])WBDP\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

@@ -1,6 +1,7 @@
 name: CREATiVE24
-pattern: ^(CREATiVE24)$
-description: ''
+pattern: (?<=^|[\s.-])CREATiVE24\b
+description: Banned for Bloated Garbage
 tags:
 - Release Group
-tests: null
+- Bluray
+tests: []

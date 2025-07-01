@@ -1,6 +1,0 @@
-name: CiNE
-pattern: ^(CiNE)$
-description: ''
-tags:
-- Release Group
-tests: null

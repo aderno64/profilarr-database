@@ -1,6 +1,7 @@
-name: 'Chihiro'
-pattern: \[Chihiro\]|-Chihiro\b
+name: Chihiro
+pattern: (?<=^|[\s.-])Chihiro\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

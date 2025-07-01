@@ -1,6 +1,7 @@
 name: Arid
-pattern: \[Arid\]|-Arid\b
+pattern: (?<=^|[\s.-])Arid\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

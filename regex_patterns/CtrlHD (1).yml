@@ -1,7 +1,0 @@
-'description': ''
-'name': 'CtrlHD'
-'pattern': '(?<=^|[\s.-])CtrlHD\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

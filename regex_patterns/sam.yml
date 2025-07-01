@@ -1,6 +1,7 @@
 name: sam
-pattern: \[sam\]|-sam\b
+pattern: (?<=^|[\s.-])sam\b
 description: ''
 tags:
 - Release Group
-tests: null
+- Anime
+tests: []

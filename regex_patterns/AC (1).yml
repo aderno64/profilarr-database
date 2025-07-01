@@ -1,7 +1,0 @@
-'description': ''
-'name': 'AC'
-'pattern': '(?<=^|[\s.-])AC\b'
-'tags':
-- 'Release Group'
-- 'Anime'
-'tests': []

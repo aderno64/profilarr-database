@@ -1,6 +1,0 @@
-name: nSD
-pattern: ^(nSD)$
-description: ''
-tags:
-- Release Group
-tests: null

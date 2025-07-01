@@ -1,6 +1,0 @@
-name: 'Hitoku'
-pattern: \[Hitoku\]|-Hitoki\b
-description: ''
-tags:
-- Release Group
-tests: []

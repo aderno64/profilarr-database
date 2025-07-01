@@ -1,6 +1,7 @@
-name: 'Bunny-Apocalypse'
-pattern: \b(Bunny-Apocalypse)\b
+name: Bunny-Apocalypse
+pattern: (?<=^|[\s.-])Bunny-Apocalypse\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

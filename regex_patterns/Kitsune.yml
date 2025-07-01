@@ -1,7 +1,7 @@
-name: 'Kitsune'
-pattern: "^(Kitsune)$"
+name: Kitsune
+pattern: (?<=^|[\s.-])Kitsune\b
 description: ''
 tags:
 - Release Group
-- TRaSH
+- WEB-DL
 tests: []

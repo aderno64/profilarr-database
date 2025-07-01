@@ -1,6 +1,7 @@
-name: 'THORA'
-pattern: \b(THORA)\b
+name: THORA
+pattern: (?<=^|[\s.-])THORA\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

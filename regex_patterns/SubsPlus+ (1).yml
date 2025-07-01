@@ -1,7 +1,0 @@
-'description': ''
-'name': 'SubsPlus+'
-'pattern': '(?<=^|[\s.-])SubsPlus+\b'
-'tags':
-- 'Release Group'
-- 'Anime'
-'tests': []

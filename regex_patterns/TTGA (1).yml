@@ -1,7 +1,0 @@
-'description': ''
-'name': 'TTGA'
-'pattern': '(?<=^|[\s.-])TTGA\b'
-'tags':
-- 'Release Group'
-- 'Anime'
-'tests': []

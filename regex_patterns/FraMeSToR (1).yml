@@ -1,7 +1,0 @@
-'description': ''
-'name': 'FraMeSToR'
-'pattern': '(?<=^|[\s.-])FraMeSToR\b'
-'tags':
-- 'Release Group'
-- 'Remux'
-'tests': []

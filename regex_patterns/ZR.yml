@@ -1,6 +1,7 @@
-name: 'ZR'
-pattern: \b(ZR)\b
+name: ZR
+pattern: (?<=^|[\s.-])ZR\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

@@ -1,7 +1,0 @@
-'description': ''
-'name': 'HiFi'
-'pattern': '(?<=^|[\s.-])HiFi\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

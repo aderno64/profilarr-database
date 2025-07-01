@@ -1,7 +1,0 @@
-'description': ''
-'name': 'EXP'
-'pattern': '(?<=^|[\s.-])EXP\b'
-'tags':
-- 'Release Group'
-- 'Anime'
-'tests': []

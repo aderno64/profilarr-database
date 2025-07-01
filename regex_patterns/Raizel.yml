@@ -1,6 +1,7 @@
-name: 'Raizel'
-pattern: \b(Raizel)\b
+name: Raizel
+pattern: (?<=^|[\s.-])Raizel\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

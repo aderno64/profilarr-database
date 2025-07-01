@@ -1,7 +1,0 @@
-'description': ''
-'name': 'CTR'
-'pattern': '(?<=^|[\s.-])CTR\b'
-'tags':
-- 'Release Group'
-- 'Anime'
-'tests': []

@@ -1,6 +1,7 @@
-name: 'BlurayDesuYo'
-pattern: \b(BlurayDesuYo)\b
+name: BlurayDesuYo
+pattern: (?<=^|[\s.-])BlurayDesuYo\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

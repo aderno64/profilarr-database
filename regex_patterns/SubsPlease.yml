@@ -1,6 +1,7 @@
-name: 'SubsPlease'
-pattern: \b(SubsPlease)\b
+name: SubsPlease
+pattern: (?<=^|[\s.-])SubsPlease\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

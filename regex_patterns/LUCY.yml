@@ -1,6 +1,0 @@
-name: LUCY
-pattern: ^(LUCY)$
-description: ''
-tags:
-- Release Group
-tests: null

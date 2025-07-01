@@ -1,7 +1,0 @@
-'description': ''
-'name': 'playBD'
-'pattern': '(?<=^|[\s.-])playBD\b'
-'tags':
-- 'Release Group'
-- 'Remux'
-'tests': []

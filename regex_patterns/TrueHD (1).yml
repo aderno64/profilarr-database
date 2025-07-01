@@ -1,7 +1,0 @@
-'description': ''
-'name': 'TrueHD'
-'pattern': 'True[ .-]?HD[ .-]?'
-'tags':
-- 'Audio'
-- 'Lossless'
-'tests': []

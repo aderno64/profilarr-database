@@ -1,7 +1,0 @@
-'description': ''
-'name': 'IK'
-'pattern': '(?<=^|[\s.-])IK\b'
-'tags':
-- 'Release Group'
-- 'Anime'
-'tests': []

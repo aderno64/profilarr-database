@@ -1,6 +1,7 @@
-name: 'LazyRemux'
-pattern: \b(LazyRemux)\b
+name: LazyRemux
+pattern: (?<=^|[\s.-])LazyRemux\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

@@ -1,7 +1,0 @@
-name: "SQP - ATMOS3"
-pattern: '\b(ATMOS|DDPA)(\b|\d)'
-description: ''
-tags:
-- Audio
-- TRaSH
-tests: []
