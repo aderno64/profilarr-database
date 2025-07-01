@@ -4,6 +4,7 @@ description: Based on the TRaSH Guides SQP1 profile, focusing on streaming optim
 tags:
 - Radarr
 - TRaSH
+- 2160p
 upgradesAllowed: true
 minCustomFormatScore: 100
 upgradeUntilScore: 10000
