@@ -1,7 +1,0 @@
-'description': ''
-'name': 'HQMUX'
-'pattern': '(?<=^|[\s.-])HQMUX\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

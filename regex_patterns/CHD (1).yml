@@ -1,7 +1,0 @@
-'description': ''
-'name': 'CHD'
-'pattern': '(?<=^|[\s.-])CHD\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

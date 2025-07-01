@@ -1,6 +1,7 @@
 name: LYS1TH3A
-pattern: \b(LYS1TH3A)\b
+pattern: (?<=^|[\s.-])LYS1TH3A\b
 description: ''
 tags:
 - Release Group
-tests: null
+- Anime
+tests: []

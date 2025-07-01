@@ -1,7 +1,0 @@
-'description': ''
-'name': 'Chotab'
-'pattern': '(?<=^|[\s.-])Chotab\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

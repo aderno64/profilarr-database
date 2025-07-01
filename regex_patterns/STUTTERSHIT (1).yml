@@ -1,7 +1,0 @@
-'description': ''
-'name': 'STUTTERSHIT'
-'pattern': '(?<=^|[\s.-])STUTTERSHIT\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

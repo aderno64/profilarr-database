@@ -1,7 +1,0 @@
-'description': ''
-'name': 'EbP'
-'pattern': '(?<=^|[\s.-])EbP\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

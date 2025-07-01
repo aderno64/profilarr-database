@@ -1,6 +1,0 @@
-name: iPlanet
-pattern: ^(iPlanet)$
-description: ''
-tags:
-- Release Group
-tests: null

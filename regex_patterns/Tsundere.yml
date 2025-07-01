@@ -1,6 +1,7 @@
-name: 'Tsundere'
-pattern: \[Tsundere\]|-Tsundere(?!-)\b
+name: Tsundere
+pattern: (?<=^|[\s.-])Tsundere\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

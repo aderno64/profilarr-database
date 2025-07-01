@@ -1,7 +1,0 @@
-'description': ''
-'name': 'KRaLiMaRKo'
-'pattern': '(?<=^|[\s.-])KRaLiMaRKo\b'
-'tags':
-- 'Release Group'
-- 'Remux'
-'tests': []

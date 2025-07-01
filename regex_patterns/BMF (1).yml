@@ -1,8 +1,0 @@
-'description': ''
-'name': 'BMF'
-'pattern': '(?<=^|[\s.-])BMF\b'
-'tags':
-- 'Release Group'
-- 'Remux'
-- 'Bluray'
-'tests': []

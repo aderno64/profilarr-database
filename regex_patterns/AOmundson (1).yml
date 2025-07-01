@@ -1,7 +1,0 @@
-'description': ''
-'name': 'AOmundson'
-'pattern': '(?<=^|[\s.-])AOmundson\b'
-'tags':
-- 'Release Group'
-- 'Anime'
-'tests': []

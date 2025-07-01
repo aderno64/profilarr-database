@@ -1,7 +1,0 @@
-'description': ''
-'name': 'LolHD'
-'pattern': '(?<=^|[\s.-])LolHD\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

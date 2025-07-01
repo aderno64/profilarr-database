@@ -1,7 +1,0 @@
-'description': 'Banned for Fake DV/HDR Layer'
-'name': 'DepraveD'
-'pattern': '(?<=^|[\s.-])DepraveD\b'
-'tags':
-- 'Release Group'
-- 'UnWanted'
-'tests': []

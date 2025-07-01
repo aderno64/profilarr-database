@@ -1,6 +1,0 @@
-name: Zeus
-pattern: ^(Zeus)$
-description: ''
-tags:
-- Release Group
-tests: null

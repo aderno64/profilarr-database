@@ -1,6 +1,7 @@
-name: 'Saizen'
-pattern: \b(Saizen)\b
+name: Saizen
+pattern: (?<=^|[\s.-])Saizen\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

@@ -1,6 +1,7 @@
-name: 'Doki'
-pattern: \[Doki\]|-Doki\b
+name: Doki
+pattern: (?<=^|[\s.-])Doki\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

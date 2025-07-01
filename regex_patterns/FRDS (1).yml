@@ -1,7 +1,0 @@
-'description': ''
-'name': 'FRDS'
-'pattern': '(?<=^|[\s.-])FRDS\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

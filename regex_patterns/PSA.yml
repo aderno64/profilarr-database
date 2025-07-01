@@ -1,6 +1,0 @@
-name: PSA
-pattern: ^(PSA)$
-description: ''
-tags:
-- Release Group
-tests: null

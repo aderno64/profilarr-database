@@ -1,6 +1,7 @@
-name: 'Final8'
-pattern: \b(Final8)\b
+name: Final8
+pattern: (?<=^|[\s.-])Final8\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

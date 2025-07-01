@@ -1,7 +1,0 @@
-'description': ''
-'name': 'KAN3D2M'
-'pattern': '(?<=^|[\s.-])KAN3D2M\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

@@ -1,7 +1,0 @@
-'description': ''
-'name': 'NoGroup'
-'pattern': '(?<=^|[\s.-])NoGr(ou)?p\b'
-'tags':
-- 'Release Group'
-- 'UnWanted'
-'tests': []

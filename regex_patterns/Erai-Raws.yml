@@ -1,6 +1,7 @@
-name: 'Erai-Raws'
-pattern: \b(Erai-raws)\b
+name: Erai-Raws
+pattern: (?<=^|[\s.-])Erai-Raws\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

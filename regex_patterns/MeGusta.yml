@@ -1,6 +1,0 @@
-name: MeGusta
-pattern: ^(MeGusta)$
-description: ''
-tags:
-- Release Group
-tests: null

@@ -1,6 +1,7 @@
-name: 'SubsPlus+'
-pattern: \b(SubsPlus\+?)\b
+name: SubsPlus+
+pattern: (?<=^|[\s.-])SubsPlus+\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

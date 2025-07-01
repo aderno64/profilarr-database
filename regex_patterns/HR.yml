@@ -1,6 +1,0 @@
-name: 'HR'
-pattern: \b(HR)\b
-description: ''
-tags:
-- Release Group
-tests: []

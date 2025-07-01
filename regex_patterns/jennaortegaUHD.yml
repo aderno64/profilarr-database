@@ -1,7 +1,7 @@
-'description': 'Banned for Fake DV/HDR Layer'
-'name': 'jennaortegaUHD'
-'pattern': '(?<=^|[\s.-])jennaortega(UHD)?\b'
-'tags':
-- 'Release Group'
-- 'UnWanted'
-'tests': []
+name: jennaortegaUHD
+pattern: (?<=^|[\s.-])jennaortega(UHD)?\b
+description: Banned for Fake DV/HDR Layer
+tags:
+- Release Group
+- UnWanted
+tests: []

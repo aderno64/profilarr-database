@@ -1,7 +1,0 @@
-'description': ''
-'name': 'OZR'
-'pattern': '(?<=^|[\s.-])OZR\b'
-'tags':
-- 'Release Group'
-- 'Anime'
-'tests': []

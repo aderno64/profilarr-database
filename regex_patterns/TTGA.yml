@@ -1,6 +1,7 @@
-name: 'TTGA'
-pattern: \b(TTGA)\b
+name: TTGA
+pattern: (?<=^|[\s.-])TTGA\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

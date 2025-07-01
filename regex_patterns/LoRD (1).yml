@@ -1,7 +1,0 @@
-'description': ''
-'name': 'LoRD'
-'pattern': '(?<=^|[\s.-])LoRD\b'
-'tags':
-- 'Release Group'
-- 'Bluray'
-'tests': []

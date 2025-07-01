@@ -1,8 +1,0 @@
-'description': ''
-'name': 'ZQ'
-'pattern': '(?<=^|[\s.-])ZQ\b'
-'tags':
-- 'Release Group'
-- 'Remux'
-- 'Bluray'
-'tests': []
