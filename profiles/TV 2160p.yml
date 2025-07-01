@@ -1,0 +1,130 @@
+name: TV 2160p
+description: 'Based on the TRaSH Guides WEB-2160p (Alternative) profile, focusing
+  on balanced quality/file size.
+
+
+  This profile is recommended for a set-it-and-forget-it setup.'
+tags:
+- Sonarr
+- TRaSH
+- 2160p
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats:
+- name: WEB-DL Tier 1
+  score: 1700
+- name: WEB-DL Tier 2
+  score: 1650
+- name: WEB-DL Tier 3
+  score: 1600
+- name: WEB-DL Tier 4
+  score: 1550
+- name: Dolby Vision
+  score: 1500
+- name: HDR10+
+  score: 600
+- name: HDR
+  score: 500
+- name: HDR10
+  score: 500
+- name: HLG
+  score: 500
+- name: PQ
+  score: 500
+- name: ATVP
+  score: 100
+- name: DSNP
+  score: 100
+- name: MAX
+  score: 90
+- name: HMAX
+  score: 80
+- name: AMZN
+  score: 70
+- name: NF
+  score: 60
+- name: PCOK
+  score: 60
+- name: PMTP
+  score: 60
+- name: STAN
+  score: 60
+- name: HULU
+  score: 50
+- name: iT
+  score: 50
+- name: SHO
+  score: 50
+- name: Repack1
+  score: 7
+- name: Repack2
+  score: 6
+- name: Repack3
+  score: 5
+- name: AV1
+  score: -10000
+- name: Dolby Vision (Without Fallback)
+  score: -10000
+- name: Extras
+  score: -10000
+- name: Non Retail HDR
+  score: -10000
+- name: UnWanted Release Groups
+  score: -10000
+- name: UnWanted WEBRip Groups
+  score: -10000
+qualities:
+- id: -1
+  name: WEB 2160p
+  description: ''
+  qualities:
+  - id: 5
+    name: WEBDL-2160p
+  - id: 6
+    name: WEBRip-2160p
+- id: 4
+  name: Bluray-2160p
+- id: -2
+  name: WEB 1080p
+  description: ''
+  qualities:
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+- id: 10
+  name: Bluray-1080p
+- id: 12
+  name: HDTV-1080p
+- id: -3
+  name: WEB 720p
+  description: ''
+  qualities:
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+- id: 13
+  name: Bluray-720p
+- id: 16
+  name: HDTV-720p
+- id: -4
+  name: WEB 480p
+  description: ''
+  qualities:
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+- id: 18
+  name: Bluray-480p
+- id: 22
+  name: DVD
+- id: 24
+  name: SDTV
+upgrade_until:
+  id: -1
+  name: WEB 2160p
+language: must_english
