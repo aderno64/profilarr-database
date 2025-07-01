@@ -1,40 +1,40 @@
-'conditions':
-- 'name': 'STAN Regex'
-  'negate': false
-  'pattern': 'Stan'
-  'required': false
-  'type': 'release_title'
-- 'name': 'STAN Rename Regex'
-  'negate': false
-  'pattern': 'Stan Rename'
-  'required': false
-  'type': 'release_title'
-- 'name': 'WEB-DL'
-  'negate': false
-  'required': true
-  'source': 'web_dl'
-  'type': 'source'
-'description': 'Matches ''STAN'' WEB-DLs. Negates any encodes.'
-'name': 'STAN'
-'tags':
-- 'Streaming Service'
-- 'WEB-DL'
-'tests':
-- 'conditionResults':
-  - 'matches': true
-    'name': 'STAN Regex'
-    'negate': false
-    'pattern': 'Stan'
-    'required': false
-    'type': 'release_title'
-  - 'matches': false
-    'name': 'STAN Rename Regex'
-    'negate': false
-    'pattern': 'Stan Rename'
-    'required': false
-    'type': 'release_title'
-  'expected': true
-  'id': 1
-  'input': 'Scrublands S02 2160p STAN WEB-DL DD+ 5.1 Atmos H.265-RAWR'
-  'lastRun': '2025-04-21T20:26:28.890603'
-  'passes': true
+name: STAN
+description: Matches 'STAN' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: STAN Regex
+  negate: false
+  pattern: Stan
+  required: false
+  type: release_title
+- name: STAN Rename Regex
+  negate: false
+  pattern: Stan Rename
+  required: false
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests:
+- conditionResults:
+  - matches: true
+    name: STAN Regex
+    negate: false
+    pattern: Stan
+    required: false
+    type: release_title
+  - matches: false
+    name: STAN Rename Regex
+    negate: false
+    pattern: Stan Rename
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Scrublands S02 2160p STAN WEB-DL DD+ 5.1 Atmos H.265-RAWR
+  lastRun: '2025-04-21T20:26:28.890603'
+  passes: true

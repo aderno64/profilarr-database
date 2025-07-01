@@ -12,10 +12,10 @@ conditions:
   resolution: 1080p
   type: resolution
 - name: Not WEB-DL
-  negate: true
-  required: true
-  source: web_dl
   type: source
+  required: true
+  negate: true
+  source: web_dl
 - name: CRiSC
   negate: false
   pattern: CRiSC
@@ -56,14 +56,4 @@ conditions:
   pattern: WMING
   required: false
   type: release_group
-- name: hallowed
-  type: release_group
-  required: false
-  negate: false
-  pattern: hallowed
-- name: BHDStudio
-  type: release_group
-  required: false
-  negate: false
-  pattern: BHDStudio
 tests: []
