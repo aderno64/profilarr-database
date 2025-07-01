@@ -65,10 +65,10 @@ conditions:
   required: false
   type: release_group
 - name: HDS
-  type: release_group
-  required: false
   negate: false
   pattern: HDS
+  required: false
+  type: release_group
 - name: jennaortegaUHD
   negate: false
   pattern: jennaortegaUHD
@@ -162,6 +162,11 @@ conditions:
 - name: WOU
   negate: false
   pattern: WOU
+  required: false
+  type: release_group
+- name: B0MBARDiERS
+  negate: false
+  pattern: B0MBARDiERS
   required: false
   type: release_group
 tests: []
