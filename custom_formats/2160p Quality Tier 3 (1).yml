@@ -29,6 +29,16 @@
   'pattern': 'W4NK3R'
   'required': false
   'type': 'release_group'
+- 'name': 'hallowed'
+  'negate': false
+  'pattern': 'hallowed'
+  'required': false
+  'type': 'release_group'
+- 'name': 'BHDStudio'
+  'negate': false
+  'pattern': 'BHDStudio'
+  'required': false
+  'type': 'release_group'  
 'description': 'Matches release groups who fall under 2160p Quality Tier 3'
 'name': '2160p Quality Tier 3'
 'tags':
