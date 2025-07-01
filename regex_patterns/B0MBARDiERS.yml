@@ -1,5 +1,5 @@
-name: b0mbardiers
-pattern: (?<=^|[\s.-])b0mbardiers\b
+name: B0MBARDiERS
+pattern: (?<=^|[\s.-])B0MBARDiERS\b
 description: ''
 tags:
 - Release Group
