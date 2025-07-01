@@ -1,0 +1,17 @@
+'conditions':
+- 'name': 'MA Regex'
+  'negate': false
+  'pattern': 'Movies Anywhere'
+  'required': true
+  'type': 'release_title'
+- 'name': 'WEB-DL'
+  'negate': false
+  'required': true
+  'source': 'web_dl'
+  'type': 'source'
+'description': 'Matches ''Movies Anywhere'' WEB-DLs. Negates any encodes.'
+'name': 'MA'
+'tags':
+- 'Streaming Service'
+- 'WEB-DL'
+'tests': []

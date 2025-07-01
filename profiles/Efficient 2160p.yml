@@ -1,0 +1,153 @@
+'custom_formats':
+- 'name': 'WEB-DL Tier 1'
+  'score': 1700
+- 'name': 'WEB-DL Tier 2'
+  'score': 1650
+- 'name': 'WEB-DL Tier 3'
+  'score': 1600
+- 'name': 'WEB-DL Tier 4'
+  'score': 1550
+- 'name': 'Dolby Vision'
+  'score': 1500
+- 'name': '1080p Balanced Tier 1'
+  'score': 1100
+- 'name': '1080p Quality Tier 1'
+  'score': 1100
+- 'name': '2160p Quality Tier 1'
+  'score': 1100
+- 'name': '720p Quality Tier 1'
+  'score': 1100
+- 'name': '1080p Balanced Tier 2'
+  'score': 1050
+- 'name': '1080p Quality Tier 2'
+  'score': 1050
+- 'name': '2160p Quality Tier 2'
+  'score': 1050
+- 'name': '720p Quality Tier 2'
+  'score': 1050
+- 'name': '1080p Quality Tier 3'
+  'score': 1000
+- 'name': '2160p Quality Tier 3'
+  'score': 1000
+- 'name': '720p Quality Tier 3'
+  'score': 1000
+- 'name': 'BHDStudio'
+  'score': 1000
+- 'name': '1080p Quality Tier 4'
+  'score': 950
+- 'name': '2160p Quality Tier 4'
+  'score': 950
+- 'name': '720p Quality Tier 4'
+  'score': 950
+- 'name': '1080p Quality Tier 5'
+  'score': 900
+- 'name': '2160p Quality Tier 5'
+  'score': 900
+- 'name': '720p Quality Tier 5'
+  'score': 900
+- 'name': '2160p Quality Tier 6'
+  'score': 850
+- 'name': '2160p Quality Tier 7'
+  'score': 800
+- 'name': 'hallowed'
+  'score': 600
+- 'name': 'HDR10+'
+  'score': 600
+- 'name': 'HDR'
+  'score': 500
+- 'name': 'HDR10'
+  'score': 500
+- 'name': 'HLG'
+  'score': 500
+- 'name': 'PQ'
+  'score': 500
+- 'name': 'Atmos'
+  'score': 135
+- 'name': 'Dolby Digital +'
+  'score': 125
+- 'name': 'Special Edition'
+  'score': 125
+- 'name': 'Dolby Digital'
+  'score': 115
+- 'name': '1080p'
+  'score': 50
+- 'name': 'CRIT'
+  'score': 20
+- 'name': 'MA'
+  'score': 20
+- 'name': 'Repack3'
+  'score': 7
+- 'name': 'Repack2'
+  'score': 6
+- 'name': '720p'
+  'score': 5
+- 'name': 'Repack1'
+  'score': 5
+- 'name': '3D'
+  'score': -10000
+- 'name': 'AV1'
+  'score': -10000
+- 'name': 'BCORE'
+  'score': -10000
+- 'name': 'Dolby Vision (Without Fallback)'
+  'score': -10000
+- 'name': 'DTS-HD MA'
+  'score': -10000
+- 'name': 'DTS-X'
+  'score': -10000
+- 'name': 'Extras'
+  'score': -10000
+- 'name': 'Special Edition (UnWanted)'
+  'score': -10000
+- 'name': 'TrueHD'
+  'score': -10000
+- 'name': 'UnWanted Release Groups'
+  'score': -10000
+- 'name': 'UnWanted WEBRip Groups'
+  'score': -10000
+- 'name': 'Upscaled'
+  'score': -10000
+- 'name': 'VIU'
+  'score': -10000
+'description': 'Based on the TRaSH Guides SQP1 profile, focusing on streaming optimized
+  sources with little to no transcoding needed.'
+'language': 'english'
+'minCustomFormatScore': 100
+'minScoreIncrement': 1
+'name': 'Efficient 2160p'
+'qualities':
+- 'id': 4
+  'name': 'Bluray-2160p'
+- 'description': ''
+  'id': -1
+  'name': 'WEB 2160p'
+  'qualities':
+  - 'id': 5
+    'name': 'WEBDL-2160p'
+  - 'id': 6
+    'name': 'WEBRip-2160p'
+- 'description': ''
+  'id': -2
+  'name': 'Bluray|WEB-1080p'
+  'qualities':
+  - 'id': 10
+    'name': 'Bluray-1080p'
+  - 'id': 9
+    'name': 'WEBDL-1080p'
+  - 'id': 11
+    'name': 'WEBRip-1080p'
+  - 'id': 14
+    'name': 'WEBDL-720p'
+  - 'id': 15
+    'name': 'WEBRip-720p'
+- 'id': 13
+  'name': 'Bluray-720p'
+'tags':
+- 'Radarr'
+- 'TRaSH'
+'upgradeUntilScore': 10000
+'upgrade_until':
+  'description': '4K Ultra HD Blu-ray video encoded with lossy compression'
+  'id': 4
+  'name': 'Bluray-2160p'
+'upgradesAllowed': true
