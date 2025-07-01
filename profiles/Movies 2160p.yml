@@ -1,6 +1,9 @@
-name: Efficient 2160p
-description: Based on the TRaSH Guides SQP1 profile, focusing on streaming optimized
+name: Movies 2160p
+description: 'Based on the TRaSH Guides SQP1 profile, focusing on streaming optimized
   sources with little to no transcoding needed.
+
+
+  This profile is recommended for a set-it-and-forget-it setup.'
 tags:
 - Radarr
 - TRaSH
