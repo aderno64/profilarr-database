@@ -1,6 +1,6 @@
 name: B0MBARDiERS
 pattern: (?<=^|[\s.-])B0MBARDiERS\b
-description: ''
+description: Banned for bad naming scheme which causes download loops
 tags:
 - Release Group
 - Bluray
