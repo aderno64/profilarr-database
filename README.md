@@ -12,6 +12,7 @@ Using these profiles in Radarr:
 - You want to grab streaming optimized releases.
 
 Using these Profiles in Sonarr:
+- You prefer having consistency across shows and seasons, including season packs.
 - You will get high-quality, WEB-DL files.
 - You can expect fallback to WEB-Rip, Bluray and HDTV if WEB-DL is unavailable.
 - You can expect to grab a media file from any available resolution.
