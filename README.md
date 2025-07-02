@@ -1,5 +1,5 @@
 # bedynamic Profilarr Database
 
-Originally, I planned on replicating the TRaSH Guides set up for Profilarr, but over the years, I have found that TRaSH can really affect automation. I base these profiles off of my own setups and all you need to do is decide on the desired final resolution.
+Originally, I planned on replicating the TRaSH Guides set up for Profilarr, but over the years, I have found that the default TRaSH can really affect automation.
 
-These profiles and formats are quality based so there are three Quality Tiers that apply to all types of media. Yes, these are initially based off of TRaSH Tiers, but I combined them for a one-size-fits-all approach. As I come across new groups, I judge the quality of the release based on file size, audio and video bitrate, audio channel availability, etc.
+These profiles are based on the structure of the SQP-1 Alternative (Radarr) and the WEB-21060p/1080p Alternative (Sonarr) profiles. Using this database can be described as set-it-and-forget-it.
