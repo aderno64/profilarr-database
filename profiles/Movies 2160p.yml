@@ -1,9 +1,11 @@
 name: Movies 2160p
-description: 'Based on the TRaSH Guides SQP1 profile, focusing on streaming optimized
+description: 'Based on the TRaSH Guides SQP-1 profile, focusing on streaming optimized
   sources with little to no transcoding needed.
 
+  - This profile is recommended for a set-it-and-forget-it setup.
 
-  This profile is recommended for a set-it-and-forget-it setup.'
+  - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
+  as needed.'
 tags:
 - Radarr
 - TRaSH
@@ -103,8 +105,6 @@ custom_formats:
   score: -10000
 - name: Atmos
   score: -10000
-- name: Atmos (Missing)
-  score: -10000
 - name: AV1
   score: -10000
 - name: B&W
@@ -172,4 +172,4 @@ upgrade_until:
   id: 4
   name: Bluray-2160p
   description: 4K Ultra HD Blu-ray video encoded with lossy compression
-language: must_english
+language: original
