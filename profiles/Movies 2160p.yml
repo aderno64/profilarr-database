@@ -23,7 +23,7 @@ custom_formats:
   score: 1550
 - name: Dolby Vision
   score: 1500
-- name: 1080p Balanced Tier 1
+- name: 1080p Quality Tier 1
   score: 1100
 - name: 2160p Balanced Tier 1
   score: 1100
