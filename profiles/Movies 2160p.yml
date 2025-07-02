@@ -25,27 +25,17 @@ custom_formats:
   score: 1500
 - name: 1080p Balanced Tier 1
   score: 1100
-- name: 1080p Quality Tier 1
-  score: 1100
 - name: 2160p Balanced Tier 1
-  score: 1100
-- name: 2160p Quality Tier 1
   score: 1100
 - name: 720p Quality Tier 1
   score: 1100
-- name: 1080p Balanced Tier 2
-  score: 1050
 - name: 1080p Quality Tier 2
   score: 1050
 - name: 2160p Balanced Tier 2
   score: 1050
-- name: 2160p Quality Tier 2
-  score: 1050
 - name: 720p Quality Tier 2
   score: 1050
 - name: 1080p Quality Tier 3
-  score: 1000
-- name: 2160p Quality Tier 3
   score: 1000
 - name: 720p Quality Tier 3
   score: 1000
@@ -53,20 +43,12 @@ custom_formats:
   score: 1000
 - name: 1080p Quality Tier 4
   score: 950
-- name: 2160p Quality Tier 4
-  score: 950
 - name: 720p Quality Tier 4
   score: 950
 - name: 1080p Quality Tier 5
   score: 900
-- name: 2160p Quality Tier 5
-  score: 900
 - name: 720p Quality Tier 5
   score: 900
-- name: 2160p Quality Tier 6
-  score: 850
-- name: 2160p Quality Tier 7
-  score: 800
 - name: hallowed
   score: 700
 - name: HDR10+
@@ -75,11 +57,15 @@ custom_formats:
   score: 500
 - name: HDR10
   score: 500
+- name: HDR10 (Missing)
+  score: 500
 - name: HLG
   score: 500
 - name: PQ
   score: 500
 - name: Atmos
+  score: 135
+- name: Atmos (Missing)
   score: 135
 - name: Dolby Digital +
   score: 125
@@ -97,8 +83,6 @@ custom_formats:
   score: 7
 - name: Repack2
   score: 6
-- name: 720p
-  score: 5
 - name: Repack1
   score: 5
 - name: 3D
@@ -117,9 +101,13 @@ custom_formats:
   score: -10000
 - name: Extras
   score: -10000
+- name: Non Retail HDR
+  score: -10000
 - name: Special Edition (UnWanted)
   score: -10000
 - name: TrueHD
+  score: -10000
+- name: TrueHD (Missing)
   score: -10000
 - name: UnWanted Release Groups
   score: -10000
