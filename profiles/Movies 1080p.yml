@@ -21,8 +21,6 @@ custom_formats:
   score: 1600
 - name: WEB-DL Tier 4
   score: 1550
-- name: Dolby Vision
-  score: 1500
 - name: 1080p Balanced Tier 1
   score: 1150
 - name: 1080p Balanced Tier 2
@@ -77,17 +75,21 @@ custom_formats:
   score: -10000
 - name: BCORE
   score: -10000
-- name: Dolby Vision (Without Fallback)
-  score: -10000
 - name: DTS-HD MA
   score: -10000
 - name: DTS-X
   score: -10000
 - name: Extras
   score: -10000
+- name: h265
+  score: -10000
+- name: Lossless Audio (1080p)
+  score: -10000
 - name: Special Edition (UnWanted)
   score: -10000
 - name: TrueHD
+  score: -10000
+- name: TrueHD (Missing)
   score: -10000
 - name: UnWanted Release Groups
   score: -10000
@@ -95,7 +97,9 @@ custom_formats:
   score: -10000
 - name: Upscaled
   score: -10000
-- name: VIU
+- name: x265
+  score: -10000
+- name: x265 (Missing)
   score: -10000
 qualities:
 - id: -2
