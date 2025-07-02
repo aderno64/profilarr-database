@@ -26,7 +26,7 @@ conditions:
   type: release_title
 - name: Not TrueHD + Atmos
   negate: true
-  pattern: TrueHD
+  pattern: TrueHD + Atmos
   required: false
   type: release_title
 - name: Not FLAC
@@ -35,8 +35,8 @@ conditions:
   required: false
   type: release_title
 - name: Not Dolby Digital +
+  type: release_title
+  required: false
   negate: true
   pattern: Dolby Digital +
-  required: false
-  type: release_title
 tests: []
