@@ -75,15 +75,11 @@ custom_formats:
   score: 500
 - name: HDR10
   score: 500
-- name: HDR10 (Missing)
-  score: 500
 - name: HLG
   score: 500
 - name: PQ
   score: 500
 - name: Atmos
-  score: 135
-- name: Atmos (Missing)
   score: 135
 - name: Dolby Digital +
   score: 125
@@ -124,8 +120,6 @@ custom_formats:
 - name: Special Edition (UnWanted)
   score: -10000
 - name: TrueHD
-  score: -10000
-- name: TrueHD (Missing)
   score: -10000
 - name: UnWanted Release Groups
   score: -10000
