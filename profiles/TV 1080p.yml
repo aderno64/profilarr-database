@@ -21,12 +21,6 @@ custom_formats:
   score: 1600
 - name: WEB-DL Tier 4
   score: 1550
-- name: Dolby Digital +
-  score: 125
-- name: Dolby Digital
-  score: 115
-- name: DTS
-  score: 105
 - name: ATVP
   score: 100
 - name: DSNP
@@ -51,6 +45,12 @@ custom_formats:
   score: 50
 - name: SHO
   score: 50
+- name: Dolby Digital +
+  score: 30
+- name: Dolby Digital
+  score: 20
+- name: DTS
+  score: 10
 - name: Repack1
   score: 7
 - name: Repack2
