@@ -2,8 +2,10 @@ name: TV 2160p
 description: 'Based on the TRaSH Guides WEB-2160p (Alternative) profile, focusing
   on balanced quality/file size.
 
+  - This profile is recommended for a set-it-and-forget-it setup.
 
-  This profile is recommended for a set-it-and-forget-it setup.'
+  - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
+  as needed.'
 tags:
 - Sonarr
 - TRaSH
@@ -69,6 +71,8 @@ custom_formats:
   score: 6
 - name: Repack3
   score: 5
+- name: Atmos
+  score: -10000
 - name: AV1
   score: -10000
 - name: Dolby Vision (Without Fallback)
@@ -133,4 +137,4 @@ qualities:
 upgrade_until:
   id: -1
   name: WEB 2160p
-language: must_english
+language: original
