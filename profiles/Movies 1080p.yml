@@ -55,6 +55,8 @@ custom_formats:
   score: 125
 - name: Dolby Digital
   score: 115
+- name: DTS
+  score: 105
 - name: 1080p
   score: 50
 - name: CRIT
