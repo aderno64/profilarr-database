@@ -1,5 +1,5 @@
 name: Dolby Digital
-pattern: \\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b
+pattern: (?i)(?<!E[-_. ]?)\bAC-?3(?:[\s._-]?\d+\.\d+)?\b
 description: ''
 tags:
 - Audio
@@ -7,7 +7,7 @@ tests:
 - expected: false
   id: 1
   input: Parks.and.Recreation.S03E16.Lil.Sebastian.1080p.AMZN.WEBRip.DD5.1.x264-NTb
-  lastRun: '2025-07-07T13:34:36.604739'
+  lastRun: '2025-07-07T13:43:45.813684'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -15,8 +15,18 @@ tests:
 - expected: false
   id: 2
   input: WALL-E.2008.2160p.UHD.BluRay.x265.HDR.DV.DD.7.1-Pahe.in
-  lastRun: '2025-07-07T13:34:36.604739'
+  lastRun: '2025-07-07T13:43:45.813684'
   matchSpan: null
   matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Waynes.World.1992.720p.BluRay.x264.AC3.5.1-TBB
+  lastRun: '2025-07-07T13:43:45.813684'
+  matchSpan:
+    end: 42
+    start: 35
+  matchedContent: AC3.5.1
   matchedGroups: []
   passes: true
