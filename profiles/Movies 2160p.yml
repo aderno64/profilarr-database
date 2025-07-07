@@ -117,8 +117,6 @@ custom_formats:
   score: -10000
 - name: Extras
   score: -10000
-- name: h265
-  score: -10000
 - name: HDR10 (Missing) (1080p)
   score: -10000
 - name: Lossless Audio (1080p)
@@ -134,10 +132,6 @@ custom_formats:
 - name: UnWanted WEBRip Groups
   score: -10000
 - name: Upscaled
-  score: -10000
-- name: x265
-  score: -10000
-- name: x265 (Missing)
   score: -10000
 qualities:
 - id: 4
