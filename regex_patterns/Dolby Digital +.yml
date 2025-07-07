@@ -1,5 +1,5 @@
 name: Dolby Digital +
-pattern: \bDD(?:[+.]\d+|\d+\.\d+|P)?\b|\bE[-_. ]?AC3\b
+pattern: \bDD(?:[+.]\d+|\d+\.\d+|P|\+)?(?!A)\b|\bE[-_. ]?AC-?3\b
 description: ''
 tags:
 - Audio
@@ -7,7 +7,7 @@ tests:
 - expected: true
   id: 1
   input: Parks.and.Recreation.S03E16.Lil.Sebastian.1080p.AMZN.WEBRip.DD5.1.x264-NTb
-  lastRun: '2025-07-07T09:08:40.984150'
+  lastRun: '2025-07-07T13:36:04.211480'
   matchSpan:
     end: 65
     start: 60
