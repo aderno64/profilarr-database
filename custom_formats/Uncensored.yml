@@ -1,11 +1,11 @@
 name: Uncensored
 description: ''
 tags:
-- Sonarr
+- Edition
 conditions:
 - name: Uncensored
-  type: release_title
-  required: true
   negate: false
   pattern: Uncensored
+  required: true
+  type: release_title
 tests: []

@@ -1,7 +1,8 @@
 name: Uncensored
 pattern: (?<=^|[^\w])(?:Uncut|Unrated|Uncensored|AT[-_. ]?X)(?=[^\w]|$)
 description: ''
-tags: []
+tags:
+- Edition
 tests:
 - expected: true
   id: 1
