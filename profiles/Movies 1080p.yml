@@ -23,6 +23,8 @@ custom_formats:
   score: 1600
 - name: WEB-DL Tier 4
   score: 1550
+- name: WEB Scene
+  score: 1500
 - name: 1080p Balanced Tier 1
   score: 1150
 - name: 1080p Balanced Tier 2
