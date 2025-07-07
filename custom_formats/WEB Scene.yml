@@ -1,0 +1,35 @@
+name: WEB Scene
+description: One of the few scene groups that released quality releases.
+tags:
+- Release Groups
+conditions:
+- name: Scene
+  negate: false
+  pattern: Scene
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: Scene
+    negate: false
+    pattern: Scene
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Shoresy.S02E06.REPACK.1080p.WEB.H264-NHTFS
+  lastRun: '2025-07-06T19:19:23.323037'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Scene
+    negate: false
+    pattern: Scene
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: Entourage - S01E07 - The Scene Bluray-1080p.mkv
+  lastRun: '2025-07-06T19:19:23.323037'
+  passes: true

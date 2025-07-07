@@ -25,6 +25,8 @@ custom_formats:
   score: 1550
 - name: Dolby Vision
   score: 1500
+- name: WEB Scene
+  score: 1500
 - name: HDR10+
   score: 600
 - name: HDR

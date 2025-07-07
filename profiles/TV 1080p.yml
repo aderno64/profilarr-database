@@ -23,6 +23,8 @@ custom_formats:
   score: 1600
 - name: WEB-DL Tier 4
   score: 1550
+- name: WEB Scene
+  score: 1500
 - name: ATVP
   score: 100
 - name: DSNP
