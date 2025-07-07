@@ -127,6 +127,8 @@ custom_formats:
   score: -10000
 - name: Special Edition (UnWanted)
   score: -10000
+- name: TrueHD
+  score: -10000
 - name: UnWanted Release Groups
   score: -10000
 - name: UnWanted WEBRip Groups
