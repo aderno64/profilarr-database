@@ -25,6 +25,8 @@ custom_formats:
   score: 1550
 - name: Dolby Vision
   score: 1500
+- name: WEB Scene
+  score: 1500
 - name: 1080p Balanced Tier 1
   score: 1150
 - name: 2160p Balanced Tier 1
