@@ -67,6 +67,8 @@ custom_formats:
   score: 20
 - name: DTS
   score: 10
+- name: Uncensored
+  score: 10
 - name: Repack1
   score: 7
 - name: Repack2
