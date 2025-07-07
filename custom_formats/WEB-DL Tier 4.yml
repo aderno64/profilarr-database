@@ -24,9 +24,4 @@ conditions:
   pattern: LAZY
   required: false
   type: release_group
-- name: SUCCESSFULCRAB
-  type: release_group
-  required: false
-  negate: false
-  pattern: SUCCESSFULCRAB
 tests: []
