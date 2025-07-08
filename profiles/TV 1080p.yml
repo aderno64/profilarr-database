@@ -49,12 +49,6 @@ custom_formats:
   score: 50
 - name: SHO
   score: 50
-- name: Dolby Digital +
-  score: 30
-- name: Dolby Digital
-  score: 20
-- name: DTS
-  score: 10
 - name: Uncensored
   score: 10
 - name: Repack1
