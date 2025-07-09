@@ -25,4 +25,34 @@ conditions:
   pattern: RARGB
   required: false
   type: release_group
+- name: YIFY
+  negate: false
+  pattern: YIFY
+  required: false
+  type: release_group
+- name: YTS
+  negate: false
+  pattern: YTS
+  required: false
+  type: release_group
+- name: WiKi
+  type: release_group
+  required: false
+  negate: false
+  pattern: WiKi
+- name: SHD
+  negate: false
+  pattern: SHD
+  required: false
+  type: release_group
+- name: NhaNc3
+  negate: false
+  pattern: NhaNc3
+  required: false
+  type: release_group
+- name: AOC
+  negate: false
+  pattern: AOC
+  required: false
+  type: release_group  
 tests: []
