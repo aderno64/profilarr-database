@@ -51,8 +51,6 @@ custom_formats:
   score: 1000
 - name: BHDStudio
   score: 1000
-- name: 720p Quality Tier 5
-  score: 925
 - name: hallowed
   score: 700
 - name: Dolby Digital +
@@ -75,10 +73,6 @@ custom_formats:
   score: 6
 - name: Repack1
   score: 5
-- name: HDR10 (Missing)
-  score: 0
-- name: SDR
-  score: 0
 - name: 3D
   score: -10000
 - name: Atmos
@@ -100,6 +94,8 @@ custom_formats:
 - name: Special Edition (UnWanted)
   score: -10000
 - name: TrueHD
+  score: -10000
+- name: TrueHD (Missing)
   score: -10000
 - name: UnWanted Release Groups
   score: -10000
