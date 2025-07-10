@@ -1,3 +1,19 @@
+name: Movies 2160p
+description: 'Based on the TRaSH Guides SQP-1 profile, focusing on streaming optimized
+  sources with little to no transcoding needed.
+
+  - This profile is recommended for a set-it-and-forget-it setup.
+
+  - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
+  as needed.'
+tags:
+- Radarr
+- TRaSH
+- 2160p
+upgradesAllowed: true
+minCustomFormatScore: 1000
+upgradeUntilScore: 10000
+minScoreIncrement: 1
 custom_formats:
 - name: WEB-DL Tier 1
   score: 1700
@@ -53,9 +69,9 @@ custom_formats:
   score: 1000
 - name: 720p Quality Tier 5
   score: 1000
-- name: BHDStudio
-  score: 1000
 - name: hallowed
+  score: 1000
+- name: BHDStudio
   score: 700
 - name: HDR10+
   score: 600
@@ -121,31 +137,20 @@ custom_formats:
   score: -10000
 - name: Upscaled
   score: -10000
-description: 'Based on the TRaSH Guides SQP-1 profile, focusing on streaming optimized
-  sources with little to no transcoding needed.
-
-  - This profile is recommended for a set-it-and-forget-it setup.
-
-  - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
-  as needed.'
-language: original
-minCustomFormatScore: 1000
-minScoreIncrement: 1
-name: Movies 2160p
 qualities:
 - id: 4
   name: Bluray-2160p
-- description: ''
-  id: -1
+- id: -1
   name: WEB 2160p
+  description: ''
   qualities:
   - id: 5
     name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
-- description: ''
-  id: -2
+- id: -2
   name: Bluray|WEB-1080p
+  description: ''
   qualities:
   - id: 10
     name: Bluray-1080p
@@ -159,13 +164,8 @@ qualities:
     name: WEBRip-720p
 - id: 13
   name: Bluray-720p
-tags:
-- Radarr
-- TRaSH
-- 2160p
-upgradeUntilScore: 10000
 upgrade_until:
-  description: 4K Ultra HD Blu-ray video encoded with lossy compression
   id: 4
   name: Bluray-2160p
-upgradesAllowed: true
+  description: 4K Ultra HD Blu-ray video encoded with lossy compression
+language: original
