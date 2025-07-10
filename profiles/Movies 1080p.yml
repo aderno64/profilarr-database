@@ -49,9 +49,9 @@ custom_formats:
   score: 1000
 - name: 720p Quality Tier 5
   score: 1000
-- name: BHDStudio
-  score: 1000
 - name: hallowed
+  score: 1000
+- name: BHDStudio
   score: 700
 - name: Dolby Digital +
   score: 125
