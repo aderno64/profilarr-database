@@ -27,47 +27,47 @@ custom_formats:
   score: 1500
 - name: WEB Scene
   score: 1500
-- name: 2160p Quality Tier 1
+- name: 2160p Balanced Tier 1
   score: 1200
-- name: 2160p Quality Tier 2
+- name: 2160p Balanced Tier 2
   score: 1175
+- name: 2160p Quality Tier 1
+  score: 1150
+- name: 1080p Balanced Tier 1
+  score: 1150
+- name: 2160p Quality Tier 2
+  score: 1125
+- name: 1080p Balanced Tier 2
+  score: 1125
 - name: 2160p Quality Tier 3
-  score: 1150
-- name: 1080p Quality Tier 1
-  score: 1150
-- name: 2160p Quality Tier 4
-  score: 1125
-- name: 1080p Quality Tier 2
-  score: 1125
-- name: 2160p Quality Tier 5
   score: 1100
-- name: 1080p Quality Tier 3
+- name: 1080p Quality Tier 1
   score: 1100
 - name: 720p Quality Tier 1
   score: 1100
-- name: 2160p Quality Tier 6
-  score: 1075
-- name: 1080p Quality Tier 4
+- name: 1080p Quality Tier 2
   score: 1075
 - name: 720p Quality Tier 2
   score: 1075
-- name: 2160p Quality Tier 7
-  score: 1050
-- name: 1080p Quality Tier 5
+- name: 2160p Quality Tier 4
+  score: 1075
+- name: 1080p Quality Tier 3
   score: 1050
 - name: 720p Quality Tier 3
   score: 1050
-- name: 2160p Balanced Tier 1
-  score: 1025
-- name: 1080p Balanced Tier 1
+- name: 2160p Quality Tier 5
+  score: 1050
+- name: 1080p Quality Tier 4
   score: 1025
 - name: 720p Quality Tier 4
   score: 1025
-- name: 2160p Balanced Tier 2
-  score: 1000
-- name: 1080p Balanced Tier 2
+- name: 2160p Quality Tier 6
+  score: 1025
+- name: 1080p Quality Tier 5
   score: 1000
 - name: 720p Quality Tier 5
+  score: 1000
+- name: 2160p Quality Tier 7
   score: 1000
 - name: BHDStudio
   score: 1000
