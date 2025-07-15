@@ -1,0 +1,65 @@
+name: DTS-HD MA (Missing)
+description: Attempts to match releases which have DTS-HD MA that don't label it correctly.
+tags:
+- DTS
+- HD MA
+conditions:
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: DTS-HD MA Missing
+  negate: false
+  pattern: DTS-HD MA (Missing Groups)
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: DTS-HD MA Missing
+    negate: false
+    pattern: DTS-HD MA (Missing Groups)
+    required: true
+    type: release_title
+  expected: false
+  id: 1
+  input: House.of.the.Dragon.S01.DV.2160p.BluRay.Remux.TrueHDA7.1.H.265-TekMUX
+  lastRun: '2025-07-15T09:06:06.385024'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: DTS-HD MA Missing
+    negate: false
+    pattern: DTS-HD MA (Missing Groups)
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: House of the Dragon S01 UHD BluRay 2160p TrueHD Atmos 7.1 DV HEVC REMUX-FraMeSToR
+  lastRun: '2025-07-15T09:06:06.385024'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: DTS-HD MA Missing
+    negate: false
+    pattern: DTS-HD MA (Missing Groups)
+    required: true
+    type: release_title
+  expected: false
+  id: 3
+  input: Loki.S01.2160p.UHD.BluRay.Remux.TrueHDA.7.1.H.265-SiCFoI
+  lastRun: '2025-07-15T09:06:06.385024'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: DTS-HD MA Missing
+    negate: false
+    pattern: DTS-HD MA (Missing Groups)
+    required: true
+    type: release_title
+  expected: true
+  id: 4
+  input: Quantum.of.Solace.2008.2160p.UHD.BluRay.X265-IAMABLE-AsRequested
+  lastRun: '2025-07-15T09:06:06.385024'
+  passes: true
