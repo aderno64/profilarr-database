@@ -33,6 +33,8 @@ custom_formats:
   score: 500
 - name: HDR10
   score: 500
+- name: HDR10 (Missing)
+  score: 500
 - name: HLG
   score: 500
 - name: PQ
@@ -59,6 +61,8 @@ custom_formats:
   score: 50
 - name: iT
   score: 50
+- name: iT (Missing)
+  score: 50
 - name: SHO
   score: 50
 - name: Uncensored
@@ -71,15 +75,19 @@ custom_formats:
   score: 5
 - name: AV1
   score: -10000
+- name: Banned Groups
+  score: -10000
+- name: Banned WEB-DL (x265)
+  score: -10000
+- name: Banned WEBRip
+  score: -10000
 - name: Dolby Vision (Without Fallback)
   score: -10000
 - name: Extras
   score: -10000
 - name: Non Retail HDR
   score: -10000
-- name: UnWanted Release Groups
-  score: -10000
-- name: UnWanted WEBRip Groups
+- name: Special Edition (Banned)
   score: -10000
 qualities:
 - id: -1

@@ -1,7 +1,0 @@
-name: OohLaLa
-pattern: (?<=^|[\s.-])OohLaLa\b
-description: ''
-tags:
-- Release Group
-- Bluray
-tests: []
