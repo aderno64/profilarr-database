@@ -1,5 +1,12 @@
 # bedynamic Profilarr Database
 
+## Anime
+These profiles are based on the TRaSH Guides Anime profile structure. Currently, we are only developing a 1080p profile.
+
+Using these profiles:
+- You will get a media file between a quality of SDTV - 1080p Remux
+- You will be preferring Dual Audio media (ie including English along with original language)
+
 ## Movie and TV
 These profiles are based on the structure of the SQP-1 Alternative (Radarr) and the WEB-2160p/1080p Alternative (Sonarr) profiles. Using this database can be described as set-it-and-forget-it.
 
@@ -19,10 +26,3 @@ Using these Profiles in Sonarr:
 - You will get high-quality, WEB-DL files.
 - You can expect fallback to WEB-Rip, Bluray and HDTV if WEB-DL is unavailable.
 - You can expect to grab a media file from any available resolution.
-
-## Anime
-These profiles are based on the TRaSH Guides Anime profile structure. Currently, we are only developing a 1080p profile.
-
-Using these profiles:
-- You will get a media file between a quality of SDTV - 1080p Remux
-- You will be preferring Dual Audio media (ie including English along with original language)
