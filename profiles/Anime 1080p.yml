@@ -22,6 +22,8 @@ custom_formats:
   score: 250
 - name: WEB-DL Tier 4
   score: 200
+- name: Anime Dual Audio
+  score: 101
 - name: CRIT
   score: 6
 - name: DSNP
