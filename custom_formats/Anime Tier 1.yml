@@ -1,0 +1,11 @@
+name: Anime Tier 1
+description: ''
+tags:
+- Anime
+conditions:
+- name: Anime Groups
+  negate: false
+  pattern: Anime Groups
+  required: true
+  type: release_title
+tests: []
