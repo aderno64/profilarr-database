@@ -1,0 +1,83 @@
+name: Anime 1080p
+description: WORK IN PROGRESS
+tags:
+- Anime
+- Sonarr
+upgradesAllowed: true
+minCustomFormatScore: 10
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats:
+- name: Remux Tier 1
+  score: 1100
+- name: Remux Tier 2
+  score: 1050
+- name: Remux Tier 3
+  score: 1000
+- name: WEB-DL Tier 1
+  score: 350
+- name: WEB-DL Tier 2
+  score: 300
+- name: WEB-DL Tier 3
+  score: 250
+- name: WEB-DL Tier 4
+  score: 200
+- name: CRIT
+  score: 6
+- name: DSNP
+  score: 5
+- name: NF
+  score: 4
+- name: AMZN
+  score: 3
+- name: AV1
+  score: -10000
+qualities:
+- id: -1
+  name: Bluray 1080p
+  description: ''
+  qualities:
+  - id: 8
+    name: Remux-1080p
+  - id: 10
+    name: Bluray-1080p
+- id: -2
+  name: WEB 1080p
+  description: ''
+  qualities:
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 12
+    name: HDTV-1080p
+- id: 13
+  name: Bluray-720p
+- id: -3
+  name: WEB 720p
+  description: ''
+  qualities:
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+  - id: 16
+    name: HDTV-720p
+- id: 18
+  name: Bluray-480p
+- id: -4
+  name: WEB 480p
+  description: ''
+  qualities:
+  - id: 20
+    name: WEBRip-480p
+  - id: 19
+    name: WEBDL-480p
+- id: 22
+  name: DVD
+- id: 24
+  name: SDTV
+upgrade_until:
+  id: -1
+  name: Bluray 1080p
+language: must_english
