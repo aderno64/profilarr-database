@@ -10,6 +10,7 @@ tags:
 - Anime
 - Sonarr
 - 1080p
+- TRaSH
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 10000
@@ -29,6 +30,8 @@ custom_formats:
   score: 250
 - name: WEB-DL Tier 4
   score: 200
+- name: Anime Tier 1
+  score: 150
 - name: Anime Dual Audio
   score: 101
 - name: CRIT
