@@ -4,11 +4,6 @@ tags:
 - DTS
 - HD MA
 conditions:
-- name: 2160p
-  type: resolution
-  required: true
-  negate: false
-  resolution: 2160p
 - name: DTS-HD MA Missing
   negate: false
   pattern: DTS-HD MA (Missing Groups)
