@@ -5,13 +5,8 @@ tags:
 - Audio
 - Dolby
 conditions:
-- name: 7.1 Surround
-  negate: false
-  pattern: 7.1 Surround
-  required: true
-  type: release_title
-- name: TrueHD
-  negate: false
+- name: Not TrueHD
+  negate: true
   pattern: TrueHD
   required: true
   type: release_title
@@ -25,8 +20,34 @@ conditions:
   pattern: BTN Atmos
   required: true
   type: release_title
+- name: Atmos Missing
+  negate: false
+  pattern: Atmos (Missing Groups)
+  required: true
+  type: release_title
+- name: Not DD+
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dolby Digital +
+- name: Not DD
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dolby Digital
+- name: Not DTS
+  type: release_title
+  required: true
+  negate: true
+  pattern: DTS
 tests:
 - conditionResults:
+  - matches: true
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: true
+    type: release_title
   - matches: false
     name: Not Atmos
     negate: true
@@ -34,75 +55,99 @@ tests:
     required: true
     type: release_title
   - matches: true
-    name: 7.1 Surround
-    negate: false
-    pattern: 7.1 Surround
-    required: true
-    type: release_title
-  - matches: true
-    name: TrueHD
-    negate: false
-    pattern: TrueHD
-    required: true
-    type: release_title
-  - matches: true
     name: Not Atmos (BTN)
     negate: true
     pattern: BTN Atmos
+    required: true
+    type: release_title
+  - matches: false
+    name: Atmos Missing
+    negate: false
+    pattern: Atmos (Missing Groups)
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DD+
+    negate: true
+    pattern: Dolby Digital +
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DD
+    negate: true
+    pattern: Dolby Digital
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS
     required: true
     type: release_title
   expected: false
   id: 1
   input: House.of.the.Dragon.S01.DV.2160p.BluRay.Remux.TrueHDA7.1.H.265-TekMUX
-  lastRun: '2025-01-11T23:15:56.334239'
+  lastRun: '2025-07-15T12:51:46.768049'
   passes: true
 - conditionResults:
+  - matches: true
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: true
+    type: release_title
   - matches: true
     name: Not Atmos
     negate: true
     pattern: Atmos
     required: true
     type: release_title
-  - matches: true
-    name: 7.1 Surround
-    negate: false
-    pattern: 7.1 Surround
-    required: true
-    type: release_title
-  - matches: true
-    name: TrueHD
-    negate: false
-    pattern: TrueHD
-    required: true
-    type: release_title
   - matches: false
     name: Not Atmos (BTN)
     negate: true
     pattern: BTN Atmos
+    required: true
+    type: release_title
+  - matches: false
+    name: Atmos Missing
+    negate: false
+    pattern: Atmos (Missing Groups)
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DD+
+    negate: true
+    pattern: Dolby Digital +
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DD
+    negate: true
+    pattern: Dolby Digital
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS
     required: true
     type: release_title
   expected: false
   id: 2
   input: House of the Dragon S01 UHD BluRay 2160p TrueHD Atmos 7.1 DV HEVC REMUX-FraMeSToR
-  lastRun: '2025-01-11T23:15:56.334239'
+  lastRun: '2025-07-15T12:51:46.768049'
   passes: true
 - conditionResults:
+  - matches: true
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: true
+    type: release_title
   - matches: false
     name: Not Atmos
     negate: true
     pattern: Atmos
-    required: true
-    type: release_title
-  - matches: true
-    name: 7.1 Surround
-    negate: false
-    pattern: 7.1 Surround
-    required: true
-    type: release_title
-  - matches: true
-    name: TrueHD
-    negate: false
-    pattern: TrueHD
     required: true
     type: release_title
   - matches: true
@@ -111,8 +156,80 @@ tests:
     pattern: BTN Atmos
     required: true
     type: release_title
+  - matches: false
+    name: Atmos Missing
+    negate: false
+    pattern: Atmos (Missing Groups)
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DD+
+    negate: true
+    pattern: Dolby Digital +
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DD
+    negate: true
+    pattern: Dolby Digital
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS
+    required: true
+    type: release_title
   expected: false
   id: 3
   input: Loki.S01.2160p.UHD.BluRay.Remux.TrueHDA.7.1.H.265-SiCFoI
-  lastRun: '2025-01-11T23:15:56.334239'
+  lastRun: '2025-07-15T12:51:46.768049'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Atmos
+    negate: true
+    pattern: Atmos
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Atmos (BTN)
+    negate: true
+    pattern: BTN Atmos
+    required: true
+    type: release_title
+  - matches: true
+    name: Atmos Missing
+    negate: false
+    pattern: Atmos (Missing Groups)
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DD+
+    negate: true
+    pattern: Dolby Digital +
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DD
+    negate: true
+    pattern: Dolby Digital
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS
+    required: true
+    type: release_title
+  expected: true
+  id: 4
+  input: A.Working.Man.2025.2160p.WEB.h265-ETHEL
+  lastRun: '2025-07-15T12:51:46.768049'
   passes: true
