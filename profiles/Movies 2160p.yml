@@ -27,57 +27,63 @@ custom_formats:
   score: 1500
 - name: WEB Scene
   score: 1500
-- name: 2160p Balanced Tier 1
-  score: 1400
-- name: 2160p Balanced Tier 2
-  score: 1350
 - name: 1080p Balanced Tier 1
-  score: 1300
-- name: 2160p Quality Tier 1
-  score: 1300
-- name: 1080p Balanced Tier 2
-  score: 1250
-- name: 2160p Quality Tier 2
-  score: 1250
+  score: 1150
 - name: 1080p Quality Tier 1
-  score: 1200
-- name: 2160p Quality Tier 3
-  score: 1200
+  score: 1150
+- name: 2160p Balanced Tier 1
+  score: 1150
+- name: 2160p Quality Tier 1
+  score: 1150
 - name: 720p Quality Tier 1
-  score: 1200
+  score: 1150
+- name: 1080p Balanced Tier 2
+  score: 1100
 - name: 1080p Quality Tier 2
-  score: 1150
-- name: 2160p Quality Tier 4
-  score: 1150
+  score: 1100
+- name: 2160p Balanced Tier 2
+  score: 1100
 - name: 720p Quality Tier 2
-  score: 1150
+  score: 1100
 - name: 1080p Quality Tier 3
-  score: 1100
-- name: 2160p Quality Tier 5
-  score: 1100
+  score: 1050
 - name: 720p Quality Tier 3
-  score: 1100
+  score: 1050
 - name: 1080p Quality Tier 4
-  score: 1050
-- name: 2160p Quality Tier 6
-  score: 1050
+  score: 1000
+- name: 2160p Quality Tier 2
+  score: 1000
 - name: 720p Quality Tier 4
-  score: 1050
-- name: 1080p Quality Tier 5
-  score: 1000
-- name: 2160p Quality Tier 7
-  score: 1000
-- name: 720p Quality Tier 5
-  score: 1000
-- name: hallowed
   score: 1000
 - name: BHDStudio
+  score: 1000
+- name: 1080p Quality Tier 5
+  score: 950
+- name: 2160p Quality Tier 3
+  score: 950
+- name: 720p Quality Tier 5
+  score: 950
+- name: 2160p Quality Tier 4
+  score: 900
+- name: 2160p Quality Tier 5
+  score: 850
+- name: 2160p Quality Tier 6
+  score: 800
+- name: IMAX
+  score: 800
+- name: IMAX Enhanced
+  score: 800
+- name: 2160p Quality Tier 7
+  score: 750
+- name: hallowed
   score: 700
 - name: HDR10+
   score: 600
 - name: HDR
   score: 500
 - name: HDR10
+  score: 500
+- name: HDR10 (Missing)
   score: 500
 - name: HLG
   score: 500
@@ -105,9 +111,19 @@ custom_formats:
   score: 5
 - name: 3D
   score: -10000
+- name: Atmos
+  score: -10000
+- name: Atmos (Missing)
+  score: -10000
 - name: AV1
   score: -10000
 - name: B&W
+  score: -10000
+- name: Banned Groups
+  score: -10000
+- name: Banned WEB-DL (x265)
+  score: -10000
+- name: Banned WEBRip
   score: -10000
 - name: BCORE
   score: -10000
@@ -125,15 +141,11 @@ custom_formats:
   score: -10000
 - name: Non Retail HDR
   score: -10000
-- name: Special Edition (UnWanted)
+- name: Special Edition (Banned)
   score: -10000
 - name: TrueHD
   score: -10000
 - name: TrueHD (Missing)
-  score: -10000
-- name: UnWanted Release Groups
-  score: -10000
-- name: UnWanted WEBRip Groups
   score: -10000
 - name: Upscaled
   score: -10000
