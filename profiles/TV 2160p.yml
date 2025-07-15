@@ -33,8 +33,6 @@ custom_formats:
   score: 500
 - name: HDR10
   score: 500
-- name: HDR10 (Missing)
-  score: 500
 - name: HLG
   score: 500
 - name: PQ
