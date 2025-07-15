@@ -99,8 +99,6 @@ custom_formats:
   score: -10000
 - name: DTS-X
   score: -10000
-- name: DTS-X (Missing)
-  score: -10000
 - name: Extras
   score: -10000
 - name: Lossless Audio (1080p)
