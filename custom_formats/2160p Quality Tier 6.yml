@@ -210,9 +210,4 @@ conditions:
   pattern: VALiS
   required: false
   type: release_group
-- name: Whiterhino
-  negate: false
-  pattern: WhiteRhino
-  required: false
-  type: release_group
 tests: []
