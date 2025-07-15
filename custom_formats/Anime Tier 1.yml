@@ -2,6 +2,7 @@ name: Anime Tier 1
 description: ''
 tags:
 - Anime
+- Group Tier
 conditions:
 - name: Anime Groups
   negate: false
