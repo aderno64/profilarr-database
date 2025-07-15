@@ -1,0 +1,24 @@
+name: DTS-X (Missing)
+description: Attempts to match releases which have DTS-X, but are not labeled correctly.
+tags:
+- DTS-X
+- Audio
+conditions:
+- name: DTS-X Missing
+  negate: false
+  pattern: DTS-X (Missing Groups)
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: DTS-X Missing
+    negate: false
+    pattern: DTS-X (Missing Groups)
+    required: true
+    type: release_title
+  expected: true
+  id: 3
+  input: Casino.1995.2160p.UHD.BluRay.x265-WhiteRhino-AsRequested
+  lastRun: '2025-07-15T13:01:16.551228'
+  passes: true
