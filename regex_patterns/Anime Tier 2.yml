@@ -1,7 +1,18 @@
 name: Anime Tier 2
-pattern: (?<=^|[\s.-])0x539|Alt|ARC|Arid|aro|Baws|BKC|Brrrrrrr|Chotab|Crow|CsS|CUNNY|Cunnysseur|D-Z0N3|Dae|Datte13|DemiHuman|Drag|FLFL|hydes|iKaos|JySzE|LostYears|Lulu|Matsya|MC|McBalls|Metal|Moxie|MTBB|Not-Vodes|Noyr|NSDAB|Okay-Subs|pog42|pyroneko|RAI|Reza|Shimatta|Smoke|Spirale|Thighs|UDF|Yuki\b
+pattern: (?<=^|[\s.\-\[])(0x539|Alt|ARC|Arid|aro|Baws|BKC|Brrrrrrr|Chotab|Crow|CsS|CUNNY|Cunnysseur|D-Z0N3|Dae|Datte13|DemiHuman|Drag|FLFL|hydes|iKaos|JySzE|LostYears|Lulu|Matsya|MC|McBalls|Metal|Moxie|MTBB|Not-Vodes|Noyr|NSDAB|Okay-Subs|pog42|pyroneko|RAI|Reza|Shimatta|Smoke|Spirale|Thighs|UDF|Yuki)\b
 description: TRaSH Guides Anime Tier 02 (SeaDex Muxers)
 tags:
 - Anime
 - Release Group
-tests: []
+tests:
+- expected: true
+  id: 1
+  input: '[Pog42] Elfen Lied - 01 (BD 1080p HEVC FLAC)'
+  lastRun: '2025-07-15T17:10:35.180896'
+  matchSpan:
+    end: 6
+    start: 1
+  matchedContent: Pog42
+  matchedGroups:
+  - Pog42
+  passes: true
