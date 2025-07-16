@@ -1,9 +1,0 @@
-name: Anime Groups
-pattern: (?<=^|[\s.-])404chan|420chan|4chan|8chan.moe|8kun.top|9chan.tw|aether|anon.lol|anonib.al|anonib.one|anonib2r3pmzpqxh|arisuchan|bbyp.space|bcchan|bienvenidoainternet.org|board.fchan|bussy|cakechan|cancerchan|cern.science|c.f|chestchan|crystal.cafe|cute.is|darwinchan|deadchan|desuchan|dis.4ct.org|dreamch.net|dreamnetwork|dylanchan|earthchan|echs|fapchan|femchan|femspace|filmboards|fireden|flashchan|foxychan|foxxiechan|freechan|furrychan|futanari-palace|galchan|gaybooru|girlchan|grimchan|gurochan|heyuri|hotaru.rocks|ib.moe|inaka|indiachan|iwara|izuru|junkuchan|kekerino|kiri|kissu|kittychan|kremvax|lainchan|late.city|leftychan|library.of.babel|libraryquest|lilachan|limmy|loli.house|lolibooru|magicchan|makochan|mango.cat|masterchan|mewch|milfchan|mimi|minichan|moeblob|molpol|motherless|myanon|mychan|nanachansfw|netwatch|notsointelligent|nowere.net|nullchan|ohayou|okii.party|omichan|opchan|opencola|orf|overchan|oyasumi|pinkanon|ponybooru|ponyville.us|retrotech|rika.works|sama|samechan|sanctumia|saraba1st|secretchan|sekai|sexchan|simach|smugloli|smuglo.li|smuglo.li/r|soyjak.party|spqrchan|steinerchan|sukebe.moe|syn-chans|synirc|systemspace|takochan|templeos.church|thecityofgoldenroadsto.in|thekack.org|thevoid|tinychan|tisa.moe|tokinamiflow|tomochan|trannychan|traphouse.earth|turbochan|uboachan|underchan|vanwatech|viyuri|vochan|wibz.org|wired-7.org|wizchan|worldoffoxgirls|zchan|zipchan\b
-description: '**WORK IN PROGRESS
-
-  This covers all Anime groups in the Dictionarry database'
-tags:
-- Anime
-- Release Group
-tests: []
