@@ -1,12 +1,12 @@
-name: Anime Tier 1
+name: Anime Tier 5
 description: ''
 tags:
 - Anime
 - Group Tier
 conditions:
-- name: Anime Tier 1
+- name: Anime Tier 5
   negate: false
-  pattern: Anime Tier 1
+  pattern: Anime Tier 5
   required: true
   type: release_title
 tests: []
