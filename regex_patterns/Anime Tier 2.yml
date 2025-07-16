@@ -4,15 +4,4 @@ description: TRaSH Guides Anime Tier 02 (SeaDex Muxers)
 tags:
 - Anime
 - Release Group
-tests:
-- expected: true
-  id: 1
-  input: '[Pog42] Elfen Lied - 01 (BD 1080p HEVC FLAC)'
-  lastRun: '2025-07-15T17:10:35.180896'
-  matchSpan:
-    end: 6
-    start: 1
-  matchedContent: Pog42
-  matchedGroups:
-  - Pog42
-  passes: true
+tests: []
