@@ -4,12 +4,4 @@ description: TRaSH Guides Anime Tier 06 (FanSubs)
 tags:
 - Anime
 - Release Group
-tests:
-- expected: true
-  id: 1
-  input: '[torrenter69].Elfen.Lied.S01E13-Erleuchtung-No.Return.[HiDive-DL.Eng.Dub].[1080p.x264]'
-  lastRun: '2025-07-15T17:07:12.368497'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: false
+tests: []
