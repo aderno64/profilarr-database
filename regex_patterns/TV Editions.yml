@@ -1,0 +1,8 @@
+name: TV Editions
+pattern: (?<!^|{)\b(extended|special|uncensored|superfan)(\b|\d)
+description: Covers special versions of TV shows like The Office Superfan Episodes
+  as well as uncensored, etc.
+tags:
+- Sonarr
+- Versions
+tests: []
