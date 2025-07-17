@@ -24,11 +24,11 @@ custom_formats:
 - name: WEB-DL Tier 4
   score: 1550
 - name: 1080p WEB-DL
-  score: 1000
+  score: 500
 - name: 480p WEB-DL
-  score: 1000
+  score: 500
 - name: 720p WEB-DL
-  score: 1000
+  score: 500
 - name: WEB Scene
   score: 500
 - name: ATVP

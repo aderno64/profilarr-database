@@ -25,16 +25,16 @@ custom_formats:
   score: 1550
 - name: Dolby Vision
   score: 1500
-- name: 1080p WEB-DL
-  score: 1000
-- name: 2160p WEB-DL
-  score: 1000
-- name: 480p WEB-DL
-  score: 1000
-- name: 720p WEB-DL
-  score: 1000
 - name: HDR10+
   score: 600
+- name: 1080p WEB-DL
+  score: 500
+- name: 2160p WEB-DL
+  score: 500
+- name: 480p WEB-DL
+  score: 500
+- name: 720p WEB-DL
+  score: 500
 - name: HDR
   score: 500
 - name: HDR10
