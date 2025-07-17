@@ -25,10 +25,6 @@ custom_formats:
   score: 1550
 - name: Dolby Vision
   score: 1500
-- name: 1080p WEB-DL
-  score: 1250
-- name: 2160p WEB-DL
-  score: 1250
 - name: 1080p Balanced Tier 1
   score: 1150
 - name: 2160p Balanced Tier 1
@@ -39,7 +35,11 @@ custom_formats:
   score: 1100
 - name: 1080p Quality Tier 1
   score: 1000
+- name: 1080p WEB-DL
+  score: 1000
 - name: 2160p Quality Tier 1
+  score: 1000
+- name: 2160p WEB-DL
   score: 1000
 - name: 720p Quality Tier 1
   score: 1000
@@ -55,11 +55,7 @@ custom_formats:
   score: 900
 - name: 2160p Quality Tier 3
   score: 900
-- name: 480p WEB-DL
-  score: 900
 - name: 720p Quality Tier 3
-  score: 900
-- name: 720p WEB-DL
   score: 900
 - name: 1080p Quality Tier 4
   score: 850
@@ -77,24 +73,18 @@ custom_formats:
   score: 800
 - name: IMAX Enhanced
   score: 800
-- name: WEB Scene
-  score: 800
 - name: 2160p Quality Tier 6
   score: 750
 - name: 2160p Quality Tier 7
   score: 700
 - name: hallowed
   score: 700
-- name: 1080p WEBRip
-  score: 600
-- name: 2160p WEBRip
-  score: 600
-- name: 480p WEBRip
-  score: 600
-- name: 720p WEBRip
-  score: 600
 - name: HDR10+
   score: 600
+- name: 480p WEB-DL
+  score: 500
+- name: 720p WEB-DL
+  score: 500
 - name: HDR
   score: 500
 - name: HDR10
@@ -104,6 +94,8 @@ custom_formats:
 - name: HLG
   score: 500
 - name: PQ
+  score: 500
+- name: WEB Scene
   score: 500
 - name: Dolby Digital +
   score: 125
