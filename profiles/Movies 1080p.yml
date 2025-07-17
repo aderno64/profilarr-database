@@ -92,9 +92,13 @@ custom_formats:
   score: -10000
 - name: BCORE
   score: -10000
+- name: BR-DISK
+  score: -10000
 - name: Extras
   score: -10000
 - name: Lossless Audio (1080p)
+  score: -10000
+- name: Sing Along
   score: -10000
 - name: Special Edition (Banned)
   score: -10000
