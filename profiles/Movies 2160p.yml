@@ -25,8 +25,6 @@ custom_formats:
   score: 1550
 - name: Dolby Vision
   score: 1500
-- name: WEB Scene
-  score: 1500
 - name: 1080p WEB-DL
   score: 1250
 - name: 2160p WEB-DL
@@ -86,6 +84,8 @@ custom_formats:
 - name: IMAX
   score: 800
 - name: IMAX Enhanced
+  score: 800
+- name: WEB Scene
   score: 800
 - name: 2160p Quality Tier 6
   score: 750

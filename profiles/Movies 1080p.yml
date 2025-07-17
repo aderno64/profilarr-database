@@ -23,8 +23,6 @@ custom_formats:
   score: 1600
 - name: WEB-DL Tier 4
   score: 1550
-- name: WEB Scene
-  score: 1500
 - name: 1080p WEB-DL
   score: 1250
 - name: 2160p WEB-DL
@@ -70,6 +68,8 @@ custom_formats:
 - name: IMAX
   score: 800
 - name: IMAX Enhanced
+  score: 800
+- name: WEB Scene
   score: 800
 - name: hallowed
   score: 700
