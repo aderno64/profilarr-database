@@ -38,16 +38,28 @@ custom_formats:
   score: 900
 - name: Anime Tier 8
   score: 800
+- name: Anime WEB Tier 1
+  score: 600
+- name: Anime WEB Tier 2
+  score: 500
+- name: Anime WEB Tier 3
+  score: 400
 - name: WEB-DL Tier 1
   score: 350
+- name: Anime WEB Tier 4
+  score: 300
 - name: WEB-DL Tier 2
   score: 300
 - name: WEB-DL Tier 3
   score: 250
+- name: Anime WEB Tier 5
+  score: 200
 - name: WEB-DL Tier 4
   score: 200
 - name: Anime Dual Audio
   score: 101
+- name: Anime WEB Tier 6
+  score: 100
 - name: CRIT
   score: 6
 - name: DSNP
@@ -56,6 +68,10 @@ custom_formats:
   score: 4
 - name: AMZN
   score: 3
+- name: Anime LQ
+  score: -10000
+- name: Anime Raws
+  score: -10000
 - name: AV1
   score: -10000
 - name: Banned Anime Groups
