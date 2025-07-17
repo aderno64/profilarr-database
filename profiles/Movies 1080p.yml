@@ -29,10 +29,6 @@ custom_formats:
   score: 1100
 - name: 1080p Quality Tier 1
   score: 1000
-- name: 1080p WEB-DL
-  score: 1000
-- name: 2160p WEB-DL
-  score: 1000
 - name: 720p Quality Tier 1
   score: 1000
 - name: BHDStudio
@@ -59,12 +55,6 @@ custom_formats:
   score: 800
 - name: hallowed
   score: 700
-- name: 480p WEB-DL
-  score: 500
-- name: 720p WEB-DL
-  score: 500
-- name: WEB Scene
-  score: 500
 - name: Dolby Digital +
   score: 125
 - name: Special Edition

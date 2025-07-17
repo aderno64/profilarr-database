@@ -35,11 +35,7 @@ custom_formats:
   score: 1100
 - name: 1080p Quality Tier 1
   score: 1000
-- name: 1080p WEB-DL
-  score: 1000
 - name: 2160p Quality Tier 1
-  score: 1000
-- name: 2160p WEB-DL
   score: 1000
 - name: 720p Quality Tier 1
   score: 1000
@@ -81,10 +77,6 @@ custom_formats:
   score: 700
 - name: HDR10+
   score: 600
-- name: 480p WEB-DL
-  score: 500
-- name: 720p WEB-DL
-  score: 500
 - name: HDR
   score: 500
 - name: HDR10
@@ -94,8 +86,6 @@ custom_formats:
 - name: HLG
   score: 500
 - name: PQ
-  score: 500
-- name: WEB Scene
   score: 500
 - name: Dolby Digital +
   score: 125

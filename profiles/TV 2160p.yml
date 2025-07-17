@@ -19,6 +19,8 @@ custom_formats:
   score: 1700
 - name: WEB-DL Tier 2
   score: 1650
+- name: WEB Scene
+  score: 1600
 - name: WEB-DL Tier 3
   score: 1600
 - name: WEB-DL Tier 4
@@ -27,14 +29,6 @@ custom_formats:
   score: 1500
 - name: HDR10+
   score: 600
-- name: 1080p WEB-DL
-  score: 500
-- name: 2160p WEB-DL
-  score: 500
-- name: 480p WEB-DL
-  score: 500
-- name: 720p WEB-DL
-  score: 500
 - name: HDR
   score: 500
 - name: HDR10
@@ -42,8 +36,6 @@ custom_formats:
 - name: HLG
   score: 500
 - name: PQ
-  score: 500
-- name: WEB Scene
   score: 500
 - name: ATVP
   score: 100
