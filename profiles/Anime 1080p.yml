@@ -66,14 +66,28 @@ custom_formats:
   score: 200
 - name: Anime Dual Audio
   score: 101
-- name: CRIT
-  score: 6
+- name: CR
+  score: 7
 - name: DSNP
-  score: 5
+  score: 6
 - name: NF
-  score: 4
+  score: 5
 - name: AMZN
+  score: 4
+- name: VRV
+  score: 4
+- name: FUNI
   score: 3
+- name: ABEMA
+  score: 2
+- name: ADN
+  score: 2
+- name: B-Global
+  score: 1
+- name: Bilibili
+  score: 1
+- name: HIDIVE
+  score: 1
 - name: Anime LQ
   score: -10000
 - name: Anime Raws
