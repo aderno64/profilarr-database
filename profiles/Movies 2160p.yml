@@ -124,6 +124,8 @@ custom_formats:
   score: -10000
 - name: BCORE
   score: -10000
+- name: BR-DISK
+  score: -10000
 - name: Dolby Vision (Without Fallback)
   score: -10000
 - name: Extras
@@ -133,6 +135,8 @@ custom_formats:
 - name: Lossless Audio (1080p)
   score: -10000
 - name: Non Retail HDR
+  score: -10000
+- name: Sing Along
   score: -10000
 - name: Special Edition (Banned)
   score: -10000
