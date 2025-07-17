@@ -1,0 +1,22 @@
+name: Anime WEB Tier 1
+description: ''
+tags:
+- Anime
+- Group Tier
+conditions:
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: Anime WEB Tier 1
+  negate: false
+  pattern: Anime WEB Tier 1
+  required: true
+  type: release_title
+tests: []
