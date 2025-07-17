@@ -11,7 +11,7 @@ tags:
 - TRaSH
 - 1080p
 upgradesAllowed: true
-minCustomFormatScore: 0
+minCustomFormatScore: 1000
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
@@ -25,6 +25,14 @@ custom_formats:
   score: 1550
 - name: WEB Scene
   score: 1500
+- name: 1080p WEB-DL
+  score: 1250
+- name: 720p WEB-DL
+  score: 1250
+- name: 1080p WEBRip
+  score: 1000
+- name: 720p WEBRip
+  score: 1000
 - name: ATVP
   score: 100
 - name: DSNP
