@@ -1,8 +1,6 @@
 name: SUCCESSFULCRAB
 pattern: (?<=^|[\s.-])SUCCESSFULCRAB\b
-description: '
-
-  1. placeholder'
+description: ''
 tags:
 - Release Group
 - WEB-DL
