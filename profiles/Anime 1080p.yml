@@ -74,8 +74,6 @@ custom_formats:
   score: -10000
 - name: AV1
   score: -10000
-- name: Banned Anime Groups
-  score: -10000
 qualities:
 - id: -1
   name: Bluray 1080p
