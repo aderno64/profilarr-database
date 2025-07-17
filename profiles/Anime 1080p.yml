@@ -38,12 +38,6 @@ custom_formats:
   score: 1100
 - name: Remux Tier 2
   score: 1050
-- name: 1080p WEB-DL
-  score: 1000
-- name: 480p WEB-DL
-  score: 1000
-- name: 720p WEB-DL
-  score: 1000
 - name: Anime WEB Tier 2
   score: 1000
 - name: Remux Tier 3
