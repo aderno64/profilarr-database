@@ -37,6 +37,8 @@ custom_formats:
   score: 500
 - name: PQ
   score: 500
+- name: TV Editions
+  score: 101
 - name: ATVP
   score: 100
 - name: DSNP
@@ -64,8 +66,6 @@ custom_formats:
 - name: SHO
   score: 50
 - name: Dolby Digital
-  score: 10
-- name: Uncensored
   score: 10
 - name: Repack1
   score: 7

@@ -1,0 +1,12 @@
+name: TV Editions
+description: ''
+tags:
+- Sonarr
+- Editions
+conditions:
+- name: Editions
+  type: release_title
+  required: true
+  negate: false
+  pattern: TV Editions
+tests: []
