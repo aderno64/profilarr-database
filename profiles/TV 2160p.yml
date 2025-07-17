@@ -26,23 +26,13 @@ custom_formats:
 - name: Dolby Vision
   score: 1500
 - name: 1080p WEB-DL
-  score: 1250
+  score: 1000
 - name: 2160p WEB-DL
-  score: 1250
+  score: 1000
 - name: 480p WEB-DL
-  score: 1250
+  score: 1000
 - name: 720p WEB-DL
-  score: 1250
-- name: 1080p WEBRip
   score: 1000
-- name: 2160p WEBRip
-  score: 1000
-- name: 480p WEBRip
-  score: 1000
-- name: 720p WEBRip
-  score: 1000
-- name: WEB Scene
-  score: 800
 - name: HDR10+
   score: 600
 - name: HDR
@@ -52,6 +42,8 @@ custom_formats:
 - name: HLG
   score: 500
 - name: PQ
+  score: 500
+- name: WEB Scene
   score: 500
 - name: ATVP
   score: 100
