@@ -31,11 +31,15 @@ custom_formats:
   score: 1250
 - name: 2160p WEB-DL
   score: 1250
+- name: 480p WEB-DL
+  score: 1250
 - name: 720p WEB-DL
   score: 1250
 - name: 1080p WEBRip
   score: 1000
 - name: 2160p WEBRip
+  score: 1000
+- name: 480p WEBRip
   score: 1000
 - name: 720p WEBRip
   score: 1000
