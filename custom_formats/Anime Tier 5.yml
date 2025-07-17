@@ -4,7 +4,21 @@ tags:
 - Anime
 - Group Tier
 conditions:
-- name: Anime Tier 5
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: Bluray Remux
+  type: source
+  required: false
+  negate: false
+  source: bluray_raw
+- name: DVD
+  type: source
+  required: false
+  negate: false
+  source: dvde Tier 5
   negate: false
   pattern: Anime Tier 5
   required: true
