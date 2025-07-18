@@ -16,7 +16,7 @@ We use the Dictionarry formats and regex, but we also have made modifications an
 ## Anime
 This profile is based on the TRaSH Guides Anime profile structure. Currently, we are only developing a 1080p profile.
 
-Using these profiles:
+Using this profile:
 - This profile will grab between a SDTV - 1080p Remux file.
 - You will be preferring Dual Audio media (ie including English along with original language).
 - If you prefer only the original language, change the "Dual Audio" score from 101 to 0
