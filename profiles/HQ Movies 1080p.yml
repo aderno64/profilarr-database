@@ -1,6 +1,6 @@
-name: HQ Movies 2160p
-description: 'Based on the TRaSH Guides UHD Bluray + WEB profile, focusing on the
-  highest quality 4K encodes without grabbing remuxes.
+name: HQ Movies 1080p
+description: 'Based on the TRaSH Guides HD Bluray + WEB profile, focusing on the highest
+  quality 1080p encodes without grabbing remuxes.
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
@@ -20,38 +20,24 @@ minScoreIncrement: 1
 custom_formats:
 - name: 1080p Quality Tier 1
   score: 1800
-- name: 2160p Quality Tier 1
-  score: 1800
 - name: 720p Quality Tier 1
   score: 1800
 - name: 1080p Quality Tier 2
-  score: 1750
-- name: 2160p Quality Tier 2
   score: 1750
 - name: 720p Quality Tier 2
   score: 1750
 - name: 1080p Quality Tier 3
   score: 1700
-- name: 2160p Quality Tier 3
-  score: 1700
 - name: 720p Quality Tier 3
   score: 1700
 - name: 1080p Quality Tier 4
-  score: 1650
-- name: 2160p Quality Tier 4
   score: 1650
 - name: 720p Quality Tier 4
   score: 1650
 - name: 1080p Quality Tier 5
   score: 1600
-- name: 2160p Quality Tier 5
-  score: 1600
 - name: 720p Quality Tier 5
   score: 1600
-- name: 2160p Quality Tier 6
-  score: 1550
-- name: 2160p Quality Tier 7
-  score: 1550
 - name: Dolby Vision
   score: 1500
 - name: WEB-DL Tier 1
