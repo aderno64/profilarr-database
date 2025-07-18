@@ -29,4 +29,40 @@ conditions:
   pattern: Dolby Digital +
   required: true
   type: release_title
-tests: []
+tests:
+- conditionResults:
+  - matches: true
+    name: TrueHD
+    negate: false
+    pattern: TrueHD
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital
+    negate: true
+    pattern: Dolby Digital
+    required: true
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital +
+    negate: true
+    pattern: Dolby Digital +
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Black.Widow.2021.BluRay.2160p.TrueHD7.1.HDR.x265.10bit-CHD
+  lastRun: '2025-07-17T18:51:19.645657'
+  passes: true
