@@ -60,6 +60,8 @@ custom_formats:
   score: 200
 - name: Anime Dual Audio
   score: 101
+- name: Uncensored
+  score: 101
 - name: CR
   score: 7
 - name: DSNP
@@ -68,13 +70,19 @@ custom_formats:
   score: 5
 - name: AMZN
   score: 4
+- name: v4
+  score: 4
 - name: VRV
   score: 4
 - name: FUNI
   score: 3
+- name: v3
+  score: 3
 - name: ABEMA
   score: 2
 - name: ADN
+  score: 2
+- name: v2
   score: 2
 - name: B-Global
   score: 1
@@ -82,6 +90,10 @@ custom_formats:
   score: 1
 - name: HIDIVE
   score: 1
+- name: v1
+  score: 1
+- name: v0
+  score: -51
 - name: Anime LQ
   score: -10000
 - name: Anime Raws
