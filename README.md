@@ -14,11 +14,12 @@ We use the Dictionarry formats and regex, but we also have made modifications an
 
 
 ## Anime
-These profiles are based on the TRaSH Guides Anime profile structure. Currently, we are only developing a 1080p profile.
+This profile is based on the TRaSH Guides Anime profile structure. Currently, we are only developing a 1080p profile.
 
-Using these profiles:
-- You will get a media file between a quality of SDTV - 1080p Remux
-- You will be preferring Dual Audio media (ie including English along with original language)
+Using this profile:
+- This profile will grab between a SDTV - 1080p Remux file.
+- You will be preferring Dual Audio media (ie including English along with original language).
+- If you prefer only the original language, change the "Dual Audio" score from 101 to 0
 
 ## Movie and TV
 These profiles are based on the structure of the SQP-1 Alternative (Radarr) and the WEB-2160p/1080p Alternative (Sonarr) profiles. Using this database can be described as set-it-and-forget-it.
