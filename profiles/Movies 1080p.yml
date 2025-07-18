@@ -14,7 +14,7 @@ tags:
 - TRaSH
 - 1080p
 upgradesAllowed: true
-minCustomFormatScore: 500
+minCustomFormatScore: 100
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
