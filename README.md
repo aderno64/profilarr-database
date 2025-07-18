@@ -1,6 +1,8 @@
 # bedynamic Profilarr Database
 We use the Dictionarry formats and regex, but we also have made modifications and additions to better source media.
 
+<img width="75%" alt="Screenshot 2025-07-18 at 11-32-09 Profilarr" src="https://github.com/user-attachments/assets/996498a4-f0e2-4b4a-8d40-efb2c0205b3a" />
+
 ## Profile Selection Guide
 - Anime: Anime 1080p
 - 1080p TV Shows: TV 1080p
