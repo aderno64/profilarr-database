@@ -5,13 +5,13 @@ qualityDefinitions:
       min: 0
       preferred: 1990
     Bluray-1080p:
-      max: 150
+      max: 2000
       min: 33
-      preferred: 140
+      preferred: 1990
     Bluray-2160p:
+      max: 2000
       min: 102
-      preferred: 215
-      max: 225
+      preferred: 1990
     Bluray-480p:
       max: 2000
       min: 0
@@ -21,9 +21,9 @@ qualityDefinitions:
       min: 0
       preferred: 1990
     Bluray-720p:
+      max: 2000
       min: 22
-      preferred: 115
-      max: 125
+      preferred: 1990
     CAM:
       max: 2000
       min: 0
@@ -85,37 +85,37 @@ qualityDefinitions:
       min: 0
       preferred: 1990
     WEBDL-1080p:
-      max: 125
+      max: 2000
       min: 12
-      preferred: 115
+      preferred: 1990
     WEBDL-2160p:
+      max: 2000
       min: 34
-      preferred: 240
-      max: 250
+      preferred: 1990
     WEBDL-480p:
       max: 2000
       min: 0
       preferred: 1990
     WEBDL-720p:
+      max: 2000
       min: 12
-      preferred: 90
-      max: 100
+      preferred: 1990
     WEBRip-1080p:
-      max: 125
+      max: 2000
       min: 12
-      preferred: 115
+      preferred: 1990
     WEBRip-2160p:
+      max: 2000
       min: 34
-      preferred: 240
-      max: 250
+      preferred: 1990
     WEBRip-480p:
       max: 2000
       min: 0
       preferred: 1990
     WEBRip-720p:
+      max: 2000
       min: 12
-      preferred: 90
-      max: 100
+      preferred: 1990
     WORKPRINT:
       max: 2000
       min: 0
