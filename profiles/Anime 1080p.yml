@@ -1,11 +1,14 @@
 name: Anime 1080p
-description: '**WORK IN PROGRESS**
+description: 'Based on the TRaSH Guides Anime Profile, focusing on media that has
+  Dual Audio.
 
-  - Based on the TRaSH Guides Anime Profile, focusing on media that has Dual Audio.
-  This profile will grab between a SDTV - 1080p Remux file.
+  - This profile will grab between a SDTV - 1080p Remux file.
 
-  - If you prefer the original language, change the "Dual Audio" score from 101 to
-  0'
+  - You will be preferring Dual Audio media (ie including English along with original
+  language).
+
+  - If you prefer only the original language, change the "Dual Audio" score from 101
+  to 0'
 tags:
 - Anime
 - Sonarr
