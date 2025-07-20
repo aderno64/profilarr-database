@@ -7,8 +7,8 @@ description: 'Based on the TRaSH Guides UHD Bluray + WEB profile, focusing on th
   - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
   as needed.
 
-  - This profile will allow for x265 on 1080p if and only if the release contains
-  HDR/DV.'
+  - This profile will allow for x265 on 1080p if and only if the release group is
+  in a WEB Tier.'
 tags:
 - Radarr
 - TRaSH
@@ -98,8 +98,6 @@ custom_formats:
   score: -10000
 - name: Banned Groups
   score: -10000
-- name: Banned WEB-DL (x265)
-  score: -10000
 - name: Banned WEBRip
   score: -10000
 - name: BCORE
@@ -122,7 +120,7 @@ custom_formats:
   score: -10000
 - name: WEB Scene
   score: -10000
-- name: x265 (no HDR DV)
+- name: x265 (HD)
   score: -10000
 qualities:
 - id: 4

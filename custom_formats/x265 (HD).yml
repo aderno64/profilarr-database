@@ -1,0 +1,41 @@
+name: x265 (HD)
+description: This blocks all 720/1080p (HD) releases that are encoded in x265, unless
+  they are in a WEB TIer
+tags:
+- TRaSH
+- x265
+conditions:
+- name: x265 (HD)
+  negate: false
+  pattern: x265 (HD)
+  required: true
+  type: release_title
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Not in a WEB Tier
+  negate: true
+  pattern: x265 Allowed Group
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: x265 (HD)
+    negate: false
+    pattern: x265 (HD)
+    required: true
+    type: release_title
+  - matches: true
+    name: Not in a WEB Tier
+    negate: true
+    pattern: x265 Allowed Group
+    required: true
+    type: release_title
+  expected: false
+  id: 1
+  input: House.2004.S07E01.1080p.AMZN.WEB-DL.H265.SDR.DDP.5.1.English-HONE
+  lastRun: '2025-07-19T21:02:58.852375'
+  passes: true
