@@ -28,6 +28,10 @@ custom_formats:
   score: 1550
 - name: Dolby Vision
   score: 1500
+- name: BHDStudio
+  score: 1250
+- name: hallowed
+  score: 1250
 - name: 1080p Balanced Tier 1
   score: 1150
 - name: 2160p Balanced Tier 1
@@ -41,8 +45,6 @@ custom_formats:
 - name: 2160p Quality Tier 1
   score: 1000
 - name: 720p Quality Tier 1
-  score: 1000
-- name: BHDStudio
   score: 1000
 - name: 1080p Quality Tier 2
   score: 950
@@ -75,8 +77,6 @@ custom_formats:
 - name: 2160p Quality Tier 6
   score: 750
 - name: 2160p Quality Tier 7
-  score: 700
-- name: hallowed
   score: 700
 - name: HDR10+
   score: 600
