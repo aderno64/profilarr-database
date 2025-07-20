@@ -9,44 +9,16 @@ conditions:
   pattern: DTS-HD MA
   required: true
   type: release_title
-- name: Not PCM
-  negate: true
-  pattern: PCM
-  required: false
-  type: release_title
-- name: Not AAC
-  negate: true
-  pattern: AAC
-  required: false
-  type: release_title
-- name: Not DTS-HD HRA ES
-  negate: true
-  pattern: DTS-HD HRA ES
-  required: false
-  type: release_title
-- name: Not FLAC
-  negate: true
-  pattern: FLAC
-  required: false
-  type: release_title
-- name: Not Dolby Digital +
-  negate: true
-  pattern: Dolby Digital +
-  required: false
-  type: release_title
-- name: Not TrueHD + Atmos
-  negate: true
-  pattern: TrueHD + Atmos
-  required: false
-  type: release_title
-- name: Not Dolby Digital
-  negate: true
-  pattern: Dolby Digital
-  required: false
-  type: release_title
-- name: Not DTS-X
-  negate: true
-  pattern: DTS-X
-  required: false
-  type: release_title
-tests: []
+tests:
+- conditionResults:
+  - matches: true
+    name: DTS-HD MA
+    negate: false
+    pattern: DTS-HD MA
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Scott.Pilgrim.vs.the.World.2010.2160p.UHD.HDR.BluRay.DV.DTS-HD.7.1.x265-SpaceHD
+  lastRun: '2025-07-20T09:37:20.746647'
+  passes: true

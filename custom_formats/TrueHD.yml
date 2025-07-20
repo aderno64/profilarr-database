@@ -9,26 +9,6 @@ conditions:
   pattern: TrueHD
   required: true
   type: release_title
-- name: Not DTS
-  negate: true
-  pattern: DTS
-  required: true
-  type: release_title
-- name: Not Dolby Digital
-  negate: true
-  pattern: Dolby Digital
-  required: true
-  type: release_title
-- name: Not FLAC
-  negate: true
-  pattern: FLAC
-  required: true
-  type: release_title
-- name: Not Dolby Digital +
-  negate: true
-  pattern: Dolby Digital +
-  required: true
-  type: release_title
 tests:
 - conditionResults:
   - matches: true
@@ -37,32 +17,20 @@ tests:
     pattern: TrueHD
     required: true
     type: release_title
-  - matches: false
-    name: Not DTS
-    negate: true
-    pattern: DTS
-    required: true
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital
-    negate: true
-    pattern: Dolby Digital
-    required: true
-    type: release_title
-  - matches: false
-    name: Not FLAC
-    negate: true
-    pattern: FLAC
-    required: true
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital +
-    negate: true
-    pattern: Dolby Digital +
-    required: true
-    type: release_title
   expected: true
   id: 1
   input: Black.Widow.2021.BluRay.2160p.TrueHD7.1.HDR.x265.10bit-CHD
-  lastRun: '2025-07-17T18:51:19.645657'
+  lastRun: '2025-07-20T09:05:09.272369'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: TrueHD
+    negate: false
+    pattern: TrueHD
+    required: true
+    type: release_title
+  expected: true
+  id: 2
+  input: Minions.The.Rise.of.Gru.2022.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ
+  lastRun: '2025-07-20T09:05:09.272369'
   passes: true

@@ -90,6 +90,8 @@ custom_formats:
   score: 6
 - name: Repack1
   score: 5
+- name: Atmos
+  score: 0
 - name: 3D
   score: -10000
 - name: AV1
@@ -104,7 +106,7 @@ custom_formats:
   score: -10000
 - name: BR-DISK
   score: -10000
-- name: Dolby Vision (Without Fallback)
+- name: Dolby Vision WEB-DL
   score: -10000
 - name: Extras
   score: -10000
@@ -113,8 +115,6 @@ custom_formats:
 - name: Non Retail HDR
   score: -10000
 - name: Sing Along
-  score: -10000
-- name: Special Edition (Banned)
   score: -10000
 - name: Upscaled
   score: -10000
