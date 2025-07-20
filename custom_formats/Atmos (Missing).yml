@@ -25,21 +25,6 @@ conditions:
   pattern: Atmos (Missing Groups)
   required: true
   type: release_title
-- name: Not DD+
-  type: release_title
-  required: true
-  negate: true
-  pattern: Dolby Digital +
-- name: Not DD
-  type: release_title
-  required: true
-  negate: true
-  pattern: Dolby Digital
-- name: Not DTS
-  type: release_title
-  required: true
-  negate: true
-  pattern: DTS
 tests:
 - conditionResults:
   - matches: true

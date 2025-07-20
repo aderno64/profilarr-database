@@ -14,7 +14,7 @@ tags:
 - TRaSH
 - 1080p
 upgradesAllowed: true
-minCustomFormatScore: 100
+minCustomFormatScore: 1000
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
@@ -78,7 +78,11 @@ custom_formats:
   score: 6
 - name: Repack1
   score: 5
+- name: Atmos
+  score: 0
 - name: 3D
+  score: -10000
+- name: Atmos (Missing)
   score: -10000
 - name: AV1
   score: -10000
@@ -97,8 +101,6 @@ custom_formats:
 - name: Lossless Audio (1080p)
   score: -10000
 - name: Sing Along
-  score: -10000
-- name: Special Edition (Banned)
   score: -10000
 - name: TrueHD
   score: -10000
