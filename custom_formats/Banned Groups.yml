@@ -195,8 +195,13 @@ conditions:
   required: false
   type: release_group
 - name: WhiteRhino
+  negate: false
+  pattern: WhiteRhino
+  required: false
+  type: release_group
+- name: WADU
   type: release_group
   required: false
   negate: false
-  pattern: WhiteRhino
+  pattern: WADU
 tests: []
