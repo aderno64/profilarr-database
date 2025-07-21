@@ -14,11 +14,11 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: Not Streaming Optimized
-  type: release_title
-  required: true
+- name: Streaming Optimized
   negate: false
   pattern: Streaming Optmizied Groups
+  required: true
+  type: release_title
 tests:
 - conditionResults:
   - matches: true
