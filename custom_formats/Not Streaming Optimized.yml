@@ -1,0 +1,22 @@
+name: Not Streaming Optimized
+description: Matches against groups that are NOT streaming optimized groups like hallowed
+  and BHDStudio and the Bluray source.
+tags:
+- Bluray
+conditions:
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: hallowed
+  negate: true
+  pattern: hallowed
+  required: true
+  type: release_group
+- name: BHDStudio
+  negate: true
+  pattern: BHDStudio
+  required: true
+  type: release_group
+tests: []

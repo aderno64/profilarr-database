@@ -78,10 +78,6 @@ custom_formats:
   score: 5
 - name: Repack3
   score: 5
-- name: Atmos
-  score: 0
-- name: Atmos (Missing)
-  score: -10000
 - name: AV1
   score: -10000
 - name: Banned Groups
