@@ -1,4 +1,4 @@
-name: Not Streaming Optimized (2160p)
+name: Not Streaming Optimized
 description: Matches against groups that are NOT streaming optimized like hallowed
   and BHDStudio and the Bluray source.
 tags:
@@ -14,19 +14,9 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: hallowed
+- name: Not Streaming Optimized
   negate: true
-  pattern: hallowed
+  pattern: Streaming Optmizied Groups
   required: true
-  type: release_group
-- name: BHDStudio
-  negate: true
-  pattern: BHDStudio
-  required: true
-  type: release_group
-- name: HONE
-  type: release_group
-  required: true
-  negate: true
-  pattern: HONE
+  type: release_title
 tests: []
