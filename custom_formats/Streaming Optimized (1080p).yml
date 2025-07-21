@@ -1,5 +1,6 @@
 name: Streaming Optimized (1080p)
-description: ''
+description: Matches against groups that are streaming optimized like hallowed and
+  BHDStudio and the Bluray source.
 tags: []
 conditions:
 - name: 1080p

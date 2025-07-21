@@ -1,14 +1,14 @@
 name: Not Streaming Optimized (2160p)
-description: Matches against groups that are NOT streaming optimized groups like hallowed
+description: Matches against groups that are NOT streaming optimized like hallowed
   and BHDStudio and the Bluray source.
 tags:
 - Bluray
 conditions:
 - name: 2160p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 2160p
+  type: resolution
 - name: Bluray
   negate: false
   required: true
