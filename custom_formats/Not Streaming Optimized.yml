@@ -5,10 +5,10 @@ tags:
 - Bluray
 conditions:
 - name: Bluray
-  type: source
-  required: true
   negate: false
+  required: true
   source: bluray
+  type: source
 - name: hallowed
   negate: true
   pattern: hallowed
