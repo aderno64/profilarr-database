@@ -1,0 +1,25 @@
+name: Streaming Optimized (1080p)
+description: ''
+tags: []
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: hallowed
+  negate: false
+  pattern: hallowed
+  required: false
+  type: release_group
+- name: BHDStudio
+  negate: false
+  pattern: BHDStudio
+  required: false
+  type: release_group
+tests: []
