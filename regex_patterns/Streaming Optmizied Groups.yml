@@ -1,0 +1,35 @@
+name: Streaming Optmizied Groups
+pattern: (?<=^|[\s.-])hallowed|BHDStudio\b
+description: ''
+tags:
+- Release Group
+- Streaming Optimized
+tests:
+- expected: true
+  id: 1
+  input: Ace.Ventura.Pet.Detective.1994.UHD.BluRay.2160p.DD.2.0.DV.HDR.x265-BHDStudio
+  lastRun: '2025-07-21T09:27:24.985972'
+  matchSpan:
+    end: 76
+    start: 67
+  matchedContent: BHDStudio
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Ace.Ventura.Pet.Detective.1994.BluRay.1080p.DDP.5.1.x264-hallowed
+  lastRun: '2025-07-21T09:27:24.985972'
+  matchSpan:
+    end: 65
+    start: 57
+  matchedContent: hallowed
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 3
+  input: Ace.Ventura.Pet.Detective.1994.1080p.AMZN.WEB-DL.DDP5.1.H.264-Kitsune
+  lastRun: '2025-07-21T09:27:24.985972'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
