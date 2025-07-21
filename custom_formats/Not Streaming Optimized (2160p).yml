@@ -24,4 +24,9 @@ conditions:
   pattern: BHDStudio
   required: true
   type: release_group
+- name: HONE
+  type: release_group
+  required: true
+  negate: true
+  pattern: HONE
 tests: []
