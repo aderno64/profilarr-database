@@ -10,7 +10,7 @@ qualityDefinitions:
       preferred: 1990
     Bluray-2160p:
       max: 2000
-      min: 102
+      min: 75
       preferred: 1990
     Bluray-480p:
       max: 2000
