@@ -7,8 +7,11 @@ description: 'Based on the TRaSH Guides SQP-1 profile, focusing on streaming opt
   - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
   as needed.
 
-  - This profile will only allow Bluray releases if they are from **hallowed** or
-  **BHDStudio**.
+  - This profile will only grab 2160p Bluray releases if they are from **hallowed**
+  or **BHDStudio**.
+
+  - 1080p Blurays target **hallowed** or **BHDStudio**, but will fallback to a Dictionarry
+  1080p Quality release.
 
   - This profile will allow for x265 on 1080p **if and only if** the release group
   is in a WEB Tier.'
