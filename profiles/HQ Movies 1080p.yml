@@ -7,8 +7,8 @@ description: 'Based on the TRaSH Guides HD Bluray + WEB profile, focusing on the
   - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
   as needed.
 
-  - This profile will allow for x265 on 1080p if and only if the release group is
-  in a WEB Tier.'
+  - This profile will allow for x265 on 1080p **if and only if** the release group
+  is in a WEB Tier.'
 tags:
 - Radarr
 - TRaSH
@@ -76,8 +76,6 @@ custom_formats:
   score: 6
 - name: Repack1
   score: 5
-- name: Atmos
-  score: 0
 - name: 3D
   score: -10000
 - name: AV1
