@@ -1,5 +1,5 @@
 name: Streaming Optmizied Groups
-pattern: (?<=^|[\s.-])hallowed|BHDStudio\b
+pattern: (?<=^|[\s.-])hallowed|HONE|BHDStudio\b
 description: ''
 tags:
 - Release Group
