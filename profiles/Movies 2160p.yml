@@ -17,18 +17,30 @@ tags:
 - TRaSH
 - 2160p
 upgradesAllowed: true
-minCustomFormatScore: 100
+minCustomFormatScore: 500
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
+- name: 1080p Quality Tier 1
+  score: 2000
+- name: Streaming Optimized (1080p)
+  score: 2000
 - name: WEB-DL Tier 1
   score: 2000
+- name: 1080p Quality Tier 2
+  score: 1900
 - name: WEB-DL Tier 2
   score: 1900
+- name: 1080p Quality Tier 3
+  score: 1800
 - name: WEB-DL Tier 3
   score: 1800
+- name: 1080p Quality Tier 4
+  score: 1700
 - name: WEB-DL Tier 4
   score: 1700
+- name: 1080p Quality Tier 5
+  score: 1600
 - name: Dolby Vision
   score: 1500
 - name: HDR10+
@@ -49,8 +61,6 @@ custom_formats:
   score: 115
 - name: DTS
   score: 105
-- name: 1080p
-  score: 50
 - name: CRIT
   score: 20
 - name: MA
@@ -81,7 +91,7 @@ custom_formats:
   score: -10000
 - name: Non Retail HDR
   score: -10000
-- name: Not Streaming Optimized
+- name: Not Streaming Optimized (2160p)
   score: -10000
 - name: Sing Along
   score: -10000
@@ -100,20 +110,16 @@ qualities:
     name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
+- id: 10
+  name: Bluray-1080p
 - id: -2
-  name: Bluray|WEB-1080p
+  name: WEB-1080p
   description: ''
   qualities:
-  - id: 10
-    name: Bluray-1080p
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-  - id: 14
-    name: WEBDL-720p
-  - id: 15
-    name: WEBRip-720p
 - id: 13
   name: Bluray-720p
 upgrade_until:
