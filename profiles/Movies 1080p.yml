@@ -23,7 +23,7 @@ minScoreIncrement: 1
 custom_formats:
 - name: 1080p Quality Tier 1
   score: 2000
-- name: Streaming Optimized (1080p)
+- name: Streaming Optimized
   score: 2000
 - name: WEB-DL Tier 1
   score: 2000
@@ -75,7 +75,7 @@ custom_formats:
   score: -10000
 - name: Extras
   score: -10000
-- name: Not Streaming Optimized (2160p)
+- name: Not Streaming Optimized
   score: -10000
 - name: Sing Along
   score: -10000
