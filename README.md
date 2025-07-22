@@ -14,8 +14,8 @@ We use the Dictionarry formats and regex, but we also have made modifications an
 - *Streaming Optimized 2160p Movies*: Movies 2160p (bedynamic recommended for the average user)
 - *High-Quality 1080p Movies*: HQ 1080p Movies
 - *High-Quality 2160p Movies*: HQ 2160p Movies
-- *Remux 1080p Movies*: WIP
-- *Remux 2160p Movies*: WIP
+- *Remux 1080p Movies*: Remux 1080p Movies
+- *Remux 2160p Movies*: Remux 2160p Movies
 
 
 ## Anime
