@@ -71,6 +71,8 @@ custom_formats:
   score: 6
 - name: NF
   score: 5
+- name: WEB-DL
+  score: 5
 - name: AMZN
   score: 4
 - name: v4
