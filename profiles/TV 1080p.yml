@@ -66,6 +66,8 @@ custom_formats:
   score: 5
 - name: Repack3
   score: 5
+- name: WEB-DL
+  score: 5
 - name: AV1
   score: -10000
 - name: Banned Groups
