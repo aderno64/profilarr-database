@@ -9,11 +9,21 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: Streaming Optimized
+- name: hallowed
+  type: release_group
+  required: false
   negate: false
-  pattern: Streaming Optmizied Groups
-  required: true
-  type: release_title
+  pattern: hallowed
+- name: BHDStudio
+  type: release_group
+  required: false
+  negate: false
+  pattern: BHDStudio
+- name: HONE
+  type: release_group
+  required: false
+  negate: false
+  pattern: HONE
 tests:
 - conditionResults:
   - matches: true

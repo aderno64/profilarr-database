@@ -14,9 +14,68 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: Not Streaming Optimized
+- name: hallowed
   negate: true
-  pattern: Streaming Optmizied Groups
+  pattern: hallowed
   required: true
-  type: release_title
-tests: []
+  type: release_group
+- name: BHDStudio
+  negate: true
+  pattern: BHDStudio
+  required: true
+  type: release_group
+- name: HONE
+  negate: true
+  pattern: HONE
+  required: true
+  type: release_group
+tests:
+- conditionResults:
+  - matches: false
+    name: hallowed
+    negate: true
+    pattern: hallowed
+    required: true
+    type: release_group
+  - matches: false
+    name: BHDStudio
+    negate: true
+    pattern: BHDStudio
+    required: true
+    type: release_group
+  - matches: true
+    name: HONE
+    negate: true
+    pattern: HONE
+    required: true
+    type: release_group
+  expected: false
+  id: 1
+  input: The Dark Knight Rises-2012-IMAX-2160p UHD BluRay x265 DV HDR DDP 5.1 English-DarQ
+    HONE-REPACK
+  lastRun: '2025-07-25T14:06:51.919081'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: hallowed
+    negate: true
+    pattern: hallowed
+    required: true
+    type: release_group
+  - matches: false
+    name: BHDStudio
+    negate: true
+    pattern: BHDStudio
+    required: true
+    type: release_group
+  - matches: false
+    name: HONE
+    negate: true
+    pattern: HONE
+    required: true
+    type: release_group
+  expected: false
+  id: 2
+  input: The.Dark.Knight.Rises.2012.IMAX.UHD.BluRay.2160p.DDP.5.1.DV.HDR.x265-hallowed
+  lastRun: '2025-07-25T14:06:51.919081'
+  passes: true
