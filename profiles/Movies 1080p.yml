@@ -1,14 +1,11 @@
 name: Movies 1080p
-description: 'Based on the TRaSH Guides SQP-1 profile, focusing on streaming optimized
-  sources with little to no transcoding needed.
+description: 'This profile focuses on streaming optimized sources with little to no
+  transcoding needed.
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
-  - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
-  as needed.
-
-  - This profile will target Bluray releases if they are from **hallowed** or **BHDStudio**,
-  but will fallback to a Dictionarry 1080p Quality release.
+  - 1080p Blurays target **hallowed**, **HONE** or **BHDStudio**, but will fallback
+  to a Dictionarry 1080p Quality releases.
 
   - This profile will allow for x265 on 1080p **if and only if** the release group
   is in a WEB Tier.'
