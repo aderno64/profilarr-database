@@ -2,13 +2,13 @@ name: Anime 1080p
 description: 'Based on the TRaSH Guides Anime Profile, focusing on media that has
   Dual Audio.
 
-  - This profile will grab between a SDTV - 1080p Remux file.
+  - This profile will grab between a SDTV - 1080p Bluray file.
 
   - You will be preferring Dual Audio media (ie including English along with original
   language).
 
-  - If you prefer only the original language, change the "Dual Audio" score from 101
-  to 0'
+  - If you prefer only the **original language**, change the "Dual Audio" score from
+  101 to 0'
 tags:
 - Anime
 - Sonarr
@@ -106,14 +106,8 @@ custom_formats:
 - name: AV1
   score: -10000
 qualities:
-- id: -1
-  name: Bluray 1080p
-  description: ''
-  qualities:
-  - id: 8
-    name: Remux-1080p
-  - id: 10
-    name: Bluray-1080p
+- id: 10
+  name: Bluray-1080p
 - id: -2
   name: WEB 1080p
   description: ''
@@ -151,6 +145,7 @@ qualities:
 - id: 24
   name: SDTV
 upgrade_until:
-  id: -1
-  name: Bluray 1080p
+  id: 10
+  name: Bluray-1080p
+  description: 1080p Blu-ray video encoded with lossy compression
 language: must_english
