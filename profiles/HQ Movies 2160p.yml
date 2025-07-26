@@ -11,8 +11,8 @@ description: 'Based on the TRaSH Guides UHD Bluray + WEB profile, focusing on th
   is in a WEB Tier.'
 tags:
 - Radarr
-- TRaSH
 - 2160p
+- HQ
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 10000
