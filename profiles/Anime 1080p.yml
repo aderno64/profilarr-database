@@ -37,13 +37,7 @@ custom_formats:
   score: 1300
 - name: Anime WEB Tier 1
   score: 1100
-- name: Remux Tier 1
-  score: 1100
-- name: Remux Tier 2
-  score: 1050
 - name: Anime WEB Tier 2
-  score: 1000
-- name: Remux Tier 3
   score: 1000
 - name: Anime WEB Tier 3
   score: 900
