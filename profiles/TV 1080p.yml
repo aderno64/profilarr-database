@@ -11,7 +11,6 @@ description: 'Based on the TRaSH Guides WEB-1080p (Alternative) profile, focusin
   is in a WEB Tier.'
 tags:
 - Sonarr
-- TRaSH
 - 1080p
 upgradesAllowed: true
 minCustomFormatScore: 0

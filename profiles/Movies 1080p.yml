@@ -14,8 +14,8 @@ description: 'Based on the TRaSH Guides SQP-1 profile, focusing on streaming opt
   is in a WEB Tier.'
 tags:
 - Radarr
-- TRaSH
 - 1080p
+- Streaming Optimized
 upgradesAllowed: true
 minCustomFormatScore: 500
 upgradeUntilScore: 10000
