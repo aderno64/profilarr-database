@@ -1,5 +1,5 @@
 name: EVO
-pattern: (?<=^|[\s.-])EVO\b
+pattern: (?<=^|[\s.-])EVO|DefinitelyNotEVO\b
 description: 'iPT Internal known for releasing pre-releases before anyone else. Also
   releases encodes of varying quality. '
 tags:
@@ -9,7 +9,7 @@ tests:
 - expected: true
   id: 1
   input: Aisha 2022 1080p WEB-DL DDP5 1 H 264-EVO
-  lastRun: '2024-12-06T05:54:51.925977'
+  lastRun: '2025-07-28T10:07:29.283385'
   matchSpan:
     end: 40
     start: 37
@@ -19,10 +19,20 @@ tests:
 - expected: true
   id: 2
   input: 'Dune AKA Dune: Part One 2021 1080p EUR Blu-ray AVC TrueHD 7.1 Atmos-EVO'
-  lastRun: '2024-12-06T05:54:51.925977'
+  lastRun: '2025-07-28T10:07:29.283385'
   matchSpan:
     end: 71
     start: 68
   matchedContent: EVO
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Nobody.2021.2160p.WEB-DL.DDP5.1.HDR.HEVC-DefinitelyNotEVO
+  lastRun: '2025-07-28T10:07:29.283385'
+  matchSpan:
+    end: 57
+    start: 41
+  matchedContent: DefinitelyNotEVO
   matchedGroups: []
   passes: true
