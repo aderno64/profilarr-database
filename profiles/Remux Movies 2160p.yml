@@ -111,6 +111,8 @@ custom_formats:
   score: -10000
 - name: Banned Remux
   score: -10000
+- name: Banned WEB-DL
+  score: -10000
 - name: Banned WEBRip
   score: -10000
 - name: BCORE
