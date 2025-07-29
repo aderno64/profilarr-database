@@ -15,8 +15,13 @@ conditions:
   required: false
   type: release_group
 - name: PiRaTeS
+  negate: false
+  pattern: PiRaTeS
+  required: false
+  type: release_group
+- name: RUMOUR
   type: release_group
   required: false
   negate: false
-  pattern: PiRaTeS
+  pattern: RUMOUR
 tests: []

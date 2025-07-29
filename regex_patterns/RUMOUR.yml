@@ -1,0 +1,7 @@
+name: RUMOUR
+pattern: (?<=^|[\s.-])RUMOUR\b
+description: Banned for Mislabeling HDR10+
+tags:
+- Release Group
+- Banned
+tests: []
