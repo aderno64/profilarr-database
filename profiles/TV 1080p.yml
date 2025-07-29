@@ -71,6 +71,8 @@ custom_formats:
   score: -10000
 - name: Banned Groups
   score: -10000
+- name: Banned WEBRip
+  score: -10000
 - name: BR-DISK
   score: -10000
 - name: Extras
