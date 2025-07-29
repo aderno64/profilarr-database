@@ -1,0 +1,7 @@
+name: LOST
+pattern: (?<=^|[\s.-])LOST\b
+description: ''
+tags:
+- Release Group
+- Banned
+tests: []
