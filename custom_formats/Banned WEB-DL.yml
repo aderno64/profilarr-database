@@ -19,14 +19,4 @@ conditions:
   pattern: PiRaTeS
   required: false
   type: release_group
-- name: RUMOUR
-  negate: false
-  pattern: RUMOUR
-  required: false
-  type: release_group
-- name: LOST
-  type: release_group
-  required: false
-  negate: false
-  pattern: LOST
 tests: []
