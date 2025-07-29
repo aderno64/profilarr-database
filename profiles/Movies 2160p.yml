@@ -43,7 +43,7 @@ custom_formats:
   score: 1600
 - name: Dolby Vision
   score: 1500
-- name: HDR
+- name: HDR (Generalized)
   score: 500
 - name: HLG
   score: 500
