@@ -1,5 +1,7 @@
 # bedynamic Profilarr Database
 
+<img width="14" height="14" alt="image" src="https://github.com/user-attachments/assets/ec295a28-29f0-46be-ba0d-3701e58f634c" /> <a href="https://discord.gg/g56zds34" target="_blank" rel="noopener noreferrer">Discord</a> - Join the Discord
+
 ***PLEASE BE AWARE THAT THESE ARE IN ACTIVE, CONSTANT DEVELOPMENT. I WILL NOTATE IN THE COMMITS IF A WIPE AND RELOAD OF THE FORMATS IS NEEDED.***
 
 We use the Dictionarry formats and regex, but we also have made modifications and additions to better source media.
