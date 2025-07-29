@@ -38,6 +38,8 @@ custom_formats:
   score: 1700
 - name: 1080p Quality Tier 5
   score: 1600
+- name: Atmos
+  score: 135
 - name: Dolby Digital +
   score: 125
 - name: Special Edition

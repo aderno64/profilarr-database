@@ -1,7 +1,17 @@
 name: TrueHD
-pattern: True[ .-]?HD[ .-]?
+pattern: (?<!\w)TrueHD(?=\d|[^\w]|$)
 description: ''
 tags:
 - Audio
 - Lossless
-tests: []
+tests:
+- expected: true
+  id: 1
+  input: Back.to.the.Future.1985.2160p.MA.WEB-DL.TrueHD.Atmos.7.1.DV.HDR.H.265-FLUX
+  lastRun: '2025-07-29T10:45:50.749922'
+  matchSpan:
+    end: 46
+    start: 40
+  matchedContent: TrueHD
+  matchedGroups: []
+  passes: true
