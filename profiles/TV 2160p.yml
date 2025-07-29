@@ -67,13 +67,17 @@ custom_formats:
   score: 50
 - name: SHO
   score: 50
+- name: Atmos
+  score: 20
 - name: Dolby Digital +
+  score: 15
+- name: Dolby Digital
   score: 10
 - name: Repack1
   score: 7
 - name: Repack2
   score: 6
-- name: Dolby Digital
+- name: DTS
   score: 5
 - name: Repack3
   score: 5

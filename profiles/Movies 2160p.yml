@@ -49,6 +49,8 @@ custom_formats:
   score: 500
 - name: PQ
   score: 500
+- name: Atmos
+  score: 135
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
