@@ -1,0 +1,22 @@
+name: Banned WEB-DL
+description: Matches WEB-DL releases that are not from a quality tier
+tags:
+- Banned
+- Release Group
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: EVO
+  negate: false
+  pattern: EVO
+  required: false
+  type: release_group
+- name: PiRaTeS
+  type: release_group
+  required: false
+  negate: false
+  pattern: PiRaTeS
+tests: []
