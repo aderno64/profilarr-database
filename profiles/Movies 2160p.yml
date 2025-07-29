@@ -43,11 +43,7 @@ custom_formats:
   score: 1600
 - name: Dolby Vision
   score: 1500
-- name: HDR10+
-  score: 600
 - name: HDR
-  score: 500
-- name: HDR10
   score: 500
 - name: HLG
   score: 500
@@ -82,8 +78,6 @@ custom_formats:
 - name: B&W
   score: -10000
 - name: Banned Groups
-  score: -10000
-- name: Banned WEB-DL
   score: -10000
 - name: Banned WEBRip
   score: -10000
