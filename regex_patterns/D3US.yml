@@ -1,0 +1,7 @@
+name: D3US
+pattern: (?<=^|[\s.-])D3US\b
+description: ''
+tags:
+- Release Group
+- Banned
+tests: []

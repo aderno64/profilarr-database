@@ -119,11 +119,6 @@ conditions:
   pattern: OEPlus
   required: false
   type: release_group
-- name: PiRaTeS
-  negate: false
-  pattern: PiRaTeS
-  required: false
-  type: release_group
 - name: SasukeducK
   negate: false
   pattern: SasukeducK
@@ -200,8 +195,13 @@ conditions:
   required: false
   type: release_group
 - name: WADU
+  negate: false
+  pattern: WADU
+  required: false
+  type: release_group
+- name: D3US
   type: release_group
   required: false
   negate: false
-  pattern: WADU
+  pattern: D3US
 tests: []
