@@ -60,8 +60,6 @@ custom_formats:
   score: 5
 - name: WEB-DL
   score: 5
-- name: iT
-  score: 0
 - name: Audio Missing
   score: -150
 - name: 10bit
