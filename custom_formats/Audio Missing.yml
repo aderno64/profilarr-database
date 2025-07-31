@@ -1,5 +1,6 @@
 name: Audio Missing
-description: Matches releases where the audio codec is not defined.
+description: Matches releases where the audio codec is not defined in the name and
+  the group is not banned.
 tags:
 - Audio
 conditions:
