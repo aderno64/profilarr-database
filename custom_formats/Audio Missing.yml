@@ -4,6 +4,11 @@ description: Matches releases where the audio codec is not defined in the name a
 tags:
 - Audio
 conditions:
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
 - name: Not DTS
   negate: true
   pattern: DTS
