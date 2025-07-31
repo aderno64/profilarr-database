@@ -24,19 +24,14 @@ conditions:
   pattern: DTS
   required: false
   type: release_title
-- name: Not TrueHD + Atmos
-  negate: true
-  pattern: TrueHD + Atmos
-  required: false
-  type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
   required: false
   type: release_title
 - name: Not Dolby Digital +
-  type: release_title
-  required: false
   negate: true
   pattern: Dolby Digital +
+  required: false
+  type: release_title
 tests: []
