@@ -45,10 +45,6 @@ custom_formats:
   score: 1500
 - name: HDR (Generalized)
   score: 500
-- name: HLG
-  score: 500
-- name: PQ
-  score: 500
 - name: Atmos
   score: 135
 - name: Dolby Digital +
