@@ -1,0 +1,112 @@
+name: AAC
+description: Matches 'AAC' Regex Pattern and negates any other audio types that might
+  conflict.
+tags:
+- Audio
+conditions:
+- name: AAC
+  negate: false
+  pattern: AAC
+  required: true
+  type: release_title
+- name: DTS
+  negate: true
+  pattern: DTS
+  required: false
+  type: release_title
+- name: Not PCM
+  negate: true
+  pattern: PCM
+  required: false
+  type: release_title
+- name: Not DTS-HD
+  negate: true
+  pattern: DTS-HD
+  required: false
+  type: release_title
+- name: Not DTS-HD HRA ES
+  negate: true
+  pattern: DTS-HD HRA ES
+  required: false
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: false
+  type: release_title
+- name: Not Dolby Digital +
+  negate: true
+  pattern: Dolby Digital +
+  required: false
+  type: release_title
+- name: Not Dolby Digital
+  negate: true
+  pattern: Dolby Digital
+  required: false
+  type: release_title
+- name: Not DTS-X
+  negate: true
+  pattern: DTS-X
+  required: false
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: AAC
+    negate: false
+    pattern: AAC
+    required: true
+    type: release_title
+  - matches: false
+    name: DTS
+    negate: true
+    pattern: DTS
+    required: false
+    type: release_title
+  - matches: false
+    name: Not PCM
+    negate: true
+    pattern: PCM
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-HD
+    negate: true
+    pattern: DTS-HD
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-HD HRA ES
+    negate: true
+    pattern: DTS-HD HRA ES
+    required: false
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital +
+    negate: true
+    pattern: Dolby Digital +
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital
+    negate: true
+    pattern: Dolby Digital
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-X
+    negate: true
+    pattern: DTS-X
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Ace.Ventura.When.Nature.Calls.1995.BluRay.1080p.AAC.2.0.x264-hallowed
+  lastRun: '2025-07-31T04:02:47.106381'
+  passes: true
