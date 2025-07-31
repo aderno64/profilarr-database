@@ -100,8 +100,8 @@ custom_formats:
   score: 5
 - name: WEB-DL
   score: 5
-- name: Audio Missing
-  score: -150
+- name: AAC
+  score: 0
 - name: 3D
   score: -10000
 - name: AV1
