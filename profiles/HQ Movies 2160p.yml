@@ -78,16 +78,22 @@ custom_formats:
   score: 500
 - name: PQ
   score: 500
+- name: DTS-X
+  score: 200
 - name: Atmos
-  score: 135
-- name: Dolby Digital +
+  score: 175
+- name: TrueHD
+  score: 150
+- name: DTS-HD MA
   score: 125
 - name: Special Edition
   score: 125
-- name: Dolby Digital
-  score: 115
+- name: Dolby Digital +
+  score: 100
 - name: DTS
-  score: 105
+  score: 75
+- name: Dolby Digital
+  score: 50
 - name: CRIT
   score: 20
 - name: MA
@@ -100,8 +106,6 @@ custom_formats:
   score: 5
 - name: WEB-DL
   score: 5
-- name: AAC
-  score: 0
 - name: 3D
   score: -10000
 - name: AV1
