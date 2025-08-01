@@ -9,4 +9,104 @@ conditions:
   pattern: DTS-X
   required: true
   type: release_title
-tests: []
+- name: Not DTS
+  negate: true
+  pattern: DTS
+  required: false
+  type: release_title
+- name: Not AAC
+  negate: true
+  pattern: AAC
+  required: false
+  type: release_title
+- name: Not DTS-HD
+  negate: true
+  pattern: DTS-HD
+  required: false
+  type: release_title
+- name: Not DTS-HD HRA
+  negate: true
+  pattern: DTS-HD HRA ES
+  required: false
+  type: release_title
+- name: Not DTS-HD MA
+  negate: true
+  pattern: DTS-HD MA
+  required: false
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: false
+  type: release_title
+- name: Not DD
+  negate: true
+  pattern: Dolby Digital
+  required: false
+  type: release_title
+- name: Not DD+
+  negate: true
+  pattern: Dolby Digital +
+  required: false
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: DTS-X
+    negate: false
+    pattern: DTS-X
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS
+    required: false
+    type: release_title
+  - matches: false
+    name: Not AAC
+    negate: true
+    pattern: AAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-HD
+    negate: true
+    pattern: DTS-HD
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-HD HRA
+    negate: true
+    pattern: DTS-HD HRA ES
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-HD MA
+    negate: true
+    pattern: DTS-HD MA
+    required: false
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DD
+    negate: true
+    pattern: Dolby Digital
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DD+
+    negate: true
+    pattern: Dolby Digital +
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: '    Harry.Potter.and.the.Chamber.of.Secrets.2002.Theatrical.Cut.2160p.BluRay.DTS-X.7.1.DV.HDR10.x265-MainFrame'
+  lastRun: '2025-08-01T16:06:56.411323'
+  passes: true
