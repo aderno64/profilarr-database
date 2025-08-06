@@ -1,0 +1,16 @@
+name: Surround Sound
+description: ''
+tags:
+- Audio
+conditions:
+- name: 5.1 Surround
+  negate: false
+  pattern: 5.1 Surround
+  required: false
+  type: release_title
+- name: 7.1 Surround
+  type: release_title
+  required: false
+  negate: false
+  pattern: 7.1 Surround
+tests: []

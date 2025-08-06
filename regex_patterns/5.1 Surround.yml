@@ -1,0 +1,15 @@
+name: 5.1 Surround
+pattern: 5\.1
+description: ''
+tags:
+- Audio
+- Channels
+tests:
+- expected: false
+  id: 1
+  input: Schitts.Creek.2015.S05E03.1080p.AMZN.WEB-DL.H265.SDR.DDP.2.0.English-HONE
+  lastRun: '2025-08-06T04:12:27.222174'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

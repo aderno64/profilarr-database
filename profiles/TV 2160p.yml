@@ -73,6 +73,8 @@ custom_formats:
   score: 15
 - name: Dolby Digital
   score: 10
+- name: Surround Sound
+  score: 10
 - name: Repack1
   score: 7
 - name: Repack2
