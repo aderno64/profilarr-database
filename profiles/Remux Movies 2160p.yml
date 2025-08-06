@@ -101,10 +101,14 @@ custom_formats:
   score: 20
 - name: MA
   score: 20
+- name: 7.1 Surround
+  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
   score: 6
+- name: 5.1 Surround
+  score: 5
 - name: Repack1
   score: 5
 - name: WEB-DL
