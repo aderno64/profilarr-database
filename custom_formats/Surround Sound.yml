@@ -16,7 +16,7 @@ conditions:
 - name: 2.0 Stereo
   negate: true
   pattern: 2.0 Stereo
-  required: false
+  required: true
   type: release_title
 tests:
 - conditionResults:
