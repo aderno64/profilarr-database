@@ -364,4 +364,9 @@ conditions:
   pattern: ZoroSenpai
   required: true
   type: release_group
+- name: PiRaTeS
+  type: release_group
+  required: false
+  negate: false
+  pattern: PiRaTeS
 tests: []
