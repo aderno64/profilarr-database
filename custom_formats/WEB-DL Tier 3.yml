@@ -89,4 +89,9 @@ conditions:
   pattern: XEBEC
   required: false
   type: release_group
+- name: NPMS
+  type: release_group
+  required: false
+  negate: false
+  pattern: NPMS
 tests: []
