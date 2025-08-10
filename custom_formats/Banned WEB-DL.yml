@@ -14,9 +14,4 @@ conditions:
   pattern: EVO
   required: false
   type: release_group
-- name: PiRaTeS
-  negate: false
-  pattern: PiRaTeS
-  required: false
-  type: release_group
 tests: []
