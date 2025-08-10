@@ -35,13 +35,18 @@ conditions:
   required: false
   type: release_group
 - name: SiCFoI
-  type: release_group
-  required: false
   negate: false
   pattern: SiCFoI
+  required: false
+  type: release_group
 - name: TEPES
   negate: false
   pattern: TEPES
   required: false
   type: release_group
+- name: NAN0
+  type: release_title
+  required: false
+  negate: false
+  pattern: NAN0
 tests: []
