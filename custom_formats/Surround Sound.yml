@@ -13,11 +13,6 @@ conditions:
   pattern: 7.1 Surround
   required: false
   type: release_title
-- name: 2.0 Stereo
-  negate: true
-  pattern: 2.0 Stereo
-  required: true
-  type: release_title
 tests:
 - conditionResults:
   - matches: false
@@ -26,20 +21,32 @@ tests:
     pattern: 5.1 Surround
     required: false
     type: release_title
-  - matches: true
+  - matches: false
     name: 7.1 Surround
     negate: false
     pattern: 7.1 Surround
     required: false
     type: release_title
-  - matches: true
-    name: 2.0 Stereo
-    negate: true
-    pattern: 2.0 Stereo
-    required: false
-    type: release_title
   expected: false
   id: 1
   input: Slap.Shot.1977.1080p.BluRay.FLAC2.0.x264-SbR
-  lastRun: '2025-08-08T07:13:05.538284'
-  passes: true
+  lastRun: '2025-08-10T23:08:53.515748'
+  passes: false
+- conditionResults:
+  - matches: false
+    name: 5.1 Surround
+    negate: false
+    pattern: 5.1 Surround
+    required: false
+    type: release_title
+  - matches: false
+    name: 7.1 Surround
+    negate: false
+    pattern: 7.1 Surround
+    required: false
+    type: release_title
+  expected: false
+  id: 2
+  input: The.Simpsons.Movie.2007.1080p.BluRay.DTS.Proper.x264-ESiR-Obfuscated
+  lastRun: '2025-08-10T23:08:53.515748'
+  passes: false

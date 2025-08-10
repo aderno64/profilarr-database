@@ -1,5 +1,5 @@
 name: 2.0 Stereo
-pattern: 2\.0
+pattern: (?<!\d)2\.0(?!\d)
 description: ''
 tags:
 - Audio
@@ -8,10 +8,8 @@ tests:
 - expected: true
   id: 1
   input: Slap.Shot.1977.1080p.BluRay.FLAC2.0.x264-SbR
-  lastRun: '2025-08-08T07:10:20.273471'
-  matchSpan:
-    end: 35
-    start: 32
-  matchedContent: '2.0'
+  lastRun: '2025-08-10T23:07:07.124199'
+  matchSpan: null
+  matchedContent: null
   matchedGroups: []
-  passes: true
+  passes: false
