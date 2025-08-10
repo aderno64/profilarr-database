@@ -1,5 +1,5 @@
 name: 7.1 Surround
-pattern: '7\.1'
+pattern: (?<!\d)7\.1(?!\d)
 description: ''
 tags:
 - Audio
