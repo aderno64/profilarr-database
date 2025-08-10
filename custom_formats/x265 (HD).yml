@@ -15,11 +15,11 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: Not in a WEB Tier
+- name: HONE
+  type: release_group
+  required: false
   negate: true
-  pattern: x265 Allowed Group
-  required: true
-  type: release_title
+  pattern: HONE
 tests:
 - conditionResults:
   - matches: true
