@@ -40,8 +40,13 @@ conditions:
   required: false
   type: release_group
 - name: BYNDR
+  negate: false
+  pattern: BYNDR
+  required: false
+  type: release_group
+- name: NINJACENTRAL
   type: release_group
   required: false
   negate: false
-  pattern: BYNDR
+  pattern: NINJACENTRAL
 tests: []
