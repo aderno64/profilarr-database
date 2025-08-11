@@ -9,44 +9,49 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: BYNDR
+- name: BTN
   type: release_group
   required: false
+  negate: false
+  pattern: BTN
+- name: BYNDR
   negate: false
   pattern: BYNDR
-- name: GNOMiSSiON
-  type: release_group
   required: false
+  type: release_group
+- name: GNOMiSSiON
   negate: false
   pattern: GNOMiSSiON
-- name: NINJACENTRAL
-  type: release_group
   required: false
+  type: release_group
+- name: NINJACENTRAL
   negate: false
   pattern: NINJACENTRAL
-- name: NPMS
-  type: release_group
   required: false
+  type: release_group
+- name: NPMS
   negate: false
   pattern: NPMS
-- name: ROCCaT
-  type: release_group
   required: false
+  type: release_group
+- name: ROCCaT
   negate: false
   pattern: ROCCaT
-- name: SiGMA
-  type: release_group
   required: false
+  type: release_group
+- name: SiGMA
   negate: false
   pattern: SiGMA
-- name: SliGNOME
-  type: release_group
   required: false
+  type: release_group
+- name: SliGNOME
   negate: false
   pattern: SLiGNOME
-- name: SwAgLaNdEr
-  type: release_group
   required: false
+  type: release_group
+- name: SwAgLaNdEr
   negate: false
   pattern: SwAgLaNdEr
+  required: false
+  type: release_group
 tests: []
