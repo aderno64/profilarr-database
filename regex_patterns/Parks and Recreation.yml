@@ -1,0 +1,38 @@
+name: Parks and Recreation
+pattern: (?i)^(?:parks[ ._-]+and[ ._-]+recreation)\b.*-NTb(?:\.[a-z0-9]+)?$
+description: This is to match the show Parks and Recreation and the release group
+  NTb.
+tags:
+- Custom
+- Banned
+tests:
+- expected: true
+  id: 1
+  input: Parks and Recreation S06 1080p AMZN WEB-DL DD+ 5.1 H.264-NTb
+  lastRun: '2025-08-11T16:34:10.454820'
+  matchSpan:
+    end: 60
+    start: 0
+  matchedContent: Parks and Recreation S06 1080p AMZN WEB-DL DD+ 5.1 H.264-NTb
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: Parks.And.Recreation.2009.S06.Bluray.EAC3.MIXED.1080p.x265-SiQ
+  lastRun: '2025-08-11T16:34:10.454820'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Parks and Recreation (2009) - S07E08 - Ms. Ludgate-Dwyer Goes to Washington
+    [WEBDL-1080p][EAC3 5.1][x264]-NTb.mkv
+  lastRun: '2025-08-11T16:34:10.454820'
+  matchSpan:
+    end: 113
+    start: 0
+  matchedContent: Parks and Recreation (2009) - S07E08 - Ms. Ludgate-Dwyer Goes to
+    Washington [WEBDL-1080p][EAC3 5.1][x264]-NTb.mkv
+  matchedGroups: []
+  passes: true
