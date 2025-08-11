@@ -21,7 +21,7 @@ custom_formats:
   score: 1700
 - name: WEB-DL Tier 2
   score: 1650
-- name: WEB Scene
+- name: Scene Sonarr
   score: 1600
 - name: WEB-DL Tier 3
   score: 1600

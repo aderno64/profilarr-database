@@ -1,0 +1,24 @@
+name: Scene Radarr
+description: One of the few scene groups that released quality releases.
+tags:
+- Release Groups
+- Radarr
+conditions:
+- name: Scene Radarr
+  negate: false
+  pattern: Scene Radarr
+  required: false
+  type: release_group
+tests:
+- conditionResults:
+  - matches: false
+    name: Scene
+    negate: false
+    pattern: Scene
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: Entourage - S01E07 - The Scene Bluray-1080p.mkv
+  lastRun: '2025-07-06T21:20:00.281202'
+  passes: true
