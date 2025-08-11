@@ -1,4 +1,4 @@
-name: Streaming Optimized
+name: Streaming Optimized Tier 01
 description: Matches against groups that are streaming optimized like hallowed and
   BHDStudio and the Bluray source.
 tags:
@@ -10,20 +10,15 @@ conditions:
   source: bluray
   type: source
 - name: hallowed
-  type: release_group
-  required: false
   negate: false
   pattern: hallowed
-- name: BHDStudio
-  type: release_group
   required: false
+  type: release_group
+- name: BHDStudio
   negate: false
   pattern: BHDStudio
-- name: HONE
-  type: release_group
   required: false
-  negate: false
-  pattern: HONE
+  type: release_group
 tests:
 - conditionResults:
   - matches: true
