@@ -1,0 +1,25 @@
+name: Incorrect Source
+description: 'This is a format that helps deny grabbing specific releases for specific
+  shows. '
+tags:
+- Custom
+- Banned
+conditions:
+- name: Parks and Recreation
+  negate: false
+  pattern: Parks and Recreation
+  required: false
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: Parks and Recreation
+    negate: false
+    pattern: Parks and Recreation
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Parks.and.Recreation.S01E06.Rock.Show.1080p.AMZN.WEBRip.DD5.1.x264-NTb
+  lastRun: '2025-08-11T16:52:14.730435'
+  passes: true

@@ -83,10 +83,6 @@ custom_formats:
   score: 5
 - name: WEB-DL
   score: 5
-- name: 5.1 Surround
-  score: 0
-- name: 7.1 Surround
-  score: 0
 - name: AV1
   score: -10000
 - name: Banned Groups
@@ -100,6 +96,8 @@ custom_formats:
 - name: Dolby Vision WEB-DL
   score: -10000
 - name: Extras
+  score: -10000
+- name: Incorrect Source
   score: -10000
 - name: Non Retail HDR
   score: -10000
