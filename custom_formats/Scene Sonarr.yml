@@ -1,18 +1,14 @@
-name: WEB Scene
+name: Scene Sonarr
 description: One of the few scene groups that released quality releases.
 tags:
 - Release Groups
+- Sonarr
 conditions:
-- name: WEB-DL
-  type: source
-  required: true
+- name: Scene Sonarr
   negate: false
-  source: web_dl
-- name: Scene
-  negate: false
-  pattern: Scene
-  required: true
-  type: release_title
+  pattern: Scene Sonarr
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: false

@@ -1,0 +1,8 @@
+name: Scene Sonarr
+pattern: (?<=^|[\s.-])INFLATE|DEFLATE\b
+description: Matches Scene Groups
+tags:
+- Scene
+- Release Group
+- Sonarr
+tests: []

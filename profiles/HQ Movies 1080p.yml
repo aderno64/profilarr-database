@@ -118,11 +118,11 @@ custom_formats:
   score: -10000
 - name: Non Retail HDR
   score: -10000
+- name: Scene Radarr
+  score: -10000
 - name: Sing Along
   score: -10000
 - name: Upscaled
-  score: -10000
-- name: WEB Scene
   score: -10000
 - name: x265 (HD)
   score: -10000
