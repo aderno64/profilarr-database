@@ -88,6 +88,8 @@ custom_formats:
   score: -10000
 - name: Sing Along
   score: -10000
+- name: TrueHD
+  score: -10000
 - name: Upscaled
   score: -10000
 - name: x265 (HD)
