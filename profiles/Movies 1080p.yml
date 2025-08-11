@@ -62,6 +62,8 @@ custom_formats:
   score: 5
 - name: WEB-DL
   score: 5
+- name: x265 (HD)
+  score: -5
 - name: 10bit
   score: -10000
 - name: 3D
@@ -89,8 +91,6 @@ custom_formats:
 - name: TrueHD
   score: -10000
 - name: Upscaled
-  score: -10000
-- name: x265 (HD)
   score: -10000
 qualities:
 - id: 10
