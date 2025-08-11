@@ -1,6 +1,5 @@
 name: x265 (HD)
-description: This blocks all 720/1080p (HD) releases that are encoded in x265, unless
-  they are in a WEB TIer
+description: This blocks all 720/1080p (HD) releases that are encoded in x265.
 tags:
 - TRaSH
 - x265
@@ -15,11 +14,6 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: HONE
-  type: release_group
-  required: false
-  negate: true
-  pattern: HONE
 tests:
 - conditionResults:
   - matches: true
