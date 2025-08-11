@@ -9,24 +9,34 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: CMRG
+- name: dB
   negate: false
-  pattern: CMRG
+  pattern: dB
   required: false
   type: release_group
-- name: HHWEB
+- name: Flights
   negate: false
-  pattern: HHWEB
+  pattern: Flights
   required: false
   type: release_group
-- name: HONE
+- name: MiU
   negate: false
-  pattern: HONE
+  pattern: MiU
   required: false
   type: release_group
-- name: Kitsune
+- name: monkee
   negate: false
-  pattern: Kitsune
+  pattern: monkee
+  required: false
+  type: release_group
+- name: MZABI
+  negate: false
+  pattern: MZABI
+  required: false
+  type: release_group
+- name: PHOENiX
+  negate: false
+  pattern: PHOENiX
   required: false
   type: release_group
 - name: playWEB
@@ -34,19 +44,29 @@ conditions:
   pattern: playWEB
   required: false
   type: release_group
-- name: TEPES
+- name: RAWR
   negate: false
-  pattern: TEPES
+  pattern: RAWR
   required: false
   type: release_group
-- name: BYNDR
+- name: SbR
   negate: false
-  pattern: BYNDR
+  pattern: SbR
   required: false
   type: release_group
-- name: NINJACENTRAL
-  type: release_group
-  required: false
+- name: SMURF
   negate: false
-  pattern: NINJACENTRAL
+  pattern: SMURF
+  required: false
+  type: release_group
+- name: TOMMY
+  negate: false
+  pattern: TOMMY
+  required: false
+  type: release_group
+- name: XEBEC
+  negate: false
+  pattern: XEBEC
+  required: false
+  type: release_group
 tests: []

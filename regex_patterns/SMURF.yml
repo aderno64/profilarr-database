@@ -1,5 +1,5 @@
 name: SMURF
-pattern: (?<=^|[\s.-])SMURF\b
+pattern: ^(SMURF)$
 description: ''
 tags:
 - Release Group

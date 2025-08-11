@@ -1,5 +1,5 @@
 name: TEPES
-pattern: (?<=^|[\s.-])TEPES\b
+pattern: ^(TEPES)$
 description: ''
 tags:
 - Release Group

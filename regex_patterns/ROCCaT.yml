@@ -1,6 +1,7 @@
-name: PHOENiX
-pattern: ^(PHOENiX)$
+name: ROCCaT
+pattern: ^(ROCCaT)$
 description: ''
 tags:
 - Release Group
+- WEB-DL
 tests: []

@@ -1,5 +1,5 @@
 name: playWEB
-pattern: (?<=^|[\s.-])playWEB\b
+pattern: ^(playWEB)$
 description: ''
 tags:
 - Release Group
