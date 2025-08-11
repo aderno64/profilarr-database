@@ -1,5 +1,5 @@
 name: NOSiViD
-pattern: (?<=^|[\s.-])NOSiViD\b
+pattern: ^(NOSiViD)$
 description: ''
 tags:
 - Release Group

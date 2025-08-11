@@ -1,5 +1,5 @@
 name: FLUX
-pattern: (?<=^|[\s.-])FLUX\b
+pattern: ^(FLUX)$
 description: ''
 tags:
 - Release Group

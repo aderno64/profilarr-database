@@ -9,89 +9,44 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: ABBIE
-  negate: false
-  pattern: ABBIE
-  required: false
+- name: BYNDR
   type: release_group
-- name: AJP69
-  negate: false
-  pattern: AJP69
   required: false
-  type: release_group
-- name: APEX
   negate: false
-  pattern: APEX
-  required: false
+  pattern: BYNDR
+- name: GNOMiSSiON
   type: release_group
-- name: BLUTONiUM
+  required: false
   negate: false
-  pattern: BLUTONiUM
-  required: false
+  pattern: GNOMiSSiON
+- name: NINJACENTRAL
   type: release_group
-- name: BTN
+  required: false
   negate: false
-  pattern: BTN
-  required: false
-  type: release_group
-- name: CRFW
-  negate: false
-  pattern: CRFW
-  required: false
-  type: release_group
-- name: KiNGS
-  negate: false
-  pattern: KiNGS
-  required: false
-  type: release_group
-- name: MZABI
-  negate: false
-  pattern: MZABI
-  required: false
-  type: release_group
-- name: NOSiViD
-  negate: false
-  pattern: NOSiViD
-  required: false
-  type: release_group
-- name: NTG
-  negate: false
-  pattern: NTG
-  required: false
-  type: release_group
-- name: QOQ
-  negate: false
-  pattern: QOQ
-  required: false
-  type: release_group
-- name: SbR
-  negate: false
-  pattern: SbR
-  required: false
-  type: release_group
-- name: SiC
-  negate: false
-  pattern: SiC
-  required: false
-  type: release_group
-- name: SMURF
-  negate: false
-  pattern: SMURF
-  required: false
-  type: release_group
-- name: TOMMY
-  negate: false
-  pattern: TOMMY
-  required: false
-  type: release_group
-- name: XEBEC
-  negate: false
-  pattern: XEBEC
-  required: false
-  type: release_group
+  pattern: NINJACENTRAL
 - name: NPMS
   type: release_group
   required: false
   negate: false
   pattern: NPMS
+- name: ROCCaT
+  type: release_group
+  required: false
+  negate: false
+  pattern: ROCCaT
+- name: SiGMA
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiGMA
+- name: SliGNOME
+  type: release_group
+  required: false
+  negate: false
+  pattern: SLiGNOME
+- name: SwAgLaNdEr
+  type: release_group
+  required: false
+  negate: false
+  pattern: SwAgLaNdEr
 tests: []

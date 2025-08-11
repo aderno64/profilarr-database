@@ -1,5 +1,5 @@
-name: CMRG
-pattern: ^(CMRG)$
+name: CRUD
+pattern: ^(CRUD)$
 description: 'Prolific WEB-DL group. '
 tags:
 - Release Group

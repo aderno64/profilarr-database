@@ -1,5 +1,5 @@
 name: SiGMA
-pattern: (?<=^|[\s.-])SiGMA\b
+pattern: ^(SiGMA)$
 description: ''
 tags:
 - Release Group

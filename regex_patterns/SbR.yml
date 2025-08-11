@@ -1,5 +1,5 @@
 name: SbR
-pattern: (?<=^|[\s.-])SbR\b
+pattern: ^(SbR)$
 description: ''
 tags:
 - Release Group

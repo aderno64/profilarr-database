@@ -1,5 +1,5 @@
 name: NTG
-pattern: (?<=^|[\s.-])NTG\b
+pattern: ^(NTG)$
 description: ''
 tags:
 - Release Group

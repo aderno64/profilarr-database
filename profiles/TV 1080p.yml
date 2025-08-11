@@ -25,8 +25,6 @@ custom_formats:
   score: 1600
 - name: WEB-DL Tier 3
   score: 1600
-- name: WEB-DL Tier 4
-  score: 1550
 - name: TV Editions
   score: 101
 - name: ATVP
@@ -73,6 +71,10 @@ custom_formats:
   score: 5
 - name: WEB-DL
   score: 5
+- name: 5.1 Surround
+  score: 0
+- name: 7.1 Surround
+  score: 0
 - name: AV1
   score: -10000
 - name: Banned Groups

@@ -1,6 +1,7 @@
-name: PHOENiX
-pattern: ^(PHOENiX)$
+name: SLiGNOME
+pattern: ^(SLiGNOME)$
 description: ''
 tags:
 - Release Group
+- WEB-DL
 tests: []

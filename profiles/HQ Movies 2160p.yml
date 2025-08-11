@@ -60,8 +60,6 @@ custom_formats:
   score: 1350
 - name: WEB-DL Tier 3
   score: 1300
-- name: WEB-DL Tier 4
-  score: 1250
 - name: IMAX
   score: 800
 - name: IMAX Enhanced
