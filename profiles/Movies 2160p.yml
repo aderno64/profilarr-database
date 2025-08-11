@@ -21,8 +21,10 @@ minCustomFormatScore: 500
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
-- name: Streaming Optimized
+- name: Streaming Optimized Tier 01
   score: 2500
+- name: Streaming Optimized Tier 02
+  score: 2400
 - name: 1080p Quality Tier 1
   score: 2000
 - name: WEB-DL Tier 1
