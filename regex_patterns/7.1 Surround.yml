@@ -1,5 +1,5 @@
 name: 7.1 Surround
-pattern: (?<!\d)7\.1(?!\d)
+pattern: (?<!\d)7[ .]1(?!\d)
 description: ''
 tags:
 - Audio
@@ -8,7 +8,7 @@ tests:
 - expected: true
   id: 1
   input: Avengers.Endgame.2019.UHD.BluRay.2160p.DDP.7.1.DV.HDR.x265-BHDStudio
-  lastRun: '2025-08-11T02:54:31.490016'
+  lastRun: '2025-08-11T21:38:15.837650'
   matchSpan:
     end: 46
     start: 43
