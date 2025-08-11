@@ -200,8 +200,13 @@ conditions:
   required: false
   type: release_group
 - name: D3US
+  negate: false
+  pattern: D3US
+  required: false
+  type: release_group
+- name: TWASERiES
   type: release_group
   required: false
   negate: false
-  pattern: D3US
+  pattern: TWASERiES
 tests: []
