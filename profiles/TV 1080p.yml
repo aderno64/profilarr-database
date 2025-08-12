@@ -25,8 +25,6 @@ custom_formats:
   score: 1600
 - name: WEB-DL Tier 3
   score: 1600
-- name: TV Editions
-  score: 101
 - name: ATVP
   score: 100
 - name: DSNP
@@ -60,6 +58,8 @@ custom_formats:
 - name: Dolby Digital
   score: 10
 - name: Surround Sound
+  score: 10
+- name: TV Editions
   score: 10
 - name: Repack1
   score: 7
