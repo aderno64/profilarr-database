@@ -14,7 +14,7 @@ tags:
 - 1080p
 - Streaming Optimized
 upgradesAllowed: true
-minCustomFormatScore: 100
+minCustomFormatScore: 50
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
