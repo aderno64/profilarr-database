@@ -35,8 +35,6 @@ custom_formats:
   score: 14
 - name: AMZN
   score: 13
-- name: Repack1
-  score: 13
 - name: NF
   score: 12
 - name: PCOK
@@ -63,6 +61,8 @@ custom_formats:
   score: 10
 - name: WEB-DL
   score: 10
+- name: Repack1
+  score: 7
 - name: Repack2
   score: 6
 - name: Repack3
