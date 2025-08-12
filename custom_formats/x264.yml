@@ -8,9 +8,4 @@ conditions:
   pattern: x264
   required: true
   type: release_title
-- name: Not WEB-DL
-  type: source
-  required: false
-  negate: true
-  source: web_dl
 tests: []
