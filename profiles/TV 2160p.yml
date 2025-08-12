@@ -100,8 +100,6 @@ qualities:
     name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
-- id: 4
-  name: Bluray-2160p
 - id: -2
   name: WEB 1080p
   description: ''
@@ -110,6 +108,8 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
+- id: 4
+  name: Bluray-2160p
 - id: 10
   name: Bluray-1080p
 - id: 12
