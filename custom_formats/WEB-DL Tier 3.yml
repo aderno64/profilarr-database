@@ -9,11 +9,6 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: Ao
-  type: release_group
-  required: false
-  negate: false
-  pattern: Ao
 - name: BTN
   negate: false
   pattern: BTN
