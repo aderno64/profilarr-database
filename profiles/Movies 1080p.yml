@@ -84,8 +84,6 @@ custom_formats:
   score: -10000
 - name: Extras
   score: -10000
-- name: Not Streaming Optimized
-  score: -10000
 - name: Sing Along
   score: -10000
 - name: TrueHD
