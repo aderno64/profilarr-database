@@ -26,50 +26,50 @@ custom_formats:
 - name: WEB-DL Tier 3
   score: 1600
 - name: Dolby Vision
-  score: 50
+  score: 100
 - name: HDR (Generalized)
-  score: 50
+  score: 100
 - name: Atmos
-  score: 20
+  score: 50
 - name: Dolby Digital +
+  score: 40
+- name: Dolby Digital
+  score: 30
+- name: MAX
   score: 15
+- name: HMAX
+  score: 14
+- name: AMZN
+  score: 13
+- name: NF
+  score: 12
+- name: PCOK
+  score: 12
+- name: PMTP
+  score: 12
+- name: STAN
+  score: 12
 - name: ATVP
   score: 10
-- name: Dolby Digital
-  score: 10
 - name: DSNP
+  score: 10
+- name: DTS
+  score: 10
+- name: iT
+  score: 10
+- name: SHO
   score: 10
 - name: Surround Sound
   score: 10
 - name: TV Editions
   score: 10
-- name: MAX
-  score: 9
-- name: HMAX
-  score: 8
-- name: AMZN
-  score: 7
+- name: WEB-DL
+  score: 10
 - name: Repack1
   score: 7
-- name: NF
-  score: 6
-- name: PCOK
-  score: 6
-- name: PMTP
-  score: 6
 - name: Repack2
   score: 6
-- name: STAN
-  score: 6
-- name: DTS
-  score: 5
-- name: iT
-  score: 5
 - name: Repack3
-  score: 5
-- name: SHO
-  score: 5
-- name: WEB-DL
   score: 5
 - name: x265 (HD)
   score: -10
