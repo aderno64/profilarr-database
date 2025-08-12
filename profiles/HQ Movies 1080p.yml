@@ -7,8 +7,8 @@ description: 'This profile focuses on the highest quality 1080p encodes without 
   - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
   as needed.
 
-  - This profile will allow for x265 on 1080p **if and only if** the release group
-  is in a WEB Tier.'
+  - This profile will allow for x265 on 1080p/720p, but is scored negatively to allow
+  for upgrades to x264.'
 tags:
 - Radarr
 - HQ
