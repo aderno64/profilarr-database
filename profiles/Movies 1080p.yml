@@ -14,7 +14,7 @@ tags:
 - 1080p
 - Streaming Optimized
 upgradesAllowed: true
-minCustomFormatScore: 500
+minCustomFormatScore: 100
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
@@ -38,30 +38,52 @@ custom_formats:
   score: 1700
 - name: 1080p Quality Tier 5
   score: 1600
-- name: Atmos
-  score: 135
-- name: Dolby Digital +
-  score: 125
 - name: Special Edition
   score: 125
-- name: Dolby Digital
-  score: 115
-- name: DTS
-  score: 105
+- name: Atmos
+  score: 50
+- name: Dolby Digital +
+  score: 40
 - name: CRIT
-  score: 20
+  score: 35
 - name: MA
-  score: 20
+  score: 35
+- name: Dolby Digital
+  score: 30
+- name: ATVP
+  score: 25
+- name: DSNP
+  score: 25
+- name: DTS
+  score: 25
 - name: Surround Sound
-  score: 10
+  score: 25
+- name: MAX
+  score: 15
+- name: HMAX
+  score: 14
+- name: AMZN
+  score: 13
 - name: Repack3
-  score: 7
+  score: 13
+- name: NF
+  score: 12
+- name: PCOK
+  score: 12
+- name: PMTP
+  score: 12
 - name: Repack2
-  score: 6
+  score: 12
+- name: STAN
+  score: 12
+- name: iT
+  score: 11
 - name: Repack1
-  score: 5
+  score: 10
+- name: SHO
+  score: 10
 - name: WEB-DL
-  score: 5
+  score: 10
 - name: x265 (HD)
   score: -100
 - name: 10bit
