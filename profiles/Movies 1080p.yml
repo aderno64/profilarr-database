@@ -7,8 +7,8 @@ description: 'This profile focuses on streaming optimized sources with little to
   - 1080p Blurays target **hallowed**, **HONE** or **BHDStudio**, but will fallback
   to a Dictionarry 1080p Quality releases.
 
-  - This profile will allow for x265 on 1080p **if and only if** the release group
-  is in a WEB Tier.'
+  - This profile will allow for x265 on 1080p/720p, but is scored negatively to allow
+  for upgrades to x264.'
 tags:
 - Radarr
 - 1080p
