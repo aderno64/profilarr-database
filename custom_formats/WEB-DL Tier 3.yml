@@ -1,5 +1,5 @@
 name: WEB-DL Tier 3
-description: Matches release groups who fall under WEB-DL Tier 3
+description: Matches release groups who fall under WEB-DL Tier 2
 tags:
 - Release Groups
 - WEB-DL
@@ -9,44 +9,74 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: BTN
+- name: dB
   negate: false
-  pattern: BTN
+  pattern: dB
   required: false
   type: release_group
-- name: BYNDR
+- name: Flights
   negate: false
-  pattern: BYNDR
+  pattern: Flights
   required: false
   type: release_group
-- name: GNOMiSSiON
+- name: LeagueWEB
   negate: false
-  pattern: GNOMiSSiON
+  pattern: LeagueWEB
   required: false
   type: release_group
-- name: NINJACENTRAL
+- name: MiU
   negate: false
-  pattern: NINJACENTRAL
+  pattern: MiU
   required: false
   type: release_group
-- name: NPMS
+- name: monkee
   negate: false
-  pattern: NPMS
+  pattern: monkee
   required: false
   type: release_group
-- name: ROCCaT
+- name: MZABI
   negate: false
-  pattern: ROCCaT
+  pattern: MZABI
   required: false
   type: release_group
-- name: SliGNOME
+- name: PHOENiX
   negate: false
-  pattern: SLiGNOME
+  pattern: PHOENiX
   required: false
   type: release_group
-- name: SwAgLaNdEr
+- name: playWEB
   negate: false
-  pattern: SwAgLaNdEr
+  pattern: playWEB
+  required: false
+  type: release_group
+- name: RAWR
+  negate: false
+  pattern: RAWR
+  required: false
+  type: release_group
+- name: SbR
+  negate: false
+  pattern: SbR
+  required: false
+  type: release_group
+- name: SiGMA
+  negate: false
+  pattern: SiGMA
+  required: false
+  type: release_group
+- name: SMURF
+  negate: false
+  pattern: SMURF
+  required: false
+  type: release_group
+- name: TOMMY
+  negate: false
+  pattern: TOMMY
+  required: false
+  type: release_group
+- name: XEBEC
+  negate: false
+  pattern: XEBEC
   required: false
   type: release_group
 tests: []

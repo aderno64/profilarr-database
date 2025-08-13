@@ -1,5 +1,5 @@
 name: WEB-DL Tier 2
-description: Matches release groups who fall under WEB-DL Tier 2
+description: Matches release groups who fall under WEB-DL Tier 1
 tags:
 - Release Groups
 - WEB-DL
@@ -9,74 +9,99 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: dB
+- name: ABBIE
   negate: false
-  pattern: dB
+  pattern: ABBIE
   required: false
   type: release_group
-- name: Flights
+- name: AJP69
   negate: false
-  pattern: Flights
+  pattern: AJP69
   required: false
   type: release_group
-- name: LeagueWEB
+- name: APEX
   negate: false
-  pattern: LeagueWEB
+  pattern: APEX
   required: false
   type: release_group
-- name: MiU
+- name: BLUTONiUM
   negate: false
-  pattern: MiU
+  pattern: BLUTONiUM
   required: false
   type: release_group
-- name: monkee
+- name: CMRG
   negate: false
-  pattern: monkee
+  pattern: CMRG
   required: false
   type: release_group
-- name: MZABI
+- name: CRFW
   negate: false
-  pattern: MZABI
+  pattern: CRFW
   required: false
   type: release_group
-- name: PHOENiX
+- name: CRUD
   negate: false
-  pattern: PHOENiX
+  pattern: CRUD
   required: false
   type: release_group
-- name: playWEB
+- name: FLUX
   negate: false
-  pattern: playWEB
+  pattern: FLUX
   required: false
   type: release_group
-- name: RAWR
+- name: GNOME
   negate: false
-  pattern: RAWR
+  pattern: GNOME
   required: false
   type: release_group
-- name: SbR
+- name: HONE
   negate: false
-  pattern: SbR
+  pattern: HONE
   required: false
   type: release_group
-- name: SiGMA
-  type: release_group
-  required: false
+- name: KiNGS
   negate: false
-  pattern: SiGMA
-- name: SMURF
-  negate: false
-  pattern: SMURF
+  pattern: KiNGS
   required: false
   type: release_group
-- name: TOMMY
+- name: Kitsune
   negate: false
-  pattern: TOMMY
+  pattern: Kitsune
   required: false
   type: release_group
-- name: XEBEC
+- name: NOSiViD
   negate: false
-  pattern: XEBEC
+  pattern: NOSiViD
+  required: false
+  type: release_group
+- name: NTb
+  negate: false
+  pattern: NTb
+  required: false
+  type: release_group
+- name: NTG
+  negate: false
+  pattern: NTG
+  required: false
+  type: release_group
+- name: QOQ
+  negate: false
+  pattern: QOQ
+  required: false
+  type: release_group
+- name: SiC
+  negate: false
+  pattern: SiC
+  required: false
+  type: release_group
+- name: TEPES
+  negate: false
+  pattern: TEPES
+  required: false
+  type: release_group
+- name: ZoroSenpai
+  negate: false
+  pattern: ZoroSenpai
   required: false
   type: release_group
 tests: []

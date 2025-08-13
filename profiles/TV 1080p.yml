@@ -18,31 +18,21 @@ upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
 - name: WEB-DL Tier 1
-  score: 1700
+  score: 2000
 - name: WEB-DL Tier 2
-  score: 1650
+  score: 1900
+- name: WEB-DL Tier 4
+  score: 1800
+- name: WEB-DL Tier 3
+  score: 1700
 - name: Scene Sonarr
   score: 1600
-- name: WEB-DL Tier 3
-  score: 1600
-- name: Atmos
-  score: 50
 - name: Dolby Digital +
-  score: 40
-- name: MAX
-  score: 15
-- name: HMAX
-  score: 14
+  score: 20
 - name: AMZN
-  score: 13
-- name: NF
-  score: 12
-- name: PCOK
-  score: 12
-- name: PMTP
-  score: 12
-- name: STAN
-  score: 11
+  score: 10
+- name: Atmos
+  score: 10
 - name: ATVP
   score: 10
 - name: Dolby Digital
@@ -51,9 +41,21 @@ custom_formats:
   score: 10
 - name: DTS
   score: 10
+- name: HMAX
+  score: 10
 - name: iT
   score: 10
+- name: MAX
+  score: 10
+- name: NF
+  score: 10
+- name: PCOK
+  score: 10
+- name: PMTP
+  score: 10
 - name: SHO
+  score: 10
+- name: STAN
   score: 10
 - name: Surround Sound
   score: 10
@@ -69,8 +71,6 @@ custom_formats:
   score: 5
 - name: x264
   score: 5
-- name: x265 (HD)
-  score: 0
 - name: AV1
   score: -10000
 - name: Banned Groups
