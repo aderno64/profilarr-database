@@ -1,0 +1,18 @@
+name: Banned Groups
+pattern: (?<=^|[\s.-])4K4U|AOC|AROMA|BeyondHD|BiTOR|BOLS|BTM|CLASSiCALHD|CREATiVE24|D3US|d3g|DepraveD|edge2020|FGT|Flights|HDS|jennaortegaUHD|KC|LAMA|MALUS|MgB|MovieMan|NAHOM|NhaNc3|NoGroup|OEPlus|PiRaTeS|SasukeducK|SHD|ShieldBearer|SMR37|STUTTERSHIT|tarunk9c|TEKNO3D|Telly|TWASERiES|VECTOR|VisionXpert|WADU|WhiteRhino|WiKi|YIFY|YTS\b
+description: ''
+tags:
+- Release Group
+- Banned
+tests:
+- expected: true
+  id: 1
+  input: Game of Thrones (2012) S02 2160p UHD Blu-ray HEVC DV HDR TrueHD Atmos 7.1
+    English-BeyondHD
+  lastRun: '2025-08-13T13:52:35.459320'
+  matchSpan:
+    end: 90
+    start: 82
+  matchedContent: BeyondHD
+  matchedGroups: []
+  passes: true
