@@ -55,10 +55,10 @@ conditions:
   required: false
   type: release_group
 - name: HONE
+  type: release_group
+  required: false
   negate: false
   pattern: HONE
-  required: false
-  type: release_group
 - name: KiNGS
   negate: false
   pattern: KiNGS
