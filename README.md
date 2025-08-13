@@ -4,7 +4,7 @@
 
 We use the Dictionarry formats and regex, but we also have made modifications and additions to better source media.
 
-<img width="75%" alt="Screenshot 2025-07-18 at 11-32-09 Profilarr" src="https://github.com/user-attachments/assets/996498a4-f0e2-4b4a-8d40-efb2c0205b3a" />
+<img width="75%" alt="Screenshot 2025-08-13 at 06-44-07 Profilarr" src="https://github.com/user-attachments/assets/80f28939-9040-446a-bfde-f57f333b1fbe" />
 
 ## Profile Selection Guide
 - *Anime*: **Anime 1080p**
