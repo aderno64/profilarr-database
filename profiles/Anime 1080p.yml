@@ -48,10 +48,12 @@ custom_formats:
 - name: Anime WEB Tier 6
   score: 600
 - name: WEB-DL Tier 1
-  score: 350
+  score: 400
 - name: WEB-DL Tier 2
-  score: 300
+  score: 350
 - name: WEB-DL Tier 3
+  score: 300
+- name: WEB-DL Tier 4
   score: 250
 - name: Anime Dual Audio
   score: 101
@@ -89,10 +91,6 @@ custom_formats:
   score: 1
 - name: v1
   score: 1
-- name: 5.1 Surround
-  score: 0
-- name: 7.1 Surround
-  score: 0
 - name: v0
   score: -51
 - name: Anime LQ

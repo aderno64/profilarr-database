@@ -1,0 +1,52 @@
+name: WEB-DL Tier 4
+description: Matches release groups who fall under WEB-DL Tier 3
+tags:
+- Release Groups
+- WEB-DL
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: BTN
+  negate: false
+  pattern: BTN
+  required: false
+  type: release_group
+- name: BYNDR
+  negate: false
+  pattern: BYNDR
+  required: false
+  type: release_group
+- name: GNOMiSSiON
+  negate: false
+  pattern: GNOMiSSiON
+  required: false
+  type: release_group
+- name: NINJACENTRAL
+  negate: false
+  pattern: NINJACENTRAL
+  required: false
+  type: release_group
+- name: NPMS
+  negate: false
+  pattern: NPMS
+  required: false
+  type: release_group
+- name: ROCCaT
+  negate: false
+  pattern: ROCCaT
+  required: false
+  type: release_group
+- name: SliGNOME
+  negate: false
+  pattern: SLiGNOME
+  required: false
+  type: release_group
+- name: SwAgLaNdEr
+  negate: false
+  pattern: SwAgLaNdEr
+  required: false
+  type: release_group
+tests: []
