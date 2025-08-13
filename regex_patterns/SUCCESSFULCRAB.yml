@@ -1,5 +1,5 @@
 name: SUCCESSFULCRAB
-pattern: (?<=^|[\s.-])SUCCESSFULCRAB\b
+pattern: \b(SUCCESSFULCRAB)\b
 description: ''
 tags:
 - Release Group
@@ -8,10 +8,22 @@ tests:
 - expected: true
   id: 1
   input: We.Were.Liars.S01E01.1080p.WEB.H264-SuccessfulCrab
-  lastRun: '2025-07-06T18:36:17.493049'
+  lastRun: '2025-08-13T00:24:54.063652'
   matchSpan:
     end: 50
     start: 36
   matchedContent: SuccessfulCrab
-  matchedGroups: []
+  matchedGroups:
+  - SuccessfulCrab
+  passes: true
+- expected: true
+  id: 2
+  input: alien.earth.s01e02.1080p.web.h264-successfulcrab
+  lastRun: '2025-08-13T00:24:54.063652'
+  matchSpan:
+    end: 48
+    start: 34
+  matchedContent: successfulcrab
+  matchedGroups:
+  - successfulcrab
   passes: true
