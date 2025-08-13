@@ -39,11 +39,6 @@ conditions:
   pattern: ROCCaT
   required: false
   type: release_group
-- name: SiGMA
-  negate: false
-  pattern: SiGMA
-  required: false
-  type: release_group
 - name: SliGNOME
   negate: false
   pattern: SLiGNOME
