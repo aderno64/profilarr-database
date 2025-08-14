@@ -19,11 +19,6 @@ conditions:
   pattern: Flights
   required: false
   type: release_group
-- name: LeagueWEB
-  negate: false
-  pattern: LeagueWEB
-  required: false
-  type: release_group
 - name: MiU
   negate: false
   pattern: MiU
