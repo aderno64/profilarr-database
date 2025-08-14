@@ -76,6 +76,8 @@ custom_formats:
   score: 12
 - name: iT
   score: 11
+- name: HULU
+  score: 10
 - name: SHO
   score: 10
 - name: WEB-DL

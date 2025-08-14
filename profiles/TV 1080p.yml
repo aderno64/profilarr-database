@@ -43,6 +43,8 @@ custom_formats:
   score: 10
 - name: HMAX
   score: 10
+- name: HULU
+  score: 10
 - name: iT
   score: 10
 - name: MAX
