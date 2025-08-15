@@ -12,10 +12,15 @@ conditions:
   resolution: 1080p
   type: resolution
 - name: Not WEB-DL
-  type: source
-  required: true
   negate: true
+  required: true
   source: web_dl
+  type: source
+- name: CRiSC
+  negate: false
+  pattern: CRiSC
+  required: false
+  type: release_group
 - name: DON
   negate: false
   pattern: DON
@@ -31,4 +36,9 @@ conditions:
   pattern: EbP
   required: false
   type: release_group
+- name: ZQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZQ
 tests: []

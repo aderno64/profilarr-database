@@ -171,11 +171,6 @@ conditions:
   pattern: Penumbra
   required: false
   type: release_group
-- name: playHD
-  negate: false
-  pattern: playHD
-  required: false
-  type: release_group
 - name: Positive
   negate: false
   pattern: Positive

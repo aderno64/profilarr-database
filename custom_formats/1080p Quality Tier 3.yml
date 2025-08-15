@@ -12,15 +12,15 @@ conditions:
   resolution: 1080p
   type: resolution
 - name: Not WEB-DL
-  type: source
-  required: true
   negate: true
+  required: true
   source: web_dl
-- name: CRiSC
-  negate: false
-  pattern: CRiSC
-  required: false
+  type: source
+- name: ATELiER
   type: release_group
+  required: false
+  negate: false
+  pattern: ATELiER
 - name: decibeL
   negate: false
   pattern: decibeL
@@ -36,6 +36,11 @@ conditions:
   pattern: HiDt
   required: false
   type: release_group
+- name: HiFi
+  negate: false
+  pattern: HiFi
+  required: false
+  type: release_group
 - name: HiP
   negate: false
   pattern: HiP
@@ -44,6 +49,11 @@ conditions:
 - name: iFT
   negate: false
   pattern: iFT
+  required: false
+  type: release_group
+- name: playHD
+  negate: false
+  pattern: playHD
   required: false
   type: release_group
 - name: SA89

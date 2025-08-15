@@ -46,9 +46,4 @@ conditions:
   pattern: NCmt
   required: false
   type: release_group
-- name: NTb
-  negate: false
-  pattern: NTb
-  required: false
-  type: release_group
 tests: []
