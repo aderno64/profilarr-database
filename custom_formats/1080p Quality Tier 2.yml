@@ -31,9 +31,9 @@ conditions:
   pattern: Geek
   required: false
   type: release_group
-- name: HiFi
+- name: NTb
   negate: false
-  pattern: HiFi
+  pattern: NTb
   required: false
   type: release_group
 - name: TayTo
