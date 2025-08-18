@@ -9,9 +9,9 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: x265 (HD)
+- name: x265
   negate: false
-  pattern: x265 (HD)
+  pattern: x265
   required: true
   type: release_title
 tests:

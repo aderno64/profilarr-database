@@ -1,6 +1,0 @@
-name: x265 Allowed Group
-pattern: (?<=^|[\s.-])FLUX|NTb|CMRG|HHWEB|HONE|Kitsune|playWEB|TEPES|ABBIE|AJP69|APEX|BLUTONiUM|BTN|CRFW|KiNGS|MZABI|NOSiViD|NTG|QOQ|SbR|BYNDR|Cinefeel|LAZY|NPMS\b
-description: ''
-tags:
-- Release Group
-tests: []
