@@ -87,8 +87,6 @@ custom_formats:
   score: 10
 - name: Surround Sound
   score: 10
-- name: US Versions
-  score: 10
 - name: WEB-DL
   score: 10
 - name: Repack1
@@ -106,10 +104,6 @@ custom_formats:
 - name: B&W
   score: -10000
 - name: Banned Groups
-  score: -10000
-- name: Banned WEB-DL
-  score: -10000
-- name: Banned WEBRip
   score: -10000
 - name: BCORE
   score: -10000
