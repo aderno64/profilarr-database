@@ -9,6 +9,11 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: BYNDR
+  type: release_group
+  required: false
+  negate: false
+  pattern: BYNDR
 - name: dB
   negate: false
   pattern: dB

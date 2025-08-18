@@ -1,0 +1,6 @@
+name: Hulu (DV WEB-DL)
+pattern: \\b(hulu)\\b
+description: ''
+tags:
+- Specialized
+tests: []

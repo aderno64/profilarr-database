@@ -14,11 +14,6 @@ conditions:
   pattern: BTN
   required: false
   type: release_group
-- name: BYNDR
-  negate: false
-  pattern: BYNDR
-  required: false
-  type: release_group
 - name: GNOMiSSiON
   negate: false
   pattern: GNOMiSSiON
