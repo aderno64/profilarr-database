@@ -10,8 +10,13 @@ conditions:
   required: false
   type: release_group
 - name: Banned Groups
-  type: release_group
-  required: false
   negate: false
   pattern: Banned Groups
+  required: false
+  type: release_group
+- name: PiRaTeS (no WEBDL)
+  type: release_title
+  required: false
+  negate: false
+  pattern: PiRaTeS (no WEBDL)
 tests: []
