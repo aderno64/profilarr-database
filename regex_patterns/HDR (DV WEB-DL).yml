@@ -1,0 +1,6 @@
+name: HDR (DV WEB-DL)
+pattern: \\bHDR(\\b|\\d)
+description: ''
+tags:
+- Specialized
+tests: []

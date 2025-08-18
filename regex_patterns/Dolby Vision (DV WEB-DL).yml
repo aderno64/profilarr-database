@@ -1,0 +1,6 @@
+name: Dolby Vision (DV WEB-DL)
+pattern: \\b(dv|dovi|dolby[ .]?V(ision)?)\\b
+description: ''
+tags:
+- Specialized
+tests: []

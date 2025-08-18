@@ -17,7 +17,7 @@ tags:
 conditions:
 - name: Dolby Vision
   negate: false
-  pattern: Dolby Vision
+  pattern: Dolby Vision (DV WEB-DL)
   required: true
   type: release_title
 - name: WEB-DL
@@ -31,18 +31,18 @@ conditions:
   source: webrip
   type: source
 - name: Not Flights
-  type: release_group
-  required: true
   negate: true
-  pattern: Flights
+  pattern: Flights (DV WEB-DL)
+  required: true
+  type: release_group
 - name: Not HDR
   negate: true
-  pattern: HDR
+  pattern: HDR (DV WEB-DL)
   required: true
   type: release_title
 - name: Not Hulu
   negate: true
-  pattern: Hulu
+  pattern: Hulu (DV WEB-DL)
   required: true
   type: release_title
 tests: []

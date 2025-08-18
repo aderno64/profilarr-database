@@ -11,11 +11,16 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
-- name: Not WEB-DL
-  negate: true
+- name: Bluray
+  negate: false
   required: true
-  source: web_dl
+  source: bluray
   type: source
+- name: Not Remux
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
 - name: CRiSC
   negate: false
   pattern: CRiSC
@@ -37,8 +42,8 @@ conditions:
   required: false
   type: release_group
 - name: ZQ
-  type: release_group
-  required: false
   negate: false
   pattern: ZQ
+  required: false
+  type: release_group
 tests: []

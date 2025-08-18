@@ -27,41 +27,41 @@ custom_formats:
   score: 1700
 - name: Scene Sonarr
   score: 1600
-- name: Dolby Vision
-  score: 100
-- name: HDR (Generalized)
-  score: 100
-- name: Atmos
-  score: 50
 - name: Dolby Digital +
-  score: 40
-- name: Dolby Digital
-  score: 30
-- name: MAX
-  score: 15
-- name: HMAX
-  score: 14
+  score: 20
 - name: AMZN
-  score: 13
-- name: NF
-  score: 12
-- name: PCOK
-  score: 12
-- name: PMTP
-  score: 12
-- name: STAN
-  score: 12
+  score: 10
+- name: Atmos
+  score: 10
 - name: ATVP
+  score: 10
+- name: Dolby Digital
+  score: 10
+- name: Dolby Vision
   score: 10
 - name: DSNP
   score: 10
 - name: DTS
   score: 10
+- name: HDR (Generalized)
+  score: 10
+- name: HMAX
+  score: 10
 - name: HULU
   score: 10
 - name: iT
   score: 10
+- name: MAX
+  score: 10
+- name: NF
+  score: 10
+- name: PCOK
+  score: 10
+- name: PMTP
+  score: 10
 - name: SHO
+  score: 10
+- name: STAN
   score: 10
 - name: Surround Sound
   score: 10
@@ -74,8 +74,6 @@ custom_formats:
 - name: Repack2
   score: 6
 - name: Repack3
-  score: 5
-- name: x264
   score: 5
 - name: AV1
   score: -10000
@@ -94,6 +92,8 @@ custom_formats:
 - name: Incorrect Source
   score: -10000
 - name: Non Retail HDR
+  score: -10000
+- name: x265 (HD)
   score: -10000
 qualities:
 - id: -1
