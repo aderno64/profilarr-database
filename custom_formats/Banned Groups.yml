@@ -14,9 +14,4 @@ conditions:
   pattern: Banned Groups
   required: false
   type: release_group
-- name: PiRaTeS (no WEBDL)
-  type: release_title
-  required: false
-  negate: false
-  pattern: PiRaTeS (no WEBDL)
 tests: []
