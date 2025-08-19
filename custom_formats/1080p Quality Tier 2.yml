@@ -17,10 +17,10 @@ conditions:
   source: bluray
   type: source
 - name: Not Remux
-  type: quality_modifier
-  required: true
   negate: true
   qualityModifier: remux
+  required: true
+  type: quality_modifier
 - name: c0kE
   negate: false
   pattern: c0kE
@@ -54,11 +54,6 @@ conditions:
 - name: ZoroSenpai
   negate: false
   pattern: ZoroSenpai
-  required: false
-  type: release_group
-- name: ZQ
-  negate: false
-  pattern: ZQ
   required: false
   type: release_group
 tests: []
