@@ -75,12 +75,16 @@ custom_formats:
   score: -10000
 - name: Banned Groups
   score: -10000
+- name: Banned Groups (Title)
+  score: -10000
 - name: BR-DISK
   score: -10000
 - name: Extras
   score: -10000
 - name: Incorrect Source
   score: -10000
+custom_formats_radarr: []
+custom_formats_sonarr: []
 qualities:
 - id: -2
   name: WEB 1080p
