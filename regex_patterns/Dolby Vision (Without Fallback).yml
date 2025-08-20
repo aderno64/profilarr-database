@@ -1,0 +1,20 @@
+name: Dolby Vision (Without Fallback)
+pattern: (?<=^(?!.*(HDR|HULU|REMUX|BLURAY)).*?)\b(DV|Dovi|Dolby[- .]?V(ision)?)\b
+description: Matches Dolby Vision when it doesn't come with regular HDR Fallback (A
+  Bluray Remux or a Hulu WEB-DL)
+tags:
+- Banned
+tests:
+- expected: true
+  id: 1
+  input: The.Quick.and.the.Dead.1995.2160p.iT.WEB-DL.DDP.5.1.Atmos.DV.HEVC-EZPz
+  lastRun: '2025-08-20T21:33:37.894741'
+  matchSpan:
+    end: 60
+    start: 58
+  matchedContent: DV
+  matchedGroups:
+  - null
+  - DV
+  - null
+  passes: true
