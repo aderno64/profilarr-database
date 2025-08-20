@@ -1,5 +1,5 @@
 name: Atmos
-pattern: (?<!\w)Atmos(?=\d|[^\w]|$)
+pattern: \\bATMOS(\\b|\\d)
 description: ''
 tags:
 - Audio
