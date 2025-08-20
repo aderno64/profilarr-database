@@ -79,6 +79,8 @@ custom_formats:
   score: -10000
 - name: Banned Groups
   score: -10000
+- name: Banned Groups (Title)
+  score: -10000
 - name: BR-DISK
   score: -10000
 - name: Dolby Vision WEB-DL
@@ -89,6 +91,8 @@ custom_formats:
   score: -10000
 - name: Non Retail HDR
   score: -10000
+custom_formats_radarr: []
+custom_formats_sonarr: []
 qualities:
 - id: -1
   name: WEB 2160p
