@@ -19,6 +19,11 @@ conditions:
   pattern: GNOMiSSiON
   required: false
   type: release_group
+- name: KONTRAST
+  type: release_group
+  required: false
+  negate: false
+  pattern: KONTRAST
 - name: NINJACENTRAL
   negate: false
   pattern: NINJACENTRAL
@@ -42,6 +47,11 @@ conditions:
 - name: SwAgLaNdEr
   negate: false
   pattern: SwAgLaNdEr
+  required: false
+  type: release_group
+- name: Vialle
+  negate: false
+  pattern: Vialle
   required: false
   type: release_group
 tests: []
