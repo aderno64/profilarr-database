@@ -1,6 +1,6 @@
 # SweatyEggs69 Profilarr Database
 
-Join the Discord! <a href="https://discord.gg/w4UaE23X">LINK</a>
+Join the Discord! <a href="https://discord.gg/Nv6BV4Vh">LINK</a>
 
 ***PLEASE BE AWARE THAT THESE ARE IN ACTIVE, CONSTANT DEVELOPMENT. I WILL NOTATE IN THE COMMITS IF A WIPE AND RELOAD OF THE FORMATS IS NEEDED.***
 
