@@ -1,5 +1,5 @@
 name: Scene Sonarr
-pattern: (?<=^|[\s.-])INFLATE|DEFLATE\b
+pattern: (?<=^|[\s.-])ETHEL|INFLATE|DEFLATE\b
 description: Matches Scene Groups
 tags:
 - Scene
