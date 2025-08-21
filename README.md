@@ -1,5 +1,7 @@
 # SweatyEggs69 Profilarr Database
 
+Join the Discord! <a href="https://discord.gg/w4UaE23X">LINK</a>
+
 ***PLEASE BE AWARE THAT THESE ARE IN ACTIVE, CONSTANT DEVELOPMENT. I WILL NOTATE IN THE COMMITS IF A WIPE AND RELOAD OF THE FORMATS IS NEEDED.***
 
 We use the Dictionarry formats and regex, but we also have made modifications and additions to better source media.
