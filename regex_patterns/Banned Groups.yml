@@ -1,5 +1,5 @@
 name: Banned Groups
-pattern: (?<=^|[\s.\-\[])(4zephyrnux|4K4U|AOC|AROMA|BeyondHD|BiTOR|BOLS|BTM|CLASSiCALHD|CREATiVE24|D3US|d3g|DepraveD|edge2020|EVO|FGT|Flights|HDS|jennaortegaUHD|KC|LAMA|MALUS|MgB|MovieMan|NAHOM|NhaNc3|NoGroup|OEPlus|SasukeducK|SHD|ShieldBearer|SMR37|STUTTERSHIT|tarunk9c|TEKNO3D|Telly|TWASERiES|VECTOR|VisionXpert|WADU|WhiteRhino|WiKi|YIFY|YTS)\b
+pattern: (?<=^|[\s.\-\[])(4zephyrnux|4K4U|AOC|AROMA|BeyondHD|BiTOR|BOLS|BTM|CLASSiCALHD|CREATiVE24|D3US|d3g|DepraveD|edge2020|EVO|FGT|Flights|HDS|jennaortegaUHD|KC|LAMA|MALUS|MgB|MovieMan|NAHOM|NhaNc3|NoGroup|OEPlus|RBB|SasukeducK|SHD|ShieldBearer|SMR37|STUTTERSHIT|tarunk9c|TEKNO3D|Telly|TWASERiES|VECTOR|VisionXpert|WADU|WhiteRhino|WiKi|YIFY|YTS)\b
 description: ''
 tags:
 - Release Group
