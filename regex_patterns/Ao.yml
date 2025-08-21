@@ -1,5 +1,5 @@
 name: Ao
-pattern: (?<=^|[\s.-])Ao|RakuvArrow\b
+pattern: (?<=^|[\s.-])(Ao|RakuvArrow)\b
 description: ''
 tags:
 - Release Group
