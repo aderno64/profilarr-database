@@ -25,8 +25,6 @@ custom_formats:
   score: 1800
 - name: WEB-DL Tier 3
   score: 1700
-- name: Scene Sonarr
-  score: 1600
 - name: Dolby Digital +
   score: 20
 - name: AMZN
@@ -84,7 +82,9 @@ custom_formats:
 - name: Incorrect Source
   score: -10000
 custom_formats_radarr: []
-custom_formats_sonarr: []
+custom_formats_sonarr:
+- name: Scene Groups
+  score: 1600
 qualities:
 - id: -2
   name: WEB 1080p
