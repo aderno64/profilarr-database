@@ -1,5 +1,5 @@
 name: GNOME
-pattern: ^(GNOME)$
+pattern: (?<=^|[\s.-])GNOME\b
 description: ''
 tags:
 - Release Group

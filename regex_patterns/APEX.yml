@@ -1,5 +1,5 @@
 name: APEX
-pattern: ^(APEX|PAXA|PEXA|XEPA)$
+pattern: (?<=^|[\s.-])APEX|PAXA|PEXA|XEPA\b
 description: ''
 tags:
 - Release Group

@@ -1,5 +1,5 @@
 name: NINJACENTRAL
-pattern: ^(NINJACENTRAL)$
+pattern: (?<=^|[\s.-])NINJACENTRAL\b
 description: ''
 tags:
 - Release Group

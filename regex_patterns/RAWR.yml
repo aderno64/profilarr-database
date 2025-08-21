@@ -1,5 +1,5 @@
 name: RAWR
-pattern: ^(RAWR)$
+pattern: (?<=^|[\s.-])RAWR\b
 description: ''
 tags:
 - Release Group

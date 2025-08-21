@@ -1,5 +1,5 @@
 name: MiU
-pattern: ^(MiU)$
+pattern: (?<=^|[\s.-])MiU\b
 description: ''
 tags:
 - Release Group

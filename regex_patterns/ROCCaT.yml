@@ -1,5 +1,5 @@
 name: ROCCaT
-pattern: ^(ROCCaT)$
+pattern: (?<=^|[\s.-])ROCCaT\b
 description: ''
 tags:
 - Release Group

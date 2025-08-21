@@ -1,5 +1,5 @@
 name: PHOENiX
-pattern: ^(PHOENiX)$
+pattern: (?<=^|[\s.-])PHOENiX\b
 description: ''
 tags:
 - Release Group

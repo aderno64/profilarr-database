@@ -1,5 +1,5 @@
 name: LeagueWEB
-pattern: ^(LeagueWEB)$
+pattern: (?<=^|[\s.-])LeagueWEB\b
 description: ''
 tags:
 - Release Group

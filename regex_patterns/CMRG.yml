@@ -1,5 +1,5 @@
 name: CMRG
-pattern: ^(CMRG)$
+pattern: (?<=^|[\s.-])CMRG\b
 description: 'Prolific WEB-DL group. '
 tags:
 - Release Group
