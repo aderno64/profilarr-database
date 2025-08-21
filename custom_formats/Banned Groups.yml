@@ -14,4 +14,14 @@ conditions:
   pattern: Banned Groups
   required: false
   type: release_group
+- name: 24xHD
+  negate: false
+  pattern: 24xHD
+  required: false
+  type: release_group
+- name: 41RGB
+  type: release_group
+  required: false
+  negate: false
+  pattern: 41RGB
 tests: []

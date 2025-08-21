@@ -1,0 +1,7 @@
+name: 24xHD
+pattern: \\b(24xHD)\\b
+description: ''
+tags:
+- Release Group
+- Banned
+tests: []
