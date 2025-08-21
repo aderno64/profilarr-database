@@ -1,5 +1,5 @@
 name: KONTRAST
-pattern: ^(KONTRAST)$
+pattern: (?<=^|[\s.-])KONTRAST\b
 description: ''
 tags:
 - Release Group

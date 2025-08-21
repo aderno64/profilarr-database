@@ -1,5 +1,5 @@
 name: SLiGNOME
-pattern: ^(SLiGNOME)$
+pattern: (?<=^|[\s.-])SLiGNOME\b
 description: ''
 tags:
 - Release Group

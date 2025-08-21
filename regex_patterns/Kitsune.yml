@@ -1,5 +1,5 @@
 name: Kitsune
-pattern: ^(Kitsune)$
+pattern: (?<=^|[\s.-])Kitsune\b
 description: ''
 tags:
 - Release Group

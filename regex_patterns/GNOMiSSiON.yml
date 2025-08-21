@@ -1,5 +1,5 @@
 name: GNOMiSSiON
-pattern: ^(GNOMiSSiON)$
+pattern: (?<=^|[\s.-])GNOMiSSiON\b
 description: ''
 tags:
 - Release Group

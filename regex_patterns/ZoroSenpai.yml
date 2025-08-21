@@ -1,5 +1,5 @@
 name: ZoroSenpai
-pattern: ^(ZoroSenpai)$
+pattern: (?<=^|[\s.-])ZoroSenpai\b
 description: ''
 tags:
 - Release Group

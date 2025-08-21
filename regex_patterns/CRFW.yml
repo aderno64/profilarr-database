@@ -1,5 +1,5 @@
 name: CRFW
-pattern: ^(CRFW)$
+pattern: (?<=^|[\s.-])CRFW\b
 description: ''
 tags:
 - Release Group

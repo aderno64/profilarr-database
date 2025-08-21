@@ -1,5 +1,5 @@
 name: monkee
-pattern: ^(monkee)$
+pattern: (?<=^|[\s.-])monkee\b
 description: ''
 tags:
 - Release Group

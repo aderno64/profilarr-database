@@ -1,5 +1,5 @@
 name: TWASERiES
-pattern: ^(TWASERiES)$
+pattern: (?<=^|[\s.-])TWASERiES\b
 description: ''
 tags:
 - Release Group

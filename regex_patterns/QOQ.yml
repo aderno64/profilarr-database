@@ -1,5 +1,5 @@
 name: QOQ
-pattern: ^(QOQ)$
+pattern: (?<=^|[\s.-])QOQ\b
 description: Matches "QOQ" when preceded by whitespace, a hyphen or dot
 tags:
 - Release Group

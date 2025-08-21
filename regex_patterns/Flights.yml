@@ -1,5 +1,5 @@
 name: Flights
-pattern: ^(Flights)$
+pattern: (?<=^|[\s.-])Flights\b
 description: ''
 tags:
 - Release Group

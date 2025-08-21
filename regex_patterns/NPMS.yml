@@ -1,5 +1,5 @@
 name: NPMS
-pattern: ^(NPMS)$
+pattern: (?<=^|[\s.-])NPMS\b
 description: ''
 tags:
 - Release Group

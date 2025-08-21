@@ -1,5 +1,5 @@
 name: SwAgLaNdEr
-pattern: ^(SwAgLaNdEr)$
+pattern: (?<=^|[\s.-])SwAgLaNdEr\b
 description: ''
 tags:
 - Release Group

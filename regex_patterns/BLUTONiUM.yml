@@ -1,5 +1,5 @@
 name: BLUTONiUM
-pattern: ^(BLUTONiUM)$
+pattern: (?<=^|[\s.-])BLUTONiUM\b
 description: ''
 tags:
 - Release Group

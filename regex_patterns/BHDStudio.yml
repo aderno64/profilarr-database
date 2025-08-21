@@ -1,5 +1,5 @@
 name: BHDStudio
-pattern: \b(BHDStudio)\b
+pattern: (?<=^|[\s.-])BHDStudio\b
 description: ''
 tags:
 - Release Group

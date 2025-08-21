@@ -1,5 +1,5 @@
 name: TOMMY
-pattern: ^(TOMMY)$
+pattern: (?<=^|[\s.-])TOMMY\b
 description: ''
 tags:
 - Release Group

@@ -1,5 +1,5 @@
 name: ABBIE
-pattern: ^(ABBIE)$
+pattern: (?<=^|[\s.-])ABBIE\b
 description: ''
 tags:
 - Release Group

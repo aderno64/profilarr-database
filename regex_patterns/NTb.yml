@@ -1,5 +1,5 @@
 name: NTb
-pattern: ^(NTb)$
+pattern: (?<=^|[\s.-])NTb\b
 description: ''
 tags:
 - Release Group

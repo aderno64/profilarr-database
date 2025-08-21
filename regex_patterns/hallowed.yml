@@ -1,5 +1,5 @@
 name: hallowed
-pattern: \b(hallowed)\b
+pattern: (?<=^|[\s.-])hallowed\b
 description: ''
 tags:
 - Release Group
@@ -8,8 +8,10 @@ tests:
 - expected: true
   id: 1
   input: Contact.1997.BluRay.1080p.DDP.5.1.x264-hallowed
-  lastRun: '2025-07-25T13:59:03.299238'
-  matchSpan: null
-  matchedContent: null
+  lastRun: '2025-08-21T16:16:48.005139'
+  matchSpan:
+    end: 47
+    start: 39
+  matchedContent: hallowed
   matchedGroups: []
-  passes: false
+  passes: true
