@@ -1,8 +1,0 @@
-name: Scene Sonarr
-pattern: (?<=^|[\s.-])ETHEL|INFLATE|DEFLATE\b
-description: Matches Scene Groups
-tags:
-- Scene
-- Release Group
-- Sonarr
-tests: []

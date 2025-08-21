@@ -40,6 +40,8 @@ custom_formats:
   score: 1700
 - name: 1080p Quality Tier 5
   score: 1600
+- name: Scene Groups
+  score: 1600
 - name: Dolby Digital +
   score: 20
 - name: AMZN

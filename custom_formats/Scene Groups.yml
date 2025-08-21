@@ -1,12 +1,11 @@
-name: Scene Sonarr
+name: Scene Groups
 description: One of the few scene groups that released quality releases.
 tags:
 - Release Groups
-- Sonarr
 conditions:
-- name: Scene Sonarr
+- name: Scene Radarr
   negate: false
-  pattern: Scene Sonarr
+  pattern: Scene Groups
   required: false
   type: release_group
 tests:
