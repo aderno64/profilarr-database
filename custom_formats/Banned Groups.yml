@@ -80,10 +80,10 @@ conditions:
   required: false
   type: release_group
 - name: iVy
-  type: release_group
-  required: false
   negate: false
   pattern: iVy
+  required: false
+  type: release_group
 - name: jennaortegaUHD
   negate: false
   pattern: jennaortegaUHD
@@ -214,4 +214,9 @@ conditions:
   pattern: YTS
   required: false
   type: release_group
+- name: HDW
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDW
 tests: []
