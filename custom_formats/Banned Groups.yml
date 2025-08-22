@@ -79,6 +79,11 @@ conditions:
   pattern: HDS
   required: false
   type: release_group
+- name: iVy
+  type: release_group
+  required: false
+  negate: false
+  pattern: iVy
 - name: jennaortegaUHD
   negate: false
   pattern: jennaortegaUHD
@@ -189,14 +194,14 @@ conditions:
   pattern: VisionXpert
   required: false
   type: release_group
-- name: WiKi
-  negate: false
-  pattern: WiKi
-  required: false
-  type: release_group
 - name: x0r
   negate: false
   pattern: x0r
+  required: false
+  type: release_group
+- name: WiKi
+  negate: false
+  pattern: WiKi
   required: false
   type: release_group
 - name: YIFY
