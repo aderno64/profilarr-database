@@ -18,43 +18,45 @@ upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
-custom_formats:
+custom_formats: []
+custom_formats_radarr: []
+custom_formats_sonarr:
 - name: Anime Tier 1
-  score: 2000
+  score: 2500
 - name: Anime Tier 2
-  score: 1900
+  score: 2400
 - name: Anime Tier 3
-  score: 1800
+  score: 2300
 - name: Anime Tier 4
-  score: 1700
+  score: 2200
 - name: Anime Tier 5
-  score: 1600
+  score: 2100
 - name: Anime Tier 6
-  score: 1500
+  score: 2000
 - name: Anime Tier 7
-  score: 1400
+  score: 1900
 - name: Anime Tier 8
-  score: 1300
+  score: 1800
 - name: Anime WEB Tier 1
-  score: 1100
+  score: 1700
 - name: Anime WEB Tier 2
-  score: 1000
+  score: 1600
 - name: Anime WEB Tier 3
-  score: 900
+  score: 1500
 - name: Anime WEB Tier 4
-  score: 800
+  score: 1400
 - name: Anime WEB Tier 5
-  score: 700
+  score: 1300
 - name: Anime WEB Tier 6
-  score: 600
+  score: 1200
 - name: WEB-DL Tier 1
-  score: 400
+  score: 1100
 - name: WEB-DL Tier 2
-  score: 350
+  score: 1000
 - name: WEB-DL Tier 3
-  score: 300
+  score: 900
 - name: WEB-DL Tier 4
-  score: 250
+  score: 800
 - name: Anime Dual Audio
   score: 101
 - name: Uncensored
