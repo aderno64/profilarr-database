@@ -10,10 +10,10 @@ conditions:
   source: web_dl
   type: source
 - name: BYNDR
-  type: release_group
-  required: false
   negate: false
   pattern: BYNDR
+  required: false
+  type: release_group
 - name: dB
   negate: false
   pattern: dB
@@ -27,11 +27,6 @@ conditions:
 - name: MiU
   negate: false
   pattern: MiU
-  required: false
-  type: release_group
-- name: monkee
-  negate: false
-  pattern: monkee
   required: false
   type: release_group
 - name: MZABI
@@ -67,11 +62,6 @@ conditions:
 - name: SMURF
   negate: false
   pattern: SMURF
-  required: false
-  type: release_group
-- name: TOMMY
-  negate: false
-  pattern: TOMMY
   required: false
   type: release_group
 - name: XEBEC
