@@ -44,6 +44,11 @@ conditions:
   pattern: CRUD
   required: false
   type: release_group
+- name: CtrlHD
+  negate: false
+  pattern: CtrlHD
+  required: false
+  type: release_group
 - name: GNOME
   negate: false
   pattern: GNOME
@@ -62,6 +67,11 @@ conditions:
 - name: Kitsune
   negate: false
   pattern: Kitsune
+  required: false
+  type: release_group
+- name: monkee
+  negate: false
+  pattern: monkee
   required: false
   type: release_group
 - name: NOSiViD
@@ -89,6 +99,11 @@ conditions:
   pattern: TEPES
   required: false
   type: release_group
+- name: TOMMY
+  type: release_group
+  required: false
+  negate: false
+  pattern: TOMMY
 - name: ZoroSenpai
   negate: false
   pattern: ZoroSenpai
