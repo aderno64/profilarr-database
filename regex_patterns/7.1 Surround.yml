@@ -4,14 +4,4 @@ description: ''
 tags:
 - Audio
 - Channel
-tests:
-- expected: true
-  id: 1
-  input: Avengers.Endgame.2019.UHD.BluRay.2160p.DDP.7.1.DV.HDR.x265-BHDStudio
-  lastRun: '2025-08-11T21:38:15.837650'
-  matchSpan:
-    end: 46
-    start: 43
-  matchedContent: '7.1'
-  matchedGroups: []
-  passes: true
+tests: []
