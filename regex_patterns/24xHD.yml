@@ -1,5 +1,5 @@
 name: 24xHD
-pattern: \\b(24xHD)\\b
+pattern: (?<=^|[\s.-])24xHD\b
 description: ''
 tags:
 - Release Group

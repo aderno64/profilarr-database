@@ -1,6 +1,7 @@
 name: Flights
 pattern: (?<=^|[\s.-])Flights\b
-description: ''
+description: Banned for Fake DV/HDR Layer
 tags:
 - Release Group
+- Banned
 tests: []
