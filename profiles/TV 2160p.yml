@@ -4,11 +4,8 @@ description: 'Based on the TRaSH Guides WEB-2160p (Alternative) profile, focusin
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
-  - Ensure you add a delay tag to your setup. I prefer 30 minutes, but adjust this
-  as needed.
-
-  - This profile will allow for x265 on 1080p/720p, but is scored negatively to allow
-  for upgrades to x264.'
+  - Ensure you add a delay tag to your setup. I prefer 60 minutes, but adjust this
+  as needed.'
 tags:
 - Sonarr
 - 2160p
