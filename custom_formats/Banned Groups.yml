@@ -214,9 +214,4 @@ conditions:
   pattern: YTS
   required: false
   type: release_group
-- name: HDW
-  type: release_group
-  required: false
-  negate: false
-  pattern: HDW
 tests: []
