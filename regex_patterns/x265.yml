@@ -1,7 +1,6 @@
 name: x265
-pattern: (?i)^(?!.*remux)(?=.*(?:[hx][ ._-]?265|\bHEVC(?:\d+)?\b|\bDS4K\b)).*$
-description: An open source encoder that produces H.265 videos. This does not match
-  on remuxes.
+pattern: ^(?!.*(?i:remux))(?=.*([x]\s?(\.?265)\b|HEVC|\bDS4K\b)).*$
+description: 'An open source encoder that produces H.265 videos. '
 tags:
 - Encoder
 - Codec
@@ -10,50 +9,38 @@ tests:
   id: 1
   input: Aqua Teen Hunger Force (2000) S00E13 (480p DVD x265 SDR AAC 2.0 English -
     r00t QxR)
-  lastRun: '2025-08-18T22:58:47.447047'
+  lastRun: '2025-01-14T10:24:52.457470'
   matchSpan:
     end: 83
     start: 0
   matchedContent: Aqua Teen Hunger Force (2000) S00E13 (480p DVD x265 SDR AAC 2.0
     English - r00t QxR)
-  matchedGroups: []
+  matchedGroups:
+  - x265
+  - '265'
   passes: true
 - expected: true
   id: 2
   input: Planet Earth II S01 REPACK UHD BluRay 2160p DD5.1 HDR x265-BHDStudio
-  lastRun: '2025-08-18T22:58:47.447047'
+  lastRun: '2025-01-14T10:24:52.457470'
   matchSpan:
     end: 68
     start: 0
   matchedContent: Planet Earth II S01 REPACK UHD BluRay 2160p DD5.1 HDR x265-BHDStudio
-  matchedGroups: []
+  matchedGroups:
+  - x265
+  - '265'
   passes: true
 - expected: true
   id: 3
   input: Spider-Man Across the Spider-Verse 2023 1080p UHD BluRay DDP7 1 DoVi HDR10x265-c0kE
-  lastRun: '2025-08-18T22:58:47.447047'
+  lastRun: '2025-01-14T10:24:52.457470'
   matchSpan:
     end: 83
     start: 0
   matchedContent: Spider-Man Across the Spider-Verse 2023 1080p UHD BluRay DDP7 1
     DoVi HDR10x265-c0kE
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 4
-  input: House.2004.S07E19.1080p.AMZN.WEB-DL.H265.SDR.DDP.5.1.English-HONE
-  lastRun: '2025-08-18T22:58:47.447047'
-  matchSpan:
-    end: 65
-    start: 0
-  matchedContent: House.2004.S07E19.1080p.AMZN.WEB-DL.H265.SDR.DDP.5.1.English-HONE
-  matchedGroups: []
-  passes: true
-- expected: false
-  id: 5
-  input: '    The.Hobbit.The.Desolation.of.Smaug.2013.Extended.BluRay.Remux.1080p.AVC.DTS-HD.MA.7.1-decibeL'
-  lastRun: '2025-08-18T22:58:47.447047'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
+  matchedGroups:
+  - x265
+  - '265'
   passes: true

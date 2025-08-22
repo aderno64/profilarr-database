@@ -1,5 +1,5 @@
 name: 41RGB
-pattern: ^(41RGB)$
+pattern: (?<=^|[\s.-])41RGB\b
 description: ''
 tags:
 - Release Group
