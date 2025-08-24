@@ -99,11 +99,16 @@ conditions:
   pattern: TEPES
   required: false
   type: release_group
-- name: TOMMY
+- name: TheFarm
   type: release_group
   required: false
   negate: false
+  pattern: TheFarm
+- name: TOMMY
+  negate: false
   pattern: TOMMY
+  required: false
+  type: release_group
 - name: ZoroSenpai
   negate: false
   pattern: ZoroSenpai
