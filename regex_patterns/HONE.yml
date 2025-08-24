@@ -1,7 +1,6 @@
 name: HONE
-pattern: (?<=^|[\s.-])HONE\b
+pattern: (?<=^|[\s.-])(HONE|Weasley|DarQ)\b
 description: ''
 tags:
 - Release Group
-- WEB-DL
 tests: []
