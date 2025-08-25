@@ -9,9 +9,14 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: HONE
+- name: hallowed
   negate: false
-  pattern: HONE
+  pattern: hallowed
   required: false
   type: release_group
+- name: BHDStudio
+  type: release_group
+  required: false
+  negate: false
+  pattern: BHDStudio
 tests: []
