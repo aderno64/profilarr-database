@@ -1,0 +1,22 @@
+name: Streaming Optimized Tier 01 (Bad Naming Fix)
+description: Helps match badly named releases. This mostly occurs with HONE.
+tags:
+- Custom
+- Bluray
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not HONE Group
+  negate: true
+  pattern: HONE
+  required: false
+  type: release_group
+- name: HONE Release Title
+  negate: false
+  pattern: HONE (Release Title)
+  required: false
+  type: release_title
+tests: []
