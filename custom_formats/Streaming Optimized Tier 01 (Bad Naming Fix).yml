@@ -1,5 +1,10 @@
 name: Streaming Optimized Tier 01 (Bad Naming Fix)
-description: Helps match badly named releases. This mostly occurs with HONE.
+description: 'Helps match badly named releases. This mostly occurs with HONE.
+
+  - Give this a score of **2500** for Movies
+
+  - You **must** ensure that any release grabbed with this format has the release
+  group added to the file name, otherwise you may get download loops in the future.'
 tags:
 - Custom
 - Bluray
