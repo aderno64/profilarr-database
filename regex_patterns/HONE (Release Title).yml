@@ -1,5 +1,5 @@
 name: HONE (Release Title)
-pattern: (?i)(?:^|[.\s_-])(HONE|Weasley|DarQ)(?:$|[.\s_-])
+pattern: (?i)\b(HONE|Weasley|DarQ)\b
 description: ''
 tags:
 - Release Group
