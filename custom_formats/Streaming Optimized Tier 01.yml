@@ -1,6 +1,6 @@
 name: Streaming Optimized Tier 01
-description: Matches against groups that are streaming optimized like hallowed and
-  BHDStudio and the Bluray source.
+description: Matches against groups that are streaming optimized like HONE and the
+  Bluray source.
 tags:
 - Streaming Optimizied
 conditions:
@@ -9,50 +9,9 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: hallowed
+- name: HONE
   negate: false
-  pattern: hallowed
+  pattern: HONE
   required: false
   type: release_group
-- name: BHDStudio
-  negate: false
-  pattern: BHDStudio
-  required: false
-  type: release_group
-tests:
-- conditionResults:
-  - matches: true
-    name: Not Streaming Optimized
-    negate: false
-    pattern: Streaming Optmizied Groups
-    required: true
-    type: release_title
-  expected: true
-  id: 1
-  input: Ace.Ventura.Pet.Detective.1994.UHD.BluRay.2160p.DD.2.0.DV.HDR.x265-BHDStudio
-  lastRun: '2025-07-21T09:28:42.173005'
-  passes: true
-- conditionResults:
-  - matches: true
-    name: Not Streaming Optimized
-    negate: false
-    pattern: Streaming Optmizied Groups
-    required: true
-    type: release_title
-  expected: true
-  id: 2
-  input: Ace.Ventura.Pet.Detective.1994.BluRay.1080p.DDP.5.1.x264-hallowed
-  lastRun: '2025-07-21T09:28:42.173005'
-  passes: true
-- conditionResults:
-  - matches: false
-    name: Not Streaming Optimized
-    negate: false
-    pattern: Streaming Optmizied Groups
-    required: true
-    type: release_title
-  expected: false
-  id: 3
-  input: Ace.Ventura.Pet.Detective.1994.1080p.AMZN.WEB-DL.DDP5.1.H.264-Kitsune
-  lastRun: '2025-07-21T09:28:42.173005'
-  passes: true
+tests: []
