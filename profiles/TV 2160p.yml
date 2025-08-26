@@ -75,7 +75,7 @@ custom_formats_sonarr:
 - name: Repack3
   score: 5
 - name: x265 (HD)
-  score: -100
+  score: -99
 - name: AV1
   score: -10000
 - name: Bad Dual Groups
