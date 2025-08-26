@@ -34,11 +34,6 @@ conditions:
   pattern: FLAC
   required: true
   type: release_title
-- name: Not DD
-  negate: true
-  pattern: Dolby Digital
-  required: true
-  type: release_title
 tests:
 - conditionResults:
   - matches: true
