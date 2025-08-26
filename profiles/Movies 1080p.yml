@@ -37,6 +37,86 @@ custom_formats:
   score: 1700
 - name: 1080p Quality Tier 5
   score: 1600
+- name: WEB-DL
+  score: 10
+- name: Repack1
+  score: 7
+- name: Repack2
+  score: 6
+- name: Repack3
+  score: 5
+- name: 10bit
+  score: -10000
+- name: 3D
+  score: -10000
+- name: AV1
+  score: -10000
+- name: B&W
+  score: -10000
+- name: Banned Groups
+  score: -10000
+- name: Banned Groups (Title)
+  score: -10000
+- name: BCORE
+  score: -10000
+- name: BR-DISK
+  score: -10000
+- name: Extras
+  score: -10000
+- name: Sing Along
+  score: -10000
+- name: TrueHD
+  score: -10000
+- name: Upscaled
+  score: -10000
+- name: x265 (HD)
+  score: -10000
+custom_formats_radarr:
+- name: Scene Groups
+  score: 1000
+- name: Dolby Digital +
+  score: 35
+- name: AMZN
+  score: 25
+- name: Atmos
+  score: 25
+- name: ATVP
+  score: 25
+- name: CRIT
+  score: 25
+- name: Dolby Digital
+  score: 25
+- name: DSNP
+  score: 25
+- name: DTS
+  score: 25
+- name: HMAX
+  score: 25
+- name: HULU
+  score: 25
+- name: iT
+  score: 25
+- name: MA
+  score: 25
+- name: MAX
+  score: 25
+- name: NF
+  score: 25
+- name: PCOK
+  score: 25
+- name: PMTP
+  score: 25
+- name: SHO
+  score: 25
+- name: Special Edition
+  score: 25
+- name: STAN
+  score: 25
+- name: Surround Sound
+  score: 25
+- name: Bad Dual Groups
+  score: -10000
+custom_formats_sonarr:
 - name: Scene Groups
   score: 1600
 - name: Dolby Digital +
@@ -79,44 +159,6 @@ custom_formats:
   score: 10
 - name: Surround Sound
   score: 10
-- name: WEB-DL
-  score: 10
-- name: Repack1
-  score: 7
-- name: Repack2
-  score: 6
-- name: Repack3
-  score: 5
-- name: 10bit
-  score: -10000
-- name: 3D
-  score: -10000
-- name: AV1
-  score: -10000
-- name: B&W
-  score: -10000
-- name: Banned Groups
-  score: -10000
-- name: Banned Groups (Title)
-  score: -10000
-- name: BCORE
-  score: -10000
-- name: BR-DISK
-  score: -10000
-- name: Extras
-  score: -10000
-- name: Sing Along
-  score: -10000
-- name: TrueHD
-  score: -10000
-- name: Upscaled
-  score: -10000
-- name: x265 (HD)
-  score: -10000
-custom_formats_radarr:
-- name: Bad Dual Groups
-  score: -10000
-custom_formats_sonarr: []
 qualities:
 - id: 10
   name: Bluray-1080p

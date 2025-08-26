@@ -1,4 +1,4 @@
-name: Movies 2160p
+name: HQ Movies 2160p
 description: 'This profile focuses on streaming optimized sources with little to no
   transcoding needed.
 
@@ -19,74 +19,64 @@ upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr:
-- name: Streaming Optimized Tier 01
-  score: 2500
-- name: Streaming Optimized Tier 02
-  score: 2400
-- name: 1080p Quality Tier 1
-  score: 2000
 - name: WEB-DL Tier 1
   score: 2000
-- name: 1080p Quality Tier 2
-  score: 1900
 - name: WEB-DL Tier 2
   score: 1900
-- name: 1080p Quality Tier 3
+- name: Streaming Optimized Tier 01
   score: 1800
 - name: WEB-DL Tier 3
-  score: 1800
-- name: 1080p Quality Tier 4
-  score: 1700
+  score: 1600
+- name: Streaming Optimized Tier 02
+  score: 1500
 - name: WEB-DL Tier 4
-  score: 1700
-- name: 1080p Quality Tier 5
-  score: 1600
-- name: Scene Groups
-  score: 1600
+  score: 1400
 - name: Dolby Digital +
-  score: 35
+  score: 20
 - name: AMZN
-  score: 25
+  score: 10
 - name: Atmos
-  score: 25
+  score: 10
 - name: ATVP
-  score: 25
+  score: 10
 - name: CRIT
-  score: 25
+  score: 10
 - name: Dolby Digital
-  score: 25
+  score: 10
 - name: Dolby Vision
-  score: 25
+  score: 10
 - name: DSNP
-  score: 25
+  score: 10
 - name: DTS
-  score: 25
+  score: 10
 - name: HDR (Generalized)
-  score: 25
+  score: 10
 - name: HMAX
-  score: 25
+  score: 10
 - name: HULU
-  score: 25
+  score: 10
 - name: iT
-  score: 25
+  score: 10
 - name: MA
-  score: 25
+  score: 10
 - name: MAX
-  score: 25
+  score: 10
 - name: NF
-  score: 25
+  score: 10
 - name: PCOK
-  score: 25
+  score: 10
 - name: PMTP
-  score: 25
+  score: 10
+- name: Scene Groups
+  score: 10
 - name: SHO
-  score: 25
+  score: 10
 - name: Special Edition
-  score: 25
+  score: 10
 - name: STAN
-  score: 25
+  score: 10
 - name: Surround Sound
-  score: 25
+  score: 10
 - name: WEB-DL
   score: 10
 - name: Repack1
@@ -95,6 +85,8 @@ custom_formats_radarr:
   score: 6
 - name: Repack3
   score: 5
+- name: TrueHD
+  score: 0
 - name: 10bit
   score: -10000
 - name: 3D
@@ -123,38 +115,43 @@ custom_formats_radarr:
   score: -10000
 - name: Sing Along
   score: -10000
-- name: TrueHD
-  score: -10000
 - name: Upscaled
   score: -10000
 - name: x265 (HD)
   score: -10000
 custom_formats_sonarr: []
 qualities:
-- id: 4
-  name: Bluray-2160p
 - id: -1
-  name: WEB 2160p
+  name: 2160p
   description: ''
   qualities:
   - id: 5
     name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
-- id: 10
-  name: Bluray-1080p
+  - id: 4
+    name: Bluray-2160p
 - id: -2
-  name: WEB-1080p
+  name: 1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 13
-  name: Bluray-720p
+  - id: 10
+    name: Bluray-1080p
+- id: -3
+  name: 720p
+  description: ''
+  qualities:
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+  - id: 13
+    name: Bluray-720p
 upgrade_until:
-  id: 4
-  name: Bluray-2160p
-  description: 4K Ultra HD Blu-ray video encoded with lossy compression
+  id: -1
+  name: 2160p
 language: original
