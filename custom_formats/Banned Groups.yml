@@ -24,6 +24,11 @@ conditions:
   pattern: AOC
   required: false
   type: release_group
+- name: AROMA
+  negate: false
+  pattern: AROMA
+  required: false
+  type: release_group
 - name: BeyondHD
   negate: false
   pattern: BeyondHD
@@ -34,11 +39,11 @@ conditions:
   pattern: BiTOR
   required: false
   type: release_group
-- name: AROMA
-  negate: false
-  pattern: AROMA
-  required: false
+- name: BLASPHEMY
   type: release_group
+  required: false
+  negate: false
+  pattern: BLASPHEMY
 - name: BOLS
   negate: false
   pattern: BOLS
@@ -215,8 +220,8 @@ conditions:
   required: false
   type: release_group
 - name: YIFY
-  type: release_group
-  required: false
   negate: false
   pattern: YIFY
+  required: false
+  type: release_group
 tests: []
