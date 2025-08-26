@@ -9,31 +9,6 @@ conditions:
   pattern: Atmos
   required: true
   type: release_title
-- name: Not AAC
-  type: release_title
-  required: true
-  negate: true
-  pattern: AAC
-- name: Not DD
-  type: release_title
-  required: true
-  negate: true
-  pattern: Dolby Digital
-- name: Not DDP
-  type: release_title
-  required: true
-  negate: true
-  pattern: Dolby Digital +
-- name: Not DTS
-  type: release_title
-  required: true
-  negate: true
-  pattern: DTS
-- name: Not FLAC
-  type: release_title
-  required: true
-  negate: true
-  pattern: FLAC
 tests:
 - conditionResults:
   - matches: false
