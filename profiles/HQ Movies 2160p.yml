@@ -5,6 +5,8 @@ description: 'This profile focuses on streaming optimized sources with little to
   - This profile will grab releases that fit the streaming optimized groups (**hallowed**,
   **BHDStudio**, **HONE**) or the **WEB Tiers**.
 
+  - This profile will grab releases with high-quality audio. (TrueHD, DTS-X, etc.)
+
   - This profile is focused on resolution target and not source target. This means
   you will get the **highest** scoring release in each resolution.'
 tags:
@@ -45,6 +47,8 @@ custom_formats_radarr:
 - name: DSNP
   score: 25
 - name: DTS
+  score: 25
+- name: DTS-X
   score: 25
 - name: HDR (Generalized)
   score: 25
