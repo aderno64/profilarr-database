@@ -25,43 +25,43 @@ custom_formats_sonarr:
 - name: WEB-DL Tier 4
   score: 1700
 - name: Scene Groups
-  score: 1600
+  score: 1000
 - name: Dolby Digital +
-  score: 20
+  score: 50
 - name: AMZN
-  score: 10
+  score: 25
 - name: Atmos
-  score: 10
+  score: 25
 - name: ATVP
-  score: 10
+  score: 25
 - name: Dolby Digital
-  score: 10
+  score: 25
 - name: DSNP
-  score: 10
+  score: 25
 - name: DTS
-  score: 10
+  score: 25
 - name: HMAX
-  score: 10
+  score: 25
 - name: HULU
-  score: 10
+  score: 25
 - name: iT
-  score: 10
+  score: 25
 - name: MAX
-  score: 10
+  score: 25
 - name: NF
-  score: 10
+  score: 25
 - name: PCOK
-  score: 10
+  score: 25
 - name: PMTP
-  score: 10
+  score: 25
 - name: SHO
-  score: 10
+  score: 25
 - name: STAN
-  score: 10
+  score: 25
 - name: Surround Sound
-  score: 10
+  score: 25
 - name: TV Editions
-  score: 10
+  score: 25
 - name: WEB-DL
   score: 10
 - name: Repack1
@@ -70,8 +70,6 @@ custom_formats_sonarr:
   score: 6
 - name: Repack3
   score: 5
-- name: x265 (HD)
-  score: -99
 - name: AV1
   score: -10000
 - name: Bad Dual Groups
@@ -85,6 +83,8 @@ custom_formats_sonarr:
 - name: Extras
   score: -10000
 - name: Incorrect Source
+  score: -10000
+- name: x265 (HD)
   score: -10000
 qualities:
 - id: -2
