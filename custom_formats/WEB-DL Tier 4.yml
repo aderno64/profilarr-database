@@ -20,10 +20,10 @@ conditions:
   required: false
   type: release_group
 - name: KONTRAST
-  type: release_group
-  required: false
   negate: false
   pattern: KONTRAST
+  required: false
+  type: release_group
 - name: NINJACENTRAL
   negate: false
   pattern: NINJACENTRAL
@@ -34,6 +34,11 @@ conditions:
   pattern: NPMS
   required: false
   type: release_group
+- name: PiRaTeS
+  type: release_group
+  required: false
+  negate: false
+  pattern: PiRaTeS
 - name: ROCCaT
   negate: false
   pattern: ROCCaT
