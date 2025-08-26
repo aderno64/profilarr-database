@@ -24,11 +24,6 @@ conditions:
   pattern: AOC
   required: false
   type: release_group
-- name: AROMA
-  negate: false
-  pattern: AROMA
-  required: false
-  type: release_group
 - name: BeyondHD
   negate: false
   pattern: BeyondHD
@@ -37,6 +32,11 @@ conditions:
 - name: BiTOR
   negate: false
   pattern: BiTOR
+  required: false
+  type: release_group
+- name: AROMA
+  negate: false
+  pattern: AROMA
   required: false
   type: release_group
 - name: BOLS
@@ -69,6 +69,11 @@ conditions:
   pattern: DepraveD
   required: false
   type: release_group
+- name: DRX
+  type: release_group
+  required: false
+  negate: false
+  pattern: DRX
 - name: FGT
   negate: false
   pattern: FGT
