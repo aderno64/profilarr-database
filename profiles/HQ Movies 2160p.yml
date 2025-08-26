@@ -6,7 +6,7 @@ description: 'This profile focuses on streaming optimized sources with little to
   **BHDStudio**, **HONE**) or the **WEB Tiers**.
 
   - This profile is focused on resolution target and not source target. This means
-  you will get the **highest** scoring release from ***any*** resolution.'
+  you will get the **highest** scoring release in each resolution.'
 tags:
 - Radarr
 - 2160p
