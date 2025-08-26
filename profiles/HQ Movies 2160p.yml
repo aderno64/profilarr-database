@@ -26,57 +26,59 @@ custom_formats_radarr:
 - name: Streaming Optimized Tier 01
   score: 1800
 - name: WEB-DL Tier 3
-  score: 1600
+  score: 1700
 - name: Streaming Optimized Tier 02
-  score: 1500
+  score: 1600
 - name: WEB-DL Tier 4
-  score: 1400
+  score: 1500
 - name: Dolby Digital +
-  score: 20
+  score: 35
 - name: AMZN
-  score: 10
+  score: 25
 - name: Atmos
-  score: 10
+  score: 25
 - name: ATVP
-  score: 10
+  score: 25
 - name: CRIT
-  score: 10
+  score: 25
 - name: Dolby Digital
-  score: 10
+  score: 25
 - name: Dolby Vision
-  score: 10
+  score: 25
 - name: DSNP
-  score: 10
+  score: 25
 - name: DTS
-  score: 10
+  score: 25
 - name: HDR (Generalized)
-  score: 10
+  score: 25
 - name: HMAX
-  score: 10
+  score: 25
 - name: HULU
-  score: 10
+  score: 25
 - name: iT
-  score: 10
+  score: 25
 - name: MA
-  score: 10
+  score: 25
 - name: MAX
-  score: 10
+  score: 25
 - name: NF
-  score: 10
+  score: 25
 - name: PCOK
-  score: 10
+  score: 25
 - name: PMTP
-  score: 10
+  score: 25
 - name: Scene Groups
-  score: 10
+  score: 25
 - name: SHO
-  score: 10
+  score: 25
 - name: Special Edition
-  score: 10
+  score: 25
 - name: STAN
-  score: 10
+  score: 25
 - name: Surround Sound
-  score: 10
+  score: 25
+- name: TrueHD
+  score: 25
 - name: WEB-DL
   score: 10
 - name: Repack1
@@ -85,8 +87,6 @@ custom_formats_radarr:
   score: 6
 - name: Repack3
   score: 5
-- name: TrueHD
-  score: 0
 - name: 10bit
   score: -10000
 - name: 3D
