@@ -74,6 +74,8 @@ custom_formats_sonarr:
   score: 6
 - name: Repack3
   score: 5
+- name: x265 (HD)
+  score: -100
 - name: AV1
   score: -10000
 - name: Bad Dual Groups
@@ -91,8 +93,6 @@ custom_formats_sonarr:
 - name: Incorrect Source
   score: -10000
 - name: Non Retail HDR
-  score: -10000
-- name: x265 (HD)
   score: -10000
 qualities:
 - id: -1
