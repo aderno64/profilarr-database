@@ -1,5 +1,5 @@
 name: Anime WEB Tier 6
-pattern: (?<=^|[\s.\-\[])(Asenshi|Chihiro|Commie|DameDesuYo|Doki|Tsundere)\b
+pattern: (?<=^|[\s.-])(Asenshi|Chihiro|Commie|DameDesuYo|Doki|Tsundere)\b
 description: TRaSH Guides Anime Web Tier 06 (FanSubs)
 tags:
 - Anime
