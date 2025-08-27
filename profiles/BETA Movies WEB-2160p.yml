@@ -1,4 +1,4 @@
-name: Movies WEB-2160p
+name: BETA Movies WEB-2160p
 description: 'This profile focuses on grabbing high-quality WEB-DLs with fallback
   to streaming optimized Blu-ray sources. WEB releases are the target because we can
   get higher bitrates than **hallowed**/**BHDStudio**, and also high-quality audio
@@ -51,8 +51,6 @@ custom_formats_radarr:
 - name: Dolby Vision
   score: 25
 - name: DSNP
-  score: 25
-- name: DTS-HD HRA
   score: 25
 - name: HDR (Generalized)
   score: 25
