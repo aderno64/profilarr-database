@@ -1,5 +1,5 @@
-name: DTS-HD HRA ES
-pattern: dts[-. ]?(es|(hd[. ]?)?(hr|hi))
+name: DTS-ES
+pattern: (?i)\bDTS[-_. ]?ES\b
 description: ''
 tags:
 - Audio
