@@ -14,7 +14,7 @@ tags:
 - 2160p
 - Streaming Optimized
 upgradesAllowed: true
-minCustomFormatScore: 10
+minCustomFormatScore: 75
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
@@ -41,7 +41,7 @@ custom_formats:
 - name: 1080p Quality Tier 5
   score: 1600
 - name: Scene Groups
-  score: 1600
+  score: 100
 - name: Dolby Digital +
   score: 35
 - name: AMZN
@@ -60,15 +60,13 @@ custom_formats:
   score: 25
 - name: DTS
   score: 25
-- name: HDR (Generalized)
+- name: HDR
   score: 25
 - name: HMAX
   score: 25
 - name: HULU
   score: 25
 - name: iT
-  score: 25
-- name: MA
   score: 25
 - name: MAX
   score: 25
@@ -86,8 +84,6 @@ custom_formats:
   score: 25
 - name: Surround Sound
   score: 25
-- name: WEB-DL
-  score: 10
 - name: Repack1
   score: 7
 - name: Repack2
@@ -114,6 +110,8 @@ custom_formats:
   score: -10000
 - name: Dolby Vision WEB-DL
   score: -10000
+- name: DTS-X
+  score: -10000
 - name: Extras
   score: -10000
 - name: Non Retail HDR
@@ -131,38 +129,37 @@ custom_formats:
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
-- id: 4
-  name: Bluray-2160p
 - id: -1
-  name: WEB 2160p
+  name: 2160p
   description: ''
   qualities:
   - id: 5
     name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
-- id: 10
-  name: Bluray-1080p
+  - id: 4
+    name: Bluray-2160p
 - id: -2
-  name: WEB-1080p
+  name: 1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 13
-  name: Bluray-720p
+  - id: 10
+    name: Bluray-1080p
 - id: -3
-  name: WEB-720p
+  name: 720p
   description: ''
   qualities:
   - id: 15
     name: WEBRip-720p
   - id: 14
     name: WEBDL-720p
+  - id: 13
+    name: Bluray-720p
 upgrade_until:
-  id: 4
-  name: Bluray-2160p
-  description: 4K Ultra HD Blu-ray video encoded with lossy compression
+  id: -1
+  name: 2160p
 language: original
