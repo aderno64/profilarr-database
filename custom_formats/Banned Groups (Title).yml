@@ -4,8 +4,18 @@ tags:
 - Banned
 conditions:
 - name: BEN THE MEN
+  negate: false
+  pattern: BEN THE MEN
+  required: false
+  type: release_title
+- name: EVO
   type: release_title
   required: false
   negate: false
-  pattern: BEN THE MEN
+  pattern: EVO (no WEB-DL)
+- name: PiRaTeS (no WEB-DL)
+  negate: false
+  pattern: PiRaTeS (no WEB-DL)
+  required: false
+  type: release_title
 tests: []

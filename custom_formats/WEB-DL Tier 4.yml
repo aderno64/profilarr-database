@@ -34,11 +34,6 @@ conditions:
   pattern: NPMS
   required: false
   type: release_group
-- name: PiRaTeS
-  type: release_group
-  required: false
-  negate: false
-  pattern: PiRaTeS
 - name: ROCCaT
   negate: false
   pattern: ROCCaT
