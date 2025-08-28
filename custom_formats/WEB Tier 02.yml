@@ -1,4 +1,4 @@
-name: WEB-DL Tier 1
+name: WEB Tier 02
 description: Matches release groups who fall under WEB-DL Tier 1
 tags:
 - Release Groups
@@ -9,14 +9,9 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: FLUX
+- name: TRaSH WEB Tier 02
   negate: false
-  pattern: FLUX
-  required: false
-  type: release_group
-- name: NTb
-  negate: false
-  pattern: NTb
+  pattern: TRaSH WEB Tier 02
   required: false
   type: release_group
 tests: []
