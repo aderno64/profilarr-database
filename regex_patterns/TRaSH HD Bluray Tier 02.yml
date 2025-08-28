@@ -1,0 +1,7 @@
+name: TRaSH HD Bluray Tier 02
+pattern: ^(EA|HiDt|HiSD|iFT|NTb|QOQ|SA89|sbR)$
+description: ''
+tags:
+- TRaSH
+- Release Group Tier
+tests: []

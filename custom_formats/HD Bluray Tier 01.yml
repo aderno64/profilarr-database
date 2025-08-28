@@ -1,0 +1,27 @@
+name: HD Bluray Tier 01
+description: ''
+tags:
+- Release Group Tier
+- 1080p
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not Remux
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: TRaSH HD Bluray Tier 01
+  negate: false
+  pattern: TRaSH HD Bluray Tier 01
+  required: false
+  type: release_group
+tests: []
