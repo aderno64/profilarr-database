@@ -1,0 +1,7 @@
+name: Dolby Vision HLG
+pattern: \b(DV[ .]HLG)\b
+description: ''
+tags:
+- HDR
+- Dolby Vision
+tests: []
