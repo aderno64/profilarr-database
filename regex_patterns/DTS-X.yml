@@ -1,8 +1,10 @@
 name: DTS-X
-pattern: \b(dts[-_. :]?x)\b(?!\d)
+pattern: '\b(dts[-_.: ]?x7?)\b(?![-_. ]?(26[456]))'
 description: ''
 tags:
 - Audio
+- Codec
+- TRaSH
 tests:
 - expected: true
   id: 1

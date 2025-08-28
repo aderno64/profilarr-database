@@ -1,7 +1,8 @@
 name: Atmos
-pattern: \bATMOS(\b|\d)
+pattern: \b(ATMOS|DDPA)(\b|\d)
 description: ''
 tags:
 - Audio
-- Enhancement
+- Codec
+- TRaSH
 tests: []

@@ -3,4 +3,6 @@ pattern: \bAAC(\b|\d)
 description: ''
 tags:
 - Audio
+- Codec
+- TRaSH
 tests: []

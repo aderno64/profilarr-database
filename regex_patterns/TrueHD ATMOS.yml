@@ -1,0 +1,8 @@
+name: TrueHD ATMOS
+pattern: \b(True[ .-]?HD|ATMOS|DDPA)(\b|\d)
+description: ''
+tags:
+- Audio
+- Codec
+- TRaSH
+tests: []

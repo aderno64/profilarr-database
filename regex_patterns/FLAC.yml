@@ -1,6 +1,8 @@
 name: FLAC
-pattern: \\bFLAC(\\b|\\d)
+pattern: \bFLAC(\b|\d)
 description: ''
 tags:
 - Audio
+- Codec
+- TRaSH
 tests: []

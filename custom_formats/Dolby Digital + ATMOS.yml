@@ -1,27 +1,33 @@
-name: Dolby Digital
-description: Matches 'Dolby Digital' Regex Pattern and negates any other audio types
-  that might conflict.
+name: Dolby Digital + ATMOS
+description: ''
 tags:
 - Audio
+- Codec
+- TRaSH
 conditions:
-- name: Dolby Digital
+- name: Dolby Digital +
   negate: false
-  pattern: Dolby Digital
-  required: true
-  type: release_title
-- name: Not Dolby Digital +
-  negate: true
   pattern: Dolby Digital +
   required: true
   type: release_title
-- name: Not TrueHD ATMOS
+- name: ATMOS
+  negate: false
+  pattern: Atmos
+  required: true
+  type: release_title
+- name: Not TrueHD
   negate: true
-  pattern: TrueHD ATMOS
+  pattern: TrueHD
   required: true
   type: release_title
 - name: Not DTS
   negate: true
   pattern: DTS
+  required: true
+  type: release_title
+- name: Not Dolby Digital
+  negate: true
+  pattern: Dolby Digital
   required: true
   type: release_title
 - name: Not FLAC

@@ -1,6 +1,8 @@
 name: DTS-HD HRA
-pattern: dts[-. ]?(hd[. ]?)?(hra?|hi\b)
+pattern: dts[-. ]?(es|(hd[. ]?)?(hr|hi))
 description: ''
 tags:
 - Audio
+- Codec
+- TRaSH
 tests: []
