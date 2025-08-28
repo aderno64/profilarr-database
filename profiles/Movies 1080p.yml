@@ -98,6 +98,10 @@ custom_formats:
   score: -10000
 - name: Dolby Vision WEB-DL
   score: -10000
+- name: DTS-HD HRA
+  score: -10000
+- name: DTS-HD MA
+  score: -10000
 - name: DTS-X
   score: -10000
 - name: Extras
@@ -114,8 +118,12 @@ custom_formats:
   score: -10000
 - name: x265 (HD)
   score: -10000
-custom_formats_radarr: []
-custom_formats_sonarr: []
+custom_formats_radarr:
+- name: TrueHD ATMOS
+  score: -10000
+custom_formats_sonarr:
+- name: TrueHD ATMOS
+  score: 0
 qualities:
 - id: 10
   name: Bluray-1080p
