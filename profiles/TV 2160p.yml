@@ -40,7 +40,7 @@ custom_formats:
   score: 25
 - name: DTS
   score: 25
-- name: HDR (Generalized)
+- name: HDR
   score: 25
 - name: HMAX
   score: 25

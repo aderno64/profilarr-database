@@ -4,6 +4,9 @@ description: 'This profile focuses on streaming optimized sources with little to
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
+  - This profile will only grab 2160p Bluray releases if they are from a streaming
+  optimized group like **hallowed**, **HONE** or **BHDStudio**.
+
   - 1080p Blurays target **hallowed**, **HONE** or **BHDStudio**, but will fallback
   to a Dictionarry 1080p Quality releases.'
 tags:
@@ -11,7 +14,7 @@ tags:
 - 1080p
 - Streaming Optimized
 upgradesAllowed: true
-minCustomFormatScore: 10
+minCustomFormatScore: 75
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
@@ -37,8 +40,44 @@ custom_formats:
   score: 1700
 - name: 1080p Quality Tier 5
   score: 1600
-- name: WEB-DL
-  score: 10
+- name: Scene Groups
+  score: 100
+- name: Dolby Digital +
+  score: 35
+- name: AMZN
+  score: 25
+- name: Atmos
+  score: 25
+- name: ATVP
+  score: 25
+- name: CRIT
+  score: 25
+- name: DSNP
+  score: 25
+- name: DTS
+  score: 25
+- name: HMAX
+  score: 25
+- name: HULU
+  score: 25
+- name: iT
+  score: 25
+- name: MAX
+  score: 25
+- name: NF
+  score: 25
+- name: PCOK
+  score: 25
+- name: PMTP
+  score: 25
+- name: SHO
+  score: 25
+- name: Special Edition
+  score: 25
+- name: STAN
+  score: 25
+- name: Surround Sound
+  score: 25
 - name: Repack1
   score: 7
 - name: Repack2
@@ -53,6 +92,8 @@ custom_formats:
   score: -10000
 - name: B&W
   score: -10000
+- name: Bad Dual Groups
+  score: -10000
 - name: Banned Groups
   score: -10000
 - name: Banned Groups (Title)
@@ -61,7 +102,15 @@ custom_formats:
   score: -10000
 - name: BR-DISK
   score: -10000
+- name: Dolby Vision WEB-DL
+  score: -10000
+- name: DTS-X
+  score: -10000
 - name: Extras
+  score: -10000
+- name: Non Retail HDR
+  score: -10000
+- name: Not Streaming Optimized
   score: -10000
 - name: Sing Along
   score: -10000
@@ -71,116 +120,30 @@ custom_formats:
   score: -10000
 - name: x265 (HD)
   score: -10000
-custom_formats_radarr:
-- name: Scene Groups
-  score: 1000
-- name: Dolby Digital +
-  score: 35
-- name: AMZN
-  score: 25
-- name: Atmos
-  score: 25
-- name: ATVP
-  score: 25
-- name: CRIT
-  score: 25
-- name: Dolby Digital
-  score: 25
-- name: DSNP
-  score: 25
-- name: DTS
-  score: 25
-- name: HMAX
-  score: 25
-- name: HULU
-  score: 25
-- name: iT
-  score: 25
-- name: MA
-  score: 25
-- name: MAX
-  score: 25
-- name: NF
-  score: 25
-- name: PCOK
-  score: 25
-- name: PMTP
-  score: 25
-- name: SHO
-  score: 25
-- name: Special Edition
-  score: 25
-- name: STAN
-  score: 25
-- name: Surround Sound
-  score: 25
-- name: Bad Dual Groups
-  score: -10000
-custom_formats_sonarr:
-- name: Scene Groups
-  score: 1600
-- name: Dolby Digital +
-  score: 20
-- name: AMZN
-  score: 10
-- name: Atmos
-  score: 10
-- name: ATVP
-  score: 10
-- name: CRIT
-  score: 10
-- name: Dolby Digital
-  score: 10
-- name: DSNP
-  score: 10
-- name: DTS
-  score: 10
-- name: HMAX
-  score: 10
-- name: HULU
-  score: 10
-- name: iT
-  score: 10
-- name: MA
-  score: 10
-- name: MAX
-  score: 10
-- name: NF
-  score: 10
-- name: PCOK
-  score: 10
-- name: PMTP
-  score: 10
-- name: SHO
-  score: 10
-- name: Special Edition
-  score: 10
-- name: STAN
-  score: 10
-- name: Surround Sound
-  score: 10
+custom_formats_radarr: []
+custom_formats_sonarr: []
 qualities:
-- id: 10
-  name: Bluray-1080p
 - id: -2
-  name: WEB-1080p
+  name: 1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 13
-  name: Bluray-720p
+  - id: 10
+    name: Bluray-1080p
 - id: -3
-  name: WEB-720p
+  name: 720p
   description: ''
   qualities:
-  - id: 14
-    name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 13
+    name: Bluray-720p
 upgrade_until:
   id: -2
-  name: WEB-1080p
+  name: 1080p
 language: original
