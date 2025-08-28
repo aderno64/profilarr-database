@@ -1,6 +1,8 @@
 name: DTS-HD
-pattern: \b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))\b
+pattern: \b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\b|\d)
 description: ''
 tags:
 - Audio
+- Codec
+- TRaSH
 tests: []

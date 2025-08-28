@@ -15,9 +15,34 @@ tags:
 - Dolby Vision
 - HDR
 conditions:
-- name: Dolby Vision (Without Fallback)
+- name: Dolby Vision
   type: release_title
   required: true
   negate: false
-  pattern: Dolby Vision (Without Fallback)
+  pattern: Dolby Vision
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: Not Flights
+  type: release_group
+  required: true
+  negate: true
+  pattern: Flights
+- name: Not HDR
+  type: release_title
+  required: true
+  negate: true
+  pattern: Not HDR
+- name: Not Hulu
+  type: release_title
+  required: true
+  negate: true
+  pattern: Hulu
 tests: []
