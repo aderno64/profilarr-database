@@ -19,9 +19,7 @@ custom_formats:
 - name: WEB Tier 02
   score: 1900
 - name: WEB Tier 03
-  score: 1800
-- name: Scene Groups
-  score: 1000
+  score: 100
 - name: Dolby Digital +
   score: 50
 - name: AMZN
@@ -82,8 +80,12 @@ custom_formats:
   score: -10000
 - name: x265 (HD)
   score: -10000
-custom_formats_radarr: []
-custom_formats_sonarr: []
+custom_formats_radarr:
+- name: Scene Groups
+  score: 1000100
+custom_formats_sonarr:
+- name: Scene Groups
+  score: 1000
 qualities:
 - id: -2
   name: WEB 1080p
@@ -93,8 +95,6 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 10
-  name: Bluray-1080p
 - id: -3
   name: WEB 720p
   description: ''
@@ -103,8 +103,6 @@ qualities:
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-- id: 13
-  name: Bluray-720p
 - id: -4
   name: WEB 480p
   description: ''
@@ -113,8 +111,6 @@ qualities:
     name: WEBDL-480p
   - id: 20
     name: WEBRip-480p
-- id: 18
-  name: Bluray-480p
 - id: 22
   name: DVD
 - id: 24
