@@ -8,11 +8,11 @@ conditions:
   pattern: BEN THE MEN
   required: false
   type: release_title
-- name: EVO
-  type: release_title
-  required: false
+- name: EVO (no WEB-DL)
   negate: false
   pattern: EVO (no WEB-DL)
+  required: false
+  type: release_title
 - name: PiRaTeS (no WEB-DL)
   negate: false
   pattern: PiRaTeS (no WEB-DL)
