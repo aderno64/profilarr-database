@@ -4,34 +4,9 @@ tags:
 - Colour Grade
 - HDR
 conditions:
-- name: HDR
+- name: HDR (Generalized)
   negate: false
-  pattern: HDR
-  required: true
-  type: release_title
-- name: Not SDR
-  type: release_title
-  required: true
-  negate: true
-  pattern: SDR
-- name: Not PQ
-  type: release_title
-  required: true
-  negate: true
-  pattern: PQ
-- name: Not HLG
-  type: release_title
-  required: true
-  negate: true
-  pattern: HLG
-- name: Not HDR10
-  negate: true
-  pattern: HDR10
-  required: true
-  type: release_title
-- name: Not HDR10+
-  negate: true
-  pattern: HDR10+
+  pattern: HDR (Generalized)
   required: true
   type: release_title
 tests: []
