@@ -12,7 +12,7 @@ conditions:
   type: release_title
 - name: ATMOS
   negate: false
-  pattern: Atmos
+  pattern: DD+ ATMOS
   required: true
   type: release_title
 - name: Not TrueHD

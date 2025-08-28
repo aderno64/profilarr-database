@@ -1,5 +1,5 @@
-name: Atmos
-pattern: \bATMOS(\b|\d)
+name: DD+ ATMOS
+pattern: \b(ATMOS|DDPA)(\b|\d)
 description: ''
 tags:
 - Audio
