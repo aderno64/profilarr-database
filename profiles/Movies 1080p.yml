@@ -123,16 +123,16 @@ custom_formats:
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
+- id: 10
+  name: Bluray-1080p
 - id: -2
-  name: 1080p
+  name: WEB-1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-  - id: 10
-    name: Bluray-1080p
 - id: -3
   name: 720p
   description: ''
@@ -144,6 +144,7 @@ qualities:
   - id: 13
     name: Bluray-720p
 upgrade_until:
-  id: -2
-  name: 1080p
+  id: 10
+  name: Bluray-1080p
+  description: 1080p Blu-ray video encoded with lossy compression
 language: original
