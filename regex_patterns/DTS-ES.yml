@@ -1,6 +1,8 @@
 name: DTS-ES
-pattern: (?i)\bDTS[-_. ]?ES\b
+pattern: dts.?es
 description: ''
 tags:
 - Audio
+- Codec
+- TRaSH
 tests: []

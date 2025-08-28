@@ -26,7 +26,7 @@ conditions:
   type: release_title
 - name: Not DTS-HD HRA
   negate: true
-  pattern: DTS-HD HRA ES
+  pattern: DTS-HD HRA
   required: false
   type: release_title
 - name: Not FLAC
@@ -45,10 +45,10 @@ conditions:
   required: false
   type: release_title
 - name: Not DTS-X
-  type: release_title
-  required: false
   negate: true
   pattern: DTS-X
+  required: false
+  type: release_title
 tests:
 - conditionResults:
   - matches: true
