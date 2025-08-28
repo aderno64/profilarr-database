@@ -4,14 +4,19 @@ description: Matches against groups that are streaming optimized like hallowed a
 tags:
 - Streaming Optimizied
 conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
 - name: Bluray
   negate: false
   required: true
   source: bluray
   type: source
 - name: HONE
-  type: release_group
-  required: false
   negate: false
   pattern: HONE
+  required: false
+  type: release_group
 tests: []
