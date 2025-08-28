@@ -24,6 +24,8 @@ custom_formats:
   score: 1000
 - name: Dolby Digital +
   score: 50
+- name: Dolby Vision
+  score: 50
 - name: AMZN
   score: 25
 - name: Atmos
@@ -31,8 +33,6 @@ custom_formats:
 - name: ATVP
   score: 25
 - name: Dolby Digital
-  score: 25
-- name: Dolby Vision
   score: 25
 - name: DSNP
   score: 25
