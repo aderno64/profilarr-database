@@ -1,0 +1,6 @@
+name: GalaxyRG
+pattern: \b(GalaxyRG)\
+description: ''
+tags:
+- Release Group
+tests: []

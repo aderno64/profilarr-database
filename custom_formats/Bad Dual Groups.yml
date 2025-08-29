@@ -9,8 +9,13 @@ tags:
 - Banned
 conditions:
 - name: BiOMA
-  type: release_group
-  required: false
   negate: false
   pattern: BiOMA
+  required: false
+  type: release_group
+- name: GalaxyRG
+  type: release_title
+  required: false
+  negate: false
+  pattern: GalaxyRG
 tests: []
