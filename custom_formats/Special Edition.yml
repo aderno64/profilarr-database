@@ -7,6 +7,7 @@ description: "Special editions are modified versions of movies released after th
   \ special editions` as technology improves or different creative perspectives emerge"
 tags:
 - Edition
+- TRaSH
 conditions:
 - name: Special Edition
   negate: false
@@ -31,16 +32,6 @@ conditions:
 - name: Not Extended Clip
   negate: true
   pattern: Extended Clip
-  required: true
-  type: release_title
-- name: Not Sing Along
-  negate: true
-  pattern: Sing Along
-  required: true
-  type: release_title
-- name: Not Theatrical Preferred
-  negate: true
-  pattern: Better Theatricals
   required: true
   type: release_title
 tests:
