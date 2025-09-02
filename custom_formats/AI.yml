@@ -1,0 +1,12 @@
+name: AI
+description: ''
+tags:
+- AI
+- Banned
+conditions:
+- name: AI
+  negate: false
+  pattern: AI
+  required: true
+  type: release_title
+tests: []

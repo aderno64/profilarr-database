@@ -36,15 +36,15 @@ custom_formats:
   score: 25
 - name: DTS
   score: 25
+- name: HBO
+  score: 25
 - name: HDR
   score: 25
-- name: HBO
+- name: HMAX
   score: 25
 - name: HULU
   score: 25
 - name: iT
-  score: 25
-- name: HMAX
   score: 25
 - name: NF
   score: 25
@@ -68,6 +68,8 @@ custom_formats:
   score: 6
 - name: Repack3
   score: 5
+- name: AI
+  score: -10000
 - name: AV1
   score: -10000
 - name: Bad Dual Groups

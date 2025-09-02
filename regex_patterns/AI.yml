@@ -1,0 +1,7 @@
+name: AI
+pattern: \b(?:[12]\d{3}|S\d{1,2}(?:E\d{1,2})?)\b.*?\bAI\b
+description: This matches movies or TV releases that are modified with AI.
+tags:
+- Banned
+- AI
+tests: []
