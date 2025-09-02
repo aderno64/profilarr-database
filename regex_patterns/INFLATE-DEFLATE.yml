@@ -1,0 +1,7 @@
+name: INFLATE-DEFLATE
+pattern: \b(INFLATE|DEFLATE[)\]]?)$
+description: ''
+tags:
+- Scene
+- TRaSH
+tests: []

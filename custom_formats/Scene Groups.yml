@@ -6,11 +6,16 @@ conditions:
 - name: Scene Groups
   negate: false
   pattern: Scene Groups
-  required: false
+  required: true
   type: release_group
-- name: Not 2160p
-  type: resolution
+- name: Not INFLATE-DEFLATE
+  type: release_title
   required: true
   negate: true
-  resolution: 2160p
+  pattern: INFLATE-DEFLATE
+- name: Not German
+  type: release_title
+  required: true
+  negate: true
+  pattern: German
 tests: []
