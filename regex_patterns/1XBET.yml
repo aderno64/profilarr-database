@@ -1,7 +1,7 @@
-name: SWTYBLZ
-pattern: \b(SWTYBLZ)\b
+name: 1XBET
+pattern: \b(1XBET)\b
 description: ''
 tags:
+- Banned
 - Release Group
-- Bluray
 tests: []

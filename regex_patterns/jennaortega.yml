@@ -1,5 +1,5 @@
-name: D3US
-pattern: (-D3US|D3US-)
+name: jennaortega
+pattern: (?<!-)\b(jennaortega(UHD)?)\b
 description: ''
 tags:
 - Release Group
