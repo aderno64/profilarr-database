@@ -4,7 +4,7 @@ tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: PCOK Regex
+- name: Peacock
   negate: false
   pattern: Peacock TV
   required: false

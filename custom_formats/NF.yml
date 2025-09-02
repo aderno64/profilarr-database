@@ -4,16 +4,16 @@ tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: NF Regex
-  negate: false
-  pattern: Netflix
-  required: true
-  type: release_title
 - name: WEB-DL
   negate: false
   required: true
   source: web_dl
   type: source
+- name: NF Regex
+  negate: false
+  pattern: Netflix
+  required: true
+  type: release_title
 tests:
 - conditionResults:
   - matches: true

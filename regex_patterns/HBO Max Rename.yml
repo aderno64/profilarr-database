@@ -1,5 +1,5 @@
 name: HBO Max Rename
-pattern: \[(HMAX)\b|\b(HMAX)\]
+pattern: \[(HBO)\b|\b(HBO)\]
 description: HBO Max is an American subscription video-on-demand streaming service
   that offers a range of original programming and content from WarnerMedia's vast
   library, encompassing brands such as Warner Bros., CNN, Cartoon Network, TBS, and

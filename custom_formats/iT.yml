@@ -4,21 +4,21 @@ tags:
 - Streaming Service
 - WEB-DL
 conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
 - name: iT Regex
   negate: false
   pattern: iTunes
   required: false
   type: release_title
 - name: iT Rename Regex
-  type: release_title
-  required: false
   negate: false
   pattern: iTunes Rename
-- name: WEB-DL
-  negate: false
-  required: true
-  source: web_dl
-  type: source
+  required: false
+  type: release_title
 tests:
 - conditionResults:
   - matches: true

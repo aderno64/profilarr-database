@@ -1,5 +1,5 @@
 name: Max
-pattern: \b((?<!hbo[ ._-])max)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+pattern: \b(hmax|hbom|hbo[ ._-]?max)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
 description: Max, formerly (and in some regions still) known as HBO Max, is an American
   subscription video on-demand over-the-top streaming service. The platform offers
   content from the libraries of Warner Bros., Discovery, HBO, CNN, Cartoon Network,
