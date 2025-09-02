@@ -4,11 +4,6 @@ description: Matches against groups that are streaming optimized like HONE and t
 tags:
 - Streaming Optimizied
 conditions:
-- name: 2160p
-  negate: false
-  required: true
-  resolution: 2160p
-  type: resolution
 - name: Bluray
   negate: false
   required: true
