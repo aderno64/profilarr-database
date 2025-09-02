@@ -20,8 +20,6 @@ custom_formats:
   score: 1900
 - name: WEB Tier 03
   score: 1800
-- name: Scene Groups
-  score: 100
 - name: Dolby Digital +
   score: 50
 - name: Dolby Vision
@@ -87,6 +85,8 @@ custom_formats:
 - name: Incorrect Source
   score: -10000
 - name: Non Retail HDR
+  score: -10000
+- name: Scene Groups
   score: -10000
 - name: x265 (HD)
   score: -10000
