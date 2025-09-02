@@ -1,7 +1,7 @@
-name: SWTYBLZ
-pattern: \b(SWTYBLZ)\b
+name: TeeWee
+pattern: \b(TeeWee)\b
 description: ''
 tags:
+- Banned
 - Release Group
-- Bluray
 tests: []

@@ -3,9 +3,19 @@ description: Matches Grouos that are Banned via Release Title
 tags:
 - Banned
 conditions:
+- name: 1XBET
+  negate: false
+  pattern: 1XBET
+  required: false
+  type: release_title
 - name: BEN THE MEN
   negate: false
   pattern: BEN THE MEN
+  required: false
+  type: release_title
+- name: D3US
+  negate: false
+  pattern: D3US
   required: false
   type: release_title
 - name: EVO (no WEB-DL)
@@ -13,14 +23,44 @@ conditions:
   pattern: EVO (no WEB-DL)
   required: false
   type: release_title
+- name: Feranki1980
+  negate: false
+  pattern: Feranki1980
+  required: false
+  type: release_title
+- name: jennaortega
+  negate: false
+  pattern: jennaortega
+  required: false
+  type: release_title
 - name: PiRaTeS (no WEB-DL)
   negate: false
   pattern: PiRaTeS (no WEB-DL)
   required: false
   type: release_title
-- name: GalaxyRG
-  type: release_title
-  required: false
+- name: READ NOTE
   negate: false
-  pattern: GalaxyRG
+  pattern: READ NOTE
+  required: false
+  type: release_title
+- name: SWTYBLZ
+  negate: false
+  pattern: SWTYBLZ
+  required: false
+  type: release_title
+- name: TeeWee
+  negate: false
+  pattern: TeeWee
+  required: false
+  type: release_title
+- name: TEKNO3D
+  negate: false
+  pattern: TEKNO3D
+  required: false
+  type: release_title
+- name: Will1969
+  negate: false
+  pattern: Will1969
+  required: false
+  type: release_title
 tests: []
