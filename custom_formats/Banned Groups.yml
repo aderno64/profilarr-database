@@ -4,14 +4,14 @@ tags:
 - Banned
 - Release Group
 conditions:
-- name: Not HONE
-  negate: true
-  pattern: HONE (Release Title)
-  required: false
-  type: release_title
 - name: Banned Groups
+  negate: false
+  pattern: Banned Groups
+  required: false
+  type: release_group
+- name: NoGroup
   type: release_group
   required: false
   negate: false
-  pattern: Banned Groups
+  pattern: NoGroup
 tests: []
