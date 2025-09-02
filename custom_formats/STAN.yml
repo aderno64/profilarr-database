@@ -4,6 +4,11 @@ tags:
 - Streaming Service
 - WEB-DL
 conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
 - name: STAN Regex
   negate: false
   pattern: Stan
@@ -14,11 +19,6 @@ conditions:
   pattern: Stan Rename
   required: false
   type: release_title
-- name: WEB-DL
-  negate: false
-  required: true
-  source: web_dl
-  type: source
 tests:
 - conditionResults:
   - matches: true

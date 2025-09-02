@@ -1,5 +1,5 @@
 name: Amazon Prime
-pattern: \b(?:amzn|(?:AMZN|Amazon)(?=\s*(?:WEB-?DL|HD)))\b
+pattern: \b(amzn|amazon(hd)?)\b
 description: Amazon Prime Video, or simply Prime Video, is an American subscription
   video on-demand over-the-top streaming and rental service of Amazon offered both
   as a stand-alone service and as part of Amazon's Prime subscription.

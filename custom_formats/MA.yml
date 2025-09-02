@@ -4,14 +4,14 @@ tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: MA Regex
-  negate: false
-  pattern: Movies Anywhere
-  required: true
-  type: release_title
 - name: WEB-DL
   negate: false
   required: true
   source: web_dl
   type: source
+- name: MA Regex
+  negate: false
+  pattern: Movies Anywhere
+  required: true
+  type: release_title
 tests: []

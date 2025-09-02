@@ -14,4 +14,9 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: Not Criterion Group
+  type: release_group
+  required: true
+  negate: true
+  pattern: Criterion Group
 tests: []

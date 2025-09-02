@@ -54,13 +54,13 @@ custom_formats:
   score: 25
 - name: HDR
   score: 25
-- name: HMAX
+- name: HBO
   score: 25
 - name: HULU
   score: 25
 - name: iT
   score: 25
-- name: MAX
+- name: HMAX
   score: 25
 - name: NF
   score: 25
