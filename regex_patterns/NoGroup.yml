@@ -1,5 +1,5 @@
 name: NoGroup
-pattern: (?<=^|[\s.-])NoGr(ou)?p\b
+pattern: NoGr(ou)?p
 description: ''
 tags:
 - Release Group
