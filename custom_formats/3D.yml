@@ -7,6 +7,16 @@ conditions:
 - name: 3D
   negate: false
   pattern: 3D
-  required: true
+  required: false
   type: release_title
+- name: Bluray 3D
+  type: release_title
+  required: false
+  negate: false
+  pattern: Bluray 3D
+- name: BD3D
+  type: release_title
+  required: false
+  negate: false
+  pattern: BD3D
 tests: []
