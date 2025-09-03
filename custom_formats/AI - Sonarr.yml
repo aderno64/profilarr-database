@@ -1,12 +1,13 @@
-name: AI
+name: AI - Sonarr
 description: ''
 tags:
 - AI
 - Banned
+- Sonarr
 conditions:
-- name: AI
+- name: AI - Sonarr
   negate: false
-  pattern: AI
+  pattern: AI - Sonarr
   required: true
   type: release_title
 tests: []

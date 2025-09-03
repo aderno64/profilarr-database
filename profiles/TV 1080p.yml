@@ -64,7 +64,7 @@ custom_formats:
   score: 6
 - name: Repack3
   score: 5
-- name: AI
+- name: AI - Sonarr
   score: -10000
 - name: AV1
   score: -10000
