@@ -80,7 +80,7 @@ custom_formats:
   score: -10000
 - name: 3D
   score: -10000
-- name: AI
+- name: AI - Radarr
   score: -10000
 - name: AV1
   score: -10000
