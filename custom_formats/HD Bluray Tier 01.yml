@@ -4,11 +4,6 @@ tags:
 - Release Group Tier
 - 1080p
 conditions:
-- name: 1080p
-  negate: false
-  required: true
-  resolution: 1080p
-  type: resolution
 - name: Bluray
   negate: false
   required: true
@@ -19,6 +14,11 @@ conditions:
   qualityModifier: remux
   required: true
   type: quality_modifier
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
 - name: TRaSH HD Bluray Tier 01
   negate: false
   pattern: TRaSH HD Bluray Tier 01
