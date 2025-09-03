@@ -1,0 +1,7 @@
+name: TRaSH UHD Bluray Tier 02
+pattern: ^(HQMUX)$
+description: ''
+tags:
+- TRaSH
+- Release Group Tier
+tests: []

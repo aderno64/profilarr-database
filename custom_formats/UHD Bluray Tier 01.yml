@@ -1,0 +1,32 @@
+name: UHD Bluray Tier 01
+description: ''
+tags:
+- Release Group Tier
+- 2160p
+conditions:
+- name: Not Remux
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: Not WEBDL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: Not WEBRip
+  negate: true
+  required: true
+  source: webrip
+  type: source
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: TRaSH UHD Bluray Tier 01
+  negate: false
+  pattern: TRaSH UHD Bluray Tier 01
+  required: false
+  type: release_group
+tests: []
