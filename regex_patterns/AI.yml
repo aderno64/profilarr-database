@@ -1,7 +1,26 @@
 name: AI
-pattern: \b(?:[12]\d{3}|S\d{1,2}(?:E\d{1,2})?)\b.*?\bAI\b
+pattern: (?i)(?:[12]\d{3}|S\d{1,2}(?:E\d{1,2})?)(?=[._\- ]|$)(?:[._\- ][^\s._\-]+)*[._\-](\bAI\b)
 description: This matches movies or TV releases that are modified with AI.
 tags:
 - Banned
 - AI
-tests: []
+tests:
+- id: 1
+  input: American Experience S05E03 Defining AI Strategies and Problem Solving AMZN
+    WEB-DL DDP 2 0 H 264-FLUX
+  expected: false
+- id: 2
+  input: Westworld.S02E05.AI.1080p.WEB-DL.x265
+  expected: true
+- id: 3
+  input: Inception.2010.AI.1080p.BluRay.DTS-HONE
+  expected: true
+- id: 4
+  input: My.AI.Girlfriend.Is.Gay.S01E069.WEB-DL.H265.DDP.5.1-FLUX
+  expected: false
+- id: 5
+  input: Memento.2000.2160p.HDR.AI.Enhance.ENG.RUS.GER.ITA.LATINO.Multi.Sub.DTS-HD.Master.DDP5.1.x265.MKV-BEN.THE.MEN
+  expected: true
+- id: 6
+  input: AI.and.Autonomous.Weapons
+  expected: false
