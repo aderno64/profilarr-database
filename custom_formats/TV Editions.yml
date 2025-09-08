@@ -5,8 +5,8 @@ tags:
 - Editions
 conditions:
 - name: Editions
-  type: release_title
-  required: true
   negate: false
-  pattern: TV Editions
+  pattern: Sonarr - Special Edition
+  required: true
+  type: release_title
 tests: []
