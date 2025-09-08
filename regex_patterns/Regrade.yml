@@ -1,0 +1,7 @@
+name: Regrade
+pattern: \b((Upscale)?Re-?graded?)\b
+description: ''
+tags:
+- TRaSH
+- Banned
+tests: []
