@@ -88,7 +88,7 @@ custom_formats:
   score: -10000
 - name: Scene Groups
   score: -10000
-- name: x265 (HD)
+- name: x265 (no HDR DV)
   score: -10000
 custom_formats_radarr: []
 custom_formats_sonarr: []
