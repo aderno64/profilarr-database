@@ -36,17 +36,15 @@ custom_formats:
   score: 1800
 - name: Dolby Vision
   score: 50
-- name: Dolby Digital +
+- name: Dolby Digital + Atmos
   score: 35
 - name: AMZN
-  score: 25
-- name: Atmos
   score: 25
 - name: ATVP
   score: 25
 - name: CRIT
   score: 25
-- name: Dolby Digital
+- name: Dolby Digital +
   score: 25
 - name: DSNP
   score: 25
@@ -76,6 +74,8 @@ custom_formats:
   score: 25
 - name: Surround Sound
   score: 25
+- name: Dolby Digital
+  score: 15
 - name: Repack1
   score: 7
 - name: Repack2
@@ -120,7 +120,7 @@ custom_formats:
   score: -10000
 - name: TrueHD
   score: -10000
-- name: TrueHD ATMOS
+- name: TrueHD Atmos
   score: -10000
 - name: Upscaled
   score: -10000
