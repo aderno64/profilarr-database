@@ -9,9 +9,19 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: Not REMUX
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
 - name: hallowed
   negate: false
   pattern: hallowed
+  required: false
+  type: release_group
+- name: BHDStudio
+  negate: false
+  pattern: BHDStudio
   required: false
   type: release_group
 tests: []

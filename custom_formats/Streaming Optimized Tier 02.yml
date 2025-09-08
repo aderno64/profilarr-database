@@ -9,11 +9,11 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: BHDStudio
-  type: release_group
-  required: false
-  negate: false
-  pattern: BHDStudio
+- name: Not REMUX
+  type: quality_modifier
+  required: true
+  negate: true
+  qualityModifier: remux
 - name: HONE
   negate: false
   pattern: HONE
