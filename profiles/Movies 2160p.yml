@@ -80,6 +80,10 @@ custom_formats:
   score: 7
 - name: Repack2
   score: 6
+- name: IMAX
+  score: 5
+- name: IMAX Enhanced
+  score: 5
 - name: Repack3
   score: 5
 - name: 10bit
