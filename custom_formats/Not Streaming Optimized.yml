@@ -24,9 +24,19 @@ conditions:
   pattern: BHDStudio
   required: true
   type: release_group
+- name: DarQ
+  negate: true
+  pattern: DarQ
+  required: true
+  type: release_group
 - name: HONE
   negate: true
   pattern: HONE
+  required: true
+  type: release_group
+- name: Weasley
+  negate: true
+  pattern: Weasley
   required: true
   type: release_group
 tests:
