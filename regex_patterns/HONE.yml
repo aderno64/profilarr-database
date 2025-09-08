@@ -1,5 +1,5 @@
 name: HONE
-pattern: ^(HONE)$
+pattern: ^(HONE|Darq|Weasley)$
 description: ''
 tags:
 - Release Group
