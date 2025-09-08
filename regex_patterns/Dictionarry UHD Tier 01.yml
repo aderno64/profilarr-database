@@ -1,0 +1,7 @@
+name: Dictionarry UHD Tier 01
+pattern: ^(CtrlHD|DON|HQMUX|SA89)$
+description: ''
+tags:
+- Release Group Tier
+- Dictionarry
+tests: []

@@ -1,0 +1,7 @@
+name: Dictionarry HD Tier 02
+pattern: ^(c0ke|CtrlHD|Geek|HiFi|TayTo|VietHD|ZoroSenpai|ZQ)$
+description: ''
+tags:
+- Release Group Tier
+- Dictionarry
+tests: []
