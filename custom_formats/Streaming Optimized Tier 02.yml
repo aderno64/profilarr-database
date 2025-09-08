@@ -9,6 +9,11 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: BHDStudio
+  type: release_group
+  required: false
+  negate: false
+  pattern: BHDStudio
 - name: HONE
   negate: false
   pattern: HONE
