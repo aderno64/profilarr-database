@@ -1,4 +1,4 @@
-name: TrueHD ATMOS
+name: TrueHD Atmos
 pattern: \b(True[ .-]?HD|ATMOS|DDPA)(\b|\d)
 description: ''
 tags:
