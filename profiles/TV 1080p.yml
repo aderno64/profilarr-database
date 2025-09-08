@@ -56,8 +56,6 @@ custom_formats:
   score: 25
 - name: TV Editions
   score: 25
-- name: Sonarr - Special Edition
-  score: 10
 - name: WEB-DL
   score: 10
 - name: Repack1
