@@ -14,7 +14,7 @@ conditions:
   type: release_title
   required: true
   negate: true
-  pattern: TrueHD ATMOS
+  pattern: TrueHD Atmos
 - name: Not Dolby Digital +
   type: release_title
   required: true

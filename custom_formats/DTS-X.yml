@@ -22,7 +22,7 @@ conditions:
   type: release_title
 - name: Not TrueHD ATMOS
   negate: true
-  pattern: TrueHD ATMOS
+  pattern: TrueHD Atmos
   required: true
   type: release_title
 - name: Not FLAC
