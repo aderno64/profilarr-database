@@ -10,13 +10,23 @@ conditions:
   source: bluray
   type: source
 - name: Not REMUX
-  type: quality_modifier
-  required: true
   negate: true
   qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: DarQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: DarQ
 - name: HONE
   negate: false
   pattern: HONE
   required: false
   type: release_group
+- name: Weasley
+  type: release_group
+  required: false
+  negate: false
+  pattern: Weasley
 tests: []

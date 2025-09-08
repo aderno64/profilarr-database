@@ -1,7 +1,6 @@
-name: DarQ
-pattern: ^(DarQ)$
+name: Weasley
+pattern: ^(Weasley)$
 description: ''
 tags:
 - Release Group
-- HEVC
 tests: []
