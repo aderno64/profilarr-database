@@ -8,9 +8,14 @@ description: 'These release groups do not use the original language of the media
 tags:
 - Banned
 conditions:
-- name: BiOMA
-  negate: false
-  pattern: BiOMA
-  required: false
+- name: Bad Dual Groups
   type: release_group
+  required: false
+  negate: false
+  pattern: Bad Dual Groups
+- name: CAA
+  type: release_group
+  required: false
+  negate: false
+  pattern: CAA
 tests: []
