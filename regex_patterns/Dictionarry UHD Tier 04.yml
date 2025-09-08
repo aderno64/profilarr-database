@@ -1,0 +1,7 @@
+name: Dictionarry UHD Tier 04
+pattern: ^(b0mbardiers|BHDStudio|DEPTH|hallowed|iFT|NCmt|SPHD|TDD)$
+description: ''
+tags:
+- Release Group Tier
+- Dictionarry
+tests: []

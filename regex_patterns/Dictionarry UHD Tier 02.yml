@@ -1,0 +1,7 @@
+name: Dictionarry UHD Tier 02
+pattern: ^(c0kE|D-Z0N3|MainFrame|PTer)$
+description: ''
+tags:
+- Release Group Tier
+- Dictionarry
+tests: []
