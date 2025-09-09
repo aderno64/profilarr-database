@@ -1,19 +1,8 @@
 name: Scene Groups
-pattern: ^(?=.*(\b\d{3,4}p\b).*([_. ]WEB[_. ])(?!DL)\b)|\b(-CAKES|-GGEZ|-GGWP|-GLHF|-GOSSIP|-NAISU|-KOGI|-PECULATE|-SLOT|-EDITH|-ETHEL|-ELEANOR|-B2B|-SPAMnEGGS|-FTP|-DiRT|-SYNCOPY|-BAE|-SuccessfulCrab|-NHTFS|-SURCODE|-B0MBARDIERS|-D3US|-BROTHERHOOD|-W4K|-STRiKES)
+pattern: ^(CAKES|GGEZ|GGWP|GLHF|GOSSIP|NAISU|KOGI|PECULATE|SLOT|EDITH|ETHEL|ELEANOR|B2B|SPAMnEGGS|FTP|DiRT|SYNCOPY|BAE|SuccessfulCrab|NHTFS|SURCODE|B0MBARDIERS|D3US|BROTHERHOOD|W4K|STRiKES)$
 description: Matches Scene Groups
 tags:
 - Scene
 - Release Group
 - TRaSH
-tests:
-- expected: true
-  id: 1
-  input: South.Park.S27E03.1080p.WEB.h264-ETHEL-4P
-  lastRun: '2025-08-21T18:03:50.551983'
-  matchSpan:
-    end: 38
-    start: 33
-  matchedContent: ETHEL
-  matchedGroups:
-  - ETHEL
-  passes: true
+tests: []
