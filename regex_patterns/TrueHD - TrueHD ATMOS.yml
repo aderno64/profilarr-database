@@ -1,0 +1,7 @@
+name: TrueHD - TrueHD ATMOS
+pattern: True[ .-]?HD|W4NK3R|HQMUX
+description: ''
+tags:
+- TRaSH
+- Audio
+tests: []

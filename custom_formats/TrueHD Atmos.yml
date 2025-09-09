@@ -7,12 +7,12 @@ tags:
 conditions:
 - name: TrueHD
   negate: false
-  pattern: TrueHD
+  pattern: TrueHD - TrueHD ATMOS
   required: true
   type: release_title
 - name: ATMOS
   negate: false
-  pattern: Atmos
+  pattern: ATMOS
   required: true
   type: release_title
 - name: Not Dolby Digital

@@ -10,28 +10,28 @@ conditions:
   required: true
   type: release_title
 - name: Not ATMOS
-  type: release_title
-  required: true
   negate: true
   pattern: Atmos
+  required: true
+  type: release_title
 - name: Not Dolby Digital +
-  type: release_title
-  required: true
   negate: true
-  pattern: Dolby Digital +
-- name: Not DTS
-  type: release_title
+  pattern: Not Dolby Digital Plus
   required: true
+  type: release_title
+- name: Not DTS
   negate: true
   pattern: DTS
-- name: Not FLAC
-  type: release_title
   required: true
+  type: release_title
+- name: Not FLAC
   negate: true
   pattern: FLAC
-- name: Not Dolby Digital
-  type: release_title
   required: true
+  type: release_title
+- name: Not Dolby Digital
   negate: true
   pattern: Dolby Digital
+  required: true
+  type: release_title
 tests: []

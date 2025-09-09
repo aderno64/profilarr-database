@@ -22,7 +22,7 @@ conditions:
   type: release_title
 - name: Not TrueHD ATMOS
   negate: true
-  pattern: TrueHD Atmos
+  pattern: Not TrueHD ATMOS
   required: true
   type: release_title
 - name: Not FLAC
@@ -36,15 +36,15 @@ conditions:
   required: true
   type: release_title
 - name: Not AAC
-  type: release_title
-  required: true
   negate: true
   pattern: AAC
-- name: Not PCM
-  type: release_title
   required: true
+  type: release_title
+- name: Not PCM
   negate: true
   pattern: PCM
+  required: true
+  type: release_title
 tests:
 - conditionResults:
   - matches: true
