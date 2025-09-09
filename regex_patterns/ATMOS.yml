@@ -1,0 +1,8 @@
+name: ATMOS
+pattern: \b(ATMOS|CtrlHD|W4NK3R|DON)(\b|\d)
+description: ''
+tags:
+- Audio
+- Codec
+- TRaSH
+tests: []
