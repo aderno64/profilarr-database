@@ -22,7 +22,7 @@ conditions:
   type: release_title
 - name: Not Dolby Digital +
   negate: true
-  pattern: Dolby Digital +
+  pattern: Not Dolby Digital Plus
   required: true
   type: release_title
 - name: Not DTS
