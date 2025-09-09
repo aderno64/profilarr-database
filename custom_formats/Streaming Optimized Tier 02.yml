@@ -15,18 +15,13 @@ conditions:
   required: true
   type: quality_modifier
 - name: DarQ
-  type: release_group
-  required: false
   negate: false
   pattern: DarQ
+  required: false
+  type: release_group
 - name: HONE
+  type: release_group
+  required: false
   negate: false
   pattern: HONE
-  required: false
-  type: release_group
-- name: Weasley
-  type: release_group
-  required: false
-  negate: false
-  pattern: Weasley
 tests: []
