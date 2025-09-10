@@ -8,13 +8,38 @@ conditions:
 - name: B&W
   negate: false
   pattern: B&W
-  required: true
+  required: false
   type: release_title
-- name: Not Colour
-  negate: true
-  pattern: Colourisation
-  required: true
+- name: Monochrome
+  negate: false
+  pattern: Monochrome
+  required: false
   type: release_title
+- name: Noir
+  type: release_title
+  required: false
+  negate: false
+  pattern: Noir
+- name: Shush Cut
+  type: release_title
+  required: false
+  negate: false
+  pattern: Shush Cut
+- name: No Minus Color
+  type: release_title
+  required: false
+  negate: false
+  pattern: No Minus Color
+- name: Grayscale
+  type: release_title
+  required: false
+  negate: false
+  pattern: Grayscale
+- name: Darkness and Light
+  type: release_title
+  required: false
+  negate: false
+  pattern: Darkness and Light
 tests:
 - conditionResults:
   - matches: true
