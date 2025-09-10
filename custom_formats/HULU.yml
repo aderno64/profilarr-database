@@ -2,7 +2,6 @@ name: HULU
 description: Matches 'Hulu' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
-- WEB-DL
 conditions:
 - name: HULU Regex
   negate: false
@@ -11,7 +10,12 @@ conditions:
   type: release_title
 - name: WEB-DL
   negate: false
-  required: true
+  required: false
   source: web_dl
   type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
 tests: []
