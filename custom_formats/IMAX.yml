@@ -1,16 +1,16 @@
 name: IMAX
-description: ''
+description: If desired, add this to your Movies profile with a score of 800.
 tags:
 - Edition
 conditions:
 - name: IMAX
-  type: release_title
-  required: true
   negate: false
   pattern: IMAX
-- name: Not IMAX Enhanced
-  type: release_title
   required: true
+  type: release_title
+- name: Not IMAX Enhanced
   negate: true
   pattern: IMAX Enhanced
+  required: true
+  type: release_title
 tests: []
