@@ -1,5 +1,5 @@
-name: 2.0 Stereo
-pattern: (?<!\d)2[ .]0(?!\d)
+name: Not 4.0ch
+pattern: '[^0-9]4[ .]0\b'
 description: ''
 tags:
 - Audio
