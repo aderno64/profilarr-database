@@ -63,8 +63,6 @@ custom_formats:
   score: 25
 - name: TV Editions
   score: 25
-- name: WEB-DL
-  score: 10
 - name: Repack1
   score: 7
 - name: Repack2
