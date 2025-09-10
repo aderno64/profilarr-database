@@ -1,5 +1,5 @@
 name: HDR10+
-description: Matches the 'HDR10+' Regex Pattern
+description: If desired, add this to your profiles with a score of 100.
 tags:
 - Colour Grade
 - HDR
