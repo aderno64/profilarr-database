@@ -2,7 +2,12 @@ name: Movies 1080p
 description: 'This profile focuses on streaming optimized sources with little to no
   transcoding needed.
 
-  - This profile is recommended for a set-it-and-forget-it setup.'
+  - This profile is recommended for a set-it-and-forget-it setup.
+
+  - This profile will prefer streaming optimized releases groups like **BHDStudio**
+  and **hallowed**.
+
+  - This profile does not allow releases with HD Audio.'
 tags:
 - Radarr
 - Streaming Optimized
