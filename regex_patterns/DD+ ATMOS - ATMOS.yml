@@ -1,4 +1,4 @@
-name: ATMOS - DD+ ATMOS
+name: DD+ ATMOS - ATMOS
 pattern: \b(ATMOS|DDPA)(\b|\d)
 description: ''
 tags:

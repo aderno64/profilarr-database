@@ -1,0 +1,6 @@
+name: DD+ - Not TrueHD ATMOS
+pattern: \b(True[ .-]?HD|ATMOS|DDPA)(\b|\d)
+description: ''
+tags:
+- Audio
+tests: []
