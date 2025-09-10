@@ -2,13 +2,7 @@ name: HBO
 description: Matches 'HBO Max' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
-- WEB-DL
 conditions:
-- name: WEB-DL
-  negate: false
-  required: true
-  source: web_dl
-  type: source
 - name: HMAX
   negate: false
   pattern: HBO Max
@@ -19,6 +13,16 @@ conditions:
   pattern: HBO Max Rename
   required: false
   type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
 tests:
 - conditionResults:
   - matches: true
