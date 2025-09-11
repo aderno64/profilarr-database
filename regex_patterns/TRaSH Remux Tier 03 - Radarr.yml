@@ -1,0 +1,7 @@
+name: TRaSH Remux Tier 03 - Radarr
+pattern: ^(ATELiER|decibeL|EPSiLON|HiFi|iFT|KRaLiMaRKo|NTb|PTP|SumVision|TOA|TRiToN)$
+description: ''
+tags:
+- TRaSH
+- Release Group Tier
+tests: []
