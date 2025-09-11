@@ -1,0 +1,17 @@
+name: Remux Tier 03 - Radarr
+description: ''
+tags:
+- Remux
+- Radarr
+conditions:
+- name: Remux
+  negate: false
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: TRaSH Remux Tier 03
+  negate: false
+  pattern: TRaSH Remux Tier 03 - Radarr
+  required: false
+  type: release_group
+tests: []
