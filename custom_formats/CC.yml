@@ -1,24 +1,24 @@
-name: HMAX
-description: Matches 'Max' WEB-DLs. Negates any encodes.
+name: CC
+description: ''
 tags:
+- TRaSH
 - Streaming Service
-- WEB-DL
 conditions:
-- name: MAX
-  negate: false
-  pattern: Max
-  required: false
+- name: Comedy Central
   type: release_title
-- name: MAX Rename
-  negate: false
-  pattern: Max Rename
   required: false
+  negate: false
+  pattern: Comedy Central
+- name: CC Rename
   type: release_title
-- name: WEB-DL
-  negate: false
   required: false
-  source: web_dl
+  negate: false
+  pattern: CC Rename
+- name: WEBDL
   type: source
+  required: false
+  negate: false
+  source: web_dl
 - name: WEBRip
   type: source
   required: false

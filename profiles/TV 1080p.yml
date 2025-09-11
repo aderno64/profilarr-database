@@ -38,6 +38,10 @@ custom_formats_sonarr:
   score: 60
 - name: STAN
   score: 60
+- name: CC
+  score: 50
+- name: DCU
+  score: 50
 - name: Dolby Digital +
   score: 50
 - name: HBO
@@ -47,6 +51,8 @@ custom_formats_sonarr:
 - name: iT
   score: 50
 - name: SHO
+  score: 50
+- name: SYFY
   score: 50
 - name: Atmos
   score: 25
