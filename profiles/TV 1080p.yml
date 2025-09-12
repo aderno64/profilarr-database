@@ -60,10 +60,10 @@ custom_formats_sonarr:
   score: 25
 - name: DTS
   score: 25
-- name: Surround Sound
-  score: 25
 - name: TV Editions
   score: 25
+- name: Surround Sound
+  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
