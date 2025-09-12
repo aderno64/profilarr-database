@@ -19,39 +19,19 @@ conditions:
   pattern: DTS-HD HRA
   required: true
   type: release_title
-- name: Not Dolby Digital +
-  negate: true
-  pattern: Dolby Digital +
-  required: true
-  type: release_title
-- name: Not TrueHD ATMOS
-  type: release_title
-  required: true
-  negate: true
-  pattern: TrueHD Atmos
-- name: Not Dolby Digital
-  type: release_title
-  required: true
-  negate: true
-  pattern: Dolby Digital
 - name: Not DTS-X
-  type: release_title
-  required: true
   negate: true
   pattern: DTS-X
-- name: Not FLAC
+  required: true
+  type: release_title
+- name: Not DTS-ES
   type: release_title
   required: true
   negate: true
-  pattern: FLAC
-- name: Not AAC
+  pattern: DTS-ES
+- name: Not DTS-
   type: release_title
   required: true
   negate: true
-  pattern: AAC
-- name: Not PCM
-  type: release_title
-  required: true
-  negate: true
-  pattern: PCM
+  pattern: DTS-HD MA
 tests: []

@@ -44,8 +44,6 @@ custom_formats_radarr:
   score: 550
 - name: HDR
   score: 500
-- name: Dolby Digital + Atmos
-  score: 135
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
@@ -58,6 +56,8 @@ custom_formats_radarr:
   score: 20
 - name: MA
   score: 20
+- name: Atmos
+  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
@@ -97,8 +97,6 @@ custom_formats_radarr:
 - name: Sing Along
   score: -10000
 - name: TrueHD
-  score: -10000
-- name: TrueHD Atmos
   score: -10000
 - name: Upscaled
   score: -10000

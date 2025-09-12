@@ -7,42 +7,12 @@ tags:
 conditions:
 - name: Dolby Digital +
   negate: false
-  pattern: DD+ ATMOS - Dolby Digital Plus
+  pattern: Dolby Digital +
   required: true
   type: release_title
 - name: ATMOS
   negate: false
-  pattern: DD+ ATMOS - ATMOS
-  required: true
-  type: release_title
-- name: Not TrueHD
-  negate: true
-  pattern: TrueHD
-  required: true
-  type: release_title
-- name: Not DTS
-  negate: true
-  pattern: DTS
-  required: true
-  type: release_title
-- name: Not Dolby Digital
-  negate: true
-  pattern: Dolby Digital
-  required: true
-  type: release_title
-- name: Not FLAC
-  negate: true
-  pattern: FLAC
-  required: true
-  type: release_title
-- name: Not AAC
-  negate: true
-  pattern: AAC
-  required: true
-  type: release_title
-- name: Not PCM
-  negate: true
-  pattern: PCM
+  pattern: Atmos
   required: true
   type: release_title
 tests: []
