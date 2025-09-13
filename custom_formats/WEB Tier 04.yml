@@ -1,4 +1,4 @@
-name: WEB Tier 03
+name: WEB Tier 04
 description: ''
 tags:
 - Release Groups
@@ -9,9 +9,9 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: Dictionarry WEB Tier 03
+- name: Dictionarry WEB Tier 04
   negate: false
-  pattern: Dictionarry WEB Tier 03
+  pattern: Dictionarry WEB Tier 04
   required: false
   type: release_group
 tests: []
