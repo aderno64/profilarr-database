@@ -1,5 +1,5 @@
 name: Dictionarry HD Tier 03
-pattern: ^(BHDStudio|CRiSC|decibeL|FoRM|hallowed|HiDt|HiP|iFT|SA89|WMING)$
+pattern: ^(CRiSC|decibeL|FoRM|HiDt|HiP|iFT|SA89|WMING)$
 description: ''
 tags:
 - Release Group Tier
