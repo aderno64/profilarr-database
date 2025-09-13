@@ -2,7 +2,7 @@
 
 Join the Discord! <a href="https://discord.gg/Nv6BV4Vh">LINK</a>
 
-We use the Dictionarry formats and regex, but we also have made modifications and additions to better source media.
+We use both Dictionarry and TRaSH formats/regex, but we also have made modifications and additions to better source media.
 
 <img width="1655" height="1809" alt="image" src="https://github.com/user-attachments/assets/7781d847-d8e7-458b-b247-a4dd61e782cc" />
 
@@ -20,3 +20,5 @@ This profile is based on the TRaSH Guides Anime profile structure. Currently, we
 
 ## Movie and TV
 These profiles are based on the structure of the SQP-1 Alternative (Radarr) and the WEB-2160p/1080p Alternative (Sonarr) profiles. Using this database can be described as set-it-and-forget-it.
+
+These profiles do use the Dictionarry release group tiers, but I have included the TRaSH Guides tier groups well in case you'd want to use those instead.
