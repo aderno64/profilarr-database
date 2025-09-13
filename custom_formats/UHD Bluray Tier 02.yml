@@ -9,15 +9,10 @@ conditions:
   qualityModifier: remux
   required: true
   type: quality_modifier
-- name: Not WEBDL
-  negate: true
+- name: Bluray
+  negate: false
   required: true
-  source: web_dl
-  type: source
-- name: Not WEBRip
-  negate: true
-  required: true
-  source: webrip
+  source: bluray
   type: source
 - name: 2160p
   negate: false
