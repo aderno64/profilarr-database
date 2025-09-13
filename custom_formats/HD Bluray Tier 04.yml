@@ -1,4 +1,4 @@
-name: HD Bluray Tier 01
+name: HD Bluray Tier 04
 description: ''
 tags:
 - Release Group Tier
@@ -9,19 +9,19 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: Not Remux
-  negate: true
-  qualityModifier: remux
-  required: true
-  type: quality_modifier
 - name: Not 2160p
   negate: true
   required: true
   resolution: 2160p
   type: resolution
-- name: Dictionarry HD Bluray Tier 01
+- name: Not Remux
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: Dictionarry HD Bluray Tier 04
   negate: false
-  pattern: Dictionarry HD Tier 01
+  pattern: Dictionarry HD Tier 04
   required: false
   type: release_group
 tests: []

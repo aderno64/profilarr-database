@@ -24,9 +24,9 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: TRaSH UHD Bluray Tier 03
+- name: Dictionarry UHD Bluray Tier 03
   negate: false
-  pattern: TRaSH UHD Bluray Tier 03
+  pattern: Dictionarry UHD Tier 03
   required: false
   type: release_group
 tests: []
