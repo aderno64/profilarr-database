@@ -16,7 +16,7 @@ conditions:
   type: release_title
 - name: Not DTS-HD HRA ES
   negate: true
-  pattern: DTS-HD HRA
+  pattern: DTS-HD HRA-ES
   required: true
   type: release_title
 - name: Not DTS-X
@@ -25,13 +25,13 @@ conditions:
   required: true
   type: release_title
 - name: Not DTS-ES
-  type: release_title
-  required: true
   negate: true
   pattern: DTS-ES
-- name: Not DTS-
-  type: release_title
   required: true
+  type: release_title
+- name: Not DTS-HD MA
   negate: true
   pattern: DTS-HD MA
+  required: true
+  type: release_title
 tests: []
