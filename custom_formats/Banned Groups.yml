@@ -4,14 +4,14 @@ tags:
 - Banned
 - Release Group
 conditions:
-- name: Banned Groups
-  negate: false
-  pattern: Banned Groups
+- name: Release Group (Missing)
+  negate: true
+  pattern: Release Group (Missing)
   required: false
   type: release_group
-- name: NoGroup
-  type: release_group
-  required: false
+- name: Dictionarry Banned Groups
   negate: false
-  pattern: NoGroup
+  pattern: Dictionarry Banned Groups
+  required: false
+  type: release_group
 tests: []

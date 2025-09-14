@@ -1,0 +1,8 @@
+name: Dictionarry Banned Groups
+pattern: ^(4K4U|AOC|AROMA|BeyondHD|BiTOR|BLASPHEMY|BOLS|BTM|CLASSiCALHD|CREATiVE24|d3g|DepraveD|DeViSiVE|DRX|FGT|Flights|HDS|iVy|jennaortegaUHD|KC|LAMA|MeGusta|MgB|NAHOM|NhaNc3|NoGroup|OEPlus|PiRaTeS|PSA|RARGB|SasukeducK|SHD|ShieldBearer|STUTTERSHIT|tarunk9c|TEKNO3D|Telly|TvR|VECTOR|VisionXpert|WiKi|x0r|YIFY|YTS)$
+description: ''
+tags:
+- Release Group
+- TRaSH
+- Banned
+tests: []
