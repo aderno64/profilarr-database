@@ -4,16 +4,21 @@ tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: WEB-DL
-  negate: false
-  required: true
-  source: web_dl
-  type: source
 - name: PMTP Regex
   negate: false
   pattern: Paramount+
   required: true
   type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
 tests:
 - conditionResults:
   - matches: true
