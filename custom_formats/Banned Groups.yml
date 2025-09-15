@@ -14,4 +14,14 @@ conditions:
   pattern: Dictionarry Banned Groups
   required: false
   type: release_group
+- name: EVO (No WEB-DL)
+  type: release_title
+  required: false
+  negate: false
+  pattern: EVO (no WEB-DL)
+- name: PiRaTeS (No WEB-DL)
+  type: release_title
+  required: false
+  negate: false
+  pattern: PiRaTeS (no WEB-DL)
 tests: []
