@@ -1,0 +1,11 @@
+name: Theatrical Version
+description: ''
+tags:
+- Version
+conditions:
+- name: Theatrical
+  type: release_title
+  required: true
+  negate: false
+  pattern: Theatrical Edition
+tests: []
