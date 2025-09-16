@@ -1,8 +1,7 @@
-name: Not Basic DTS
+name: Basic DTS
 pattern: DTS[ .]?[1-9]
 description: ''
 tags:
 - Audio
 - Codec
-- TRaSH
 tests: []

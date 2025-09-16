@@ -3,28 +3,47 @@ description: ''
 tags:
 - Audio
 - Codec
-- TRaSH
 conditions:
 - name: DTS-X
   negate: false
   pattern: DTS-X
   required: true
   type: release_title
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: AAC
+- name: Not Dolby Digital
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dolby Digital
+- name: Not Dolby Digital +
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dolby Digital +
 - name: Not Basic DTS
+  negate: true
+  pattern: Basic DTS
+  required: true
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: true
+  type: release_title
+- name: Not PCM
   type: release_title
   required: true
   negate: true
-  pattern: DTS
-- name: Not DTS-HD HRA ES
+  pattern: PCM
+- name: Not TrueHD
   type: release_title
   required: true
   negate: true
-  pattern: DTS-HD HRA-ES
-- name: Not DTS-HD MA
-  type: release_title
-  required: true
-  negate: true
-  pattern: DTS-HD MA
+  pattern: TrueHD
 tests:
 - conditionResults:
   - matches: true

@@ -1,8 +1,0 @@
-name: TrueHD Atmos
-pattern: \b(True[ .-]?HD|ATMOS|DDPA)(\b|\d)
-description: ''
-tags:
-- Audio
-- Codec
-- TRaSH
-tests: []

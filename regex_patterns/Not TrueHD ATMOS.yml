@@ -1,8 +1,0 @@
-name: Not TrueHD ATMOS
-pattern: True[ .-]?HD|\bATMOS(\b|\d)
-description: ''
-tags:
-- TRaSH
-- Audio
-- Atmos
-tests: []
