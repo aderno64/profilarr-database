@@ -1,8 +1,0 @@
-name: Banned Scene
-pattern: ^(GGEZ)$
-description: Matches Scene Release Groups that are Banned
-tags:
-- Dictionarry
-- Banned
-- Scene
-tests: []
