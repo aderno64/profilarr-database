@@ -4,26 +4,11 @@ tags:
 - Banned
 - Release Group
 conditions:
-- name: Group Missing
-  type: release_group
-  required: false
-  negate: true
-  pattern: Release Group (Missing)
 - name: Dictionarry Banned Groups
   negate: false
   pattern: Dictionarry Banned Groups
-  required: false
+  required: true
   type: release_group
-- name: EVO (No WEB-DL)
-  negate: false
-  pattern: EVO (no WEB-DL)
-  required: false
-  type: release_title
-- name: PiRaTeS (No WEB-DL)
-  negate: false
-  pattern: PiRaTeS (no WEB-DL)
-  required: false
-  type: release_title
 tests:
 - conditionResults:
   - matches: true
@@ -38,20 +23,8 @@ tests:
     pattern: Dictionarry Banned Groups
     required: false
     type: release_group
-  - matches: false
-    name: EVO (No WEB-DL)
-    negate: false
-    pattern: EVO (no WEB-DL)
-    required: false
-    type: release_title
-  - matches: false
-    name: PiRaTeS (No WEB-DL)
-    negate: false
-    pattern: PiRaTeS (no WEB-DL)
-    required: false
-    type: release_title
   expected: true
   id: 1
-  input: A.P.Bio.S04E01.Tornado!.WEBDL-1080p.x264.EAC3-MeGusta
-  lastRun: '2025-09-15T21:31:08.726342'
+  input: A.P.Bio.S04E07.NORDiC.1080p.WEB-DL.H.264.DD5.1-YIFY
+  lastRun: '2025-09-15T21:45:42.136090'
   passes: false
