@@ -68,6 +68,18 @@ custom_formats_radarr:
   score: 1000
 - name: HDR
   score: 500
+- name: TrueHD
+  score: 165
+- name: DTS-X
+  score: 155
+- name: DTS-HD MA
+  score: 145
+- name: DTS-HD HRA
+  score: 135
+- name: Dolby Digital +
+  score: 125
+- name: Dolby Digital
+  score: 115
 - name: HDR10+
   score: 100
 - name: CRIT
@@ -76,6 +88,8 @@ custom_formats_radarr:
   score: 20
 - name: BCORE
   score: 15
+- name: Atmos
+  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
