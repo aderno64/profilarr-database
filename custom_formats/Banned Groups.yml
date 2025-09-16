@@ -4,6 +4,11 @@ tags:
 - Banned
 - Release Group
 conditions:
+- name: Group Missing
+  type: release_group
+  required: false
+  negate: true
+  pattern: Release Group (Missing)
 - name: Dictionarry Banned Groups
   negate: false
   pattern: Dictionarry Banned Groups
@@ -21,6 +26,12 @@ conditions:
   type: release_title
 tests:
 - conditionResults:
+  - matches: true
+    name: Group Missing
+    negate: true
+    pattern: Release Group (Missing)
+    required: false
+    type: release_group
   - matches: true
     name: Dictionarry Banned Groups
     negate: false
@@ -42,5 +53,5 @@ tests:
   expected: true
   id: 1
   input: A.P.Bio.S04E01.Tornado!.WEBDL-1080p.x264.EAC3-MeGusta
-  lastRun: '2025-09-15T21:28:40.424500'
-  passes: true
+  lastRun: '2025-09-15T21:31:08.726342'
+  passes: false
