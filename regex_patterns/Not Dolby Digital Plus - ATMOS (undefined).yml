@@ -1,7 +1,0 @@
-name: Not Dolby Digital Plus - ATMOS (undefined)
-pattern: \bDD[^a-z+]|(?<!e-)\b(ac-?3)\b
-description: ''
-tags:
-- TRaSH
-- Audio
-tests: []

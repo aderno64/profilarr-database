@@ -9,6 +9,21 @@ conditions:
   pattern: DTS
   required: true
   type: release_title
+- name: Not AAC
+  type: release_title
+  required: true
+  negate: true
+  pattern: AAC
+- name: Not Dolby Digital
+  type: release_title
+  required: true
+  negate: false
+  pattern: Dolby Digital
+- name: Not Dolby Digital +
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dolby Digital +
 - name: Not DTS-HD
   negate: true
   pattern: DTS-HD
@@ -24,14 +39,19 @@ conditions:
   pattern: DTS-X
   required: true
   type: release_title
-- name: Not DTS-ES
-  negate: true
-  pattern: DTS-ES
-  required: true
+- name: Not FLAC
   type: release_title
-- name: Not DTS-HD MA
+  required: true
   negate: true
-  pattern: DTS-HD MA
+  pattern: FLAC
+- name: Not PCM
+  type: release_title
+  required: true
+  negate: true
+  pattern: PCM
+- name: Not TrueHD
+  negate: true
+  pattern: TrueHD
   required: true
   type: release_title
 tests: []
