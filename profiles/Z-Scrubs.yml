@@ -7,12 +7,14 @@ description: 'This is a custom profile that can be used for the show Scrubs.
 
 
   - This show is common found in 480p WEB-DL with the correct fps. There are 1080p
-  Bluray rips of the 8th season, but it is not consisten across the other seasons.
+  Bluray rips of the 8th season, but it is not consistent across the other seasons.
 
   '
 tags:
 - Sonarr
 - 1080p
+- Scrubs
+- Specialized
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 10000
@@ -20,7 +22,7 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr: []
 custom_formats_sonarr:
-- name: GAMEOVER
+- name: Scrubs (Banned Groups)
   score: 100
 qualities:
 - id: 19
