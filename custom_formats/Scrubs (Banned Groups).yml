@@ -1,19 +1,28 @@
 name: Scrubs (Banned Groups)
 description: ''
 tags:
-- Release Group
 - Scrubs
 conditions:
-- name: WEB-DL
-  negate: false
-  required: true
-  source: web_dl
-  type: source
 - name: Scrubs
   negate: false
   pattern: Scrubs
   required: true
   type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
 - name: GAMEOVER
   negate: true
   pattern: GAMEOVER
