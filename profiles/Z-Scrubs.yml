@@ -23,7 +23,7 @@ custom_formats: []
 custom_formats_radarr: []
 custom_formats_sonarr:
 - name: Scrubs (Banned Groups)
-  score: 100
+  score: -10000
 qualities:
 - id: 19
   name: WEBDL-480p
