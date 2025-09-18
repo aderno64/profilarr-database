@@ -111,11 +111,11 @@ custom_formats_sonarr:
   score: -10000
 - name: Dolby Vision WEB-DL
   score: -10000
-- name: Extras
-  score: -10000
 - name: Incorrect Source
   score: -10000
 - name: Scrubs (Banned Groups)
+  score: -10000
+- name: TV Extras
   score: -10000
 - name: x265 (no HDR DV)
   score: -10000
