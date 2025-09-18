@@ -1,0 +1,6 @@
+name: Scrubs Banned Groups
+pattern: ^(FoV|GAMEOVER)$
+description: ''
+tags:
+- Scrubs
+tests: []
