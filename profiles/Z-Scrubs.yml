@@ -1,0 +1,34 @@
+name: Z-Scrubs
+description: 'This is a custom profile that can be used for the show Scrubs.
+
+
+  - The reason for this profile is that most releases you find of this show are in
+  PAL format which causes an fps issues resulting in sped up audio and video.
+
+
+  - This show is common found in 480p WEB-DL with the correct fps. There are 1080p
+  Bluray rips of the 8th season, but it is not consisten across the other seasons.
+
+  '
+tags:
+- Sonarr
+- 1080p
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats: []
+custom_formats_radarr: []
+custom_formats_sonarr:
+- name: GAMEOVER
+  score: 100
+qualities:
+- id: 19
+  name: WEBDL-480p
+- id: 22
+  name: DVD
+upgrade_until:
+  id: 19
+  name: WEBDL-480p
+  description: 480p web download, untouched as released by the streaming service
+language: original

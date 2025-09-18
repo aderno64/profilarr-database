@@ -1,0 +1,22 @@
+name: Scrubs (Banned Groups)
+description: ''
+tags:
+- Release Group
+- Scrubs
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: Scrubs
+  negate: false
+  pattern: Scrubs
+  required: true
+  type: release_title
+- name: GAMEOVER
+  negate: true
+  pattern: GAMEOVER
+  required: true
+  type: release_group
+tests: []
