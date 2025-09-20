@@ -22,3 +22,7 @@ This profile is based on the TRaSH Guides Anime profile structure. Currently, we
 
 ## Movie and TV
 These profiles are based on the structure of the SQP-1 Alternative (Radarr) and the WEB-2160p/1080p Alternative (Sonarr) profiles. Using this database can be described as set-it-and-forget-it.
+
+## Extras Included
+- Fix for Parks and Recreation WEB-DL releases from NTb.
+- Fix for Scrubs NTSC versions to avoid 25fps groups.
