@@ -1,5 +1,5 @@
 name: DV with HDR Fallback
-pattern: ^(?=.*\b(dv|dovi|dolby[ .]?v(ision)?)\b)(?!(?=.*\b(WEB)\b)(?!.*\b(hulu)\b))
+pattern: ^(?=.*\b(dv|dovi|dolby[ .]?v(ision)?)\b)(?!(?=.*\b(WEB[ ._-]?(DL|Rip)?)\b)(?!.*\b(hulu)\b))
 description: ''
 tags:
 - TRaSH
