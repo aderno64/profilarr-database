@@ -92,6 +92,8 @@ custom_formats_sonarr:
   score: -10000
 - name: BR-DISK
   score: -10000
+- name: Dolby Vision WEB-DL
+  score: -10000
 - name: Incorrect Source
   score: -10000
 - name: Scrubs (Banned Groups)
