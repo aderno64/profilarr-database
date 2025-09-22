@@ -1,5 +1,5 @@
 name: Dictionarry UHD Tier 05
-pattern: ^(4KDVS|BlzT|BSTD|DEFLATE|HONE|JustWatch|SURCODE|TnP|WATCHABLE)$
+pattern: (?<=^|[\s.-])(4KDVS|BlzT|BSTD|DEFLATE|HONE|JustWatch|SURCODE|TnP|WATCHABLE)\b
 description: ''
 tags:
 - Release Group Tier

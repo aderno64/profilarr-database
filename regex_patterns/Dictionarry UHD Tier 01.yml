@@ -1,5 +1,5 @@
 name: Dictionarry UHD Tier 01
-pattern: ^(CtrlHD|DON|HQMUX|SA89)$
+pattern: (?<=^|[\s.-])(CtrlHD|DON|HQMUX|SA89)\b
 description: ''
 tags:
 - Release Group Tier

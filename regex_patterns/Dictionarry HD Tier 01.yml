@@ -1,5 +1,5 @@
 name: Dictionarry HD Tier 01
-pattern: ^(DON|D-Z0N3|EbP)$
+pattern: (?<=^|[\s.-])(DON|D-Z0N3|EbP)\b
 description: ''
 tags:
 - Release Group Tier

@@ -1,5 +1,5 @@
 name: Dictionarry UHD Tier 03
-pattern: ^(Chotab|Kitsune|REBORN|W4NK3R)$
+pattern: (?<=^|[\s.-])(Chotab|Kitsune|REBORN|W4NK3R)\b
 description: ''
 tags:
 - Release Group Tier

@@ -1,5 +1,5 @@
 name: Dictionarry HD Tier 02
-pattern: ^(c0ke|CtrlHD|Geek|HiFi|TayTo|VietHD|ZoroSenpai|ZQ)$
+pattern: (?<=^|[\s.-])(c0ke|CtrlHD|Geek|HiFi|TayTo|VietHD|ZoroSenpai|ZQ)\b
 description: ''
 tags:
 - Release Group Tier
