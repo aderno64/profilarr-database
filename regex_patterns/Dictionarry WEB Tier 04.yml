@@ -1,5 +1,5 @@
 name: Dictionarry WEB Tier 04
-pattern: ^(APEX|BTN|dB|PTP|RTN|SiC|SPiRiT|ViSUM)$
+pattern: (?<=^|[\s.-])(APEX|BTN|dB|PTP|RTN|SiC|SPiRiT|ViSUM)\b
 description: ''
 tags:
 - Release Group Tier

@@ -1,5 +1,5 @@
 name: Dictionarry HD Tier 04
-pattern: ^(BHDStudio|BMF|de[42]|hallowed|HDMaNiAcS|IDE|LolHD|NCmt|NTb)$
+pattern: (?<=^|[\s.-])(BHDStudio|BMF|de[42]|hallowed|HDMaNiAcS|IDE|LolHD|NCmt|NTb)\b
 description: ''
 tags:
 - Release Group Tier
