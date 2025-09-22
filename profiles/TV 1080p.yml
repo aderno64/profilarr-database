@@ -36,6 +36,10 @@ custom_formats_sonarr:
   score: 1350
 - name: HD Bluray Tier 05
   score: 1300
+- name: Dolby Vision
+  score: 1000
+- name: HDR
+  score: 500
 - name: ATVP
   score: 100
 - name: DSNP
