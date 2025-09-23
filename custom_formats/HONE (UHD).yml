@@ -20,7 +20,7 @@ conditions:
 - name: Not HONE Group
   negate: true
   pattern: HONE
-  required: false
+  required: true
   type: release_group
 - name: HONE Release Title
   negate: false
