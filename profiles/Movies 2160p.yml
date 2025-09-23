@@ -20,6 +20,8 @@ custom_formats: []
 custom_formats_radarr:
 - name: WEB Tier 01
   score: 1700
+- name: HONE (WEB)
+  score: 1650
 - name: WEB Tier 02
   score: 1650
 - name: WEB Tier 03
@@ -47,6 +49,8 @@ custom_formats_radarr:
 - name: UHD Bluray Tier 04
   score: 950
 - name: HD Bluray Tier 05
+  score: 900
+- name: HONE (UHD)
   score: 900
 - name: UHD Bluray Tier 05
   score: 900
