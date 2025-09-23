@@ -53,6 +53,10 @@ custom_formats_radarr:
   score: 1500
 - name: Dolby Vision
   score: 1000
+- name: IMAX
+  score: 800
+- name: IMAX Enhanced
+  score: 800
 - name: HDR
   score: 500
 - name: TrueHD

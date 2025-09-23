@@ -42,6 +42,10 @@ custom_formats_radarr:
   score: 950
 - name: HD Bluray Tier 05
   score: 900
+- name: IMAX
+  score: 800
+- name: IMAX Enhanced
+  score: 800
 - name: hallowed
   score: 600
 - name: BHDStudio

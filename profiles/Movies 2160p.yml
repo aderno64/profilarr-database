@@ -56,6 +56,10 @@ custom_formats_radarr:
   score: 900
 - name: UHD Bluray Tier 06
   score: 850
+- name: IMAX
+  score: 800
+- name: IMAX Enhanced
+  score: 800
 - name: UHD Bluray Tier 07
   score: 800
 - name: hallowed
