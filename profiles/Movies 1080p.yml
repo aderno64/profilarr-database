@@ -20,8 +20,6 @@ custom_formats: []
 custom_formats_radarr:
 - name: WEB Tier 01
   score: 1700
-- name: HONE (WEB)
-  score: 1650
 - name: WEB Tier 02
   score: 1650
 - name: WEB Tier 03
@@ -58,6 +56,8 @@ custom_formats_radarr:
   score: 125
 - name: Dolby Digital
   score: 115
+- name: HONE (WEB)
+  score: 100
 - name: 1080p
   score: 50
 - name: CRIT
