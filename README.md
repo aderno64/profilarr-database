@@ -26,3 +26,4 @@ These profiles are based on the structure of the SQP-1 Alternative (Radarr) and 
 ## Extras Included
 - Fix for Parks and Recreation WEB-DL releases from NTb.
 - Fix for Scrubs NTSC versions to avoid 25fps groups.
+- Fix for HONE releases with bad naming.
