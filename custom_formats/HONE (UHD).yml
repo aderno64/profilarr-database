@@ -1,0 +1,30 @@
+name: HONE (UHD)
+description: 'Helps match badly named releases. This mostly occurs with HONE.
+
+  - You **must** ensure that any release grabbed with this format has the release
+  group added to the file name, otherwise you may get download loops in the future.'
+tags:
+- Custom
+- Bluray
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not HONE Group
+  negate: true
+  pattern: HONE
+  required: false
+  type: release_group
+- name: HONE Release Title
+  negate: false
+  pattern: HONE (Release Title)
+  required: false
+  type: release_title
+tests: []
