@@ -75,10 +75,6 @@ custom_formats_radarr:
   score: 125
 - name: Dolby Digital
   score: 115
-- name: HONE (UHD)
-  score: 100
-- name: HONE (WEB)
-  score: 100
 - name: 1080p
   score: 50
 - name: CRIT
@@ -95,6 +91,10 @@ custom_formats_radarr:
   score: 5
 - name: Repack1
   score: 5
+- name: HONE (UHD)
+  score: 0
+- name: HONE (WEB)
+  score: 0
 - name: Theatrical Version
   score: -125
 - name: 2.0 Stereo
