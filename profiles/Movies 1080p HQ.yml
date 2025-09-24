@@ -1,8 +1,6 @@
 name: Movies 1080p HQ
 description: 'This profile focuses on high-quality encodes with HD audio.
 
-  - This profile is heavily based on the "HD Bluray + WEB" profile from [**TRaSH Guides**](https://trash-guides.info/Radarr/radarr-setup-quality-profiles/#hd-bluray-web).
-
   - If you prefer the highest quality audio, consider following [**THIS GUIDE**](https://trash-guides.info/Radarr/radarr-setup-quality-profiles/#audio-formats)
   to add those HD audio formats to this profile.
 
@@ -21,77 +19,75 @@ description: 'This profile focuses on high-quality encodes with HD audio.
 tags:
 - Radarr
 - 1080p
-- HQ
-- TRaSH
 upgradesAllowed: true
-minCustomFormatScore: 0
+minCustomFormatScore: 100
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr:
-- name: HD Bluray Tier 01
-  score: 1800
-- name: HD Bluray Tier 02
-  score: 1750
-- name: HD Bluray Tier 03
-  score: 1700
 - name: WEB Tier 01
   score: 1700
-- name: HD Bluray Tier 04
-  score: 1650
 - name: WEB Tier 02
   score: 1650
-- name: HD Bluray Tier 05
-  score: 1600
 - name: WEB Tier 03
   score: 1600
 - name: WEB Tier 04
   score: 1550
 - name: WEB Tier 05
   score: 1500
+- name: HD Bluray Tier 01
+  score: 1100
+- name: HD Bluray Tier 02
+  score: 1050
 - name: Dolby Vision
   score: 1000
+- name: HD Bluray Tier 03
+  score: 1000
+- name: HD Bluray Tier 04
+  score: 950
+- name: HD Bluray Tier 05
+  score: 900
 - name: IMAX
   score: 800
 - name: IMAX Enhanced
   score: 800
+- name: hallowed
+  score: 600
+- name: BHDStudio
+  score: 550
 - name: HDR
   score: 500
-- name: TrueHD
-  score: 165
-- name: DTS-X
-  score: 155
-- name: DTS-HD MA
-  score: 145
-- name: DTS-HD HRA
-  score: 135
 - name: Dolby Digital +
+  score: 125
+- name: Special Edition
   score: 125
 - name: Dolby Digital
   score: 115
-- name: HDR10+
-  score: 100
 - name: HONE (WEB)
   score: 100
+- name: 1080p
+  score: 50
 - name: CRIT
   score: 20
 - name: MA
   score: 20
-- name: BCORE
-  score: 15
 - name: Atmos
   score: 10
 - name: Repack3
   score: 7
 - name: Repack2
   score: 6
+- name: 720p
+  score: 5
 - name: Repack1
   score: 5
 - name: Theatrical Version
   score: -125
-- name: 3D
+- name: 2.0 Stereo
+  score: -175
+- name: 10bit
   score: -10000
-- name: AV1
+- name: 3D
   score: -10000
 - name: B&W
   score: -10000
@@ -117,28 +113,27 @@ custom_formats_radarr:
   score: -10000
 custom_formats_sonarr: []
 qualities:
-- id: 10
-  name: Bluray-1080p
 - id: -2
-  name: WEB-1080p
+  name: 1080p
   description: ''
   qualities:
-  - id: 11
-    name: WEBRip-1080p
   - id: 9
     name: WEBDL-1080p
-- id: 13
-  name: Bluray-720p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 10
+    name: Bluray-1080p
 - id: -3
-  name: WEB-720p
+  name: 720p
   description: ''
   qualities:
-  - id: 15
-    name: WEBRip-720p
+  - id: 13
+    name: Bluray-720p
   - id: 14
     name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
 upgrade_until:
-  id: 10
-  name: Bluray-1080p
-  description: 1080p Blu-ray video encoded with lossy compression
+  id: -2
+  name: 1080p
 language: original

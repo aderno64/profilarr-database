@@ -52,10 +52,6 @@ custom_formats_radarr:
   score: 900
 - name: UHD Bluray Tier 06
   score: 850
-- name: IMAX
-  score: 800
-- name: IMAX Enhanced
-  score: 800
 - name: UHD Bluray Tier 07
   score: 800
 - name: hallowed
@@ -90,6 +86,10 @@ custom_formats_radarr:
   score: 5
 - name: Repack1
   score: 5
+- name: IMAX
+  score: 0
+- name: IMAX Enhanced
+  score: 0
 - name: Theatrical Version
   score: -125
 - name: 2.0 Stereo
