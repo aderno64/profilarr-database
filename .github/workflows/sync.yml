@@ -46,7 +46,8 @@ jobs:
             "custom_formats/1080p Quality Tier 2.yml": "regex_patterns/Dictionarry HD Tier 02.yml",
             "custom_formats/1080p Quality Tier 3.yml": "regex_patterns/Dictionarry HD Tier 03.yml",
             "custom_formats/1080p Quality Tier 4.yml": "regex_patterns/Dictionarry HD Tier 04.yml",
-            "custom_formats/1080p Quality Tier 5.yml": "regex_patterns/Dictionarry HD Tier 05.yml"
+            "custom_formats/1080p Quality Tier 5.yml": "regex_patterns/Dictionarry HD Tier 05.yml",
+            "custom_formats/Banned Groups.yml": "regex_patterns/Dictionarry Banned Groups.yml"
           }
           EOF
           
