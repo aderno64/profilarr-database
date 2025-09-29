@@ -24,4 +24,9 @@ conditions:
   pattern: Dictionarry UHD Tier 04
   required: false
   type: release_group
+- name: SweatyEggs69 UHD Tier 04
+  type: release_group
+  required: false
+  negate: false
+  pattern: SweatyEggs69 UHD Tier 04
 tests: []
