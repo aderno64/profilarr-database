@@ -1,5 +1,5 @@
 name: Dictionarry UHD Tier 04
-pattern: (?<=^|[\s.-])(b0mbardiers|BHDStudio|DEPTH|hallowed|HiDt|iFT|Kitsune|NCmt|SPHD|TDD)\b
+pattern: (?<=^|[\s.-])(b0mbardiers|DEPTH|HiDt|iFT|Kitsune|NCmt|SPHD|TDD)\b
 description: ''
 tags:
 - Release Group Tier
