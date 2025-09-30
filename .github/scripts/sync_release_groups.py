@@ -120,10 +120,10 @@ def main(file_map_path):
 
         if changed:
             save_yaml(target_file_path, updated_target_data)
-            print("=> SUCCESSFULLY MIRRORED AND SORTED (Changes written).")
+            print("Changes detected, updated group tier.")
             total_changes += 1
         else:
-            print("=> No changes detected. Skipping file write.")
+            print("No changes detected.")
 
     print(f"\n--- Synchronization Complete: {total_changes} file(s) were modified. ---")
 
