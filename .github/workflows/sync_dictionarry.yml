@@ -1,4 +1,4 @@
-name: Sync Release Groups from Multiple Tiers
+name: Sync Group Tiers from Dictionarry
 
 on:
   schedule:
