@@ -7,8 +7,13 @@ conditions:
 - name: Dictionarry Banned Groups
   negate: false
   pattern: Dictionarry Banned Groups
-  required: true
+  required: false
   type: release_group
+- name: SweatyEggs69 Banned Groups
+  type: release_group
+  required: false
+  negate: false
+  pattern: SweatyEggs69  Banned Groups
 tests:
 - conditionResults:
   - matches: true
