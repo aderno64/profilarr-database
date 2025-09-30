@@ -47,8 +47,6 @@ custom_formats_sonarr:
   score: 1300
 - name: UHD Bluray Tier 06
   score: 1250
-- name: UHD Bluray Tier 07
-  score: 1200
 - name: Dolby Vision
   score: 1000
 - name: HDR
