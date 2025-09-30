@@ -1,6 +1,6 @@
 # SweatyEggs69 Profilarr Database
 
-Join the Discord! <a href="https://discord.gg/Nv6BV4Vh">LINK</a>
+[![Discord](https://img.shields.io/discord/1202375791556431892?color=blue&logo=discord&logoColor=white)](https://discord.gg/Nv6BV4Vh)
 
 We use both Dictionarry and TRaSH formats/regex, but we also have made modifications and additions to better source media.
 
