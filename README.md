@@ -1,5 +1,7 @@
 # SweatyEggs69 Profilarr Database
 
+Join the Discord! <a href="https://discord.gg/GuCgPN5KZM">LINK</a>
+
 We use both Dictionarry and TRaSH formats/regex, but we also have made modifications and additions to better source media.
 
 These profiles do use the Dictionarry release group tiers, but I have included the TRaSH Guides tier groups as well, in case you'd want to use those instead.
