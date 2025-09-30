@@ -1,7 +1,0 @@
-name: Dictionarry UHD Tier 07
-pattern: (?<=^|[\s.-])(BeiTai|BLUEBIRD|BOREDOR|CHAOS|dkore|FLAME|Hares|Lucifer|PTH)\b
-description: ''
-tags:
-- Release Group Tier
-- Dictionarry
-tests: []
