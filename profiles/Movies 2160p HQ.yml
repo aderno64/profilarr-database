@@ -63,26 +63,16 @@ custom_formats_radarr:
   score: 800
 - name: UHD Bluray Tier 07
   score: 800
-- name: hallowed
-  score: 600
-- name: BHDStudio
-  score: 550
 - name: HDR
   score: 500
-- name: Dolby Digital +
-  score: 125
 - name: Special Edition
   score: 125
-- name: Dolby Digital
-  score: 115
 - name: 1080p
   score: 50
 - name: CRIT
   score: 20
 - name: MA
   score: 20
-- name: Atmos
-  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
@@ -91,10 +81,6 @@ custom_formats_radarr:
   score: 5
 - name: Repack1
   score: 5
-- name: HONE (UHD)
-  score: 0
-- name: HONE (WEB)
-  score: 0
 - name: Theatrical Version
   score: -125
 - name: 2.0 Stereo
