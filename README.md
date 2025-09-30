@@ -1,7 +1,5 @@
 # SweatyEggs69 Profilarr Database
 
-[![Discord](https://img.shields.io/discord/1202375791556431892?color=blue&logo=discord&logoColor=white)](https://discord.gg/Nv6BV4Vh)
-
 We use both Dictionarry and TRaSH formats/regex, but we also have made modifications and additions to better source media.
 
 These profiles do use the Dictionarry release group tiers, but I have included the TRaSH Guides tier groups as well, in case you'd want to use those instead.
