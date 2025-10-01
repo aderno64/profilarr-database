@@ -1,5 +1,5 @@
 name: TRaSH WEB Tier 03
-pattern: ^(GNOMiSSiON|NINJACENTRAL|NPMS|QOQ|ROCCaT|SiGMA|SLiGNOME|SwAgLaNdEr)$
+pattern: (?<=^|[\s.-])(BYNDR|dB|Flights|MiU|monkee|MZABI|PHOENiX|playWEB|RAWR|SbR|SMURF|TOMMY|XEBEC)\b
 description: ''
 tags:
 - TRaSH
