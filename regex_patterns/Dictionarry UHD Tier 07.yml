@@ -2,5 +2,6 @@ name: Dictionarry UHD Tier 07
 pattern: (?<=^|[\s.-])(BeiTai|BLUEBIRD|BOREDOR|CHAOS|dkore|FLAME|Hares|LittleBakas|Lucifer|micius|PTH|THREESOME|UHDCLUBREMUX)\b
 description: ''
 tags:
-- 'Release Group Tier'
+- Release Group Tier
+- Dictionarry
 tests: []
