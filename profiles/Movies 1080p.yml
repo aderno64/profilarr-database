@@ -64,18 +64,8 @@ custom_formats_radarr:
   score: 7
 - name: Repack2
   score: 6
-- name: 720p
-  score: 5
 - name: Repack1
   score: 5
-- name: HONE (WEB)
-  score: 0
-- name: IMAX
-  score: 0
-- name: IMAX Enhanced
-  score: 0
-- name: Theatrical Version
-  score: -125
 - name: 2.0 Stereo
   score: -175
 - name: 10bit
