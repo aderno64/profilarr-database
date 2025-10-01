@@ -1,5 +1,5 @@
 name: TRaSH UHD Bluray Tier 02
-pattern: (?<=^|[\s.-])(Radarr - HQMUX)\b
+pattern: (?<=^|[\s.-])(HQMUX\b
 description: ''
 tags:
 - TRaSH

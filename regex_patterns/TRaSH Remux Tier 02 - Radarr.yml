@@ -1,5 +1,5 @@
 name: TRaSH Remux Tier 02 - Radarr
-pattern: ^(NCmt|playBD|SiCFoI|SURFINBIRD|TEPES)$
+pattern: (?<=^|[\s.-])(NCmt|playBD|SiCFoI|SURFINBIRD|TEPES)\b
 description: ''
 tags:
 - TRaSH
