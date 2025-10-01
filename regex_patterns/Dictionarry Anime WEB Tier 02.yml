@@ -1,0 +1,7 @@
+name: Dictionarry Anime WEB Tier 02
+pattern: (?<=^|[\s.-])(Erai-Raws|HorribleSubs|SubsPlus+|VARYG)\b
+description: ''
+tags:
+- Release Group Tier
+- Anime
+tests: []
