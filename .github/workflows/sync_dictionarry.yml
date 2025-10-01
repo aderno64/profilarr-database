@@ -43,6 +43,7 @@ jobs:
             "custom_formats/2160p Quality Tier 4.yml": "regex_patterns/Dictionarry UHD Tier 04.yml",
             "custom_formats/2160p Quality Tier 5.yml": "regex_patterns/Dictionarry UHD Tier 05.yml",
             "custom_formats/2160p Quality Tier 6.yml": "regex_patterns/Dictionarry UHD Tier 06.yml",
+            "custom_formats/2160p Quality Tier 7.yml": "regex_patterns/Dictionarry UHD Tier 07.yml",
             "custom_formats/1080p Quality Tier 1.yml": "regex_patterns/Dictionarry HD Tier 01.yml",
             "custom_formats/1080p Quality Tier 2.yml": "regex_patterns/Dictionarry HD Tier 02.yml",
             "custom_formats/1080p Quality Tier 3.yml": "regex_patterns/Dictionarry HD Tier 03.yml",
