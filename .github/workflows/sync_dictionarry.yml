@@ -2,9 +2,11 @@ name: Sync Group Tiers from Dictionarry
 
 on:
   schedule:
-#    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
-  
+  push:
+    branches: [stable]
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -68,7 +70,7 @@ jobs:
             url_path="${source// /%20}"
             
             # Base URL uses the /stable/ branch
-            DOWNLOAD_URL="https://raw.githubusercontent.com/Dictionarry-Hub/database/dev/$url_path"
+            DOWNLOAD_URL="https://raw.githubusercontent.com/Dictionarry-Hub/database/stable/$url_path"
             
             echo "Attempting to download: $DOWNLOAD_URL"
 
