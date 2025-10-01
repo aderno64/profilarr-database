@@ -1,5 +1,5 @@
 name: TRaSH Remux Tier 01 - Sonarr
-pattern: ^(BLURANiUM|BMF|FraMeSToR|PmP)$
+pattern: (?<=^|[\s.-])(BLURANiUM|BMF|FraMeSToR|PmP)\b
 description: ''
 tags:
 - TRaSH

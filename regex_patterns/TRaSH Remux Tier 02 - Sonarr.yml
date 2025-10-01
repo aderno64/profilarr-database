@@ -1,5 +1,5 @@
 name: TRaSH Remux Tier 02 - Sonarr
-pattern: ^(decibeL|EPSiLON|HiFi|KRaLiMaRKo|playBD|PTer|SiCFoI|TRiToN)$
+pattern: (?<=^|[\s.-])(decibeL|EPSiLON|HiFi|KRaLiMaRKo|playBD|PTer|SiCFoI|TRiToN)\b
 description: ''
 tags:
 - TRaSH
