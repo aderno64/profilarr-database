@@ -1,5 +1,5 @@
 name: Dictionarry UHD Tier 03
-pattern: (?<=^|[\s.-])(BV|Chotab|REBORN|SoLaR|TnP|W4NK3R)\b
+pattern: (?<=^|[\s.-])(BV|Chotab|REBORN|SoLaR|W4NK3R)\b
 description: ''
 tags:
 - Release Group Tier
