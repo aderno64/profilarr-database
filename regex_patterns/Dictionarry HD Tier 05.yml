@@ -1,5 +1,5 @@
 name: Dictionarry HD Tier 05
-pattern: (?<=^|[\s.-])(AJP69|ATELiER|BV|Chotab|CJ|CRX|Dariush|E.N.D|E1|EDPH|ESiR|EXCiSION|FilmHD|FraMeSToR|FTW-HD|GALAXY|GS88|HANDJOB|hdalx|HDC|iON|KASHMiR|Kitsune|LEGi0N|LiNG|LoRD|luvBB|MTeam|nmd|NyHD|ORiGEN|P0W4HD|Penumbra|playHD|Positive|PTer|REBORN|rightSIZE|rttr|SaNcTi|SbR|SiMPLE|SoLaR|SOP|SPHD|TBB|TDD|TeamSyndicate|TnP|VLAD|W4NK3R|WiKi|xander|ZIMBO)\b
+pattern: (?<=^|[\s.-])(AJP69|ATELiER|BV|Chotab|CJ|CRX|Dariush|E.N.D|E1|EDPH|ESiR|EXCiSION|FilmHD|FraMeSToR|FTW-HD|GALAXY|GS88|HANDJOB|hdalx|HDC|HQMUX|iON|KASHMiR|Kitsune|LEGi0N|LiNG|LoRD|luvBB|MTeam|nmd|NyHD|ORiGEN|P0W4HD|Penumbra|playHD|Positive|PTer|REBORN|rightSIZE|rttr|SaNcTi|SbR|SiMPLE|SoLaR|SOP|SPHD|TBB|TDD|TeamSyndicate|TnP|VLAD|W4NK3R|WiKi|xander|ZIMBO)\b
 description: ''
 tags:
 - Release Group Tier
