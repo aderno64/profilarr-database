@@ -1,0 +1,7 @@
+name: Dictionarry Anime WEB Tier 02
+pattern: (?<=^|[\s.-])(LYS1TH3A|MTBB|OZR|sam|SCY|smol|Vodes|YURI)\b
+description: ''
+tags:
+- Release Group Tier
+- Anime
+tests: []
