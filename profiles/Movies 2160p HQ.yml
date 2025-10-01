@@ -45,6 +45,8 @@ custom_formats_radarr:
   score: 1800
 - name: UHD Bluray Tier 06
   score: 1750
+- name: UHD Bluray Tier 07
+  score: 1700
 - name: WEB Tier 01
   score: 1700
 - name: WEB Tier 02
