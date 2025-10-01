@@ -53,12 +53,14 @@ custom_formats_radarr:
 - name: UHD Bluray Tier 06
   score: 850
 - name: UHD Bluray Tier 07
-  score: 800  
+  score: 800
 - name: hallowed
   score: 600
 - name: BHDStudio
   score: 550
 - name: HDR
+  score: 500
+- name: HDR10+
   score: 500
 - name: Dolby Digital +
   score: 125

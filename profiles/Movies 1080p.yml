@@ -46,6 +46,8 @@ custom_formats_radarr:
   score: 550
 - name: HDR
   score: 500
+- name: HDR10+
+  score: 500
 - name: Dolby Digital +
   score: 125
 - name: Special Edition

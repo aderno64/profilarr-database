@@ -61,6 +61,8 @@ custom_formats_radarr:
   score: 1000
 - name: HDR
   score: 500
+- name: HDR10+
+  score: 500
 - name: Special Edition
   score: 125
 - name: 1080p
