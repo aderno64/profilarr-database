@@ -1,0 +1,7 @@
+name: Dictionarry Anime Bluray Tier 02
+pattern: (?<=^|[\s.-])(Arid|Drag|hydes|Lulu|Okay-Subs|pog42|UDF|YURI|ZR)\b
+description: ''
+tags:
+- Release Group Tier
+- Anime
+tests: []

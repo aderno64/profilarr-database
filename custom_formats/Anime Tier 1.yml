@@ -19,9 +19,9 @@ conditions:
   required: false
   negate: false
   source: dvd
-- name: Anime Tier 1
+- name: Dictionarry Anime Bluray Tier 01
   negate: false
-  pattern: Anime Tier 1
+  pattern: Dictionarry Anime Bluray Tier 01
   required: true
-  type: release_title
+  type: release_group
 tests: []

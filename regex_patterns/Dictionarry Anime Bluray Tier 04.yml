@@ -1,0 +1,7 @@
+name: Dictionarry Anime Bluray Tier 04
+pattern: (?<=^|[\s.-])(9volt|AOmundson|Asakura|Cait-Sidhe|Chihiro|CoalGirls|Commie|deanzel|Doki|hchcsen|Iznjie Biznjie|kBaraka|Kaleido|kmplx|Koten_Gars|mottoj|Orphan|SallySubs|THORA|Tsundere)\b
+description: ''
+tags:
+- Release Group Tier
+- Anime
+tests: []

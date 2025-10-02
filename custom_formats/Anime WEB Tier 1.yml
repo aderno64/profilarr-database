@@ -14,9 +14,9 @@ conditions:
   required: false
   negate: false
   source: webrip
-- name: Anime WEB Tier 1
+- name: Dictionarry Anime WEB Tier 01
   negate: false
-  pattern: Anime WEB Tier 1
+  pattern: Dictionarry Anime WEB Tier 01
   required: true
   type: release_title
 tests: []
