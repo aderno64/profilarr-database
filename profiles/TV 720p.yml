@@ -1,4 +1,4 @@
-name: TV 1080p
+name: TV 720p
 description: 'Based on the TRaSH Guides WEB-1080p (Alternative) profile, focusing
   on balanced quality/file size.
 
@@ -8,7 +8,7 @@ description: 'Based on the TRaSH Guides WEB-1080p (Alternative) profile, focusin
   as needed.'
 tags:
 - Sonarr
-- 1080p
+- 720p
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 10000
