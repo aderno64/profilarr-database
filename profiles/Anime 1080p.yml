@@ -25,19 +25,19 @@ custom_formats: []
 custom_formats_radarr: []
 custom_formats_sonarr:
 - name: Anime Tier 1
-  score: 1100
+  score: 1200
 - name: Anime Tier 2
-  score: 1000
+  score: 1100
 - name: Anime Tier 3
-  score: 900
+  score: 1000
 - name: Anime Tier 4
-  score: 800
+  score: 900
+- name: Remux Tier 01 - Sonarr
+  score: 900
+- name: Remux Tier 02 - Sonarr
+  score: 850
 - name: Anime Tier 5
   score: 800
-- name: Remux Tier 01 - Sonarr
-  score: 800
-- name: Remux Tier 02 - Sonarr
-  score: 750
 - name: Anime WEB Tier 1
   score: 700
 - name: Anime WEB Tier 2
