@@ -14,4 +14,9 @@ conditions:
   pattern: Dictionarry WEB Tier 05
   required: false
   type: release_group
+- name: SweatyEggs69 WEB Tier 05
+  type: release_group
+  required: false
+  negate: false
+  pattern: SweatyEggs69 WEB Tier 05
 tests: []
