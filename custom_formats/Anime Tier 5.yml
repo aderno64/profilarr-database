@@ -18,9 +18,10 @@ conditions:
   type: source
   required: false
   negate: false
-  source: dvde Tier 5
+  source: dvd
+- name: Dictionarry Anime Bluray Tier 05
   negate: false
-  pattern: Anime Tier 5
+  pattern: Dictionarry Anime Bluray Tier 05
   required: true
-  type: release_title
+  type: release_group
 tests: []

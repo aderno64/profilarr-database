@@ -1,5 +1,5 @@
 name: Dictionarry Anime Bluray Tier 01
-pattern: (?<=^|[\s.-])(LYS1TH3A|MTBB|OZR|sam|SCY|smol|Vodes|YURI)\b
+pattern: (?<=^|[\s.-])(LYS1TH3A|MTBB|OZR|sam|SCY|smol|Vodes)\b
 description: ''
 tags:
 - Release Group Tier

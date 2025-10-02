@@ -1,0 +1,7 @@
+name: Dictionarry Anime Bluray Tier 05
+pattern: (?<=^|[\s.-])(Almighty|ANE|BlurayDesuYo|FFF|Final8|Raizel|Saizen|Zurako)\b
+description: ''
+tags:
+- Release Group Tier
+- Anime
+tests: []

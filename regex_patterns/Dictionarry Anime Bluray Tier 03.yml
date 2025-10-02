@@ -1,0 +1,7 @@
+name: Dictionarry Anime Bluray Tier 03
+pattern: (?<=^|[\s.-])(CBT|CTR|Dekinai|EXP|Flugel|Headpatter|Holomux|IK|Kametsu|KH|kuchikirukia|Mysteria|Netaro|Pookie|Quetzal|Rasetsu|Senjou|WBDP)\b
+description: ''
+tags:
+- Release Group Tier
+- Anime
+tests: []
