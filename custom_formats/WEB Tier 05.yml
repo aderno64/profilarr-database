@@ -10,10 +10,10 @@ conditions:
   source: web_dl
   type: source
 - name: WEBRip
-  type: source
-  required: false
   negate: false
+  required: false
   source: webrip
+  type: source
 - name: Dictionarry WEB Tier 05
   negate: false
   pattern: Dictionarry WEB Tier 05
@@ -22,11 +22,6 @@ conditions:
 - name: SweatyEggs69 WEB Tier 05
   negate: false
   pattern: SweatyEggs69 WEB Tier 05
-  required: false
-  type: release_group
-- name: DarQ
-  negate: false
-  pattern: DarQ
   required: false
   type: release_group
 tests: []

@@ -24,9 +24,4 @@ conditions:
   pattern: Dictionarry HD Tier 05
   required: false
   type: release_group
-- name: Darq
-  type: release_group
-  required: false
-  negate: false
-  pattern: DarQ
 tests: []
