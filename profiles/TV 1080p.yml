@@ -42,37 +42,39 @@ custom_formats_sonarr:
   score: 500
 - name: HDR10+
   score: 500
-- name: ATVP
-  score: 100
-- name: DSNP
-  score: 100
-- name: HMAX
-  score: 80
 - name: AMZN
-  score: 70
-- name: NF
-  score: 60
-- name: PCOK
-  score: 60
-- name: PMTP
-  score: 60
-- name: STAN
-  score: 60
+  score: 75
+- name: ATVP
+  score: 75
 - name: CC
-  score: 50
+  score: 75
 - name: DCU
-  score: 50
-- name: Dolby Digital +
-  score: 50
+  score: 75
+- name: DSNP
+  score: 75
 - name: HBO
-  score: 50
+  score: 75
+- name: HD Streaming Boost
+  score: 75
+- name: HMAX
+  score: 75
 - name: HULU
-  score: 50
+  score: 75
 - name: iT
-  score: 50
+  score: 75
+- name: NF
+  score: 75
+- name: PCOK
+  score: 75
+- name: PMTP
+  score: 75
 - name: SHO
-  score: 50
+  score: 75
+- name: STAN
+  score: 75
 - name: SYFY
+  score: 75
+- name: Dolby Digital +
   score: 50
 - name: Atmos
   score: 25

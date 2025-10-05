@@ -1,0 +1,44 @@
+name: UHD Streaming Boost
+description: 'Some streaming services have UHD releases that are generally better
+  than their HD counterparts. The UHD Streaming Boost custom format increases those
+  streaming services'' scores appropriately for UHD releases. Use this in conjunction
+  with the regular streaming service custom formats. '
+tags:
+- TRaSH
+conditions:
+- name: Disney+
+  type: release_title
+  required: false
+  negate: false
+  pattern: Disney+
+- name: HBO Max
+  type: release_title
+  required: false
+  negate: false
+  pattern: HBO Max
+- name: HBO Max Rename
+  type: release_title
+  required: false
+  negate: false
+  pattern: HBO Max Rename
+- name: Netflix
+  type: release_title
+  required: false
+  negate: false
+  pattern: Netflix
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+tests: []
