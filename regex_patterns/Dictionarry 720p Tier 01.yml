@@ -1,0 +1,7 @@
+name: Dictionarry 720p Tier 01
+pattern: (?<=^|[\s.-])(D-Z0N3|DON|EbP)\b
+description: ''
+tags:
+- Release Group Tier
+- Dictionarry
+tests: []
