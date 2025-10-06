@@ -1,5 +1,5 @@
 name: Dictionarry 720p Tier 03
-pattern: (?<=^|[\s.-])(D-Z0N3|DON|EbP)\b
+pattern: (?<=^|[\s.-])(BMF|Geek|LolHD|NCmt|Positive|TBB)\b
 description: ''
 tags:
 - Release Group Tier
