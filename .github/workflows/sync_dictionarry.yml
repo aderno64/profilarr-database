@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches: [stable]
 
 jobs:
   sync:
@@ -35,6 +37,11 @@ jobs:
             "custom_formats/WEB-DL Tier 3.yml": "regex_patterns/Dictionarry WEB Tier 03.yml",
             "custom_formats/WEB-DL Tier 4.yml": "regex_patterns/Dictionarry WEB Tier 04.yml",
             "custom_formats/WEB-DL Tier 5.yml": "regex_patterns/Dictionarry WEB Tier 05.yml",
+            "custom_formats/720p Quality Tier 1.yml": "regex_patterns/Dictionarry 720p Tier 01.yml",
+            "custom_formats/720p Quality Tier 2.yml": "regex_patterns/Dictionarry 720p Tier 02.yml",
+            "custom_formats/720p Quality Tier 3.yml": "regex_patterns/Dictionarry 720p Tier 03.yml",
+            "custom_formats/720p Quality Tier 4.yml": "regex_patterns/Dictionarry 720p Tier 04.yml",
+            "custom_formats/720p Quality Tier 5.yml": "regex_patterns/Dictionarry 720p Tier 05.yml",          
             "custom_formats/2160p Quality Tier 1.yml": "regex_patterns/Dictionarry UHD Tier 01.yml",
             "custom_formats/2160p Quality Tier 2.yml": "regex_patterns/Dictionarry UHD Tier 02.yml",
             "custom_formats/2160p Quality Tier 3.yml": "regex_patterns/Dictionarry UHD Tier 03.yml",
