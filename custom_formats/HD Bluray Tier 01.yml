@@ -19,11 +19,6 @@ conditions:
   qualityModifier: remux
   required: true
   type: quality_modifier
-- name: Not 2160p
-  negate: true
-  required: true
-  resolution: 2160p
-  type: resolution
 - name: Dictionarry HD Bluray Tier 01
   negate: false
   pattern: Dictionarry HD Tier 01
