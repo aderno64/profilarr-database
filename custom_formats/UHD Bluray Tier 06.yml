@@ -4,11 +4,6 @@ tags:
 - Release Group Tier
 - 2160p
 conditions:
-- name: Not Remux
-  negate: true
-  qualityModifier: remux
-  required: true
-  type: quality_modifier
 - name: Bluray
   negate: false
   required: true
@@ -19,6 +14,11 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
+- name: Not Remux
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
 - name: Dictionarry UHD Bluray Tier 06
   negate: false
   pattern: Dictionarry UHD Tier 06
