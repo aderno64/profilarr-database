@@ -9,6 +9,11 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
 - name: Not 2160p
   negate: true
   required: true
