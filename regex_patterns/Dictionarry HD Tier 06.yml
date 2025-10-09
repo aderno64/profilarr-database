@@ -1,0 +1,7 @@
+name: Dictionarry HD Tier 06
+pattern: (?<=^|[\s.-])(FilmHD|FTW-HD|HANDJOB|HDC|iON|LEGi0N|MTeam|WiKi|xander)\b
+description: ''
+tags:
+- Release Group Tier
+- Dictionarry
+tests: []
