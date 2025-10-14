@@ -1,5 +1,5 @@
 name: Dictionarry Remux Tier 01
-pattern: (?<=^|[\s.-])(BiZKiT)\b
+pattern: (?<=^|[\s.-])(3L|BiZKiT|BLURANiUM|CiNEPHiLES|WiLDCAT)\b
 description: ''
 tags:
 - Release Group Tier
