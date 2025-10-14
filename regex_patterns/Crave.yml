@@ -1,0 +1,9 @@
+name: Crave
+pattern: \b(crav(e)?)\b[ ._-]web[ ._-]?(dl|rip)?\b
+description: Crave (originally CraveTV) is a Canadian subscription video on demand
+  service. The service competes directly with other subscription-based over-the-top
+  streaming services operating in Canada, primarily against American-based services.
+tags:
+- Streaming Service
+- TRaSH
+tests: []
