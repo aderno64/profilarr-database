@@ -1,5 +1,5 @@
 name: Dictionarry Remux Tier 03
-pattern: (?<=^|[\s.-])(BiZKiT)\b
+pattern: (?<=^|[\s.-])(decibeL|EPSiLON|HiFi|NCmt|SiCFoI|TEPES)\b
 description: ''
 tags:
 - Release Group Tier
