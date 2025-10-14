@@ -17,6 +17,8 @@ These profiles do use the Dictionarry release group tiers, but I have included t
 - *HQ 1080p Movies*: **Movies 1080p HQ**
 - *HQ 2160p Movies*: **Movies 2160p HQ**
 
+Note: If you'd prefer x265 releases and do not care about potential re-encodes, remove the "x265" format from your selected profile.
+
 ## Anime
 This profile is based on the TRaSH Guides Anime profile structure. Currently, we are only developing a 1080p profile.
 
