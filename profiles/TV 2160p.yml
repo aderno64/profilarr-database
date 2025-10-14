@@ -69,6 +69,8 @@ custom_formats_sonarr:
   score: 75
 - name: CC
   score: 75
+- name: CRAV
+  score: 75
 - name: DCU
   score: 75
 - name: DSNP
