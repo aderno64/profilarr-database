@@ -1,0 +1,7 @@
+name: Dictionarry Remux Tier 01
+pattern: (?<=^|[\s.-])(BiZKiT)\b
+description: ''
+tags:
+- Release Group Tier
+- Dictionarry
+tests: []
