@@ -91,6 +91,8 @@ custom_formats_sonarr:
   score: 75
 - name: PMTP
   score: 75
+- name: ROKU
+  score: 75
 - name: SHO
   score: 75
 - name: STAN
