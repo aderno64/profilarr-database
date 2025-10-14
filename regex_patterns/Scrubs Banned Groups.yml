@@ -1,6 +1,0 @@
-name: Scrubs Banned Groups
-pattern: ^(FoV|GAMEOVER|NTROPiC-FTP|SiNNERS)$
-description: ''
-tags:
-- Scrubs
-tests: []
