@@ -7,13 +7,8 @@ conditions:
 - name: Crave
   negate: false
   pattern: Crave
-  required: false
+  required: true
   type: release_title
-- name: Crave Rename
-  type: release_title
-  required: false
-  negate: false
-  pattern: Crave Rename
 - name: WEB-DL
   negate: false
   required: false
