@@ -7,38 +7,33 @@ tags:
 - TRaSH
 conditions:
 - name: Disney+
-  type: release_title
-  required: false
   negate: false
   pattern: Disney+
-- name: HBO Max
-  type: release_title
   required: false
+  type: release_title
+- name: HBO Max
   negate: false
   pattern: HBO Max
-- name: HBO Max Rename
-  type: release_title
   required: false
-  negate: false
-  pattern: HBO Max Rename
+  type: release_title
 - name: Netflix
-  type: release_title
-  required: false
   negate: false
   pattern: Netflix
+  required: false
+  type: release_title
 - name: WEB-DL
-  type: source
-  required: false
   negate: false
+  required: false
   source: web_dl
-- name: WEBRip
   type: source
+- name: WEBRip
+  negate: false
   required: false
-  negate: false
   source: webrip
+  type: source
 - name: 2160p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 2160p
+  type: resolution
 tests: []
