@@ -50,6 +50,8 @@ custom_formats_radarr:
   score: 900
 - name: HD Bluray Tier 05
   score: 900
+- name: HD Bluray Tier 06
+  score: 850
 - name: hallowed
   score: 600
 - name: BHDStudio

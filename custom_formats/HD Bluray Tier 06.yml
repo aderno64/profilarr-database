@@ -1,0 +1,27 @@
+name: HD Bluray Tier 06
+description: ''
+tags:
+- Release Group Tier
+- 1080p
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Not Remux
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: Dictionarry HD Bluray Tier 06
+  negate: false
+  pattern: Dictionarry HD Tier 06
+  required: false
+  type: release_group
+tests: []
