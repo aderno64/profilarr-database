@@ -51,6 +51,7 @@ jobs:
             "custom_formats/1080p Quality Tier 3.yml": "regex_patterns/Dictionarry HD Tier 03.yml",
             "custom_formats/1080p Quality Tier 4.yml": "regex_patterns/Dictionarry HD Tier 04.yml",
             "custom_formats/1080p Quality Tier 5.yml": "regex_patterns/Dictionarry HD Tier 05.yml",
+            "custom_formats/1080p Quality Tier 6.yml": "regex_patterns/Dictionarry HD Tier 06.yml",
             "custom_formats/Remux Tier 1.yml": "regex_patterns/Dictionarry Remux Tier 01.yml",
             "custom_formats/Remux Tier 2.yml": "regex_patterns/Dictionarry Remux Tier 02.yml",
             "custom_formats/Remux Tier 3.yml": "regex_patterns/Dictionarry Remux Tier 03.yml",
