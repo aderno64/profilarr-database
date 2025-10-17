@@ -13,6 +13,11 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: Not Remux
+  type: release_title
+  required: true
+  negate: true
+  pattern: Remux
 - name: Dictionarry 720p Tier 03
   negate: false
   pattern: Dictionarry 720p Tier 03
