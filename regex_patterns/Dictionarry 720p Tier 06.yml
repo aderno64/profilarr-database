@@ -1,0 +1,7 @@
+name: Dictionarry 720p Tier 06
+pattern: (?<=^|[\s.-])(ZIMBO)\b
+description: ''
+tags:
+- Release Group Tier
+- Dictionarry
+tests: []
