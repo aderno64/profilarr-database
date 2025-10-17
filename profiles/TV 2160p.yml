@@ -59,7 +59,7 @@ custom_formats_sonarr:
   score: 1150
 - name: 720p Tier 05
   score: 1100
-- name: 720p Tier 05
+- name: 720p Tier 06
   score: 1050
 - name: Dolby Vision
   score: 1000

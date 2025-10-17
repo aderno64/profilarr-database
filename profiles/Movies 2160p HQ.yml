@@ -69,7 +69,7 @@ custom_formats_radarr:
   score: 950
 - name: 720p Tier 05
   score: 900
-- name: 720p Tier 05
+- name: 720p Tier 06
   score: 850
 - name: HDR
   score: 500
