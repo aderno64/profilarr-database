@@ -15,10 +15,10 @@ conditions:
   resolution: 2160p
   type: resolution
 - name: Not Remux
-  negate: true
-  qualityModifier: remux
+  type: release_title
   required: true
-  type: quality_modifier
+  negate: true
+  pattern: Remux
 - name: Dictionarry UHD Bluray Tier 03
   negate: false
   pattern: Dictionarry UHD Tier 03

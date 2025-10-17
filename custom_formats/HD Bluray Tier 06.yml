@@ -15,10 +15,10 @@ conditions:
   resolution: 1080p
   type: resolution
 - name: Not Remux
-  negate: true
-  qualityModifier: remux
+  type: release_title
   required: true
-  type: quality_modifier
+  negate: true
+  pattern: Remux
 - name: Dictionarry HD Bluray Tier 06
   negate: false
   pattern: Dictionarry HD Tier 06
