@@ -24,9 +24,14 @@ conditions:
   pattern: SweatyEggs69 WEB Tier 05
   required: false
   type: release_group
-- name: QxR
+- name: Vyndros
   type: release_group
   required: false
   negate: false
+  pattern: Vyndros
+- name: QxR
+  negate: false
   pattern: QxR
+  required: false
+  type: release_group
 tests: []
