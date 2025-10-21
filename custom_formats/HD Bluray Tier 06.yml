@@ -24,9 +24,9 @@ conditions:
   pattern: Dictionarry HD Tier 06
   required: false
   type: release_group
-- name: Vyndros
+- name: SweatyEggs69 HD Tier 06
   negate: false
-  pattern: Vyndros
+  pattern: SweatyEggs69 HD Tier 06
   required: false
   type: release_group
 - name: QxR
