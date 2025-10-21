@@ -6,14 +6,9 @@ tags:
 conditions:
 - name: Remux
   negate: false
-  qualityModifier: remux
   required: true
-  type: quality_modifier
-- name: Remux
-  type: source
-  required: true
-  negate: false
   source: bluray_raw
+  type: source
 - name: TRaSH Remux Tier 01
   negate: false
   pattern: TRaSH Remux Tier 01 - Sonarr
