@@ -9,11 +9,6 @@ conditions:
   qualityModifier: remux
   required: true
   type: quality_modifier
-- name: Remux
-  type: source
-  required: true
-  negate: false
-  source: bluray_raw
 - name: TRaSH Remux Tier 01
   negate: false
   pattern: TRaSH Remux Tier 01 - Radarr
