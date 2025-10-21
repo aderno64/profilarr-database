@@ -23,9 +23,14 @@ conditions:
   pattern: Dictionarry 720p Tier 06
   required: false
   type: release_group
-- name: QxR
-  type: release_group
+- name: Vyndros
+  negate: false
+  pattern: Vyndros
   required: false
+  type: release_group
+- name: QxR
   negate: false
   pattern: QxR
+  required: false
+  type: release_group
 tests: []
