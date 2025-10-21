@@ -47,9 +47,9 @@ custom_formats_sonarr:
   score: 1300
 - name: UHD Bluray Tier 05
   score: 1300
-- name: HD Bluray Tier 06
-  score: 1250
 - name: 720p Tier 02
+  score: 1250
+- name: HD Bluray Tier 06
   score: 1250
 - name: UHD Bluray Tier 06
   score: 1250
