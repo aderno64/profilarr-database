@@ -8,9 +8,9 @@ conditions:
   pattern: Scrubs
   required: true
   type: release_title
-- name: Scrubs Banned Title 01
+- name: Scrubs Banned Title
   negate: false
-  pattern: Scrubs (Banned Title 01)
+  pattern: Scrubs (Banned Title)
   required: true
   type: release_title
 tests: []
