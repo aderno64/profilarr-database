@@ -1,7 +1,0 @@
-name: Scrubs (Banned Title 01)
-pattern: \bBonus.Not.Just.Another.Medical.Show\b
-description: ''
-tags:
-- Scrubs
-- Custom
-tests: []
