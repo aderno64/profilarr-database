@@ -30,7 +30,6 @@ jobs:
           # This JSON file is the single source of truth for file mappings
           cat << EOF > file_map.json
           {
-            "custom_formats/Banned Groups.yml": "regex_patterns/Dictionarry Banned Groups.yml",
             "custom_formats/WEB-DL Tier 1.yml": "regex_patterns/Dictionarry WEB Tier 01.yml",
             "custom_formats/WEB-DL Tier 2.yml": "regex_patterns/Dictionarry WEB Tier 02.yml",
             "custom_formats/WEB-DL Tier 3.yml": "regex_patterns/Dictionarry WEB Tier 03.yml",
