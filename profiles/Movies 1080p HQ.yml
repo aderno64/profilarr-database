@@ -69,6 +69,10 @@ custom_formats_radarr:
   score: 125
 - name: 1080p
   score: 50
+- name: 4K Remaster
+  score: 25
+- name: Remaster
+  score: 25
 - name: CRIT
   score: 20
 - name: MA
