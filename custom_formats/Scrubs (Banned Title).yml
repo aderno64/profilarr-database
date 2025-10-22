@@ -1,0 +1,16 @@
+name: Scrubs (Banned Title)
+description: ''
+tags:
+- Scrubs
+conditions:
+- name: Scrubs
+  negate: false
+  pattern: Scrubs
+  required: true
+  type: release_title
+- name: Scrubs Banned Title 01
+  negate: false
+  pattern: Scrubs (Banned Title 01)
+  required: true
+  type: release_title
+tests: []
