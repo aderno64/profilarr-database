@@ -24,14 +24,4 @@ conditions:
   pattern: Dictionarry UHD Tier 06
   required: false
   type: release_group
-- name: SweatyEggs69 UHD Tier 06
-  negate: false
-  pattern: SweatyEggs69 UHD Tier 06
-  required: false
-  type: release_group
-- name: QxR
-  negate: false
-  pattern: QxR
-  required: false
-  type: release_group
 tests: []

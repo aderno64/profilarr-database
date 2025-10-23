@@ -1,0 +1,6 @@
+name: SweatyEggs69 Baseline Groups
+pattern: (?<=^|[\s.-])(alfaHD|PiRaTeS|TrollHD|Vyndros)\b
+description: ''
+tags:
+- Release Group
+tests: []

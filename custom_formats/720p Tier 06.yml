@@ -23,14 +23,4 @@ conditions:
   pattern: Dictionarry 720p Tier 06
   required: false
   type: release_group
-- name: SweatyEggs69 720p Tier 06
-  negate: false
-  pattern: SweatyEggs69 720p Tier 06
-  required: false
-  type: release_group
-- name: QxR
-  negate: false
-  pattern: QxR
-  required: false
-  type: release_group
 tests: []

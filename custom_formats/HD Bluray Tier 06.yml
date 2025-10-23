@@ -24,14 +24,4 @@ conditions:
   pattern: Dictionarry HD Tier 06
   required: false
   type: release_group
-- name: SweatyEggs69 HD Tier 06
-  negate: false
-  pattern: SweatyEggs69 HD Tier 06
-  required: false
-  type: release_group
-- name: QxR
-  negate: false
-  pattern: QxR
-  required: false
-  type: release_group
 tests: []
