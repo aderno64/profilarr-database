@@ -74,6 +74,8 @@ custom_formats_radarr:
   score: 500
 - name: HDR10+
   score: 500
+- name: Baseline Groups
+  score: 150
 - name: Dolby Digital +
   score: 125
 - name: Special Edition

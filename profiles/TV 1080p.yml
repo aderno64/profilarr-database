@@ -50,12 +50,8 @@ custom_formats_sonarr:
   score: 1100
 - name: 720p Tier 06
   score: 1050
-- name: Dolby Vision
-  score: 1000
-- name: HDR
-  score: 500
-- name: HDR10+
-  score: 500
+- name: Baseline Groups
+  score: 150
 - name: AMZN
   score: 75
 - name: ATVP
@@ -121,8 +117,6 @@ custom_formats_sonarr:
 - name: Banned Groups (Title)
   score: -10000
 - name: BR-DISK
-  score: -10000
-- name: Dolby Vision WEB-DL
   score: -10000
 - name: Incorrect Source
   score: -10000

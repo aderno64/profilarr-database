@@ -67,6 +67,8 @@ custom_formats_sonarr:
   score: 500
 - name: HDR10+
   score: 500
+- name: Baseline Groups
+  score: 150
 - name: AMZN
   score: 75
 - name: ATVP
