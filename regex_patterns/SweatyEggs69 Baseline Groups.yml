@@ -1,5 +1,5 @@
 name: SweatyEggs69 Baseline Groups
-pattern: (?<=^|[\s.-])(alfaHD|PiRaTeS|TrollHD|Vyndros)\b
+pattern: (?<=^|[\s.-])(alfaHD|PiRaTeS|SuccessfulCrab|TrollHD|Vyndros)\b
 description: ''
 tags:
 - Release Group
