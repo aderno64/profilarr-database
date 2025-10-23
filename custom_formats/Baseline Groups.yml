@@ -1,0 +1,19 @@
+name: Baseline Groups
+description: This format will match against groups that have a generally good reputation
+  in terms of audio, video and file naming quality, but are not tiered according to
+  TRaSH/Dictionarry.
+tags:
+- Release Group
+- SweatyEggs69
+conditions:
+- name: SweatyEggs69 Baseline Groups
+  negate: false
+  pattern: SweatyEggs69 Baseline Groups
+  required: false
+  type: release_group
+- name: QxR
+  negate: false
+  pattern: QxR
+  required: false
+  type: release_group
+tests: []
