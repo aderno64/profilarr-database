@@ -121,6 +121,8 @@ custom_formats_sonarr:
   score: 25
 - name: TV Editions
   score: 25
+- name: AAC
+  score: 10
 - name: Scrubs (Internal Boost)
   score: 10
 - name: Scrubs (Remux Boost)
