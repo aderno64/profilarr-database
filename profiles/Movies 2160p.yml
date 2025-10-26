@@ -92,6 +92,8 @@ custom_formats_radarr:
   score: 20
 - name: MA
   score: 20
+- name: AAC
+  score: 10
 - name: Atmos
   score: 10
 - name: Repack3
