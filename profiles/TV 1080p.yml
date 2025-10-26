@@ -64,6 +64,8 @@ custom_formats_sonarr:
   score: 75
 - name: DSNP
   score: 75
+- name: GAIA
+  score: 75
 - name: HBO
   score: 75
 - name: HD Streaming Boost
