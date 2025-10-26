@@ -79,6 +79,8 @@ custom_formats_radarr:
   score: 150
 - name: Special Edition
   score: 125
+- name: TUBI
+  score: 75
 - name: 1080p
   score: 50
 - name: 4K Remaster
