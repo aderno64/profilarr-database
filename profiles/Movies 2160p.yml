@@ -82,8 +82,6 @@ custom_formats_radarr:
   score: 125
 - name: Dolby Digital
   score: 115
-- name: TUBI
-  score: 75
 - name: 1080p
   score: 50
 - name: 4K Remaster
