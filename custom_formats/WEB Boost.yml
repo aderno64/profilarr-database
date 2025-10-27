@@ -1,0 +1,10 @@
+name: WEB Boost
+description: ''
+tags: []
+conditions:
+- name: SweatyEggs69 WEB Boost
+  type: release_group
+  required: true
+  negate: false
+  pattern: SweatyEggs69 WEB Boost
+tests: []

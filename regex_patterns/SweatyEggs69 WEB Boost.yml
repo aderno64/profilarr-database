@@ -1,0 +1,7 @@
+name: SweatyEggs69 WEB Boost
+pattern: (?<=^|[\s.-])(Kitsune)\b
+description: Listed groups will get a boost to score them higher, regardless of tier
+  position.
+tags:
+- SweatyEggs69
+tests: []
