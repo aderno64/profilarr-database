@@ -79,8 +79,8 @@ qualityDefinitions:
       preferred: 995
     HDTV-1080p:
       max: 1000
-      min: 15
-      preferred: 995
+      min: 13
+      preferred: 990
     HDTV-2160p:
       max: 1000
       min: 25
@@ -91,8 +91,8 @@ qualityDefinitions:
       preferred: 995
     WEBDL-1080p:
       max: 1000
-      min: 15
-      preferred: 995
+      min: 13
+      preferred: 990
     WEBDL-2160p:
       max: 1000
       min: 25
@@ -103,8 +103,8 @@ qualityDefinitions:
       preferred: 995
     WEBRip-1080p:
       max: 1000
-      min: 15
-      preferred: 995
+      min: 13
+      preferred: 990
     WEBRip-2160p:
       max: 1000
       min: 25
