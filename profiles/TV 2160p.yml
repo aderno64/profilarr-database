@@ -8,6 +8,7 @@ description: 'Based on the TRaSH Guides WEB-1080p (Alternative) profile, focusin
   as needed.'
 tags:
 - Sonarr
+- 2160p
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 10000
