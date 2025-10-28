@@ -1,5 +1,5 @@
 name: SweatyEggs69  Banned Groups
-pattern: (?<=^|[\s.-])(MIRCrew)\b
+pattern: (?<=^|[\s.-])(MIRCrew|MuTT)\b
 description: ''
 tags:
 - Release Group
