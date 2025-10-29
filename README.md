@@ -1,4 +1,4 @@
-# SweatyEggs69 Profilarr Database
+# Dumpstarr Profilarr Database
 
 Join the Discord! <a href="https://discord.gg/GuCgPN5KZM">LINK</a>
 
