@@ -79,8 +79,6 @@ custom_formats_radarr:
   score: 150
 - name: Special Edition
   score: 125
-- name: 1080p
-  score: 50
 - name: 4K Remaster
   score: 25
 - name: Remaster
@@ -95,8 +93,6 @@ custom_formats_radarr:
   score: 7
 - name: Repack2
   score: 6
-- name: 720p
-  score: 5
 - name: Repack1
   score: 5
 - name: 2.0 Stereo
