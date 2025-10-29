@@ -1,0 +1,11 @@
+name: Kitsune
+description: ''
+tags:
+- Release Group
+conditions:
+- name: Kitsune
+  type: release_group
+  required: true
+  negate: false
+  pattern: Kitsune
+tests: []

@@ -1,0 +1,11 @@
+name: FLUX
+description: ''
+tags:
+- Release Group
+conditions:
+- name: FLUX
+  type: release_group
+  required: true
+  negate: false
+  pattern: FLUX
+tests: []
