@@ -136,6 +136,8 @@ custom_formats_sonarr:
   score: 6
 - name: Repack1
   score: 5
+- name: FLUX
+  score: 1
 - name: AV1
   score: -10000
 - name: Banned Groups
