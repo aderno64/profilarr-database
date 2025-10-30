@@ -1,4 +1,4 @@
-# Dumpstarr Profilarr Database
+# Dumpstarr Database for Profilarr
 
 Join the Discord! <a href="https://discord.gg/GuCgPN5KZM">LINK</a>
 
