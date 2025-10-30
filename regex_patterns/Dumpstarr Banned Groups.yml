@@ -1,4 +1,4 @@
-name: SweatyEggs69  Banned Groups
+name: Dumpstarr Banned Groups
 pattern: (?<=^|[\s.-])(MIRCrew|MuTT)\b
 description: ''
 tags:
