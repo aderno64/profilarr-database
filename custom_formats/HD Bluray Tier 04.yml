@@ -15,18 +15,18 @@ conditions:
   resolution: 1080p
   type: resolution
 - name: Not Remux
-  type: release_title
-  required: true
   negate: true
   pattern: Remux
+  required: true
+  type: release_title
 - name: Dictionarry HD Bluray Tier 04
   negate: false
   pattern: Dictionarry HD Tier 04
   required: false
   type: release_group
-- name: SweatyEggs69 HD Tier 04
-  type: release_group
-  required: false
+- name: Dumpstarr HD Tier 04
   negate: false
-  pattern: SweatyEggs69 HD Tier 04
+  pattern: Dumpstarr HD Tier 04
+  required: false
+  type: release_group
 tests: []
