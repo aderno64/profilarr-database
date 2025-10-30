@@ -1,52 +1,22 @@
 name: Movies 2160p HQ
-description: 'This profile focuses on high-quality encodes with HD audio.
+description: 'This profile focuses on streaming optimized sources with little to no
+  transcoding needed.
 
-  - If you prefer the highest quality audio, consider following [**THIS GUIDE**](https://trash-guides.info/Radarr/radarr-setup-quality-profiles/#audio-formats)
-  to add those HD audio formats to this profile.
+  - This profile is recommended for a set-it-and-forget-it setup.
 
-  - This will prevent grabbing UHD/4k Remux and Bluray encode releases without HDR
-  Formats. - i.e., SDR WEB releases will still be allowed since 4K SDR WEB releases
-  can often look better than the 1080p version due to the improved bitrate.
+  - This profile will fallback to streaming optimized releases groups like **BHDStudio**
+  and **hallowed**.
 
-  - If you''d prefer IMAX versions, add that format with a score of 800.
-
-  - If you''d prefer IMAX Enhanced versions, add that format with a score of 800.
-
-  - If you''d prefer Special Editions (i.e. Extended, Directors Cut, etc.), add that
-  format with a score of 125.'
+  - This profile will allow releases with HD Audio.'
 tags:
 - Radarr
 - 2160p
 upgradesAllowed: true
-minCustomFormatScore: 100
+minCustomFormatScore: 1000
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr:
-- name: HD Bluray Tier 01
-  score: 2000
-- name: UHD Bluray Tier 01
-  score: 2000
-- name: HD Bluray Tier 02
-  score: 1950
-- name: UHD Bluray Tier 02
-  score: 1950
-- name: HD Bluray Tier 03
-  score: 1900
-- name: UHD Bluray Tier 03
-  score: 1900
-- name: HD Bluray Tier 04
-  score: 1850
-- name: UHD Bluray Tier 04
-  score: 1850
-- name: HD Bluray Tier 05
-  score: 1800
-- name: UHD Bluray Tier 05
-  score: 1800
-- name: HD Bluray Tier 06
-  score: 1750
-- name: UHD Bluray Tier 06
-  score: 1750
 - name: WEB Tier 01
   score: 1700
 - name: WEB Tier 02
@@ -59,26 +29,58 @@ custom_formats_radarr:
   score: 1500
 - name: 720p Tier 01
   score: 1100
+- name: HD Bluray Tier 01
+  score: 1100
+- name: UHD Bluray Tier 01
+  score: 1100
 - name: 720p Tier 02
+  score: 1050
+- name: HD Bluray Tier 02
+  score: 1050
+- name: UHD Bluray Tier 02
   score: 1050
 - name: 720p Tier 03
   score: 1000
 - name: Dolby Vision
   score: 1000
+- name: HD Bluray Tier 03
+  score: 1000
+- name: UHD Bluray Tier 03
+  score: 1000
 - name: 720p Tier 04
+  score: 950
+- name: HD Bluray Tier 04
+  score: 950
+- name: UHD Bluray Tier 04
   score: 950
 - name: 720p Tier 05
   score: 900
+- name: HD Bluray Tier 05
+  score: 900
+- name: UHD Bluray Tier 05
+  score: 900
 - name: 720p Tier 06
   score: 850
+- name: HD Bluray Tier 06
+  score: 850
+- name: UHD Bluray Tier 06
+  score: 850
+- name: hallowed
+  score: 600
+- name: BHDStudio
+  score: 550
 - name: HDR
   score: 500
 - name: HDR10+
   score: 500
 - name: Baseline Groups
   score: 150
+- name: Dolby Digital +
+  score: 125
 - name: Special Edition
   score: 125
+- name: Dolby Digital
+  score: 115
 - name: 4K Remaster
   score: 25
 - name: Remaster
@@ -88,6 +90,8 @@ custom_formats_radarr:
 - name: MA
   score: 20
 - name: AAC
+  score: 10
+- name: Atmos
   score: 10
 - name: Repack3
   score: 7
