@@ -9,11 +9,11 @@ conditions:
   pattern: Dictionarry Banned Groups
   required: false
   type: release_group
-- name: SweatyEggs69 Banned Groups
-  type: release_group
-  required: false
+- name: Dumpstarr Banned Groups
   negate: false
-  pattern: SweatyEggs69  Banned Groups
+  pattern: Dumpstarr Banned Groups
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

@@ -8,7 +8,7 @@ tags:
 conditions:
 - name: SweatyEggs69 Baseline Groups
   negate: false
-  pattern: SweatyEggs69 Baseline Groups
+  pattern: Dumpstarr Baseline Groups
   required: false
   type: release_group
 - name: QxR
