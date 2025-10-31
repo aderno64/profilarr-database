@@ -1,32 +1,54 @@
-# Dumpstarr Database for Profilarr
+## ⭐️ Dumpstarr Database for Profilarr
 
+### **For a media setup that isn't a dumpster fire :D**
 Join the Discord! <a href="https://discord.gg/GuCgPN5KZM">LINK</a>
 
-We use both Dictionarry and TRaSH formats/regex, but we also have made modifications and additions to better source media.
+---
 
-These profiles do use the <a href="https://github.com/Dictionarry-Hub/database">Dictionarry</a> release group tiers, but I have included the <a href="https://trash-guides.info/">TRaSH Guides</a> tier groups as well, in case you'd want to use those instead.
+### **🚀 Simple, Set-and-Forget 'Arr Custom Formats**
+
+The Dumpstarr database for Profilarr is a curated collection of **custom formats** for **Sonarr** and **Radarr**, designed to simplify getting high-quality, decently sized media.
+
+**Our Focus:**
+* **Simplicity:** Choose your resolution and desired audio quality (Movies only).
+* **Quality Sourcing:** We use a modified set of formats/regex based on **Dictionarry** and **TRaSH** to better score and source your media.
+
+---
+
+### **💾 Profile Selection Guide**
+
+| Media Type | Profile Name | Details |
+| :--- | :--- | :--- |
+| **Anime** | `Anime 1080p` | Based on TRaSH Guides structure. |
+| **TV Shows** | `TV 1080p` | Standard high-quality 1080p. |
+| **TV Shows** | `TV 2160p` | Standard high-quality 4K. |
+| **Movies** | `Movies 1080p` | Streaming Optimized 1080p. |
+| **Movies** | `Movies 2160p` | Streaming Optimized 4K. |
+| **Movies (HQ Audio)** | `Movies 1080p HQ` | 1080p with a preference for HQ audio formats. |
+| **Movies (HQ Audio)** | `Movies 2160p HQ` | 4K with a preference for HQ audio formats. |
+
+> **Note on x265:** All profiles are optimized for quality. If you prefer `x265` releases and don't mind potential re-encodes, you can **remove the "x265" format** from your selected profile.
+
+---
+
+### **🛠️ Underlying Structure and Tiers**
+
+Our profiles are based on the structure of the **SQP-1 Alternative (Radarr)** and **WEB-2160p/1080p Alternative (Sonarr)** profiles, providing a robust base.
+
+* **Release Group Tiers:** We default to the [Dictionarry Group Tiers](https://github.com/Dictionarry-Hub/database) (UHD, HD, 720p, WEB, Remux).
+* **Alternative:** The [TRaSH Guides](https://trash-guides.info/) tiers are also included if you prefer to use those instead.
+
+---
+
+### **✨ Extra Fixes & Features**
+
+We include several specific fixes for common media-sourcing annoyances:
+
+* ✅ **Automatic Sync** of the Dictionarry Group Tiers.
+* ✅ **Parks and Recreation Fix:** Correctly sources releases from NTb.
+* ✅ **Scrubs Fix:** Avoids 25fps NTSC versions.
+* ✅ **HONE Fix:** Corrects issues with releases that have bad naming conventions.
+
+---
 
 <img width="1655" height="1809" alt="image" src="https://github.com/user-attachments/assets/7781d847-d8e7-458b-b247-a4dd61e782cc" />
-
-## Profile Selection Guide
-- *Anime*: **Anime 1080p**
-- *1080p TV Shows*: **TV 1080p**
-- *2160p TV Shows*: **TV 2160p**
-- *Streaming Optimized 1080p Movies*: **Movies 1080p**
-- *Streaming Optimized 2160p Movies*: **Movies 2160p**
-- *1080p Movies with HQ Audio*: **Movies 1080p HQ**
-- *2160p Movies with HQ Audio*: **Movies 2160p HQ**
-
-Note: If you'd prefer x265 releases and do not care about potential re-encodes, remove the "x265" format from your selected profile.
-
-## Anime
-This profile is based on the TRaSH Guides Anime profile structure. Currently, we are only developing a 1080p profile.
-
-## Movie and TV
-These profiles are based on the structure of the SQP-1 Alternative (Radarr) and the WEB-2160p/1080p Alternative (Sonarr) profiles. Using this database can be described as set-it-and-forget-it.
-
-## Extras Included
-- Automatic sync of the Dictionarry Group Tiers (UHD, HD, 720p, WEB and Remux).
-- Fix for Parks and Recreation WEB-DL releases from NTb.
-- Fix for Scrubs NTSC versions to avoid 25fps groups.
-- Fix for HONE releases with bad naming.
