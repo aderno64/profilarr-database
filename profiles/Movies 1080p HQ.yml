@@ -4,10 +4,13 @@ description: 'This profile focuses on streaming optimized sources with little to
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
-  - This profile will fallback to streaming optimized releases groups like **BHDStudio**
-  and **hallowed**.
+  - This profile will allow releases with HD Audio.
 
-  - This profile will allow releases with HD Audio.'
+  - WEB-DLs will be preferred since they typically have higher bitrate video and HQ
+  audio, while having moderate file sizes compared to a Tier 01 source.
+
+  - This profile will fallback to streaming optimized releases groups like **BHDStudio**
+  and **hallowed**.'
 tags:
 - Radarr
 - 1080p
