@@ -7,7 +7,10 @@ description: 'This profile focuses on streaming optimized sources with little to
   - This profile will prefer streaming optimized releases groups like **BHDStudio**
   and **hallowed**.
 
-  - This profile does not allow releases with HD Audio.'
+  - This profile does not allow releases with HD Audio.
+
+  - Releases without HDR fallback will be scored negatively to ensure playability
+  across platforms.'
 tags:
 - Radarr
 - 2160p
