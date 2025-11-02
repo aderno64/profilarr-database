@@ -1,11 +1,11 @@
-name: Theatrical Version
+name: Theatrical
 description: ''
 tags:
 - Version
 conditions:
 - name: Theatrical
-  type: release_title
-  required: true
   negate: false
   pattern: Theatrical Edition
+  required: true
+  type: release_title
 tests: []
