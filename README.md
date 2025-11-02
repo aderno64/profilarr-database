@@ -1,13 +1,14 @@
-# ⭐️ Dumpstarr Database for Profilarr
+# Dumpstarr Database for Profilarr
 
 ## **For a media setup that isn't a dumpster fire :D**
-Join the Discord! <a href="https://discord.gg/GuCgPN5KZM">LINK</a>
+
+[![Discord](https://img.shields.io/discord/1408095311661891796?label=Discord&logo=discord&style=for-the-badge)](https://discord.gg/GuCgPN5KZM)
 
 ---
 
-### **🚀 Simple, Set-and-Forget 'Arr Custom Formats**
+### **🚀 Simple, Set-and-Forget Custom Formats**
 
-The Dumpstarr database for Profilarr is a curated collection of **custom formats** for **Sonarr** and **Radarr**, designed to simplify getting high-quality, decently sized media.
+The Dumpstarr database for Profilarr is a curated collection of **custom formats** for **Sonarr** and **Radarr**, designed to simplify sourcing high-quality, decently sized media.
 
 **Our Focus:**
 * **Simplicity:** Choose your resolution and desired audio quality (Movies only).
@@ -20,14 +21,14 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 | Media Type | Profile Name | Details |
 | :--- | :--- | :--- |
 | **Anime** | `Anime 1080p` | Based on TRaSH Guides. |
-| **TV Shows** | `TV 1080p` | Standard high-quality 1080p. |
-| **4K TV Shows** | `TV 2160p` | Standard high-quality 4K. |
+| **TV Shows** | `TV 1080p` | 1080p. |
+| **4K TV Shows** | `TV 2160p` | 4K with HDR and Dolby Vision. |
 | **Movies** | `Movies 1080p` | Streaming Optimized 1080p. |
-| **4K Movies** | `Movies 2160p` | Streaming Optimized 4K. |
+| **4K Movies** | `Movies 2160p` | Streaming Optimized 4K with HDR and Dolby Vision. |
 | **Movies (HQ Audio)** | `Movies 1080p HQ` | 1080p with a preference for HQ audio formats. |
 | **4K Movies (HQ Audio)** | `Movies 2160p HQ` | 4K with a preference for HQ audio formats. |
 
-> **Note on x265:** All profiles are optimized for quality. If you prefer `x265` releases and don't mind potential re-encodes, you can **remove the "x265" format** from your selected profile.
+> **Note on x265:** We explicitly deny x265 for resolutions lower than 2160p since these releases are usually re-encodes, for more info on this logic, see the [TRaSH Guides](https://trash-guides.info/Sonarr/sonarr-collection-of-custom-formats/#x265-hd) documentation. If you'd prefer `x265` releases, you can update the score of the "**x265 (HD)**" format to 0 on the selected profile.
 
 ---
 
@@ -40,7 +41,7 @@ Our profiles are loosely based on the structure of the **SQP-1 Alternative (Rada
 
 ---
 
-### **✨ Extra Fixes & Features**
+### **✨ Fixes & Features**
 
 We include several specific fixes and features for common media-sourcing annoyances:
 

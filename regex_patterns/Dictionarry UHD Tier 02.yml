@@ -1,5 +1,5 @@
 name: Dictionarry UHD Tier 02
-pattern: (?<=^|[\s.-])(c0kE|D-Z0N3|MainFrame|PTer)\b
+pattern: (?<=^|[\s.-])(CtrlHD|MainFrame|W4NK3R)\b
 description: ''
 tags:
 - Release Group Tier
