@@ -16,4 +16,14 @@ conditions:
   pattern: QxR
   required: false
   type: release_group
+- name: DarQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: DarQ
+- name: Weasley
+  type: release_group
+  required: false
+  negate: false
+  pattern: Weasley
 tests: []
