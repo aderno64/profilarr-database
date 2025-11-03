@@ -24,9 +24,4 @@ conditions:
   pattern: Dictionarry UHD Tier 03
   required: false
   type: release_group
-- name: HONE
-  type: release_group
-  required: false
-  negate: false
-  pattern: HONE
 tests: []
