@@ -15,13 +15,23 @@ conditions:
   resolution: 2160p
   type: resolution
 - name: Not Remux
-  type: release_title
-  required: true
   negate: true
   pattern: Remux
+  required: true
+  type: release_title
 - name: Dictionarry UHD Bluray Tier 05
   negate: false
   pattern: Dictionarry UHD Tier 05
   required: false
   type: release_group
+- name: DarQ
+  negate: false
+  pattern: DarQ
+  required: false
+  type: release_group
+- name: Weasley
+  type: release_group
+  required: false
+  negate: false
+  pattern: Weasley
 tests: []
