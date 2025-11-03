@@ -49,7 +49,3 @@ We include several specific fixes and features for common media-sourcing annoyan
 * ✅ **Parks and Recreation Fix:** Correctly sources releases from NTb.
 * ✅ **Scrubs Fix:** Avoids 25fps NTSC versions.
 * ✅ **HONE Fix:** Corrects issues with releases that have bad naming conventions.
-
----
-
-<img width="1655" height="1809" alt="image" src="https://github.com/user-attachments/assets/7781d847-d8e7-458b-b247-a4dd61e782cc" />
