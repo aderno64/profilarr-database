@@ -24,14 +24,4 @@ conditions:
   pattern: Dictionarry UHD Tier 05
   required: false
   type: release_group
-- name: DarQ
-  negate: false
-  pattern: DarQ
-  required: false
-  type: release_group
-- name: Weasley
-  type: release_group
-  required: false
-  negate: false
-  pattern: Weasley
 tests: []
