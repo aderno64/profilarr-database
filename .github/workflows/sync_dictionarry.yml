@@ -103,6 +103,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore(sync): Update release group patterns"
+            git commit -m "Update to Dictionarry Release Group Tiers"
             git push
           fi
