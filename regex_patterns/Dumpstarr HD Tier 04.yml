@@ -1,5 +1,5 @@
 name: Dumpstarr HD Tier 04
-pattern: (?<=^|[\s.-])(BHDStudio|hallowed)\b
+pattern: (?<=^|[\s.-])(BHDStudio|hallowed|HONE)\b
 description: ''
 tags: []
 tests: []
