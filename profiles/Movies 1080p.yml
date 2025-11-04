@@ -1,6 +1,7 @@
 name: Movies 1080p
 description: 'This profile focuses on streaming optimized sources with little to no
-  transcoding needed.
+  transcoding needed and is recommended for the average user or if you **do not**
+  use a dedicated streaming box. (i.e. AppleTV, NVIDIA Shield, etc)
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
