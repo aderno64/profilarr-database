@@ -26,11 +26,7 @@ custom_formats_sonarr:
   score: 1200
 - name: Anime Tier 4
   score: 1100
-- name: Remux Tier 01 - Sonarr
-  score: 1050
 - name: Anime Tier 5
-  score: 1000
-- name: Remux Tier 02 - Sonarr
   score: 1000
 - name: Anime Tier 6
   score: 900
