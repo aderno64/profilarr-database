@@ -6,7 +6,8 @@ description: 'This profile is specifically designed to allow HQ audio formats th
 
   - This profile will allow releases with HD Audio like DTS-HD MA and DTS-X.
 
-  - This profile will not allow releases with TrueHD audio.
+  - This profile will not allow releases with TrueHD audio due to file size and direct-play
+  support.
 
   - Releases **without** HDR fallback will be scored negatively to ensure playability
   across platforms.'
