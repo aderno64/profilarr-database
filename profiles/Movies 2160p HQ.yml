@@ -1,18 +1,14 @@
 name: Movies 2160p HQ
-description: 'This profile focuses on streaming optimized sources with little to no
-  transcoding needed.
+description: 'This profile is specifically designed to allow HQ audio formats that
+  are direct-play supported by the **AppleTV**.
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
-  - This profile will allow releases with HD Audio.
+  - This profile will allow releases with HD Audio like DTS-HD MA and DTS-X.
 
-  - WEB-DLs will be preferred since they typically have higher bitrate video and HQ
-  audio, while having moderate file sizes compared to a Tier 01 source.
+  - This profile will not allow releases with TrueHD audio.
 
-  - This profile will fallback to streaming optimized releases groups like **BHDStudio**
-  and **hallowed**.
-
-  - Releases without HDR fallback will be scored negatively to ensure playability
+  - Releases **without** HDR fallback will be scored negatively to ensure playability
   across platforms.'
 tags:
 - Radarr
@@ -77,12 +73,20 @@ custom_formats_radarr:
   score: 500
 - name: Baseline Groups
   score: 150
+- name: DTS-X
+  score: 145
+- name: DTS-HD HRA
+  score: 135
+- name: DTS-HD MA
+  score: 135
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
   score: 125
 - name: Dolby Digital
   score: 115
+- name: 1080p
+  score: 50
 - name: 4K Remaster
   score: 25
 - name: Remaster
@@ -125,43 +129,48 @@ custom_formats_radarr:
   score: -10000
 - name: Sing Along
   score: -10000
+- name: TrueHD
+  score: -10000
+- name: TrueHD Missing
+  score: -10000
 - name: Upscaled
   score: -10000
 - name: x265 (HD)
   score: -10000
 custom_formats_sonarr: []
 qualities:
+- id: 4
+  name: Bluray-2160p
 - id: -1
-  name: 2160p
+  name: WEB-2160p
   description: ''
   qualities:
   - id: 5
     name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
-  - id: 4
-    name: Bluray-2160p
+- id: 10
+  name: Bluray-1080p
 - id: -2
-  name: 1080p
+  name: WEB-1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-  - id: 10
-    name: Bluray-1080p
+- id: 13
+  name: Bluray-720p
 - id: -3
-  name: 720p
+  name: WEB-720p
   description: ''
   qualities:
   - id: 15
     name: WEBRip-720p
   - id: 14
     name: WEBDL-720p
-  - id: 13
-    name: Bluray-720p
 upgrade_until:
-  id: -1
-  name: 2160p
+  id: 4
+  name: Bluray-2160p
+  description: 4K Ultra HD Blu-ray video encoded with lossy compression
 language: original
