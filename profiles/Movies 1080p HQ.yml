@@ -52,13 +52,13 @@ custom_formats_radarr:
   score: 850
 - name: HD Bluray Tier 06
   score: 850
+- name: DTS-X
+  score: 155
 - name: Baseline Groups
   score: 150
-- name: DTS-X
+- name: DTS-HD MA
   score: 145
 - name: DTS-HD HRA
-  score: 135
-- name: DTS-HD MA
   score: 135
 - name: Dolby Digital +
   score: 125
