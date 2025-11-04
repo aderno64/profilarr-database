@@ -1,17 +1,10 @@
-name: Anime 1080p
+name: Anime 1080p Multisub
 description: 'Based on the TRaSH Guides Anime Profile, focusing on media that has
   Dual Audio.
 
   - This profile will grab between a SDTV - 1080p Bluray file.
 
-  - You will be preferring Dual Audio media (ie including English along with original
-  language).
-
-  - If you''d prefer to always grab Dual Audio releases, change the Dual Audio format
-  score from 101 to 500
-
-  - If you prefer only the **original language**, change the language to original
-  on this profile.'
+  - You will be preferring Multisub media.
 tags:
 - Anime
 - Sonarr
