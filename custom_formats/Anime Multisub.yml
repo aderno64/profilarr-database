@@ -1,0 +1,12 @@
+name: Anime Multisub
+description: ''
+tags:
+- Anime
+- Personal
+conditions:
+- name: Multisub
+  negate: false
+  pattern: Multisub
+  required: true
+  type: release_title
+tests: []

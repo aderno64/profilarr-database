@@ -1,0 +1,8 @@
+name: Multisub
+pattern: \b(Multi(-)?sub(s)?)\b
+description: ''
+tags:
+- TRaSH
+- Anime
+- Personal
+tests: []
