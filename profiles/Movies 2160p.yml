@@ -14,7 +14,7 @@ description: 'This profile focuses on streaming optimized sources with little to
 tags:
 - Radarr
 - 2160p
-- Streaming Optimized
+- HQ
 upgradesAllowed: true
 minCustomFormatScore: 1000
 upgradeUntilScore: 10000
