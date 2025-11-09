@@ -29,7 +29,7 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 | **Movies (HQ Audio)** | `Movies 1080p HQ` | 1080p with a preference for HQ audio formats. |
 | **4K Movies (HQ Audio)** | `Movies 2160p HQ` | 4K with a preference for HQ audio formats. |
 
-> **Note on x265:** We explicitly deny x265 for resolutions lower than 2160p since these releases are usually re-encodes, for more info on this logic, see the [TRaSH Guides](https://trash-guides.info/Sonarr/sonarr-collection-of-custom-formats/#x265-hd) documentation. If you'd prefer `x265` releases, you can update the score of the "**x265 (HD)**" format to 0 on the selected profile.
+> **Note on x265:** We explicitly deny `x265` for resolutions lower than 2160p since these releases are usually re-encodes, for more info on this logic, see the [TRaSH Guides](https://trash-guides.info/Sonarr/sonarr-collection-of-custom-formats/#x265-hd) documentation. If you'd prefer `x265` releases, you can update the score of the "**x265 (HD)**" format to 0 on the selected profile.
 
 ---
 
