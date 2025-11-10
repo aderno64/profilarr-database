@@ -63,4 +63,9 @@ conditions:
   pattern: Will1969
   required: false
   type: release_title
+- name: Dumpstarr Banned Groups (Title)
+  type: release_title
+  required: false
+  negate: false
+  pattern: Dumpstarr Banned Groups (Title)
 tests: []
