@@ -74,6 +74,8 @@ custom_formats_sonarr:
   score: 75
 - name: ATVP
   score: 75
+- name: CBC
+  score: 75
 - name: CC
   score: 75
 - name: CRAV
