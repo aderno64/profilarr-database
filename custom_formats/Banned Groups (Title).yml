@@ -3,6 +3,11 @@ description: Matches Grouos that are Banned via Release Title
 tags:
 - Banned
 conditions:
+- name: No Release Group
+  negate: true
+  pattern: No Parsed Group
+  required: false
+  type: release_group
 - name: 1XBET
   negate: false
   pattern: 1XBET
@@ -64,8 +69,8 @@ conditions:
   required: false
   type: release_title
 - name: Dumpstarr Banned Groups (Title)
-  type: release_title
-  required: false
   negate: false
   pattern: Dumpstarr Banned Groups (Title)
+  required: false
+  type: release_title
 tests: []
