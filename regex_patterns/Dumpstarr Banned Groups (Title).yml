@@ -1,5 +1,5 @@
 name: Dumpstarr Banned Groups (Title)
-pattern: (?<=^|[\s.-])(Tofu4U)\b
+pattern: \b(Tofu4U)\b
 description: ''
 tags:
 - Release Group
