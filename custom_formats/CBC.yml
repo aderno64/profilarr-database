@@ -1,27 +1,21 @@
-name: CR
+name: CBC
 description: ''
 tags:
-- Anime
 - Streaming Service
 conditions:
-- name: Crunchyroll
+- name: CBC
   negate: false
-  pattern: CR
+  pattern: Canadian Broadcasting Corporation
   required: true
   type: release_title
 - name: WEB-DL
-  negate: false
+  type: source
   required: false
+  negate: false
   source: web_dl
-  type: source
 - name: WEBRip
-  negate: false
+  type: source
   required: false
+  negate: false
   source: webrip
-  type: source
-- name: WEB
-  type: source
-  required: false
-  negate: false
-  source: television
 tests: []
