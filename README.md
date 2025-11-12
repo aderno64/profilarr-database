@@ -2,7 +2,7 @@
 
 ## **For a media setup that isn't a dumpster fire :D**
 
-[![Discord](https://img.shields.io/discord/1408095311661891796?label=Discord&logo=discord&style=for-the-badge)](https://discord.gg/GuCgPN5KZM)
+[![Discord](https://img.shields.io/discord/1408095311661891796?label=Discord&logo=discord&style=for-the-badge)](https://discord.gg/TaUDankj)
 > You can submit feature requests in our Discord
 
 ---
