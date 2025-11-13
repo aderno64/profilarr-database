@@ -37,7 +37,7 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 
 Our profiles are loosely based on the structure of the **SQP-1 Alternative (Radarr)** and **WEB-2160p/1080p Alternative (Sonarr)** profiles from TRaSH.
 
-* **Release Group Tiers:** We default to the [Dictionarry Group Tiers](https://github.com/Dictionarry-Hub/database) (UHD, HD, 720p, WEB, Remux).
+* **Release Group Tiers:** We default to the [Dictionarry](https://github.com/Dictionarry-Hub/database) Group Tiers (UHD, HD, 720p, WEB, Remux).
 * **Alternative Groups:** The [TRaSH Guides](https://trash-guides.info/) tiers are also included if you prefer to use those instead.
 
 ---
