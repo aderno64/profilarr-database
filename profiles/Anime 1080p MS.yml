@@ -4,7 +4,7 @@ description: 'Based on the TRaSH Guides Anime Profile, focusing on media that ha
 
   - This profile will grab between a SDTV - 1080p Bluray file.
 
-  - You will be preferring Multisub media and x265 encodes.'
+  - You will be preferring Multisub media.'
 tags:
 - Anime
 - Sonarr
@@ -26,7 +26,11 @@ custom_formats_sonarr:
   score: 1200
 - name: Anime Tier 4
   score: 1100
+- name: Remux Tier 01 - Sonarr
+  score: 1050
 - name: Anime Tier 5
+  score: 1000
+- name: Remux Tier 02 - Sonarr
   score: 1000
 - name: Anime Tier 6
   score: 900
@@ -58,8 +62,6 @@ custom_formats_sonarr:
   score: 101
 - name: Uncensored
   score: 101
-#- name: x265 (HD)
-#  score: 101
 - name: Anime WEB Tier 6
   score: 100
 - name: CR
@@ -91,6 +93,8 @@ custom_formats_sonarr:
 - name: HIDIVE
   score: 1
 - name: v1
+  score: 1
+- name: YK
   score: 1
 - name: v0
   score: -51
