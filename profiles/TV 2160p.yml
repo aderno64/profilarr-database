@@ -114,6 +114,8 @@ custom_formats_sonarr:
   score: 75
 - name: UHD Streaming Boost
   score: 75
+- name: YK
+  score: 75
 - name: Dolby Digital +
   score: 50
 - name: Atmos
