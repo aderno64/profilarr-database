@@ -1,5 +1,9 @@
 name: v0
+<<<<<<< HEAD
 pattern: (\b|\d)(v0)\b
+=======
+pattern: (\b|\\d)(v0)\b
+>>>>>>> upstream/stable
 description: ''
 tags:
 - Anime
