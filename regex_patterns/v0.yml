@@ -1,8 +1,12 @@
 name: v0
 <<<<<<< HEAD
+<<<<<<< HEAD
 pattern: (\b|\d)(v0)\b
 =======
 pattern: (\b|\\d)(v0)\b
+>>>>>>> upstream/stable
+=======
+pattern: (\b|\d)(v0)\b
 >>>>>>> upstream/stable
 description: ''
 tags:
