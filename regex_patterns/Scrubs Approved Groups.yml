@@ -1,5 +1,5 @@
 name: Scrubs Approved Groups
-pattern: (?<=^|[\s.-])(BoOk|BMF|DEFiANCE|FoV|GAMEOVER|NTROPiC-FTP|SiNNERS)\b
+pattern: (?<=^|[\s.-])(BoOk|BMF|DEADBADUGLY|DEFiANCE|FoV|GAMEOVER|NTROPiC-FTP|SiNNERS)\b
 description: ''
 tags:
 - Scrubs
