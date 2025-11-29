@@ -58,7 +58,7 @@ custom_formats_sonarr:
   score: 200
 - name: WEB Tier 04
   score: 200
-- name: Anime Multisub
+- name: Multi-sub
   score: 101
 - name: Uncensored
   score: 101
