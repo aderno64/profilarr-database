@@ -1,0 +1,6 @@
+name: Whose Line is it Anyway (US Version)
+pattern: Whose[. _-]?Line[. _-]?Is[. _-]?It[. _-]?Anyway.*\bUS\b
+description: ''
+tags:
+- Version
+tests: []
