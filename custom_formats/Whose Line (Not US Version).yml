@@ -1,6 +1,7 @@
 name: Whose Line (Not US Version)
 description: This format targets releases that are NOT the United States version of
-  "Whose Line Is It Anyway".
+  "Whose Line Is It Anyway". To use this format, add to your TV profile(s) and give
+  it a score of -10000.
 tags:
 - Version
 conditions:
