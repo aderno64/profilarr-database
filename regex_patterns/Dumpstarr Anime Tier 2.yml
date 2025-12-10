@@ -1,0 +1,7 @@
+name: Dumpstarr Anime Tier 2
+pattern: (?i)(?:^|[^A-Za-z0-9])(?:Doki|GJM|HorribleSubs|MTBB|SCY|Trix)(?:[^A-Za-z0-9]|$)
+description: ''
+tags:
+- Anime
+- Release Group
+tests: []
