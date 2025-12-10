@@ -112,6 +112,8 @@ custom_formats_sonarr:
   score: 800
 - name: Anime Tier 8
   score: 700
+- name: Anime Baseline Groups
+  score: 150
 qualities:
 - id: -5
   name: Bluray/REMUX 1080p
