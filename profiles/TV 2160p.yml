@@ -4,8 +4,8 @@ description: 'Based on the TRaSH Guides WEB-1080p (Alternative) profile, focusin
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
-  - Ensure you add a delay tag to your setup. I prefer 60 minutes, but adjust this
-  as needed.'
+  - Ensure you add a **[delay profile](https://wiki.servarr.com/sonarr/settings#:~:text=%C2%B6-,Delay%20Profiles,-Delay%20profiles%20allow)**
+  to your setup. I prefer 60 minutes, but adjust this as needed.'
 tags:
 - Sonarr
 - 2160p
