@@ -17,7 +17,7 @@ tags:
 - 2160p
 - HQ
 upgradesAllowed: true
-minCustomFormatScore: 3000
+minCustomFormatScore: 2000
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats: []
