@@ -141,6 +141,8 @@ custom_formats_sonarr:
 - name: Repack1
   score: 5
 - name: FLUX
+  score: 2
+- name: NTb
   score: 1
 - name: AV1
   score: -10000
