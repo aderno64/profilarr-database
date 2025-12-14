@@ -1,5 +1,7 @@
 name: Missing Subtitles
 description: Matches release groups that do not include subtitles in their releases.
+  This will lower the score of a release by 50 points, but lower the score to -10000
+  to complete avoid matched release groups with no subtitles.
 tags:
 - Subtitles
 conditions:
