@@ -1,5 +1,5 @@
 name: TRaSH WEB Tier 01
-pattern: (?<=^|[\s.-])(ABBIE|AJP69|APEX|BLUTONiUM|CMRG|CRFW|CRUD|FLUX|GNOME|HONE|KiNGS|Kitsune|NOSiViD|NTb|NTG|SiC|TEPES|TheFarm|ZoroSenpai)\b
+pattern: (?<=^|[\s.-])(ABBIE|AJP69|APEX|BLUTONiUM|CMRG|CRFW|CRUD|FLUX|GNOME|HONE|KiNGS|Kitsune|NOSiViD|NTb|NTG|RAWR|SiC|TEPES|TheFarm|ZoroSenpai)\b
 description: ''
 tags:
 - TRaSH
