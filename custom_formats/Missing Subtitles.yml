@@ -1,0 +1,11 @@
+name: Missing Subtitles
+description: Matches release groups that do not include subtitles in their releases.
+tags:
+- Subtitles
+conditions:
+- name: BHDStudio
+  negate: false
+  pattern: BHDStudio
+  required: false
+  type: release_group
+tests: []
