@@ -68,6 +68,8 @@ custom_formats_radarr:
   score: 115
 - name: 4K Remaster
   score: 25
+- name: Criterion Collection
+  score: 25
 - name: Remaster
   score: 25
 - name: CRIT
@@ -86,6 +88,8 @@ custom_formats_radarr:
   score: 6
 - name: Repack1
   score: 5
+- name: Missing Audio Channels
+  score: -50
 - name: Missing Subtitles
   score: -50
 - name: 2.0 Stereo
@@ -122,28 +126,27 @@ custom_formats_radarr:
   score: -10000
 custom_formats_sonarr: []
 qualities:
-- id: 10
-  name: Bluray-1080p
 - id: -2
-  name: WEB-1080p
+  name: 1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 13
-  name: Bluray-720p
+  - id: 10
+    name: Bluray-1080p
 - id: -3
-  name: WEB-720p
+  name: 720p
   description: ''
   qualities:
   - id: 14
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
+  - id: 13
+    name: Bluray-720p
 upgrade_until:
-  id: 10
-  name: Bluray-1080p
-  description: 1080p Blu-ray video encoded with lossy compression
+  id: -2
+  name: 1080p
 language: original
