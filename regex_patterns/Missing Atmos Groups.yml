@@ -1,4 +1,4 @@
-name: ATMOS
+name: Missing Atmos Groups
 pattern: \b(ATMOS|CtrlHD|W4NK3R|DON)(\b|\d)
 description: ''
 tags:
