@@ -52,14 +52,12 @@ custom_formats_radarr:
   score: 850
 - name: HD Bluray Tier 06
   score: 850
-- name: DTS-X
-  score: 155
+- name: hallowed
+  score: 600
+- name: BHDStudio
+  score: 550
 - name: Baseline Groups
   score: 150
-- name: DTS-HD MA
-  score: 145
-- name: DTS-HD HRA
-  score: 135
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
@@ -67,12 +65,6 @@ custom_formats_radarr:
 - name: Dolby Digital
   score: 115
 - name: 4K Remaster
-  score: 25
-- name: Criterion Collection
-  score: 25
-- name: IMAX
-  score: 25
-- name: IMAX Enhanced
   score: 25
 - name: Remaster
   score: 25
@@ -98,6 +90,16 @@ custom_formats_radarr:
   score: -50
 - name: 2.0 Stereo
   score: -175
+- name: DTS-HD HRA
+  score: -1000
+- name: DTS-HD MA
+  score: -1000
+- name: DTS-X
+  score: -1000
+- name: TrueHD
+  score: -1000
+- name: TrueHD Missing
+  score: -1000
 - name: 10bit
   score: -10000
 - name: 3D
@@ -120,37 +122,34 @@ custom_formats_radarr:
   score: -10000
 - name: Sing Along
   score: -10000
-- name: TrueHD
-  score: -10000
-- name: TrueHD Missing
-  score: -10000
 - name: Upscaled
   score: -10000
 - name: x265 (HD)
   score: -10000
 custom_formats_sonarr: []
 qualities:
+- id: 10
+  name: Bluray-1080p
 - id: -2
-  name: 1080p
+  name: WEB-1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-  - id: 10
-    name: Bluray-1080p
+- id: 13
+  name: Bluray-720p
 - id: -3
-  name: 720p
+  name: WEB-720p
   description: ''
   qualities:
   - id: 14
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-  - id: 13
-    name: Bluray-720p
 upgrade_until:
-  id: -2
-  name: 1080p
+  id: 10
+  name: Bluray-1080p
+  description: 1080p Blu-ray video encoded with lossy compression
 language: original
