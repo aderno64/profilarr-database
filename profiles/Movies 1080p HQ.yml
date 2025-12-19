@@ -62,6 +62,8 @@ custom_formats_radarr:
   score: 115
 - name: 4K Remaster
   score: 25
+- name: Atmos
+  score: 25
 - name: Criterion Collection
   score: 25
 - name: IMAX
@@ -77,8 +79,6 @@ custom_formats_radarr:
 - name: BCORE
   score: 15
 - name: AAC
-  score: 10
-- name: Atmos
   score: 10
 - name: Repack3
   score: 7
@@ -130,27 +130,28 @@ custom_formats_radarr:
   score: -10000
 custom_formats_sonarr: []
 qualities:
+- id: 10
+  name: Bluray-1080p
 - id: -2
-  name: 1080p
+  name: WEB-1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-  - id: 10
-    name: Bluray-1080p
+- id: 13
+  name: Bluray-720p
 - id: -3
-  name: 720p
+  name: WEB-720p
   description: ''
   qualities:
   - id: 14
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-  - id: 13
-    name: Bluray-720p
 upgrade_until:
-  id: -2
-  name: 1080p
+  id: 10
+  name: Bluray-1080p
+  description: 1080p Blu-ray video encoded with lossy compression
 language: original
