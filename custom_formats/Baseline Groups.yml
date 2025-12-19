@@ -4,26 +4,10 @@ description: This format will match against groups that have a generally good re
   TRaSH/Dictionarry.
 tags:
 - Release Group
-- SweatyEggs69
 conditions:
-- name: SweatyEggs69 Baseline Groups
+- name: Dumpstarr Baseline Groups
   negate: false
   pattern: Dumpstarr Baseline Groups
   required: false
-  type: release_group
-- name: QxR
-  negate: false
-  pattern: QxR
-  required: false
-  type: release_group
-- name: DarQ
-  type: release_group
-  required: false
-  negate: false
-  pattern: DarQ
-- name: Weasley
-  type: release_group
-  required: false
-  negate: false
-  pattern: Weasley
+  type: release_title
 tests: []
