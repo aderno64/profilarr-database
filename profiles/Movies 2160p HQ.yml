@@ -4,10 +4,8 @@ description: 'This profile is specifically designed to allow HQ audio and video 
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
-  - This profile will allow releases with HD Audio like DTS-HD MA and DTS-X.
-
-  - This profile will not allow releases with TrueHD audio due to file size and direct-play
-  support.
+  - This profile will allow releases with HD Audio like TrueHD, DTS-HD MA and DTS-X,
+  but will prefer Dolby Digital Plus with Atmos.
 
   - Releases **without** HDR fallback will be scored negatively to ensure playability
   across platforms.'
