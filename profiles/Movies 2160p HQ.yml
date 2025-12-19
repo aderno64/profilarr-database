@@ -114,15 +114,15 @@ custom_formats_radarr:
 - name: 2.0 Stereo
   score: -175
 - name: DTS-HD HRA
-  score: -1000
+  score: -175
 - name: DTS-HD MA
-  score: -1000
+  score: -175
 - name: DTS-X
-  score: -1000
+  score: -175
 - name: TrueHD
-  score: -1000
+  score: -175
 - name: TrueHD Missing
-  score: -1000
+  score: -175
 - name: 10bit
   score: -10000
 - name: 3D
