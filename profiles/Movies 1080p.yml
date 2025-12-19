@@ -67,6 +67,8 @@ custom_formats_radarr:
   score: 115
 - name: 4K Remaster
   score: 25
+- name: Atmos
+  score: 25
 - name: Remaster
   score: 25
 - name: CRIT
@@ -76,8 +78,6 @@ custom_formats_radarr:
 - name: BCORE
   score: 15
 - name: AAC
-  score: 10
-- name: Atmos
   score: 10
 - name: Repack3
   score: 7
