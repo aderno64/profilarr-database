@@ -1,6 +1,6 @@
 name: Movies 1080p HQ
-description: 'This profile is specifically designed to allow HQ audio formats that
-  are direct-play supported by the **AppleTV**.
+description: 'This profile is specifically designed to allow HQ audio and video formats
+  that are supported by the **AppleTV**.
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
@@ -106,8 +106,6 @@ custom_formats_radarr:
   score: -1000
 - name: TrueHD Missing
   score: -1000
-- name: 10bit
-  score: -10000
 - name: 3D
   score: -10000
 - name: B&W
