@@ -8,7 +8,7 @@ description: 'This profile focuses on streaming optimized sources with little to
   - This profile will prefer streaming optimized releases groups like **BHDStudio**
   and **hallowed**.
 
-  - This profile does not allow releases with HD Audio.'
+  - This profile does not allow releases with HD Audio to ensure direct-play compatibility.'
 tags:
 - Radarr
 - Streaming Optimized
