@@ -62,6 +62,12 @@ custom_formats_radarr:
   score: 115
 - name: 4K Remaster
   score: 25
+- name: Criterion Collection
+  score: 25
+- name: IMAX
+  score: 25
+- name: IMAX Enhanced
+  score: 25
 - name: Remaster
   score: 25
 - name: CRIT
