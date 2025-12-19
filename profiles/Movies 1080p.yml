@@ -8,7 +8,7 @@ description: 'This profile focuses on streaming optimized sources with little to
   - This profile will prefer streaming optimized releases groups like **BHDStudio**
   and **hallowed**.
 
-  - This profile does not allow releases with HD Audio.'
+  - This profile does not allow releases with HD Audio to ensure direct-play compatibility.'
 tags:
 - Radarr
 - Streaming Optimized
@@ -67,6 +67,8 @@ custom_formats_radarr:
   score: 115
 - name: 4K Remaster
   score: 25
+- name: Atmos
+  score: 25
 - name: Remaster
   score: 25
 - name: CRIT
@@ -77,14 +79,14 @@ custom_formats_radarr:
   score: 15
 - name: AAC
   score: 10
-- name: Atmos
-  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
   score: 6
 - name: Repack1
   score: 5
+- name: Missing Audio Channels
+  score: -50
 - name: Missing Subtitles
   score: -50
 - name: 2.0 Stereo

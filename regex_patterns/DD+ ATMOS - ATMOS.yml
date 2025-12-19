@@ -1,8 +1,0 @@
-name: DD+ ATMOS - ATMOS
-pattern: \b(ATMOS|DDPA)(\b|\d)
-description: ''
-tags:
-- TRaSH
-- Atmos
-- Audio
-tests: []
