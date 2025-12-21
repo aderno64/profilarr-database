@@ -10,4 +10,9 @@ conditions:
   pattern: Dumpstarr Baseline Groups
   required: false
   type: release_title
+- name: Not HONE
+  type: release_group
+  required: false
+  negate: true
+  pattern: HONE
 tests: []
