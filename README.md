@@ -7,7 +7,7 @@
 
 ---
 
-### **🚀 Simple, Set-and-Forget Custom Formats**
+### **Simple, Set-and-Forget Custom Formats**
 
 The Dumpstarr database for Profilarr is a curated collection of **custom formats** for **Sonarr** and **Radarr**, designed to simplify sourcing high-quality, decently sized media.
 
@@ -17,7 +17,7 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 
 ---
 
-### **💾 Profile Selection Guide**
+### **Profile Selection Guide**
 
 | Media Type | Profile Name | Details |
 | :--- | :--- | :--- |
@@ -33,7 +33,7 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 
 ---
 
-### **🛠️ Underlying Structure and Tiers**
+### **Underlying Structure and Tiers**
 
 Our profiles are loosely based on the structure of the **SQP-1 Alternative (Radarr)** and **WEB-2160p/1080p Alternative (Sonarr)** profiles from TRaSH.
 
@@ -42,7 +42,7 @@ Our profiles are loosely based on the structure of the **SQP-1 Alternative (Rada
 
 ---
 
-### **✨ Fixes & Features**
+### **Fixes & Features**
 
 We include several specific fixes and features for common media-sourcing annoyances:
 
