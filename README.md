@@ -3,6 +3,8 @@
 ## **For a media setup that isn't a dumpster fire :D**
 
 [![Discord](https://img.shields.io/discord/1408095311661891796?label=Discord&logo=discord&style=for-the-badge)](https://discord.gg/TbYW2Q4hGv)
+
+> [!NOTE]
 > You can submit feature requests in our Discord
 
 ---
@@ -19,6 +21,9 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 
 ### **Profile Selection Guide**
 
+> [!TIP]
+> We recommend starting with the Movies 1080p/2160p and TV 1080p/2160p profiles.
+
 | Media Type | Profile Name | Details |
 | :--- | :--- | :--- |
 | **1080p LQ** | `1080p LQ` | Use for "low priority" Movies & TV. |
@@ -30,7 +35,7 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 | **Movies (HQ Audio)** | `Movies 1080p HQ` | 1080p with a preference for HQ audio formats. |
 | **4K Movies (HQ Audio)** | `Movies 2160p HQ` | 4K with a preference for HQ audio formats. |
 
-> **Note on x265:** We explicitly deny `x265` for resolutions lower than 2160p since these releases are usually re-encodes, for more info on this logic, see the [TRaSH Guides](https://trash-guides.info/Sonarr/sonarr-collection-of-custom-formats/#x265-hd) documentation. If you'd prefer `x265` releases, you can update the score of the "**x265 (HD)**" format to 0 on the selected profile.
+> We explicitly deny x265 for resolutions lower than 2160p since these releases are usually re-encodes, for more info on this logic, see the [TRaSH Guides](https://trash-guides.info/Sonarr/sonarr-collection-of-custom-formats/#x265-hd) documentation. If you'd prefer x265 releases, you can update the score of the "**x265 (HD)**" format to **0** on the selected profile.
 
 ---
 
