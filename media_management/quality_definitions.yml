@@ -2,16 +2,16 @@ qualityDefinitions:
   radarr:
     Bluray-1080p:
       max: 2000
-      min: 50.8
-      preferred: 1999
+      min: 42
+      preferred: 1990
     Bluray-2160p:
       max: 2000
       min: 102
       preferred: 1999
     Bluray-720p:
       max: 2000
-      min: 25.7
-      preferred: 1999
+      min: 20
+      preferred: 1990
     HDTV-1080p:
       max: 2000
       min: 15
