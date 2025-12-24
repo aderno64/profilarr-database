@@ -1,17 +1,15 @@
 name: Movies 1080p HQ
-description: 'This profile is specifically designed to allow HQ audio formats that
-  are direct-play supported by the **AppleTV**.
+description: 'This profile is specifically designed to allow HQ audio and video formats
+  that are supported by the **AppleTV**.
 
   - This profile is recommended for a set-it-and-forget-it setup.
 
-  - This profile will allow releases with HD Audio like DTS-HD MA and DTS-X.
-
-  - This profile will not allow releases with TrueHD audio due to file size and direct-play
-  support.'
+  - This profile will allow releases with HD Audio like TrueHD, DTS-HD MA and DTS-X,
+  but will prefer Dolby Digital Plus with Atmos.'
 tags:
 - Radarr
-- 1080p
 - HQ
+- 1080p
 upgradesAllowed: true
 minCustomFormatScore: 1000
 upgradeUntilScore: 10000
@@ -19,41 +17,41 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr:
 - name: WEB Tier 01
-  score: 1700
+  score: 2000
 - name: WEB Tier 02
-  score: 1650
+  score: 1950
 - name: WEB Tier 03
-  score: 1600
+  score: 1900
 - name: WEB Tier 04
-  score: 1550
-- name: WEB Tier 05
-  score: 1500
-- name: 720p Tier 01
-  score: 1100
+  score: 1850
 - name: HD Bluray Tier 01
-  score: 1100
-- name: 720p Tier 02
-  score: 1050
+  score: 1800
+- name: WEB Tier 05
+  score: 1800
 - name: HD Bluray Tier 02
-  score: 1050
-- name: 720p Tier 03
-  score: 1000
+  score: 1750
 - name: HD Bluray Tier 03
-  score: 1000
-- name: 720p Tier 04
-  score: 950
+  score: 1700
 - name: HD Bluray Tier 04
-  score: 950
-- name: 720p Tier 05
-  score: 900
+  score: 1650
 - name: HD Bluray Tier 05
-  score: 900
-- name: 720p Tier 06
-  score: 850
+  score: 1600
+- name: 720p Tier 01
+  score: 1550
 - name: HD Bluray Tier 06
-  score: 850
+  score: 1550
+- name: 720p Tier 02
+  score: 1500
+- name: 720p Tier 03
+  score: 1450
+- name: 720p Tier 04
+  score: 1450
+- name: 720p Tier 05
+  score: 1400
+- name: 720p Tier 06
+  score: 1350
 - name: Baseline Groups
-  score: 150
+  score: 1000
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
@@ -84,8 +82,12 @@ custom_formats_radarr:
   score: 7
 - name: Repack2
   score: 6
+- name: 7.1 Surround
+  score: 5
 - name: Repack1
   score: 5
+- name: 5.1 Surround
+  score: 0
 - name: Missing Audio Channels
   score: -50
 - name: Missing Subtitles
@@ -93,17 +95,15 @@ custom_formats_radarr:
 - name: 2.0 Stereo
   score: -175
 - name: DTS-HD HRA
-  score: -500
+  score: -1000
 - name: DTS-HD MA
-  score: -500
+  score: -1000
 - name: DTS-X
-  score: -500
+  score: -1000
 - name: TrueHD
-  score: -500
+  score: -1000
 - name: TrueHD Missing
-  score: -500
-- name: 10bit
-  score: -10000
+  score: -1000
 - name: 3D
   score: -10000
 - name: B&W
@@ -130,27 +130,28 @@ custom_formats_radarr:
   score: -10000
 custom_formats_sonarr: []
 qualities:
+- id: 10
+  name: Bluray-1080p
 - id: -2
-  name: 1080p
+  name: WEB-1080p
   description: ''
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-  - id: 10
-    name: Bluray-1080p
+- id: 13
+  name: Bluray-720p
 - id: -3
-  name: 720p
+  name: WEB-720p
   description: ''
   qualities:
   - id: 14
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-  - id: 13
-    name: Bluray-720p
 upgrade_until:
-  id: -2
-  name: 1080p
+  id: 10
+  name: Bluray-1080p
+  description: 1080p Blu-ray video encoded with lossy compression
 language: original

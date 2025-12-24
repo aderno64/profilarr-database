@@ -1,5 +1,5 @@
 name: Dumpstarr Baseline Groups
-pattern: (?<=^|[\s.-])(alfaHD|DUSKLiGHT|PiRaTeS|SuccessfulCrab|Vyndros)\b
+pattern: (?<=^|[\s.-])(alfaHD|DarQ|DiscoD|DUSKLiGHT|PiRaTeS|QxR|SuccessfulCrab|Vyndros|Weasley)\b
 description: ''
 tags:
 - Release Group

@@ -1,0 +1,50 @@
+name: 1080p LQ
+description: '- This profile is for **SIDCB** (Sh*t I Don''t Care About). The primary
+  tier and LQ groups are not scored to allow "low quality" releases. For example,
+  user requests "Keeping Up with the Kardashians" and you would prefer to save as
+  much storage space as humanly possible so this user can watch this "show".
+
+  - You can expect to grab **MeGusta** releases 99% of the time.
+
+  - AV1 and x265 codecs are allowed and scored for preference of x265. **NOTE! you
+  may encounter transcoding if the client side does not support these codecs.**'
+tags:
+- Sonarr
+- 1080p
+- LQ
+upgradesAllowed: true
+minCustomFormatScore: 250
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats:
+- name: SIDCA Groups
+  score: 1000
+- name: x265 (HD)
+  score: 250
+- name: AV1
+  score: 225
+custom_formats_radarr: []
+custom_formats_sonarr: []
+qualities:
+- id: 11
+  name: WEBRip-1080p
+- id: 10
+  name: Bluray-1080p
+- id: 12
+  name: HDTV-1080p
+- id: 15
+  name: WEBRip-720p
+- id: 13
+  name: Bluray-720p
+- id: 16
+  name: HDTV-720p
+- id: 22
+  name: DVD
+- id: 24
+  name: SDTV
+upgrade_until:
+  id: 11
+  name: WEBRip-1080p
+  description: 1080p web rip, either captured using a capture card or re-encoded from
+    a WEB-DL of equal or higher resolution
+language: original
