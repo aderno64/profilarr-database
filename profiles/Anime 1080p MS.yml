@@ -55,8 +55,6 @@ custom_formats:
   score: 200
 - name: Anime Baseline Groups
   score: 150
-- name: Anime Dual Audio
-  score: 101
 - name: Multi-Sub
   score: 101
 - name: Uncensored
