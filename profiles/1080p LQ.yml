@@ -26,25 +26,36 @@ custom_formats:
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
-- id: 11
-  name: WEBRip-1080p
-- id: 10
-  name: Bluray-1080p
 - id: 12
   name: HDTV-1080p
-- id: 15
-  name: WEBRip-720p
-- id: 13
-  name: Bluray-720p
+- id: -1
+  name: WEB-1080p
+  description: ''
+  qualities:
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+- id: 10
+  name: Bluray-1080p
 - id: 16
   name: HDTV-720p
+- id: -2
+  name: WEB-720p
+  description: ''
+  qualities:
+  - id: 15
+    name: WEBRip-720p
+  - id: 14
+    name: WEBDL-720p
+- id: 13
+  name: Bluray-720p
 - id: 22
   name: DVD
 - id: 24
   name: SDTV
 upgrade_until:
-  id: 11
-  name: WEBRip-1080p
-  description: 1080p web rip, either captured using a capture card or re-encoded from
-    a WEB-DL of equal or higher resolution
+  id: 12
+  name: HDTV-1080p
+  description: 1080p high-definition digital television capture
 language: original
