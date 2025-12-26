@@ -2,113 +2,113 @@ qualityDefinitions:
   radarr:
     Bluray-1080p:
       max: 2000
-      min: 42
+      min: 10
       preferred: 1990
     Bluray-2160p:
       max: 2000
-      min: 102
-      preferred: 1999
+      min: 10
+      preferred: 1990
     Bluray-720p:
       max: 2000
-      min: 20
+      min: 10
       preferred: 1990
     HDTV-1080p:
       max: 2000
-      min: 15
+      min: 10
       preferred: 1990
     HDTV-2160p:
       max: 2000
-      min: 85
-      preferred: 1999
+      min: 10
+      preferred: 1990
     HDTV-720p:
       max: 2000
       min: 10
       preferred: 1990
     Remux-1080p:
       max: 2000
-      min: 102
-      preferred: 1999
+      min: 10
+      preferred: 1990
     Remux-2160p:
       max: 2000
-      min: 187.4
-      preferred: 1999
+      min: 10
+      preferred: 1990
     WEBDL-1080p:
       max: 2000
-      min: 12.5
-      preferred: 1999
+      min: 10
+      preferred: 1990
     WEBDL-2160p:
       max: 2000
-      min: 34.5
-      preferred: 1999
+      min: 10
+      preferred: 1990
     WEBDL-720p:
       max: 2000
-      min: 12.5
-      preferred: 1999
+      min: 10
+      preferred: 1990
     WEBRip-1080p:
       max: 2000
-      min: 12.5
-      preferred: 1999
+      min: 10
+      preferred: 1990
     WEBRip-2160p:
       max: 2000
-      min: 34.5
-      preferred: 1999
+      min: 10
+      preferred: 1990
     WEBRip-720p:
       max: 2000
-      min: 12.5
-      preferred: 1999
+      min: 10
+      preferred: 1990
   sonarr:
     Bluray-1080p:
       max: 1000
-      min: 50.4
-      preferred: 995
+      min: 10
+      preferred: 990
     Bluray-1080p Remux:
       max: 1000
-      min: 69.1
-      preferred: 995
+      min: 10
+      preferred: 990
     Bluray-2160p:
       max: 1000
-      min: 94.6
-      preferred: 995
+      min: 10
+      preferred: 990
     Bluray-2160p Remux:
       max: 1000
-      min: 187.4
-      preferred: 995
+      min: 10
+      preferred: 990
     Bluray-720p:
       max: 1000
-      min: 17.1
-      preferred: 995
+      min: 10
+      preferred: 990
     HDTV-1080p:
       max: 1000
       min: 7
       preferred: 990
     HDTV-2160p:
       max: 1000
-      min: 25
-      preferred: 995
+      min: 10
+      preferred: 990
     HDTV-720p:
       max: 1000
       min: 5
       preferred: 990
     WEBDL-1080p:
       max: 1000
-      min: 13
+      min: 10
       preferred: 990
     WEBDL-2160p:
       max: 1000
-      min: 25
-      preferred: 995
+      min: 10
+      preferred: 990
     WEBDL-720p:
       max: 1000
       min: 10
       preferred: 995
     WEBRip-1080p:
       max: 1000
-      min: 13
+      min: 10
       preferred: 990
     WEBRip-2160p:
       max: 1000
-      min: 25
-      preferred: 995
+      min: 10
+      preferred: 990
     WEBRip-720p:
       max: 1000
       min: 10
