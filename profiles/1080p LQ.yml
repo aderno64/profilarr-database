@@ -13,18 +13,22 @@ tags:
 - 1080p
 - LQ
 upgradesAllowed: true
-minCustomFormatScore: 250
+minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
 - name: SIDCA Groups
-  score: 1000
-- name: SIDCA Fallback Groups
   score: 500
-- name: x265 (HD)
+- name: SIDCA Fallback Groups
   score: 250
-- name: AV1
-  score: 225
+- name: x265 (HD)
+  score: 25
+- name: 7.1 Surround
+  score: 15
+- name: 5.1 Surround
+  score: 10
+- name: 2.0 Stereo
+  score: 5
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
