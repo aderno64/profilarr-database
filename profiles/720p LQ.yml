@@ -6,8 +6,6 @@ description: '- This profile is for **SIDCA** (Sh*t I Don''t Care About). The pr
 
   - You can expect to grab **MeGusta** releases 99% of the time.
 
-  - 1080p releases are set as fallback purely for automation purposes.
-
   - AV1 and x265 codecs are allowed and scored for preference of x265. **NOTE! you
   may encounter transcoding if the client side does not support these codecs.**'
 tags:
@@ -45,18 +43,6 @@ qualities:
     name: HDTV-720p
   - id: 13
     name: Bluray-720p
-- id: -1
-  name: 1080p
-  description: ''
-  qualities:
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
-  - id: 10
-    name: Bluray-1080p
-  - id: 12
-    name: HDTV-1080p
 - id: 22
   name: DVD
 - id: 24
