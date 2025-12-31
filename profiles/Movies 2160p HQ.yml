@@ -139,6 +139,8 @@ custom_formats_radarr:
   score: -10000
 - name: Extras
   score: -10000
+- name: HONE Missing
+  score: -10000
 - name: Non Retail HDR
   score: -10000
 - name: SDR (no WEBDL)
