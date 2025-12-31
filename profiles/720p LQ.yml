@@ -1,4 +1,4 @@
-name: 1080p LQ
+name: 720p LQ
 description: '- This profile is for **SIDCA** (Sh*t I Don''t Care About). The primary
   tier and LQ groups are not scored to allow "low quality" releases. For example,
   user requests "Keeping Up with the Kardashians" and you would prefer to save as
@@ -9,7 +9,8 @@ description: '- This profile is for **SIDCA** (Sh*t I Don''t Care About). The pr
   - AV1 and x265 codecs are allowed and scored for preference of x265. **NOTE! you
   may encounter transcoding if the client side does not support these codecs.**'
 tags:
-- 1080p
+- Sonarr
+- 720p
 - LQ
 upgradesAllowed: true
 minCustomFormatScore: 0
@@ -31,18 +32,6 @@ custom_formats:
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
-- id: -1
-  name: 1080p
-  description: ''
-  qualities:
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
-  - id: 10
-    name: Bluray-1080p
-  - id: 12
-    name: HDTV-1080p
 - id: -2
   name: 720p
   description: ''
@@ -55,11 +44,23 @@ qualities:
     name: HDTV-720p
   - id: 13
     name: Bluray-720p
+- id: -1
+  name: 1080p
+  description: ''
+  qualities:
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 10
+    name: Bluray-1080p
+  - id: 12
+    name: HDTV-1080p
 - id: 22
   name: DVD
 - id: 24
   name: SDTV
 upgrade_until:
-  id: -1
-  name: 1080p
+  id: -2
+  name: 720p
 language: original
