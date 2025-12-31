@@ -10,6 +10,21 @@ conditions:
   pattern: HONE
   required: true
   type: release_group
+- name: Not DarQ Group
+  type: release_group
+  required: true
+  negate: true
+  pattern: DarQ
+- name: Not DiscoD Group
+  negate: true
+  pattern: DiscoD
+  required: true
+  type: release_group
+- name: Not Weasley Group
+  negate: true
+  pattern: Weasley
+  required: true
+  type: release_group
 - name: HONE (Release Title)
   negate: false
   pattern: HONE (Release Title)
@@ -23,6 +38,18 @@ tests:
     pattern: HONE
     required: true
     type: release_group
+  - matches: false
+    name: Not DiscoD Group
+    negate: true
+    pattern: DiscoD
+    required: true
+    type: release_group
+  - matches: false
+    name: Not Weasley Group
+    negate: true
+    pattern: Weasley
+    required: true
+    type: release_group
   - matches: true
     name: HONE (Release Title)
     negate: false
@@ -32,13 +59,25 @@ tests:
   expected: true
   id: 1
   input: The.Mist.(2007).(2160p.UHD.BluRay.x265.DV.HDR.DDP.7.1.English.-.DiscoD.HONE).mkv
-  lastRun: '2025-12-31T14:14:50.790740'
+  lastRun: '2025-12-31T14:18:38.313550'
   passes: true
 - conditionResults:
   - matches: false
     name: Not HONE Group
     negate: true
     pattern: HONE
+    required: true
+    type: release_group
+  - matches: false
+    name: Not DiscoD Group
+    negate: true
+    pattern: DiscoD
+    required: true
+    type: release_group
+  - matches: false
+    name: Not Weasley Group
+    negate: true
+    pattern: Weasley
     required: true
     type: release_group
   - matches: true
@@ -51,13 +90,25 @@ tests:
   id: 2
   input: The Dark Knight Rises-2012-IMAX-2160p UHD BluRay x265 DV HDR DDP 5.1 English-DarQ
     HONE-REPACK
-  lastRun: '2025-12-31T14:14:50.790740'
+  lastRun: '2025-12-31T14:18:38.313550'
   passes: true
 - conditionResults:
   - matches: true
     name: Not HONE Group
     negate: true
     pattern: HONE
+    required: true
+    type: release_group
+  - matches: false
+    name: Not DiscoD Group
+    negate: true
+    pattern: DiscoD
+    required: true
+    type: release_group
+  - matches: false
+    name: Not Weasley Group
+    negate: true
+    pattern: Weasley
     required: true
     type: release_group
   - matches: true
@@ -70,13 +121,25 @@ tests:
   id: 3
   input: Black Widow-2021-IMAX-2160p DSNP WEB-DL Hybrid H265 DV HDR DDP Atmos 5.1
     English-HONE
-  lastRun: '2025-12-31T14:14:50.790740'
+  lastRun: '2025-12-31T14:18:38.313550'
   passes: true
 - conditionResults:
   - matches: false
     name: Not HONE Group
     negate: true
     pattern: HONE
+    required: true
+    type: release_group
+  - matches: false
+    name: Not DiscoD Group
+    negate: true
+    pattern: DiscoD
+    required: true
+    type: release_group
+  - matches: false
+    name: Not Weasley Group
+    negate: true
+    pattern: Weasley
     required: true
     type: release_group
   - matches: true
@@ -89,5 +152,5 @@ tests:
   id: 4
   input: Black Widow-2021-IMAX-2160p DSNP WEB-DL Hybrid H265 DV HDR DDP Atmos 5.1
     English-HONE-REPACK
-  lastRun: '2025-12-31T14:14:50.790740'
+  lastRun: '2025-12-31T14:18:38.313550'
   passes: true
