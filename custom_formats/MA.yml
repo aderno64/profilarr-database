@@ -1,14 +1,8 @@
 name: MA
-description: Matches 'Movies Anywhere' WEB-DLs. Negates any encodes.
+description: Matches 'Movies Anywhere' WEB-DLs.
 tags:
 - Streaming Service
-- WEB-DL
 conditions:
-- name: WEB-DL
-  negate: false
-  required: true
-  source: web_dl
-  type: source
 - name: MA Regex
   negate: false
   pattern: Movies Anywhere
