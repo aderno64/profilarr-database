@@ -5,22 +5,22 @@ description: This format targets releases from HONE that do not follow the prope
 tags:
 - Release Group
 conditions:
-- name: Not HONE Group
+- name: Not HONE
   negate: true
   pattern: HONE
   required: true
   type: release_group
-- name: Not DarQ Group
-  type: release_group
-  required: true
+- name: Not DarQ
   negate: true
   pattern: DarQ
-- name: Not DiscoD Group
+  required: true
+  type: release_group
+- name: Not DiscoD
   negate: true
   pattern: DiscoD
   required: true
   type: release_group
-- name: Not Weasley Group
+- name: Not Weasley
   negate: true
   pattern: Weasley
   required: true
