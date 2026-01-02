@@ -152,8 +152,6 @@ custom_formats_sonarr:
   score: 10
 - name: Scrubs (Remux Boost)
   score: 10
-- name: Surround Sound
-  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
