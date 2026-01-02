@@ -9,9 +9,9 @@ conditions:
   qualityModifier: remux
   required: true
   type: quality_modifier
-- name: TRaSH Remux Tier 02
+- name: Dictionarry Remux Tier 02
   negate: false
-  pattern: TRaSH Remux Tier 02 - Radarr
+  pattern: Dictionarry Remux Tier 02
   required: false
   type: release_group
 tests: []
