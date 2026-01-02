@@ -1,4 +1,4 @@
-name: Remux Tier 02 - Sonarr
+name: Remux Tier 04 - Sonarr
 description: ''
 tags:
 - Remux
@@ -9,9 +9,9 @@ conditions:
   required: true
   source: bluray_raw
   type: source
-- name: Dictionarry Remux Tier 02
+- name: Dictionarry Remux Tier 04
   negate: false
-  pattern: Dictionarry Remux Tier 02
+  pattern: Dictionarry Remux Tier 04
   required: false
   type: release_group
 tests: []
