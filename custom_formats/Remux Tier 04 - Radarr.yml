@@ -1,4 +1,4 @@
-name: Remux Tier 01 - Radarr
+name: Remux Tier 04 - Radarr
 description: ''
 tags:
 - Remux
@@ -9,9 +9,9 @@ conditions:
   qualityModifier: remux
   required: true
   type: quality_modifier
-- name: Dictionarry Remux Tier 01
+- name: Dictionarry Remux Tier 04
   negate: false
-  pattern: Dictionarry Remux Tier 01
+  pattern: Dictionarry Remux Tier 04
   required: false
   type: release_group
 tests: []

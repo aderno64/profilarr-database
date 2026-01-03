@@ -1,5 +1,5 @@
-name: Dumpstarr SIDCA Groups
-pattern: (?<=^|[\s.-])(MeGusta|PSA)\b
+name: Dumpstarr SIDCA Fallback Groups
+pattern: (?<=^|[\s.-])(ASTRiD|DEFLATE|iVy|MacP|RARBG|YIFY|YTS)\b
 description: These are groups that are typically banned, but are allowed for the SIDCA
   profiles.
 tags:

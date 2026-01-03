@@ -1,0 +1,156 @@
+name: HONE Missing
+description: This format targets releases from HONE that do not follow the proper
+  naming schemes which prevents Radarr from correctly tag a release group. These releases
+  typically cause download loops if you do not actively rename the imported media.
+tags:
+- Release Group
+conditions:
+- name: Not HONE
+  negate: true
+  pattern: HONE
+  required: true
+  type: release_group
+- name: Not DarQ
+  negate: true
+  pattern: DarQ
+  required: true
+  type: release_group
+- name: Not DiscoD
+  negate: true
+  pattern: DiscoD
+  required: true
+  type: release_group
+- name: Not Weasley
+  negate: true
+  pattern: Weasley
+  required: true
+  type: release_group
+- name: HONE (Release Title)
+  negate: false
+  pattern: HONE (Release Title)
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: Not HONE Group
+    negate: true
+    pattern: HONE
+    required: true
+    type: release_group
+  - matches: false
+    name: Not DiscoD Group
+    negate: true
+    pattern: DiscoD
+    required: true
+    type: release_group
+  - matches: false
+    name: Not Weasley Group
+    negate: true
+    pattern: Weasley
+    required: true
+    type: release_group
+  - matches: true
+    name: HONE (Release Title)
+    negate: false
+    pattern: HONE (Release Title)
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: The.Mist.(2007).(2160p.UHD.BluRay.x265.DV.HDR.DDP.7.1.English.-.DiscoD.HONE).mkv
+  lastRun: '2025-12-31T14:18:38.313550'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Not HONE Group
+    negate: true
+    pattern: HONE
+    required: true
+    type: release_group
+  - matches: false
+    name: Not DiscoD Group
+    negate: true
+    pattern: DiscoD
+    required: true
+    type: release_group
+  - matches: false
+    name: Not Weasley Group
+    negate: true
+    pattern: Weasley
+    required: true
+    type: release_group
+  - matches: true
+    name: HONE (Release Title)
+    negate: false
+    pattern: HONE (Release Title)
+    required: true
+    type: release_title
+  expected: true
+  id: 2
+  input: The Dark Knight Rises-2012-IMAX-2160p UHD BluRay x265 DV HDR DDP 5.1 English-DarQ
+    HONE-REPACK
+  lastRun: '2025-12-31T14:18:38.313550'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Not HONE Group
+    negate: true
+    pattern: HONE
+    required: true
+    type: release_group
+  - matches: false
+    name: Not DiscoD Group
+    negate: true
+    pattern: DiscoD
+    required: true
+    type: release_group
+  - matches: false
+    name: Not Weasley Group
+    negate: true
+    pattern: Weasley
+    required: true
+    type: release_group
+  - matches: true
+    name: HONE (Release Title)
+    negate: false
+    pattern: HONE (Release Title)
+    required: true
+    type: release_title
+  expected: false
+  id: 3
+  input: Black Widow-2021-IMAX-2160p DSNP WEB-DL Hybrid H265 DV HDR DDP Atmos 5.1
+    English-HONE
+  lastRun: '2025-12-31T14:18:38.313550'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Not HONE Group
+    negate: true
+    pattern: HONE
+    required: true
+    type: release_group
+  - matches: false
+    name: Not DiscoD Group
+    negate: true
+    pattern: DiscoD
+    required: true
+    type: release_group
+  - matches: false
+    name: Not Weasley Group
+    negate: true
+    pattern: Weasley
+    required: true
+    type: release_group
+  - matches: true
+    name: HONE (Release Title)
+    negate: false
+    pattern: HONE (Release Title)
+    required: true
+    type: release_title
+  expected: true
+  id: 4
+  input: Black Widow-2021-IMAX-2160p DSNP WEB-DL Hybrid H265 DV HDR DDP Atmos 5.1
+    English-HONE-REPACK
+  lastRun: '2025-12-31T14:18:38.313550'
+  passes: true

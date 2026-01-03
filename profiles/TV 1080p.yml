@@ -132,18 +132,22 @@ custom_formats_sonarr:
   score: 10
 - name: Scrubs (Remux Boost)
   score: 10
-- name: Surround Sound
-  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
   score: 6
+- name: 7.1 Surround
+  score: 5
 - name: Repack1
   score: 5
 - name: FLUX
   score: 2
 - name: NTb
   score: 1
+- name: 5.1 Surround
+  score: 0
+- name: 2.0 Stereo
+  score: -175
 - name: AV1
   score: -10000
 - name: Banned Groups

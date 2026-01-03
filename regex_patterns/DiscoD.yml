@@ -1,0 +1,7 @@
+name: DiscoD
+pattern: (?<=^|[\s.-])DiscoD\b$
+description: ''
+tags:
+- Release Group
+- HEVC
+tests: []

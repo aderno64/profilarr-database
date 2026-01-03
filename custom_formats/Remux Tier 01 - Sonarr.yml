@@ -9,9 +9,9 @@ conditions:
   required: true
   source: bluray_raw
   type: source
-- name: TRaSH Remux Tier 01
+- name: Dictionarry Remux Tier 01
   negate: false
-  pattern: TRaSH Remux Tier 01 - Sonarr
+  pattern: Dictionarry Remux Tier 01
   required: false
   type: release_group
 tests: []
