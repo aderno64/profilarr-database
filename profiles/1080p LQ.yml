@@ -20,8 +20,6 @@ custom_formats:
   score: 500
 - name: SIDCA Fallback Groups
   score: 250
-- name: Banned Groups
-  score: 50
 - name: x265 (HD)
   score: 25
 - name: 7.1 Surround
