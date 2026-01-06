@@ -17,8 +17,8 @@ tags:
 - Sonarr
 - TRaSH
 upgradesAllowed: true
-minCustomFormatScore: 0
-upgradeUntilScore: 10000
+minCustomFormatScore: 401
+upgradeUntilScore: 1000
 minScoreIncrement: 1
 custom_formats:
 - name: Anime Tier 1
@@ -59,10 +59,6 @@ custom_formats:
   score: 200
 - name: Anime Baseline Groups
   score: 150
-- name: Anime Dual Audio
-  score: 101
-- name: Multi-Audio
-  score: 101
 - name: Multi-Sub
   score: 101
 - name: Uncensored
@@ -111,6 +107,10 @@ custom_formats:
   score: 1
 - name: v0
   score: -51
+- name: Anime Dual Audio
+  score: -51
+- name: Multi-Audio
+  score: -51
 - name: Anime LQ
   score: -10000
 - name: Anime Raws
@@ -134,14 +134,8 @@ custom_formats_sonarr:
 - name: Remux Tier 02 - Sonarr
   score: 1000
 qualities:
-- id: -5
-  name: Bluray/REMUX 1080p
-  description: ''
-  qualities:
-  - id: 8
-    name: Remux-1080p
-  - id: 10
-    name: Bluray-1080p
+- id: 10
+  name: Bluray-1080p
 - id: -2
   name: WEB 1080p
   description: ''
@@ -179,6 +173,6 @@ qualities:
 - id: 24
   name: SDTV
 upgrade_until:
-  id: -5
-  name: Bluray/REMUX 1080p
+  id: 10
+  name: Bluray-1080p
 language: original
