@@ -186,4 +186,4 @@ upgrade_until:
   id: 4
   name: Bluray-2160p
   description: 4K Ultra HD Blu-ray video encoded with lossy compression
-language: original
+language: must_original
