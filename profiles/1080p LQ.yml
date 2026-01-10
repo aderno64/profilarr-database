@@ -28,6 +28,16 @@ custom_formats:
   score: 10
 - name: 2.0 Stereo
   score: 5
+- name: WEB Tier 01
+  score: -31
+- name: WEB Tier 02
+  score: -32
+- name: WEB Tier 03
+  score: -33
+- name: WEB Tier 04
+  score: -34
+- name: WEB Tier 05
+  score: -35
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
@@ -72,4 +82,4 @@ qualities:
 upgrade_until:
   id: -1
   name: 1080p
-language: original
+language: must_original
