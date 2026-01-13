@@ -1,5 +1,5 @@
 name: Dumpstarr Anime Tier 1
-pattern: (?i)(?:^|[^A-Za-z0-9])(?:ASW|Ember|Judas)(?:[^A-Za-z0-9]|$)
+pattern: (?i)(?:^\[|(?<=-)|(?<=\[))(?:Ember|Judas|ASW)(?:\]|\b|$)
 description: ''
 tags:
 - Anime
