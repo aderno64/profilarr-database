@@ -1,0 +1,10 @@
+name: MeGusta
+description: ''
+tags: []
+conditions:
+- name: MeGusta
+  type: release_group
+  required: true
+  negate: false
+  pattern: MeGusta
+tests: []
