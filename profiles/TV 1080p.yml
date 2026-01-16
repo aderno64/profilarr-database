@@ -147,7 +147,7 @@ custom_formats_sonarr:
 - name: 5.1 Surround
   score: 0
 - name: 2.0 Stereo
-  score: -175
+  score: -50
 - name: AV1
   score: -10000
 - name: Banned Groups
