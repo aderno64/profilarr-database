@@ -106,12 +106,12 @@ custom_formats_radarr:
   score: 6
 - name: Repack1
   score: 5
+- name: 2.0 Stereo
+  score: -50
 - name: Missing Audio Channels
   score: -50
 - name: Missing Subtitles
   score: -50
-- name: 2.0 Stereo
-  score: -175
 - name: 10bit
   score: -10000
 - name: 3D
