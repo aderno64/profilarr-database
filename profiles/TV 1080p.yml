@@ -146,8 +146,6 @@ custom_formats_sonarr:
   score: 2
 - name: NTb
   score: 1
-- name: 2.0 Stereo
-  score: -50
 - name: AV1
   score: -10000
 - name: Banned Groups
