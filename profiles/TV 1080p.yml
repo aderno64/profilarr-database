@@ -126,6 +126,8 @@ custom_formats_sonarr:
   score: 25
 - name: TV Editions
   score: 25
+- name: 7.1 Surround
+  score: 10
 - name: AAC
   score: 10
 - name: Scrubs (Internal Boost)
@@ -136,7 +138,7 @@ custom_formats_sonarr:
   score: 7
 - name: Repack2
   score: 6
-- name: 7.1 Surround
+- name: 5.1 Surround
   score: 5
 - name: Repack1
   score: 5
@@ -144,10 +146,6 @@ custom_formats_sonarr:
   score: 2
 - name: NTb
   score: 1
-- name: 5.1 Surround
-  score: 0
-- name: 2.0 Stereo
-  score: -50
 - name: AV1
   score: -10000
 - name: Banned Groups

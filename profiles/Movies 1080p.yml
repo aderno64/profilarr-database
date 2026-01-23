@@ -77,16 +77,18 @@ custom_formats_radarr:
   score: 20
 - name: BCORE
   score: 15
+- name: 7.1 Surround
+  score: 10
 - name: AAC
   score: 10
 - name: Repack3
   score: 7
 - name: Repack2
   score: 6
+- name: 5.1 Surround
+  score: 5
 - name: Repack1
   score: 5
-- name: 2.0 Stereo
-  score: -50
 - name: Missing Audio Channels
   score: -50
 - name: Missing Subtitles
