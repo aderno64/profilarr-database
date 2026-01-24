@@ -1,5 +1,5 @@
 name: Dumpstarr SIDCA Fallback Groups
-pattern: (?<=^|[\s.-])(ASTRiD|DEFLATE|iVy|MacP|RARBG|YIFY|YTS)\b
+pattern: (?<=^|[\s.-])(ASTRiD|BTN|CBFM|CtrlHD|DARKFLiX|DEFLATE|EDPH|HANDJOB|HONE|iVy|MacP|NTb|PLUTONiUM|RARBG|ViETNAM|YIFY|YTS)\b
 description: These are groups that are typically banned, but are allowed for the SIDCA
   profiles.
 tags:
