@@ -22,7 +22,13 @@ custom_formats:
   score: 250
 - name: x265 (HD)
   score: 50
-- name: HDTV
+- name: 7.1 Surround
+  score: 2
+- name: Dolby Digital +
+  score: 2
+- name: 5.1 Surround
+  score: 1
+- name: Dolby Digital
   score: 1
 custom_formats_radarr: []
 custom_formats_sonarr: []
