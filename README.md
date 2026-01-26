@@ -4,7 +4,7 @@
 
 [![Discord](https://img.shields.io/discord/1408095311661891796?label=Discord&logo=discord&style=for-the-badge)](https://discord.gg/TbYW2Q4hGv)
 
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/sweatyeggs69)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?label=Support&style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/sweatyeggs69)
 
 > [!NOTE]
 > You must be on the `beta` version of Profilarr for Dumpstarr to work properly!
