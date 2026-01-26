@@ -1,7 +1,6 @@
 name: Dumpstarr SIDCA Groups
 pattern: (?<=^|[\s.-])(MeGusta|PSA)\b
-description: These are groups that are typically banned, but are allowed for the SIDCA
-  profiles.
+description: ''
 tags:
 - LQ
 tests: []
