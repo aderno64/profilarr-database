@@ -24,4 +24,9 @@ conditions:
   pattern: Dictionarry UHD Tier 05
   required: false
   type: release_group
+- name: Dumpstarr UHD Tier 05
+  type: release_group
+  required: false
+  negate: false
+  pattern: Dumpstarr UHD Tier 05
 tests: []
