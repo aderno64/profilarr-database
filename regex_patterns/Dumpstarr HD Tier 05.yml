@@ -1,0 +1,5 @@
+name: Dumpstarr HD Tier 05
+pattern: (?<=^|[\s.-])(BHDStudio)\b
+description: ''
+tags: []
+tests: []
