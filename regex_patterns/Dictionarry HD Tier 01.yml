@@ -1,5 +1,5 @@
 name: Dictionarry HD Tier 01
-pattern: (?<=^|[\s.-])(D-Z0N3|DON|EbP|TeamSyndicate|ZoroSenpai)\b
+pattern: (?<=^|[\s.-])(coffee|DON|REBORN|SA89|SoLaR|TeamSyndicate|ZoroSenpai)\b
 description: ''
 tags:
 - Release Group Tier
