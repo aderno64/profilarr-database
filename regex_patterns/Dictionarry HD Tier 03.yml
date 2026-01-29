@@ -1,5 +1,5 @@
 name: Dictionarry HD Tier 03
-pattern: (?<=^|[\s.-])(CRiSC|decibeL|FoRM|HiDt|HiP|iFT|WMING)\b
+pattern: (?<=^|[\s.-])(BV|CRiSC|decibeL|FoRM|HiDt|HiP|iFT|SbR|WMING)\b
 description: ''
 tags:
 - Release Group Tier
