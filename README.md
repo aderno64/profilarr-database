@@ -4,9 +4,6 @@
 
 [![Discord](https://img.shields.io/discord/1408095311661891796?label=Discord&logo=discord&style=for-the-badge)](https://discord.gg/TbYW2Q4hGv)
 
-> [!NOTE]
-> You must be on the `beta` version of Profilarr for Dumpstarr to work properly!
-
 ---
 
 ### **Simple, Set-and-Forget Custom Formats**
