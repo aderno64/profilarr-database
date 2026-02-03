@@ -102,6 +102,8 @@ custom_formats_radarr:
   score: -1000
 - name: 3D
   score: -10000
+- name: AV1
+  score: -10000
 - name: B&W
   score: -10000
 - name: Banned Groups
