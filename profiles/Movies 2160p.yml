@@ -72,10 +72,6 @@ custom_formats_radarr:
   score: 850
 - name: UHD Bluray Tier 06
   score: 850
-- name: hallowed
-  score: 600
-- name: BHDStudio
-  score: 550
 - name: HDR
   score: 500
 - name: HDR10+
@@ -135,8 +131,6 @@ custom_formats_radarr:
 - name: DTS-X
   score: -10000
 - name: Extras
-  score: -10000
-- name: HONE Missing
   score: -10000
 - name: Non Retail HDR
   score: -10000
