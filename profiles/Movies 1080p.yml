@@ -55,6 +55,10 @@ custom_formats_radarr:
   score: 850
 - name: HD Bluray Tier 06
   score: 850
+- name: hallowed
+  score: 600
+- name: BHDStudio
+  score: 550
 - name: Dolby Digital +
   score: 125
 - name: Special Edition
