@@ -14,6 +14,11 @@ conditions:
   pattern: Dumpstarr Banned Groups
   required: false
   type: release_group
+- name: Release Group Missing
+  type: release_group
+  required: false
+  negate: true
+  pattern: Release Group (Missing)
 tests:
 - conditionResults:
   - matches: true
