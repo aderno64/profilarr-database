@@ -21,7 +21,7 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 > [!TIP]
 > We recommend starting with the Movies 1080p/2160p and TV 1080p/2160p profiles.
 
-| Media Type | Profile Name | Use Case |
+| Media Type | Profile | Use Case |
 | :--- | :--- | :--- |
 | **Low-Priority Media** | `1080p LQ` |  Reality TV, etc. |
 | **Anime** | `Anime 1080p` | Anime TV and Movies |
