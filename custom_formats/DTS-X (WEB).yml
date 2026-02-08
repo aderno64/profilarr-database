@@ -1,0 +1,82 @@
+name: DTS-X (WEB)
+description: ''
+tags:
+- Audio
+- Codec
+conditions:
+- name: WEB-DL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+- name: DTS-X
+  negate: false
+  pattern: DTS-X
+  required: true
+  type: release_title
+- name: Not AAC
+  negate: true
+  pattern: AAC
+  required: true
+  type: release_title
+- name: Not Dolby Digital
+  negate: true
+  pattern: Dolby Digital
+  required: true
+  type: release_title
+- name: Not Dolby Digital +
+  negate: true
+  pattern: Dolby Digital +
+  required: true
+  type: release_title
+- name: Not Basic DTS
+  negate: true
+  pattern: Basic DTS
+  required: true
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: true
+  type: release_title
+- name: Not PCM
+  negate: true
+  pattern: PCM
+  required: true
+  type: release_title
+- name: Not TrueHD
+  negate: true
+  pattern: TrueHD
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: DTS-X
+    negate: false
+    pattern: DTS-X
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Basic DTS
+    negate: true
+    pattern: DTS
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DTS-HD HRA ES
+    negate: true
+    pattern: DTS-HD HRA-ES
+    required: true
+    type: release_title
+  - matches: false
+    name: Not DTS-HD MA
+    negate: true
+    pattern: DTS-HD MA
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: '    Harry.Potter.and.the.Chamber.of.Secrets.2002.Theatrical.Cut.2160p.BluRay.DTS-X.7.1.DV.HDR10.x265-MainFrame'
+  lastRun: '2025-09-13T10:59:51.970897'
+  passes: true
