@@ -24,4 +24,9 @@ conditions:
   pattern: Dictionarry HD Tier 03
   required: false
   type: release_group
+- name: Dumpstarr HD Tier 03
+  type: release_group
+  required: false
+  negate: false
+  pattern: Dumpstarr HD Tier 03
 tests: []

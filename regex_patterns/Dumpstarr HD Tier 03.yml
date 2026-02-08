@@ -1,0 +1,5 @@
+name: Dumpstarr HD Tier 03
+pattern: (?<=^|[\s.-])(DiscoD|HONE|Yogi)\b
+description: ''
+tags: []
+tests: []
