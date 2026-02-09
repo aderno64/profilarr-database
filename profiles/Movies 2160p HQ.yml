@@ -10,7 +10,8 @@ description: 'This profile is like the primary Movie profile, but with merged so
   - This profile will fall back to streaming optimized releases groups like **BHDStudio**
   and **hallowed**.
 
-  - This profile does not allow releases with HD Audio to ensure direct-play compatibility.
+  - This profile will allow HD audio like TrueHD, DTS-X, etc but only if the source
+  is WEB-DL
 
   - Releases **without** HDR fallback are not allowed.'
 tags:
