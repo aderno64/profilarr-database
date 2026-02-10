@@ -29,8 +29,8 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 | **4K TV Shows** | `TV 2160p` | 4K with HDR and Dolby Vision |
 | **Movies** | `Movies 1080p` | Streaming Optimized 1080p |
 | **4K Movies** | `Movies 2160p` | Streaming Optimized 4K with HDR and Dolby Vision |
-| **Movies (HQ Audio)** | `Movies 1080p HQ` | 1080p, higher video bitrates and HQ audio formats |
-| **4K Movies (HQ Audio)** | `Movies 2160p HQ` | 4K, higher video bitrates and HQ audio formats |
+| **HQ Movies** | `Movies 1080p HQ` | 1080p, higher video bitrates and HQ audio formats |
+| **HQ 4K Movies** | `Movies 2160p HQ` | 4K, higher video bitrates and HQ audio formats |
 
 > We explicitly deny x265 for resolutions lower than 2160p since these releases are usually re-encodes, for more info on this logic, see the [TRaSH Guides](https://trash-guides.info/Sonarr/sonarr-collection-of-custom-formats/#x265-hd) documentation. If you'd prefer x265 releases, you can update the score of the "**x265 (HD)**" format to **0** on the selected profile.
 
