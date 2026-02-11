@@ -1,4 +1,4 @@
-name: 720p Tier 03
+name: 720p Bluray Tier 02
 description: ''
 tags:
 - Dictionarry
@@ -14,13 +14,13 @@ conditions:
   source: bluray
   type: source
 - name: Not Remux
-  type: release_title
-  required: true
   negate: true
   pattern: Remux
-- name: Dictionarry 720p Tier 03
+  required: true
+  type: release_title
+- name: Dictionarry 720p Tier 02
   negate: false
-  pattern: Dictionarry 720p Tier 03
+  pattern: Dictionarry 720p Tier 02
   required: false
   type: release_group
 tests: []

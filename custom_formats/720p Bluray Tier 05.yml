@@ -1,4 +1,4 @@
-name: 720p Tier 06
+name: 720p Bluray Tier 05
 description: ''
 tags:
 - Dictionarry
@@ -18,9 +18,9 @@ conditions:
   pattern: Remux
   required: true
   type: release_title
-- name: Dictionarry 720p Tier 06
+- name: Dictionarry 720p Tier 05
   negate: false
-  pattern: Dictionarry 720p Tier 06
+  pattern: Dictionarry 720p Tier 05
   required: false
   type: release_group
 tests: []
