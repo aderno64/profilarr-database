@@ -1,32 +1,27 @@
-name: HD Bluray Tier 04
+name: 2160p Bluray Tier 06
 description: ''
 tags:
 - Release Group Tier
-- 1080p
+- 2160p
 conditions:
 - name: Bluray
   negate: false
   required: true
   source: bluray
   type: source
-- name: 1080p
+- name: 2160p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 2160p
   type: resolution
 - name: Not Remux
   negate: true
   pattern: Remux
   required: true
   type: release_title
-- name: Dictionarry HD Bluray Tier 04
+- name: Dictionarry UHD Bluray Tier 06
   negate: false
-  pattern: Dictionarry HD Tier 04
-  required: false
-  type: release_group
-- name: Dumpstarr HD Tier 04
-  negate: false
-  pattern: Dumpstarr HD Tier 04
+  pattern: Dictionarry UHD Tier 06
   required: false
   type: release_group
 tests: []

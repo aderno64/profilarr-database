@@ -1,4 +1,4 @@
-name: HD Bluray Tier 03
+name: 1080p Bluray Tier 03
 description: ''
 tags:
 - Release Group Tier
@@ -25,8 +25,8 @@ conditions:
   required: false
   type: release_group
 - name: Dumpstarr HD Tier 03
-  type: release_group
-  required: false
   negate: false
   pattern: Dumpstarr HD Tier 03
+  required: false
+  type: release_group
 tests: []
