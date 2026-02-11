@@ -1,12 +1,12 @@
-name: 480p Tier 02
+name: 576p Bluray Tier 01
 description: ''
 tags:
 - Dictionarry
 conditions:
-- name: 480p
+- name: 576p
   negate: false
   required: true
-  resolution: 480p
+  resolution: 576p
   type: resolution
 - name: Bluray
   negate: false
@@ -18,9 +18,9 @@ conditions:
   pattern: Remux
   required: true
   type: release_title
-- name: Dictionarry 480p Tier 02
+- name: Dictionarry 576p Tier 01
   negate: false
-  pattern: Dictionarry 480p Tier 02
+  pattern: Dictionarry 576p Tier 01
   required: false
   type: release_group
 tests: []

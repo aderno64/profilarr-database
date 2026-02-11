@@ -1,4 +1,4 @@
-name: 480p Tier 01
+name: 480p Bluray Tier 03
 description: ''
 tags:
 - Dictionarry
@@ -18,9 +18,9 @@ conditions:
   pattern: Remux
   required: true
   type: release_title
-- name: Dictionarry 480p Tier 01
+- name: Dictionarry 480p Tier 03
   negate: false
-  pattern: Dictionarry 480p Tier 01
+  pattern: Dictionarry 480p Tier 03
   required: false
   type: release_group
 tests: []
