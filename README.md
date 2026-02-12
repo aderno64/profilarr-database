@@ -11,7 +11,7 @@
 The Dumpstarr database for Profilarr is a curated collection of **custom formats** for **Sonarr** and **Radarr**, designed to simplify sourcing high-quality, decently sized media.
 
 **Our Focus:**
-* **Simplicity:** Choose your resolution and desired audio quality (Movies only).
+* **Simplicity:** Choose your resolution.
 * **Quality Sourcing:** We use a set of formats/regex based on **Dictionarry** and **TRaSH** to better score and source your media.
 
 ---
