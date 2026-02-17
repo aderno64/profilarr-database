@@ -50,6 +50,7 @@ Our profiles are loosely based on the structure of the **SQP-1 Alternative (Rada
 We include several specific fixes and features for common media-sourcing annoyances:
 
 * **Automatic Sync** of the Dictionarry Group Tiers.
+* **Bad Multis:** Fix issues with certain multi-episode releases that are incorrectly ordered, labeled, etc.
 * **Parks and Recreation Fix:** Correctly sources releases from NTb.
 * **Scrubs Fix:** Avoids 25fps PAL versions.
 * **HONE Fix:** Prevents HONE releases from downloading when a proper release group isn't defined.
