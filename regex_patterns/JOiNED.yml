@@ -1,0 +1,6 @@
+name: JOiNED
+pattern: \bJOiNED\b
+description: ''
+tags:
+- Custom
+tests: []
