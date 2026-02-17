@@ -10,4 +10,9 @@ conditions:
   pattern: Parks and Recreation
   required: false
   type: release_title
+- name: Adventure Time
+  type: release_title
+  required: false
+  negate: false
+  pattern: Adventure Time
 tests: []
