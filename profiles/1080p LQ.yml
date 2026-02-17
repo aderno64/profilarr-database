@@ -30,6 +30,8 @@ custom_formats:
   score: 1
 - name: Dolby Digital
   score: 1
+- name: ASL
+  score: -10000
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
