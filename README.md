@@ -40,7 +40,7 @@ The Dumpstarr database for Profilarr is a curated collection of **custom formats
 
 Our profiles are loosely based on the structure of the **SQP-1 Alternative (Radarr)** and **WEB-2160p/1080p Alternative (Sonarr)** profiles from TRaSH.
 
-* **Release Group Tiers:** We default to the [Dictionarry](https://github.com/Dictionarry-Hub/database) group tiers (UHD, HD, 720p, WEB, Remux).
+* **Release Group Tiers:** We default to the [Dictionarry](https://github.com/Dictionarry-Hub/database) group tiers (2160p, 1080p, 720p, 576p, 480p, WEB and Remux).
 * **Alternative Groups:** The [TRaSH Guides](https://trash-guides.info/) tiers are also included if you prefer to use those instead.
 
 ---
@@ -52,6 +52,6 @@ We include several specific fixes and features for common media-sourcing annoyan
 * **Automatic Sync** of the Dictionarry Group Tiers.
 * **Bad Multis:** Fix issues with certain multi-episode releases that are incorrectly ordered, labeled, etc.
 * **Parks and Recreation Fix:** Correctly sources releases from NTb.
+* **Adventure Time Season 8 Fix:** Correctly sources releases from groups that follow TheTVDB ordering.
 * **Scrubs Fix:** Avoids 25fps PAL versions.
-* **HONE Fix:** Prevents HONE releases from downloading when a proper release group isn't defined.
 * **Whose Line Is It Anyway (US) Fix:** Targets correct releases for early seasons of the US version due to inconsistent naming.
