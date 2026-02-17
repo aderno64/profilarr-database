@@ -1,5 +1,5 @@
 name: Dumpstarr Banned Groups
-pattern: (?<=^|[\s.-])(MIRCrew|MuTT|TiZU|Tofu4U)\b
+pattern: (?<=^|[\s.-])(DEiMOS|MIRCrew|MuTT|TiZU|Tofu4U)\b
 description: ''
 tags:
 - Release Group
