@@ -54,5 +54,4 @@ We include several specific fixes and features for common media-sourcing annoyan
 * **Parks and Recreation Fix:** Correctly sources releases from NTb.
 * **Adventure Time Season 8 Fix:** Correctly sources releases from groups that follow TheTVDB ordering.
 * **Scrubs Fix:** Avoids 25fps PAL versions.
-* **HONE Fix:** Prevents HONE releases from downloading when a proper release group isn't defined.
 * **Whose Line Is It Anyway (US) Fix:** Targets correct releases for early seasons of the US version due to inconsistent naming.
