@@ -53,5 +53,6 @@ We include several specific fixes and features for common media-sourcing annoyan
 * **Bad Multis:** Fix issues with certain multi-episode releases that are incorrectly ordered, labeled, etc.
 * **Parks and Recreation Fix:** Correctly sources releases from NTb.
 * **Adventure Time Season 8 Fix:** Correctly sources releases from groups that follow TheTVDB ordering.
+* **House Season 6 Fix:** Correctly sources releases from groups that follow TheTVDB ordering.
 * **Scrubs Fix:** Avoids 25fps PAL versions.
 * **Whose Line Is It Anyway (US) Fix:** Targets correct releases for early seasons of the US version due to inconsistent naming.
