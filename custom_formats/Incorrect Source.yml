@@ -14,5 +14,5 @@ conditions:
   type: release_title
   required: false
   negate: false
-  pattern: Adventure Time
+  pattern: Adventure Time Season 8
 tests: []

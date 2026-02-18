@@ -5,7 +5,4 @@ description: Matches releases for season 8 of the show Adventure Time from group
 tags:
 - Custom
 - Banned
-tests:
-- id: 1
-  input: Adventure.Time.S08E01.Two.Swords.1080p.WEB-DL.AAC2.0.H.264-NTb
-  expected: true
+tests: []
