@@ -1,5 +1,5 @@
-name: Adventure Time
-pattern: (?i)^adventure[ ._-]+time[ ._-]+S08.*?\b(web[ ._-]?(dl|\.dl))\b.*?-(CtrlHD|EPSiLON|H3B|NTb|RTN).*
+name: Adventure Time Season 8
+pattern: (?i)^adventure[ ._-]+time[ ._-]+S08.*-(CtrlHD|EPSiLON|H3B|NTb|RTN).*
 description: Matches releases for season 8 of the show Adventure Time from groups
   that do not follow the TVDB ordering.
 tags:
@@ -8,7 +8,4 @@ tags:
 tests:
 - id: 1
   input: Adventure.Time.S08E01.Two.Swords.1080p.WEB-DL.AAC2.0.H.264-NTb
-  expected: true
-- id: 2
-  input: Adventure.Time.S08E01.Two.Swords.1080p.WEB-DL.AAC2.0.H.264-RARBG
   expected: true
