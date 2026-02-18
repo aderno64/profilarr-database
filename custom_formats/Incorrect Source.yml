@@ -10,9 +10,14 @@ conditions:
   pattern: Parks and Recreation
   required: false
   type: release_title
-- name: Adventure Time
+- name: Adventure Time Season 8
+  negate: false
+  pattern: Adventure Time Season 8
+  required: false
+  type: release_title
+- name: House Season 6
   type: release_title
   required: false
   negate: false
-  pattern: Adventure Time Season 8
+  pattern: House Season 6
 tests: []
