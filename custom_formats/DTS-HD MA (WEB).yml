@@ -1,14 +1,13 @@
 name: DTS-HD MA (WEB)
-description: Matches 'DTS-HD MA' Regex Pattern and negates any other audio types that
-  might conflict.
+description: Matches releases with DTS-HD audio that are not a WEB-DL.
 tags:
 - Audio
 conditions:
 - name: WEB-DL
-  type: source
-  required: true
   negate: true
+  required: true
   source: web_dl
+  type: source
 - name: DTS-HD MA
   negate: false
   pattern: DTS-HD MA
