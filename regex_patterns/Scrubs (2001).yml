@@ -1,6 +1,6 @@
-description: ''
 name: Scrubs (2001)
-pattern: \bScrubs\b
+pattern: \bScrubs\b(?!.*2026)
+description: ''
 tags:
 - Scrubs
 - Custom
