@@ -3,14 +3,14 @@ description: ''
 tags:
 - Scrubs
 conditions:
-- name: Scrubs
+- name: Scrubs (2001)
   negate: false
-  pattern: Scrubs
+  pattern: Scrubs (2001)
   required: true
   type: release_title
-- name: Scrubs Banned Title
+- name: Scrubs (2001) Banned Title
   negate: false
-  pattern: Scrubs (Banned Title)
+  pattern: Scrubs (2001) Banned Title
   required: true
   type: release_title
 tests: []

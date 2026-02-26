@@ -1,4 +1,4 @@
-name: Scrubs (Banned Title)
+name: Scrubs (2001) Banned Title
 pattern: \bBonus\.(?:\w+\.?)+
 description: ''
 tags:
