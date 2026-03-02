@@ -1,5 +1,5 @@
-name: Yuki
-pattern: \[Yuki\]|-Yuki\b
+name: Baws
+pattern: \b(Baws|McBalls)\b
 description: ''
 tags:
 - Radarr

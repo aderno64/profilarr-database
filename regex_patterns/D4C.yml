@@ -1,5 +1,5 @@
-name: Yuki
-pattern: \[Yuki\]|-Yuki\b
+name: D4C
+pattern: \b(D4C)\b
 description: ''
 tags:
 - Radarr

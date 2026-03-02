@@ -1,5 +1,5 @@
-name: Yuki
-pattern: \[Yuki\]|-Yuki\b
+name: ASC
+pattern: \b(ASC)\b
 description: ''
 tags:
 - Radarr

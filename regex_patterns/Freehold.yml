@@ -1,5 +1,5 @@
-name: Yuki
-pattern: \[Yuki\]|-Yuki\b
+name: Freehold
+pattern: \b(Freehold)\b
 description: ''
 tags:
 - Radarr

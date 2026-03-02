@@ -1,5 +1,5 @@
-name: Yuki
-pattern: \[Yuki\]|-Yuki\b
+name: Animorphs
+pattern: \b(Animorphs)\b
 description: ''
 tags:
 - Radarr

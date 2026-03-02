@@ -1,5 +1,5 @@
-name: Yuki
-pattern: \[Yuki\]|-Yuki\b
+name: UltraRemux
+pattern: \b(UltraRemux)\b
 description: ''
 tags:
 - Radarr
