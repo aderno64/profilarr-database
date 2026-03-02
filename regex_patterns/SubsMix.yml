@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: SubsMix
+pattern: \b(SubsMix)\b
 description: ''
 tags:
 - Radarr

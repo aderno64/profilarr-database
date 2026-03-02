@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: Legion
+pattern: \[Legion\]|-Legion\b
 description: ''
 tags:
 - Radarr

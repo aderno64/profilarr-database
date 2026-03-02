@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: sgt
+pattern: \[sgt\]|-sgt\b
 description: ''
 tags:
 - Radarr

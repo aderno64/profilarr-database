@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: Mehul
+pattern: \[Mehul\]|-Mehul\b
 description: ''
 tags:
 - Radarr

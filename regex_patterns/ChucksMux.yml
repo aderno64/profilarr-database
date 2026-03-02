@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: ChucksMux
+pattern: \b(ChucksMux)\b
 description: ''
 tags:
 - Radarr

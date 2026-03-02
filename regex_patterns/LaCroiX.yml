@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: LaCroiX
+pattern: \b(LaCroiX)\b
 description: ''
 tags:
 - Radarr
