@@ -1,5 +1,5 @@
-name: SubsPlease
-pattern: \b(SubsPlease)\b
+name: NanDesuKa
+pattern: \b(NanDesuKa)\b
 description: ''
 tags:
 - Radarr
