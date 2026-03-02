@@ -1,5 +1,5 @@
-name: Koten_Gars
-pattern: \b(Koten[ ._-]Gars)\b
+name: inid4c
+pattern: \b(inid4c)\b
 description: ''
 tags:
 - Radarr

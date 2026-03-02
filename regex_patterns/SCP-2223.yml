@@ -1,5 +1,5 @@
-name: Koten_Gars
-pattern: \b(Koten[ ._-]Gars)\b
+name: SCP-2223
+pattern: \b(SCP-2223)\b
 description: ''
 tags:
 - Radarr

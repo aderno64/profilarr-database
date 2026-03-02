@@ -1,5 +1,5 @@
-name: Koten_Gars
-pattern: \b(Koten[ ._-]Gars)\b
+name: LCE
+pattern: \b(LCE)\b
 description: ''
 tags:
 - Radarr

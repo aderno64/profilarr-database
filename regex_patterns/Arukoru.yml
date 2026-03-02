@@ -1,5 +1,5 @@
-name: Koten_Gars
-pattern: \b(Koten[ ._-]Gars)\b
+name: Arukoru
+pattern: \b(Arukoru)\b
 description: ''
 tags:
 - Radarr
