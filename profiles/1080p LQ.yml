@@ -12,7 +12,7 @@ tags:
 - 1080p
 - LQ
 upgradesAllowed: true
-minCustomFormatScore: 1
+minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
