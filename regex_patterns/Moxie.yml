@@ -1,5 +1,5 @@
-name: LYS1TH3A
-pattern: \b(LYS1TH3A)\b
+name: Moxie
+pattern: \[Moxie\]|-Moxie\b
 description: ''
 tags:
 - Radarr
