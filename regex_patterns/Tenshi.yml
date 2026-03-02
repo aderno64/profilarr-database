@@ -1,5 +1,5 @@
-name: smol
-pattern: \[smol\]|-smol\b
+name: Tenshi
+pattern: \[tenshi\]|-tenshi$
 description: ''
 tags:
 - Radarr

@@ -1,5 +1,5 @@
-name: smol
-pattern: \[smol\]|-smol\b
+name: SoLCE
+pattern: \b(SoLCE)\b
 description: ''
 tags:
 - Radarr

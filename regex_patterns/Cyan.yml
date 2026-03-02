@@ -1,5 +1,5 @@
-name: smol
-pattern: \[smol\]|-smol\b
+name: Cyan
+pattern: \[Cyan\]|-Cyan\b
 description: ''
 tags:
 - Radarr

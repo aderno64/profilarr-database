@@ -16,97 +16,97 @@ conditions:
   type: source
 - name: Aergia
   negate: false
+  pattern: Aergia
   required: false
   type: release_title
-  pattern: Aergia
 - name: Arg0
   negate: false
+  pattern: Arg0
   required: false
   type: release_title
-  pattern: Arg0
 - name: Arid
   negate: false
+  pattern: Arid
   required: false
   type: release_title
-  pattern: Arid
 - name: FateSucks
   negate: false
+  pattern: FateSucks
   required: false
   type: release_title
-  pattern: FateSucks
 - name: hydes
   negate: false
+  pattern: hydes
   required: false
   type: release_title
-  pattern: hydes
 - name: hchcsen
   negate: false
+  pattern: hchcsen
   required: false
   type: release_title
-  pattern: hchcsen
 - name: JOHNTiTOR
   negate: false
+  pattern: JOHNTiTOR
   required: false
   type: release_title
-  pattern: JOHNTiTOR
 - name: JySzE
   negate: false
+  pattern: JySzE
   required: false
   type: release_title
-  pattern: JySzE
 - name: koala
   negate: false
+  pattern: koala
   required: false
   type: release_title
-  pattern: koala
 - name: Kulot
   negate: false
+  pattern: Kulot
   required: false
   type: release_title
-  pattern: Kulot
 - name: LostYears
   negate: false
+  pattern: LostYears
   required: false
   type: release_title
-  pattern: LostYears
 - name: Lulu
   negate: false
+  pattern: Lulu
   required: false
   type: release_title
-  pattern: Lulu
 - name: Meakes
   negate: false
+  pattern: Meakes
   required: false
   type: release_title
-  pattern: Meakes
 - name: Orphan
   negate: false
+  pattern: Orphan
   required: false
   type: release_title
-  pattern: Orphan
 - name: PMR
   negate: false
+  pattern: PMR
   required: false
   type: release_title
-  pattern: PMR
 - name: Vodes
   negate: false
+  pattern: Vodes
   required: false
   type: release_title
-  pattern: Vodes
 - name: WAP
   negate: false
+  pattern: WAP
   required: false
   type: release_title
-  pattern: WAP
 - name: YURI
   negate: false
+  pattern: YURI
   required: false
   type: release_title
-  pattern: YURI
 - name: ZeroBuild
   negate: false
+  pattern: ZeroBuild
   required: false
   type: release_title
-  pattern: ZeroBuild
 tests: []

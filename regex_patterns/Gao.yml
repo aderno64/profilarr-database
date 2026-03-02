@@ -1,5 +1,5 @@
-name: smol
-pattern: \[smol\]|-smol\b
+name: Gao
+pattern: \[Gao\]|-Gao\b
 description: ''
 tags:
 - Radarr

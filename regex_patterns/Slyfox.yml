@@ -1,5 +1,5 @@
-name: smol
-pattern: \[smol\]|-smol\b
+name: Slyfox
+pattern: \b(Slyfox)\b
 description: ''
 tags:
 - Radarr

@@ -1,5 +1,5 @@
-name: smol
-pattern: \[smol\]|-smol\b
+name: Cytox
+pattern: \b(Cytox)\b
 description: ''
 tags:
 - Radarr

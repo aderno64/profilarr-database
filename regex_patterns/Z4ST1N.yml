@@ -1,5 +1,5 @@
-name: smol
-pattern: \[smol\]|-smol\b
+name: Z4ST1N
+pattern: \b(Z4ST1N)\b
 description: ''
 tags:
 - Radarr
