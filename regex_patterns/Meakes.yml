@@ -1,5 +1,5 @@
-name: hchcsen
-pattern: \b(hchcsen)\b
+name: Meakes
+pattern: \b(Meakes)\b
 description: ''
 tags:
 - Radarr

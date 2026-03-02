@@ -1,5 +1,5 @@
-name: hchcsen
-pattern: \b(hchcsen)\b
+name: Orphan
+pattern: \[Orphan\]|-Orphan\b
 description: ''
 tags:
 - Radarr

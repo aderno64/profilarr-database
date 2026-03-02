@@ -1,5 +1,5 @@
-name: hchcsen
-pattern: \b(hchcsen)\b
+name: Kulot
+pattern: \b(Kulot)\b
 description: ''
 tags:
 - Radarr

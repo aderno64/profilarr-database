@@ -1,5 +1,5 @@
-name: hchcsen
-pattern: \b(hchcsen)\b
+name: FateSucks
+pattern: \b(FateSucks)\b
 description: ''
 tags:
 - Radarr
