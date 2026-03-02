@@ -1,5 +1,5 @@
-name: pog42
-pattern: \b(pog42)\b
+name: Reza
+pattern: \b(Reza)\b
 description: ''
 tags:
 - Radarr

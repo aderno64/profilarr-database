@@ -1,5 +1,5 @@
-name: pog42
-pattern: \b(pog42)\b
+name: derp
+pattern: \[derp\]|-derp\b
 description: ''
 tags:
 - Radarr

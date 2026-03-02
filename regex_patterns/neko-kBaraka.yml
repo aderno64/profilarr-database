@@ -1,5 +1,5 @@
-name: pog42
-pattern: \b(pog42)\b
+name: neko-kBaraka
+pattern: \b(neko-kBaraka)\b
 description: ''
 tags:
 - Radarr

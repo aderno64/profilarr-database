@@ -1,5 +1,5 @@
-name: pog42
-pattern: \b(pog42)\b
+name: Afro
+pattern: \[Afro\]|-Afro\b
 description: ''
 tags:
 - Radarr

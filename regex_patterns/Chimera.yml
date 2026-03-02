@@ -1,5 +1,5 @@
-name: pog42
-pattern: \b(pog42)\b
+name: Chimera
+pattern: \[Chimera\]|-Chimera\b
 description: ''
 tags:
 - Radarr

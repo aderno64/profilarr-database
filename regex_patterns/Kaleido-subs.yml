@@ -1,5 +1,5 @@
-name: pog42
-pattern: \b(pog42)\b
+name: Kaleido-subs
+pattern: \b(Kaleido-subs)\b
 description: ''
 tags:
 - Radarr

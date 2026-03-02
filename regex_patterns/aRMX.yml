@@ -1,5 +1,5 @@
-name: pog42
-pattern: \b(pog42)\b
+name: aRMX
+pattern: \b(aRMX)\b
 description: ''
 tags:
 - Radarr
