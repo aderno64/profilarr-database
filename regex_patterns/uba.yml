@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: uba
+pattern: \[uba\]|-uba\b
 description: ''
 tags:
 - Radarr

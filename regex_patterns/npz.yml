@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: npz
+pattern: \b(npz)\b
 description: ''
 tags:
 - Radarr

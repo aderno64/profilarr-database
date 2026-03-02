@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: fig
+pattern: \[fig\]|-fig\b
 description: ''
 tags:
 - Radarr

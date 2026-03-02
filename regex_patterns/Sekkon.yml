@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: Sekkon
+pattern: \b(Sekkon)\b
 description: ''
 tags:
 - Radarr

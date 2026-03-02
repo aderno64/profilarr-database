@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: ARC
+pattern: \[ARC\]|-ARC\b
 description: ''
 tags:
 - Radarr

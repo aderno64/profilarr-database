@@ -1,5 +1,5 @@
-name: MTBB
-pattern: \b(MTBB)\b
+name: CRUCiBLE
+pattern: \[CRUCiBLE\]|-CRUCiBLE\b
 description: ''
 tags:
 - Radarr
