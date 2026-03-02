@@ -1,5 +1,5 @@
-name: hchcsen
-pattern: \b(hchcsen)\b
+name: koala
+pattern: \[koala\]|-koala\b
 description: ''
 tags:
 - Radarr

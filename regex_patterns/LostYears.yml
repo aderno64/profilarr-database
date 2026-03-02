@@ -1,5 +1,5 @@
-name: hchcsen
-pattern: \b(hchcsen)\b
+name: LostYears
+pattern: \b(LostYears)\b
 description: ''
 tags:
 - Radarr
