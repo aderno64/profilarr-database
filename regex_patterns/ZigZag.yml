@@ -1,5 +1,5 @@
-name: SubsPlease
-pattern: \b(SubsPlease)\b
+name: ZigZag
+pattern: "\\[ZigZag\\]|-ZigZab\b"
 description: ''
 tags:
 - Radarr
