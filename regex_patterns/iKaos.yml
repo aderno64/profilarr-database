@@ -1,5 +1,5 @@
-name: Pookie
-pattern: \b(Pookie)\b
+name: iKaos
+pattern: \b(iKaos)\b
 description: ''
 tags:
 - Radarr

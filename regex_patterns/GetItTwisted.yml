@@ -1,5 +1,5 @@
-name: Pookie
-pattern: \b(Pookie)\b
+name: GetItTwisted
+pattern: \b(GetItTwisted)\b
 description: ''
 tags:
 - Radarr

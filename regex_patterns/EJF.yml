@@ -1,5 +1,5 @@
-name: Pookie
-pattern: \b(Pookie)\b
+name: EJF
+pattern: \b(EJF)\b
 description: ''
 tags:
 - Radarr

@@ -1,5 +1,5 @@
-name: Pookie
-pattern: \b(Pookie)\b
+name: YURASUKA
+pattern: \[YURASUKA\]|-YURASUKA\b
 description: ''
 tags:
 - Radarr

@@ -1,5 +1,5 @@
-name: Pookie
-pattern: \b(Pookie)\b
+name: RASETSU
+pattern: \b(RASETSU)\b
 description: ''
 tags:
 - Radarr
