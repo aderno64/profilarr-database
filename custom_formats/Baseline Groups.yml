@@ -6,13 +6,13 @@ tags:
 - Release Group
 conditions:
 - name: Dumpstarr Baseline Groups
-  negate: false
-  pattern: Dumpstarr Baseline Groups
-  required: false
-  type: release_title
-- name: Not HONE
   type: release_group
   required: false
+  negate: false
+  pattern: Dumpstarr Baseline Groups
+- name: Not HONE
   negate: true
   pattern: HONE
+  required: false
+  type: release_group
 tests: []
