@@ -1,0 +1,6 @@
+name: HONE Bad Naming Scheme
+pattern: HONE-(?![A-Za-z0-9]+$).+|HONE-(?:REPACK|PROPER|REAL|RERIP)$
+description: ''
+tags:
+- Banned
+tests: []

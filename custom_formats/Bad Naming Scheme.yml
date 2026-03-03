@@ -1,0 +1,10 @@
+name: Bad Naming Scheme
+description: ''
+tags: []
+conditions:
+- name: HONE
+  type: release_title
+  required: false
+  negate: false
+  pattern: HONE Bad Naming Scheme
+tests: []
