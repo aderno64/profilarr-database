@@ -2,9 +2,14 @@ name: Bad Naming Scheme
 description: ''
 tags: []
 conditions:
-- name: HONE
+- name: Not HONE Group
+  type: release_group
+  required: true
+  negate: true
+  pattern: HONE
+- name: HONE Release Title
   type: release_title
-  required: false
+  required: true
   negate: false
-  pattern: HONE Bad Naming Scheme
+  pattern: HONE Release Title
 tests: []
