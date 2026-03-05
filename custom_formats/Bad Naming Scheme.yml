@@ -1,15 +1,17 @@
 name: Bad Naming Scheme
-description: ''
-tags: []
+description: Matches releases from HONE that are **not** explicitly from the HONE
+  group.
+tags:
+- Banned
 conditions:
-- name: Not HONE Group
-  type: release_group
-  required: true
+- name: Not HONE Groups
   negate: true
-  pattern: HONE
-- name: HONE Release Title
-  type: release_title
+  pattern: HONE Groups
   required: true
+  type: release_group
+- name: HONE Release Title
   negate: false
   pattern: HONE Release Title
+  required: true
+  type: release_title
 tests: []
