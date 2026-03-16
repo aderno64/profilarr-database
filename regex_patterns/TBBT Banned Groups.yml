@@ -1,0 +1,5 @@
+name: TBBT Banned Groups
+pattern: ^(CiELOS|playWEB)$
+description: ''
+tags: []
+tests: []
