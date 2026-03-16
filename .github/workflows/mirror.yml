@@ -1,0 +1,22 @@
+name: Mirror Sync
+
+on:
+  schedule:
+    - cron: '0 * * * *' # every hour
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push mirror
+        run: |
+          git remote set-url --push origin ${{ secrets.MIRROR_URL }}
+          git fetch --all
+          git push --mirror
+        env:
+          GIT_TERMINAL_PROMPT: 0
