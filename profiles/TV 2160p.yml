@@ -186,6 +186,8 @@ custom_formats_sonarr:
   score: -10000
 - name: Scrubs (Banned Title)
   score: -10000
+- name: TBBT Banned Groups
+  score: -10000
 - name: TV Extras
   score: -10000
 - name: Whose Line (Not US Version)

@@ -1,0 +1,5 @@
+name: The Big Bang Theory
+pattern: \b(the[ ._-]+)?big[ ._-]+bang[ ._-]+theory\b
+description: ''
+tags: []
+tests: []

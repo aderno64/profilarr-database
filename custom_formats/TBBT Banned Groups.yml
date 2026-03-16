@@ -1,0 +1,16 @@
+name: TBBT Banned Groups
+description: Matches groups where the release is in PAL format.
+tags:
+- Banned
+conditions:
+- name: The Big Bang Theory
+  type: release_title
+  required: true
+  negate: false
+  pattern: The Big Bang Theory
+- name: TBBT Banned Groups
+  type: release_group
+  required: true
+  negate: false
+  pattern: TBBT Banned Groups
+tests: []

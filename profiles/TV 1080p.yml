@@ -13,9 +13,7 @@ upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
-custom_formats:
-- name: ASL
-  score: -10000
+custom_formats: []
 custom_formats_radarr: []
 custom_formats_sonarr:
 - name: WEB Tier 01
@@ -148,6 +146,8 @@ custom_formats_sonarr:
   score: 2
 - name: NTb
   score: 1
+- name: ASL
+  score: -10000
 - name: AV1
   score: -10000
 - name: Bad Multis
@@ -163,6 +163,8 @@ custom_formats_sonarr:
 - name: Scrubs (Banned Groups)
   score: -10000
 - name: Scrubs (Banned Title)
+  score: -10000
+- name: TBBT Banned Groups
   score: -10000
 - name: TV Extras
   score: -10000
