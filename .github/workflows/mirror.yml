@@ -15,7 +15,7 @@ jobs:
 
       - name: Push mirror
         run: |
-          git remote set-url --push origin ${{ secrets.MIRROR_URL }}
+          git remote set-url --push origin https://x-access-token:${{ secrets.REPO_PAT }}@github.com/DumpstarrFire/Database.git
           git fetch --all
           git push --mirror
         env:
