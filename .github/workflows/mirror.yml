@@ -1,17 +1,34 @@
-name: Mirror Sync
+name: Daily Mirror to DumpstarrFire Repo
 
 on:
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch:
+  workflow_dispatch: 
 
 jobs:
   mirror:
     runs-on: ubuntu-latest
     steps:
-      - name: Mirror all branches
+      - name: Checkout Dumpstarr Repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install git-filter-repo
+        run: pip install git-filter-repo
+
+      - name: Clean and Filter History
         run: |
-          git clone --bare https://github.com/Dumpstarr/Database.git repo
-          cd repo
-          git remote set-url origin https://x-access-token:${{ secrets.REPO_PAT }}@github.com/DumpstarrFire/Database.git
-          git push origin 'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*' --force
+          # Remove the folders/files from all branches and tags
+          git filter-repo --path README.md --path .github/ --invert-paths --force
+
+      - name: Push to DumpstarrFire
+        env:
+          DEST_REPO: "github.com/DumpstarrFire/Database.git"
+          TOKEN: ${{ secrets.MIRROR_TOKEN }}
+        run: |
+          # Set up the remote using the token for authentication
+          git remote add destination "https://x-access-token:${TOKEN}@${DEST_REPO}"
+          
+          # Force push all branches and tags to the mirror
+          git push destination --mirror --force
