@@ -13,6 +13,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Install git-filter-repo
         run: pip install git-filter-repo
@@ -24,11 +25,7 @@ jobs:
 
       - name: Push to DumpstarrFire
         env:
-          DEST_REPO: "github.com/DumpstarrFire/Database.git"
-          TOKEN: ${{ secrets.MIRROR_TOKEN }}
+          DEST_REPO: "https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com/DumpstarrFire/Database.git"
         run: |
-          # Set up the remote using the token for authentication
-          git remote add destination "https://x-access-token:${TOKEN}@${DEST_REPO}"
-          
-          # Force push all branches and tags to the mirror
+          git remote add destination "${DEST_URL}"
           git push destination --mirror --force
