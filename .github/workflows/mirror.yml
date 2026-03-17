@@ -2,21 +2,16 @@ name: Mirror Sync
 
 on:
   schedule:
-    - cron: '0 * * * *' # every hour
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
   mirror:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Push mirror
+      - name: Mirror all branches
         run: |
-          git remote set-url --push origin https://x-access-token:${{ secrets.REPO_PAT }}@github.com/DumpstarrFire/Database.git
-          git fetch --all
-          git push --mirror
-        env:
-          GIT_TERMINAL_PROMPT: 0
+          git clone --bare https://github.com/Dumpstarr/Database.git repo
+          cd repo
+          git remote set-url origin https://x-access-token:${{ secrets.REPO_PAT }}@github.com/DumpstarrFire/Database.git
+          git push origin 'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*' --force
