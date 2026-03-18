@@ -1,4 +1,4 @@
-name: Daily Mirror to DumpstarrFire Repo
+name: Daily Sync to DumpstarrFire
 
 on:
   schedule:
@@ -6,26 +6,39 @@ on:
   workflow_dispatch: 
 
 jobs:
-  mirror:
+  sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Dumpstarr Repo
+      - name: Checkout Source Repo
         uses: actions/checkout@v4
         with:
+          path: source-repo
           fetch-depth: 0
-          persist-credentials: false
 
-      - name: Install git-filter-repo
-        run: pip install git-filter-repo
+      - name: Checkout Destination Repo
+        uses: actions/checkout@v4
+        with:
+          repository: DumpstarrFire/Database
+          token: ${{ secrets.MIRROR_TOKEN }}
+          path: destination-repo
 
-      - name: Clean and Filter History
+      - name: Sync Files (Excluding README and .github)
         run: |
-          # Remove the folders/files from all branches and tags
-          git filter-repo --path README.md --path .github/ --invert-paths --force
+          rsync -av --progress source-repo/ destination-repo/ \
+            --exclude '.git/' \
+            --exclude '.github/' \
+            --exclude 'README.md'
 
-      - name: Push to DumpstarrFire
-        env:
-          DEST_URL: "https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com/DumpstarrFire/Database.git"
+      - name: Commit and Push to Destination
+        working-directory: destination-repo
         run: |
-          git remote add destination "${DEST_URL}"
-          git push destination --mirror --force
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add .
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to sync."
+          else
+            git commit -m "Automated sync from source - $(date +'%Y-%m-%d')"
+            git push origin main
+          fi
