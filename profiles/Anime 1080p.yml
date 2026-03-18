@@ -17,7 +17,7 @@ tags:
 - Sonarr
 - TRaSH
 upgradesAllowed: true
-minCustomFormatScore: 900
+minCustomFormatScore: 500
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
