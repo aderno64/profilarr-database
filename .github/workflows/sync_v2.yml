@@ -1,9 +1,9 @@
-name: Mirror v2 Branch (Filtered)
+name: Mirror v2 Branch
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *
+    - cron: '0 0 * * *'
 
 jobs:
   mirror-v2-filtered:
@@ -21,15 +21,14 @@ jobs:
           git remote add upstream https://github.com/Dumpstarr/Database.git
           git fetch upstream v2
 
-          # 2. Create a local 'v2' branch based on the remote
+          # 2. Force create a local 'v2' branch based on the remote's v2
           git checkout -B v2 upstream/v2
 
           # 3. Remove the .github directory and commit the deletion
           if [ -d ".github" ]; then
-            rm -rf .github
+            git rm -rf .github
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add .
             git commit -m "Mirror: Sync v2 and remove remote .github folder"
           fi
 
