@@ -19,7 +19,7 @@ custom_formats:
 - name: SIDCA Groups
   score: 300
 - name: SIDCA Fallback Groups
-  score: 250
+  score: 200
 - name: x265 (HD)
   score: 50
 - name: WEB Tier 01
