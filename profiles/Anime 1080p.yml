@@ -17,7 +17,7 @@ tags:
 - Sonarr
 - TRaSH
 upgradesAllowed: true
-minCustomFormatScore: 0
+minCustomFormatScore: 500
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
@@ -55,8 +55,6 @@ custom_formats:
   score: 150
 - name: Anime Dual Audio
   score: 101
-- name: Multi-Audio
-  score: 101
 - name: Multi-Sub
   score: 101
 - name: Uncensored
@@ -87,6 +85,8 @@ custom_formats:
   score: 1
 - name: v1
   score: 1
+- name: Multi-Audio
+  score: 0
 - name: v0
   score: -51
 - name: Anime LQ
