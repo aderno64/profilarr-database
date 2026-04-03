@@ -1,0 +1,44 @@
+name: Daily Sync to DumpstarrFire
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: 
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Repo
+        uses: actions/checkout@v4
+        with:
+          path: source-repo
+          fetch-depth: 0
+
+      - name: Checkout Destination Repo
+        uses: actions/checkout@v4
+        with:
+          repository: DumpstarrFire/Database
+          token: ${{ secrets.MIRROR_TOKEN }}
+          path: destination-repo
+
+      - name: Sync Files (Excluding README and .github)
+        run: |
+          rsync -av --progress source-repo/ destination-repo/ \
+            --exclude '.git/' \
+            --exclude '.github/' \
+            --exclude 'README.md'
+
+      - name: Commit and Push to Destination
+        working-directory: destination-repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add .
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to sync."
+          else
+            git commit -m "Automated sync from source - $(date +'%Y-%m-%d')"
+            git push origin main
+          fi
