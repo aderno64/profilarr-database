@@ -1,9 +1,9 @@
 name: MA
-description: Matches 'Movies Anywhere' WEB-DLs.
+description: Matches 'Movies Anywhere'
 tags:
 - Streaming Service
 conditions:
-- name: MA Regex
+- name: MA
   negate: false
   pattern: Movies Anywhere
   required: true
