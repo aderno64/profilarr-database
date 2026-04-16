@@ -1,5 +1,5 @@
 name: Scrubs (2001)
-pattern: \bScrubs\b(?!.*2026)
+pattern: (?i)\bScrubs\b(?![.\s(]*2026)
 description: ''
 tags:
 - Scrubs
