@@ -3,7 +3,7 @@ description: ''
 tags:
 - Banned
 conditions:
-- name: ASL
+- name: Accessibility
   negate: false
   pattern: Accessibility
   required: true

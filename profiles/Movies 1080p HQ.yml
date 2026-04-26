@@ -83,7 +83,7 @@ custom_formats_radarr:
   score: -50
 - name: 3D
   score: -10000
-- name: ASL
+- name: Accessibility
   score: -10000
 - name: AV1
   score: -10000

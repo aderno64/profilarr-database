@@ -93,7 +93,7 @@ custom_formats:
   score: -10000
 - name: Anime Raws
   score: -10000
-- name: ASL
+- name: Accessibility
   score: -10000
 - name: AV1
   score: -10000

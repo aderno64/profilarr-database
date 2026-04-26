@@ -146,7 +146,7 @@ custom_formats_sonarr:
   score: 2
 - name: NTb
   score: 1
-- name: ASL
+- name: Accessibility
   score: -10000
 - name: AV1
   score: -10000
