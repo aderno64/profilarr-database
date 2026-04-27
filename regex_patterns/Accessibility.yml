@@ -1,0 +1,6 @@
+name: Accessibility
+pattern: \b(ASL|BASL|BSL|Audio[ ._-]Description)\b
+description: ''
+tags:
+- Banned
+tests: []

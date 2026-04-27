@@ -40,7 +40,7 @@ custom_formats:
   score: 1
 - name: WEB Tier 05
   score: 1
-- name: ASL
+- name: Accessibility
   score: -10000
 - name: Group Missing
   score: -10000
