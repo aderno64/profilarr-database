@@ -14,7 +14,7 @@ minCustomFormatScore: 2000
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
-- name: ASL
+- name: Accessibility
   score: -10000
 custom_formats_radarr: []
 custom_formats_sonarr:
